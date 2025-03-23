@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>11-246-PRPND1-El_Acebuche</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Style id="kml_style_ft_Ramales">
+<LineStyle>
+<color>ff2a69e8</color>
+</LineStyle>
+<PolyStyle>
+<color>b02a69e8</color>
+</PolyStyle>
+</Style>
+<Schema name="Ramales" id="kml_schema_ft_Ramales">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Name">
+<displayName>Name</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>El Acebuche - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Doñana</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>El Acebuche</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>PR-PND1</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>1.3</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Ninguna en especial.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Se localiza en la finca de propiedad estatal El Acebuche que ocupa una extensión aproximada de 3.000 hectáreas y se encuentra situado en término municipal de Almonte (Huelva) en la carretera A-483 a unos cinco kilómetros de la urbanización de Matalascañas y a unos doce de la aldea del Rocío. Esta finca esta incluida en el Parque Natural de Doñana.
+En este Centro se disponen una serie de servicios de atención al visitante como son: punto de información, sala de exposiciones, sala de audiovisuales, cafetería y tienda de recuerdos, punto de reserva y venta de plazas para el recorrido por el interior de Doñana, merendero y senderos peatonales con observatorios. La finca también alberga otras infraestructuras como el centro administrativo del Parque Nacional, viviendas del personal (fundamentalmente guardas), el centro de cría en cautividad de especies faunísticas amenazadas y el de recuperación de fauna silvestre. Ninguno de los dos es visitable. Otro sector de la finca alberga las instalaciones del Aula de la Naturaleza a las que se accede desde la carretera que une Matalascañas con Huelva.
+El Acebuche fue uno de los primeros Centros que abrió sus puertas al público a comienzo de la década de los años ochenta, poco después de que se promulgase la ley de Doñana en el año 1978. Mediante esta Ley se ampliaron los límites del Parque y se declararon una serie de Zonas de Protección entre las que se encuentra, ya esta incluida en el Parque Natural, una parte de la finca que nos ocupa.
+Desde el Centro parte el sendero peatonal que conduce al complejo lagunar de Acebuche, Huerto y Pajas, con una longitud aproximada de unos cuatro kilómetros y cuyo trazado se dispone en diversos circuitos. Este sendero está totalmente entablado, por lo que su dificultad es mínima, permitiendo de esta forma la circulación de personas con movilidad reducida. Cuenta asimismo con un conjunto de pasarelas que posibilitan el cruce por el entramado de caños que conectan entre sí las lagunas, así como zonas de descanso en las que el visitante se puede detener y disfrutar del contacto con el medio natural. En todo su recorrido un conjunto de placas temáticas interpretan distintos aspectos del paisaje, de la flora y de la fauna más comunes de la zona.
+El sendero conduce a un conjunto de observatorios que, situados junto a las lagunas, permiten apreciar detenidamente la avifauna existente en la laguna. Bautizados con los nombres de las especies observables más representativas, mantienen la tipología de las chozas tradicionales que se construían en el territorio y que se pueden apreciar en distintos puntos del Parque Nacional, fundamentalmente en el Poblado de la Plancha (punto de parada de los itinerarios por el interior y fluvial).
+El itinerario discurre por zonas de matorral denominado monte blanco, que se dispone en las zonas más altas y alejadas del manto freático. Esta denominación la adquiere por la tonalidad ligeramente grisácea de las hojas de la planta predominante, el jaguarzo, con el que se asocian otras como la aulaga, el jaguarzo morisco, el romero, la mejorana o el cantueso. El pino piñonero supone la mayor parte de la cobertura arbórea y junto a él se pueden encontrar algunos pies de sabinas, madroños, alcornoques y también acebuches de los que este Centro toma prestado su nombre. En las zonas más próximas a las lagunas y actuando como barrera y pantalla natural se encuentran álamos y un enramado de plantas que permiten el tránsito de las personas por la zona sin molestar a la fauna.
+La laguna del Acebuche fue adecuada para su uso y disfrute en la década de los años setenta con la excavación de su suelo y la construcción de islas-refugio para la fauna. Se mantiene permanentemente encharcada, dando cobijo a un gran número de aves, cuando el resto del Parque y de las áreas adyacentes cuentan con un bajo nivel de agua o están completamente secas. Por su parte, las lagunas del Huerto y las Pajas fueron recientemente restauradas e incorporadas parcialmente al sistema de visitas. Las aves favorecidas con todos estos trabajos más fácilmente observables son calamones, zampullines, somormujos, fochas, así como distintas especies de anátidas y ardeidos.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Doñana</SimpleData>
+<SimpleData name="Nombre">El Acebuche</SimpleData>
+<SimpleData name="Número">PR-PND1</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">1</SimpleData>
+<SimpleData name="Longitud (km)">1.3</SimpleData>
+<SimpleData name="Recomendaciones">Ninguna en especial.</SimpleData>
+<SimpleData name="Descripción">Se localiza en la finca de propiedad estatal El Acebuche que ocupa una extensión aproximada de 3.000 hectáreas y se encuentra situado en término municipal de Almonte (Huelva) en la carretera A-483 a unos cinco kilómetros de la urbanización de Matalascañas y a unos doce de la aldea del Rocío. Esta finca esta incluida en el Parque Natural de Doñana.
+En este Centro se disponen una serie de servicios de atención al visitante como son: punto de información, sala de exposiciones, sala de audiovisuales, cafetería y tienda de recuerdos, punto de reserva y venta de plazas para el recorrido por el interior de Doñana, merendero y senderos peatonales con observatorios. La finca también alberga otras infraestructuras como el centro administrativo del Parque Nacional, viviendas del personal (fundamentalmente guardas), el centro de cría en cautividad de especies faunísticas amenazadas y el de recuperación de fauna silvestre. Ninguno de los dos es visitable. Otro sector de la finca alberga las instalaciones del Aula de la Naturaleza a las que se accede desde la carretera que une Matalascañas con Huelva.
+El Acebuche fue uno de los primeros Centros que abrió sus puertas al público a comienzo de la década de los años ochenta, poco después de que se promulgase la ley de Doñana en el año 1978. Mediante esta Ley se ampliaron los límites del Parque y se declararon una serie de Zonas de Protección entre las que se encuentra, ya esta incluida en el Parque Natural, una parte de la finca que nos ocupa.
+Desde el Centro parte el sendero peatonal que conduce al complejo lagunar de Acebuche, Huerto y Pajas, con una longitud aproximada de unos cuatro kilómetros y cuyo trazado se dispone en diversos circuitos. Este sendero está totalmente entablado, por lo que su dificultad es mínima, permitiendo de esta forma la circulación de personas con movilidad reducida. Cuenta asimismo con un conjunto de pasarelas que posibilitan el cruce por el entramado de caños que conectan entre sí las lagunas, así como zonas de descanso en las que el visitante se puede detener y disfrutar del contacto con el medio natural. En todo su recorrido un conjunto de placas temáticas interpretan distintos aspectos del paisaje, de la flora y de la fauna más comunes de la zona.
+El sendero conduce a un conjunto de observatorios que, situados junto a las lagunas, permiten apreciar detenidamente la avifauna existente en la laguna. Bautizados con los nombres de las especies observables más representativas, mantienen la tipología de las chozas tradicionales que se construían en el territorio y que se pueden apreciar en distintos puntos del Parque Nacional, fundamentalmente en el Poblado de la Plancha (punto de parada de los itinerarios por el interior y fluvial).
+El itinerario discurre por zonas de matorral denominado monte blanco, que se dispone en las zonas más altas y alejadas del manto freático. Esta denominación la adquiere por la tonalidad ligeramente grisácea de las hojas de la planta predominante, el jaguarzo, con el que se asocian otras como la aulaga, el jaguarzo morisco, el romero, la mejorana o el cantueso. El pino piñonero supone la mayor parte de la cobertura arbórea y junto a él se pueden encontrar algunos pies de sabinas, madroños, alcornoques y también acebuches de los que este Centro toma prestado su nombre. En las zonas más próximas a las lagunas y actuando como barrera y pantalla natural se encuentran álamos y un enramado de plantas que permiten el tránsito de las personas por la zona sin molestar a la fauna.
+La laguna del Acebuche fue adecuada para su uso y disfrute en la década de los años setenta con la excavación de su suelo y la construcción de islas-refugio para la fauna. Se mantiene permanentemente encharcada, dando cobijo a un gran número de aves, cuando el resto del Parque y de las áreas adyacentes cuentan con un bajo nivel de agua o están completamente secas. Por su parte, las lagunas del Huerto y las Pajas fueron recientemente restauradas e incorporadas parcialmente al sistema de visitas. Las aves favorecidas con todos estos trabajos más fácilmente observables son calamones, zampullines, somormujos, fochas, así como distintas especies de anátidas y ardeidos.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-6.56564428099995,37.0476502464833,39.7890000000043 -6.56553473499992,37.0476842684833,39.7890000000043 -6.56491906999992,37.0476881714833,38.3479999999981 -6.56455063299995,37.0477628474833,38.1919999999955 -6.56437106699991,37.0477660134833,38.1290000000008 -6.56429632099992,37.0477427744834,37.5899999999965 -6.56409765899991,37.0477539864834,37.3659999999945 -6.56373028899992,37.0477162964834,37.3629999999976 -6.56318495799991,37.0476966304834,37.3260000000009 -6.56306052799994,37.0476195024834,37.377999999997 -6.56275184799995,37.0475570094833,37.6110000000044 -6.56256005399996,37.0474763584834,37.7679999999964 -6.56158374999995,37.0470139534834,37.9850000000006 -6.56110871799996,37.0468337554834,38.1309999999939 -6.56039626299992,37.0464813574833,38.8889999999956 -6.56009497099995,37.0463446974833,39.1450000000041 -6.55955342199991,37.0460061024834,38.9660000000003 -6.55941557999995,37.0459518654833,39.2620000000024 -6.55926748399992,37.0458620044834,39.3530000000028 -6.55920934899996,37.0458094064833,39.445000000007 -6.55909906299991,37.0457397414834,39.4030000000057 -6.55895453299991,37.0455912564834,39.6340000000055 -6.55909906299991,37.0457397414834,39.4030000000057 -6.55920934899996,37.0458094064833,39.445000000007 -6.55926748399992,37.0458620044834,39.3530000000028 -6.55941557999995,37.0459518654833,39.2620000000024 -6.55955342199991,37.0460061024834,38.9660000000003 -6.56009497099995,37.0463446974833,39.1450000000041 -6.56039626299992,37.0464813574833,38.8889999999956 -6.56110871799996,37.0468337554834,38.1309999999939 -6.56158374999995,37.0470139534834,37.9850000000006 -6.56256005399996,37.0474763584834,37.7679999999964 -6.56275184799995,37.0475570094833,37.6110000000044 -6.56306052799994,37.0476195024834,37.377999999997 -6.56318495799991,37.0476966304834,37.3260000000009 -6.56373028899992,37.0477162964834,37.3629999999976 -6.56409765899991,37.0477539864834,37.3659999999945 -6.56429632099992,37.0477427744834,37.5899999999965 -6.56437106699991,37.0477660134833,38.1290000000008 -6.56455063299995,37.0477628474833,38.1919999999955 -6.56491906999992,37.0476881714833,38.3479999999981 -6.56553473499992,37.0476842684833,39.7890000000043 -6.56564428099995,37.0476502464833,39.7890000000043</coordinates>
+</LineString>
+</Placemark>
+<Folder id="kml_ft_Ramales">
+<name>Ramales</name>
+<Placemark id="kml_2">
+<name>El Acebuche - Derivación</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Doñana</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>El Acebuche</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Name</th>
+<td>El_Acebuche</td>
+</tr><tr bgcolor="">
+<th>Número</th>
+<td>PR-PND1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Tipo</th>
+<td>Derivación</td>
+</tr><tr bgcolor="">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ramales</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ramales">
+<SimpleData name="Parque Nacional">Doñana</SimpleData>
+<SimpleData name="Nombre">El Acebuche</SimpleData>
+<SimpleData name="Name">El_Acebuche</SimpleData>
+<SimpleData name="Número">PR-PND1</SimpleData>
+<SimpleData name="Tipo">Derivación</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-6.56622470499991,37.0465499094834,39.3910000000033 -6.56609827699992,37.0469114334833,39.7979999999952 -6.56599574799992,37.0470849304834,40.1450000000041 -6.56592945199992,37.0471315434834,39.9989999999962 -6.56588217999996,37.0471893594834,39.9229999999952 -6.56573320499996,37.0474387414833,39.9560000000056 -6.56569870099992,37.0475665794834,39.7160000000003 -6.56564428099995,37.0476502464833,39.7890000000043 -6.56569751399991,37.0477475874833,39.3950000000041 -6.56590591899993,37.0479466374833,38.976999999999 -6.56597647599995,37.0479936574833,39.0679999999993 -6.56608795599993,37.0480386724834,39.0840000000026 -6.56641495399992,37.0481022114833,39.4750000000058 -6.56650124999993,37.0480989794834,39.2949999999983 -6.56659911099996,37.0480658894834,38.6269999999931 -6.56671955599995,37.0480643364834,38.7690000000002 -6.56694627099995,37.0480980414833,39.1549999999988 -6.56702631799993,37.0481415424833,38.9370000000054 -6.56703724199991,37.0481897414833,38.9750000000058 -6.56701923399993,37.0482853224834,38.7839999999997 -6.56703488399995,37.0483416144834,38.4660000000003 -6.56709543499994,37.0483968304833,37.9590000000026 -6.56721721499991,37.0484332684833,37.2970000000059 -6.56709543499994,37.0483968304833,37.9590000000026 -6.56703488399995,37.0483416144834,38.4660000000003 -6.56701923399993,37.0482853224834,38.7839999999997 -6.56703724199991,37.0481897414833,38.9750000000058 -6.56702631799993,37.0481415424833,38.9370000000054 -6.56694627099995,37.0480980414833,39.1549999999988 -6.56671955599995,37.0480643364834,38.7690000000002 -6.56659911099996,37.0480658894834,38.6269999999931 -6.56650124999993,37.0480989794834,39.2949999999983 -6.56641495399992,37.0481022114833,39.4750000000058 -6.56608795599993,37.0480386724834,39.0840000000026 -6.56597647599995,37.0479936574833,39.0679999999993 -6.56590591899993,37.0479466374833,38.976999999999 -6.56569751399991,37.0477475874833,39.3950000000041 -6.56564428099995,37.0476502464833,39.7890000000043 -6.56569870099992,37.0475665794834,39.7160000000003 -6.56573320499996,37.0474387414833,39.9560000000056 -6.56588217999996,37.0471893594834,39.9229999999952 -6.56592945199992,37.0471315434834,39.9989999999962 -6.56599574799992,37.0470849304834,40.1450000000041 -6.56609827699992,37.0469114334833,39.7979999999952 -6.56622470499991,37.0465499094834,39.3910000000033</coordinates>
+</LineString>
+</Placemark>
+</Folder>
+</Document></kml>

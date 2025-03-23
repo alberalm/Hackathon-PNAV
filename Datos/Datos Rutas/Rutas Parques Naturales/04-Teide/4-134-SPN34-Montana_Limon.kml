@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>4-134-SPN34-Montana_Limon</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>Montaña Limón - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Teide</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Montaña Limón</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>SPN34</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>0.5</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>2.3</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>El sendero finaliza en el límite del parque nacional, en la parte norte de Montaña Limón. Buenas panorámicas sobre el Valle de La Orotava.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>El sendero se inicia en el punto donde el SPN 21 abandona la pista para emprender la subida al Roque del Mal Abrigo y Yegua Blanca. En este punto la excursión deja este espolón rocoso a la derecha para abandonar la pista por el sendero que baja a la izquierda, hacia el amplio Llano de la Rosa. Antes de desembocar en este llano emplazado junto a la Montaña Limón, el sendero cruza de nuevo la pista continuando con la diagonal hacia el noroeste. Pasa por la base sur de Montaña Limón ofreciendo bellas panorámicas del Valle de La Orotava. 
+
+La ruta concluye en el límite del parque nacional en la zona donde comienzan a aparecer los primeros pinos canarios, aunque el sendero se continúa hasta salir de nuevo a la pista en la cota de los 2.000 metros de altitud (arrastradero, cerca de la antigua choza de José Ruiz de Izaña). 
+Podemos continuar la excursión hasta Aguamansa o bajar por el Barranco de la Zarza. Ante la necesidad lógica de continuar la ruta por cualquiera de estas opciones el kilometraje se alarga y con ello se hace un poco más compleja en lo que a dificultad se refiere.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Teide</SimpleData>
+<SimpleData name="Nombre">Montaña Limón</SimpleData>
+<SimpleData name="Número">SPN34</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">0.5</SimpleData>
+<SimpleData name="Longitud (km)">2.3</SimpleData>
+<SimpleData name="Recomendaciones">El sendero finaliza en el límite del parque nacional, en la parte norte de Montaña Limón. Buenas panorámicas sobre el Valle de La Orotava.</SimpleData>
+<SimpleData name="Descripción">El sendero se inicia en el punto donde el SPN 21 abandona la pista para emprender la subida al Roque del Mal Abrigo y Yegua Blanca. En este punto la excursión deja este espolón rocoso a la derecha para abandonar la pista por el sendero que baja a la izquierda, hacia el amplio Llano de la Rosa. Antes de desembocar en este llano emplazado junto a la Montaña Limón, el sendero cruza de nuevo la pista continuando con la diagonal hacia el noroeste. Pasa por la base sur de Montaña Limón ofreciendo bellas panorámicas del Valle de La Orotava. 
+
+La ruta concluye en el límite del parque nacional en la zona donde comienzan a aparecer los primeros pinos canarios, aunque el sendero se continúa hasta salir de nuevo a la pista en la cota de los 2.000 metros de altitud (arrastradero, cerca de la antigua choza de José Ruiz de Izaña). 
+Podemos continuar la excursión hasta Aguamansa o bajar por el Barranco de la Zarza. Ante la necesidad lógica de continuar la ruta por cualquiera de estas opciones el kilometraje se alarga y con ello se hace un poco más compleja en lo que a dificultad se refiere.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-16.4985011189999,28.3194193260001,2096.8821 -16.4985918969999,28.319420027,2094.606 -16.4987139069999,28.319469746,2093.18309999999 -16.4989429549999,28.3196518300001,2089.947 -16.499206629,28.3197879020001,2086.59789999999 -16.4994068849999,28.3199121370001,2083.322 -16.4996972709999,28.3199949790001,2077.7129 -16.4998274319999,28.3201132900001,2075.9299 -16.4999475849999,28.3201990680001,2075.82399999999 -16.4999618159999,28.3202440940001,2075.4451 -16.5000923949999,28.3203041040001,2075.00810000001 -16.5001947879999,28.3203908340001,2074.783 -16.500311403,28.3205204740001,2074.8311 -16.500476245,28.320673716,2074.989 -16.5004916909999,28.3207444210001,2074.65210000001 -16.5004790429999,28.320793779,2074.11500000001 -16.5005113849999,28.320880049,2073.6421 -16.500521536,28.320969516,2073.12300000001 -16.5005464209999,28.3209997580001,2072.6011 -16.5006731849999,28.3210379930001,2071.7629 -16.500828962,28.321167932,2070.876 -16.5012009349999,28.321350872,2068.8569 -16.5016083209999,28.3214032370001,2067.0129 -16.5017600129999,28.3213981220001,2066.46090000001 -16.5019094449999,28.3213706380001,2066.18090000001 -16.5020496099999,28.3213759850001,2065.48510000001 -16.5023954219999,28.3214772600001,2063.96610000001 -16.502623614,28.321516091,2062.5791 -16.5028250309999,28.3215879480001,2060.91499999999 -16.5029146819999,28.3217368320001,2059.386 -16.503007012,28.3217995530001,2059.08010000001 -16.5031009239999,28.321836417,2058.811 -16.5033154749999,28.3218736750001,2058.198 -16.5034136179999,28.321934609,2058.03389999999 -16.5035061909999,28.3220145540001,2057.9319 -16.5035960189999,28.322037681,2057.3999 -16.503700852,28.3220210220001,2057.0549 -16.5040597739999,28.3217959870001,2057.22900000001 -16.5041852989999,28.3217556860001,2057.428 -16.5043037539999,28.3217420560001,2057.0901 -16.5047005799999,28.3217822340001,2056.791 -16.5051552289999,28.3218771090001,2056.094 -16.505302722,28.3219223940001,2055.9121 -16.5055303299999,28.3220576960001,2055.2681 -16.505752518,28.3220845290001,2053.8811 -16.5060884869999,28.3221772900001,2050.6709 -16.5062352169999,28.322234241,2049.30809999999 -16.506309691,28.3222804260001,2048.012 -16.506415214,28.3223046050001,2046.0699 -16.5066383989999,28.3224020550001,2042.87699999999 -16.5068834209999,28.3225302720001,2039.057 -16.5077176569999,28.3230481890001,2023.158 -16.5077848219999,28.3231197980001,2021.6851 -16.5079644559999,28.3234399500001,2016.04700000001 -16.5081047449999,28.3235917160001,2013.689 -16.5079644559999,28.3234399500001,2016.04700000001 -16.5077848219999,28.3231197980001,2021.6851 -16.5077176569999,28.3230481890001,2023.158 -16.5068834209999,28.3225302720001,2039.057 -16.5066383989999,28.3224020550001,2042.87699999999 -16.506415214,28.3223046050001,2046.0699 -16.506309691,28.3222804260001,2048.012 -16.5062352169999,28.322234241,2049.30809999999 -16.5060884869999,28.3221772900001,2050.6709 -16.505752518,28.3220845290001,2053.8811 -16.5055303299999,28.3220576960001,2055.2681 -16.505302722,28.3219223940001,2055.9121 -16.5051552289999,28.3218771090001,2056.094 -16.5047005799999,28.3217822340001,2056.791 -16.5043037539999,28.3217420560001,2057.0901 -16.5041852989999,28.3217556860001,2057.428 -16.5040597739999,28.3217959870001,2057.22900000001 -16.503700852,28.3220210220001,2057.0549 -16.5035960189999,28.322037681,2057.3999 -16.5035061909999,28.3220145540001,2057.9319 -16.5034136179999,28.321934609,2058.03389999999 -16.5033154749999,28.3218736750001,2058.198 -16.5031009239999,28.321836417,2058.811 -16.503007012,28.3217995530001,2059.08010000001 -16.5029146819999,28.3217368320001,2059.386 -16.5028250309999,28.3215879480001,2060.91499999999 -16.502623614,28.321516091,2062.5791 -16.5023954219999,28.3214772600001,2063.96610000001 -16.5020496099999,28.3213759850001,2065.48510000001 -16.5019094449999,28.3213706380001,2066.18090000001 -16.5017600129999,28.3213981220001,2066.46090000001 -16.5016083209999,28.3214032370001,2067.0129 -16.5012009349999,28.321350872,2068.8569 -16.500828962,28.321167932,2070.876 -16.5006731849999,28.3210379930001,2071.7629 -16.5005464209999,28.3209997580001,2072.6011 -16.500521536,28.320969516,2073.12300000001 -16.5005113849999,28.320880049,2073.6421 -16.5004790429999,28.320793779,2074.11500000001 -16.5004916909999,28.3207444210001,2074.65210000001 -16.500476245,28.320673716,2074.989 -16.500311403,28.3205204740001,2074.8311 -16.5001947879999,28.3203908340001,2074.783 -16.5000923949999,28.3203041040001,2075.00810000001 -16.4999618159999,28.3202440940001,2075.4451 -16.4999475849999,28.3201990680001,2075.82399999999 -16.4998274319999,28.3201132900001,2075.9299 -16.4996972709999,28.3199949790001,2077.7129 -16.4994068849999,28.3199121370001,2083.322 -16.499206629,28.3197879020001,2086.59789999999 -16.4989429549999,28.3196518300001,2089.947 -16.4987139069999,28.319469746,2093.18309999999 -16.4985918969999,28.319420027,2094.606 -16.4985011189999,28.3194193260001,2096.8821</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

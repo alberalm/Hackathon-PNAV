@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>5-37-Excursion12-La_Meseta_de_Hermigua-El_Cedro</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>La Meseta de Hermigua-El Cedro - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Garajonay</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>La Meseta de Hermigua-El Cedro</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>Excursión12</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Media</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>2.5</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>2.4</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Imprescindible llevar linterna y botas. Zona de gran influencia del alisio.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Ruta con buenas panorámicas y laurisilva termófila y húmeda de ladera bien conservada que presenta, además, el aliciente de tener que atravesar el túnel que lleva hasta El Cedro. Imprescindible linterna y botas. Zona de gran influencia del alisio.
+
+El Valle de Hermigua está formado por cuatro barrancos: La Meseta, El Cedro, Monteforte y Liria, de este a oeste respectivamente. De ellos el principal y más largo es del Cedro, que cuando se une con el de La Meseta forma el amplio Barranco de Monteforte, donde se asientan el pueblo y sus barrios.
+
+La ruta parte de la carretera CV.14 (carretera del Rejo), que une el norte y el sur de la isla, y enlaza los dos barrancos que tienen parte de su superficie dentro del Parque Nacional: el Barranco de La Meseta y el Barranco del Cedro. El lugar exacto es una curva en el kilómetro 2,7 de esta carretera (subiendo desde Hermigua); allí sale a la derecha un sendero que enseguida llega al túnel del Cedro.
+
+Antes de penetrar en la oscuridad de este túnel que fue construido para aprovechar el agua del norte y llevarla hacia el sur (intercambio que no llegó a producirse), es más que recomendable disfrutar de las impresionantes paredes del Rejo, que cierran el barranco por su parte derecha. Se trata de algunas de las montañas más verticales de cuantas existen en la isla y su perenne frondosidad recuerda a un paisaje al más puro estilo andino, presidido por el Alto de la Encherada (1.063 m).
+
+Linterna en mano penetramos en el túnel y caminamos los 500 metros de longitud que fueron excavados para atravesar La Montañeta, con cumbres que superan los mil metros de altitud. En el interior del túnel existe una gran humedad y casi siempre la presencia de zonas encharcadas, por lo que unas botas de montaña se antojan casi imprescindibles. Superado este entretenido tramo la salida del túnel nos deja en el caserío del Cedro. Subiendo por la pista (izquierda) vamos dejando atrás algunas de las construcciones y pasamos junto a uno de los dos bares que existen en El Cedro. El camino supera también el Aula de Naturaleza del Cabildo, gestionada por Medio Ambiente, y penetra en la frondosidad de la laurisilva. Un sendero en subida nos lleva hasta el cruce de caminos con la pista empedrada que baja del Reventón Oscuro (Excursión 8) donde hemos de girar a la izquierda por el sendero que desciende entre la laurisilva para llevarnos de nuevo al punto donde iniciamos la ruta.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Garajonay</SimpleData>
+<SimpleData name="Nombre">La Meseta de Hermigua-El Cedro</SimpleData>
+<SimpleData name="Número">Excursión12</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida</SimpleData>
+<SimpleData name="Dificultad">Media</SimpleData>
+<SimpleData name="Duración (h)">2.5</SimpleData>
+<SimpleData name="Longitud (km)">2.4</SimpleData>
+<SimpleData name="Recomendaciones">Imprescindible llevar linterna y botas. Zona de gran influencia del alisio.</SimpleData>
+<SimpleData name="Descripción">Ruta con buenas panorámicas y laurisilva termófila y húmeda de ladera bien conservada que presenta, además, el aliciente de tener que atravesar el túnel que lleva hasta El Cedro. Imprescindible linterna y botas. Zona de gran influencia del alisio.
+
+El Valle de Hermigua está formado por cuatro barrancos: La Meseta, El Cedro, Monteforte y Liria, de este a oeste respectivamente. De ellos el principal y más largo es del Cedro, que cuando se une con el de La Meseta forma el amplio Barranco de Monteforte, donde se asientan el pueblo y sus barrios.
+
+La ruta parte de la carretera CV.14 (carretera del Rejo), que une el norte y el sur de la isla, y enlaza los dos barrancos que tienen parte de su superficie dentro del Parque Nacional: el Barranco de La Meseta y el Barranco del Cedro. El lugar exacto es una curva en el kilómetro 2,7 de esta carretera (subiendo desde Hermigua); allí sale a la derecha un sendero que enseguida llega al túnel del Cedro.
+
+Antes de penetrar en la oscuridad de este túnel que fue construido para aprovechar el agua del norte y llevarla hacia el sur (intercambio que no llegó a producirse), es más que recomendable disfrutar de las impresionantes paredes del Rejo, que cierran el barranco por su parte derecha. Se trata de algunas de las montañas más verticales de cuantas existen en la isla y su perenne frondosidad recuerda a un paisaje al más puro estilo andino, presidido por el Alto de la Encherada (1.063 m).
+
+Linterna en mano penetramos en el túnel y caminamos los 500 metros de longitud que fueron excavados para atravesar La Montañeta, con cumbres que superan los mil metros de altitud. En el interior del túnel existe una gran humedad y casi siempre la presencia de zonas encharcadas, por lo que unas botas de montaña se antojan casi imprescindibles. Superado este entretenido tramo la salida del túnel nos deja en el caserío del Cedro. Subiendo por la pista (izquierda) vamos dejando atrás algunas de las construcciones y pasamos junto a uno de los dos bares que existen en El Cedro. El camino supera también el Aula de Naturaleza del Cabildo, gestionada por Medio Ambiente, y penetra en la frondosidad de la laurisilva. Un sendero en subida nos lleva hasta el cruce de caminos con la pista empedrada que baja del Reventón Oscuro (Excursión 8) donde hemos de girar a la izquierda por el sendero que desciende entre la laurisilva para llevarnos de nuevo al punto donde iniciamos la ruta.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-17.2079250209999,28.128376281,734.555999999997 -17.2078591769999,28.128700516,724.485000000001 -17.2078832319999,28.1288065040001,727.184999999998 -17.2079030639999,28.1288200480001,727.184999999998 -17.2079242249999,28.1288104290001,727.441000000006 -17.208028151,28.1286359870001,724.077999999994 -17.2081225049999,28.1285346660001,726.441000000006 -17.2082401449999,28.128518817,722.884999999995 -17.2083287919999,28.128559033,724.089000000007 -17.2084269289999,28.128743812,719.641000000003 -17.2085029639999,28.128788021,718.760999999999 -17.208735568,28.1288123780001,716.907999999996 -17.2088899309999,28.128850582,716.130000000005 -17.2093150349999,28.1287230200001,722.528000000006 -17.2093629119999,28.128723789,722.229000000007 -17.209370142,28.128743059,720.846000000005 -17.2092576279999,28.1288750160001,717.687000000005 -17.2091797379999,28.1289953930001,717.225999999995 -17.2090206919999,28.1290900340001,716.089000000007 -17.2087426449999,28.1290819330001,712.534 -17.2089811139999,28.129337036,721.317999999999 -17.209175387,28.129437179,725.675000000003 -17.2093565279999,28.1294652390001,726.680999999997 -17.209584032,28.129482222,738.312999999995 -17.209827855,28.1294421520001,742.721000000005 -17.2103823269999,28.1291647610001,761.466 -17.2105812359999,28.1291408910001,768.769 -17.2106754759999,28.1291600310001,768.384999999995 -17.2107719369999,28.1292822810001,771.917000000001 -17.2107861769999,28.1294057550001,774.119999999995 -17.2106843669999,28.1295931020001,772.373000000007 -17.2104672419999,28.129875069,781.354000000007 -17.2103427679999,28.130093726,781.804999999993 -17.2102765959999,28.1303010650001,787.614000000001 -17.2102904129999,28.1304039790001,790.335000000006 -17.210337422,28.1304680110001,790.638999999996 -17.2104096319999,28.1304949070001,792.160999999993 -17.2104919589999,28.1305038630001,791.923999999999 -17.2106085429999,28.1304710380001,795.561000000002 -17.2110075589999,28.130099687,802.926999999996 -17.21116946,28.1299936700001,797.990000000005 -17.2118305359999,28.1298140380001,846.550000000003 -17.2122753399999,28.1297644000001,903.498000000007 -17.2130041599999,28.1301215450001,966.388999999996 -17.2134595809999,28.1305981830001,1000.719 -17.2135959169999,28.1307864610001,985.152000000002 -17.2135859909999,28.1308146650001,984.159 -17.2136043809999,28.1308356660001,984.159 -17.2136576049999,28.1308394440001,983.364000000001 -17.2139995769999,28.1307889670001,984.691999999995 -17.2141449119999,28.1307579,983.854000000007 -17.2141599809999,28.1307405350001,983.854000000007 -17.214250385,28.130701764,982.042000000001 -17.2145230439999,28.1306143640001,966.288 -17.214596518,28.130575976,961.827000000005 -17.214726395,28.1304536840001,957.331000000006 -17.2148461909999,28.1303115410001,956.832999999999 -17.2148989029999,28.1302048000001,962.169999999998 -17.215017965,28.1298709310001,958.130999999994 -17.2151027699999,28.1297551150001,964.528999999995 -17.2152394579999,28.12964988,966.100999999995 -17.2154792669999,28.1295343840001,966.986000000004 -17.2155553699999,28.1294824730001,968.953999999998 -17.2160575859999,28.1295859040001,962.778000000006 -17.2161095739999,28.1296248690001,961.479000000007 -17.216130081,28.1297081770001,958.960999999996 -17.2160817139999,28.1298091940001,957.773000000001 -17.2160204969999,28.129853085,956.785000000003 -17.215968303,28.1299505050001,955.081999999995 -17.215956376,28.13003138,953.764999999999 -17.2159585409999,28.1302292920001,951.214999999997 -17.2158938459999,28.1303771880001,949.596999999994 -17.215823703,28.1304558450001,948.436000000002 -17.2155513029999,28.1305948020001,946.356 -17.215501721,28.1306292370001,944.353000000003 -17.2154687669999,28.1306719410001,943.428 -17.2153418839999,28.130858172,941.301999999996 -17.2153552279999,28.1310584070001,938.921000000002 -17.2153247159999,28.1311164740001,938.645000000004 -17.2152568519999,28.131157488,937.766000000003 -17.2151266209999,28.131178489,936.539999999994 -17.215045013,28.1312095980001,935.539000000004 -17.2147476979999,28.1314290660001,934.979000000007 -17.2144349559999,28.1315892680001,929.687000000005 -17.2143941599999,28.131638927,928.959000000003 -17.214390357,28.1317636720001,927.338000000003 -17.2144305749999,28.131847576,925.293000000005 -17.2147328049999,28.1321760210001,918.236999999994 -17.2149580939999,28.1323880200001,914.425000000003 -17.2151454999999,28.1326402430001,909.183999999994 -17.2151742949999,28.1327053620001,909.142999999996 -17.2151823959999,28.13281441,907.313999999998 -17.2151462239999,28.133228628,900.691999999995 -17.215211408,28.1334139340001,896.171000000002 -17.2152099079999,28.133446871,896.171000000002 -17.2151632279999,28.1335307480001,894.017000000007 -17.2151226749999,28.13356135,892.895000000004 -17.2149115509999,28.1336554810001,891.032000000007 -17.2148086909999,28.1336669940001,890.620999999999 -17.214624446,28.1336506050001,888.005000000005 -17.2145584389999,28.1336542780001,887.551999999996 -17.2145117899999,28.1336717930001,887.997000000003 -17.2144725549999,28.1337005810001,887.062000000005 -17.2144532789999,28.1337530980001,886.865999999995 -17.2144696299999,28.1339455510001,883.974000000002 -17.2144419639999,28.133997095,881.608999999997 -17.2143851569999,28.1340355920001,882.054999999993 -17.2142460189999,28.1340919500001,879.926999999996 -17.2138246,28.1341940880001,871.593999999997 -17.2137571659999,28.1342455450001,872.256999999998 -17.2137404779999,28.1343488950001,872.032000000007 -17.2137627639999,28.1346348700001,861.417000000001 -17.213722629,28.1346959570001,860.351999999999 -17.2135656889999,28.134830504,858.847999999998 -17.2135369789999,28.134894187,857.650999999998 -17.213552455,28.1350151830001,856.131999999998 -17.2135984949999,28.1351510700001,853.907999999996 -17.2136598689999,28.1352190170001,850.843999999997 -17.2138195179999,28.135304374,848.449999999997 -17.2138682889999,28.1353631550001,847.745999999999 -17.2138835579999,28.135403167,845.618000000002 -17.2138898699999,28.1354946880001,844.297000000006 -17.2138229139999,28.135666717,843.735000000001 -17.2138148559999,28.1358085880001,841.709000000003 -17.2137697119999,28.136070594,838.883000000002 -17.213780987,28.1360943060001,838.883000000002 -17.2138262749999,28.1361043300001,837.456000000006</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

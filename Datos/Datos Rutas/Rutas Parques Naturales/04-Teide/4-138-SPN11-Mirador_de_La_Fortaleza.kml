@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>4-138-SPN11-Mirador_de_La_Fortaleza</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>Mirador de La Fortaleza - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Teide</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Mirador de La Fortaleza</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>SPN11</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Media</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>0.5</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>1.2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Aunque sin mucho desnivel (50 metros), la marcha transcurre a gran altitud, camine despacio. Hay que tener la debida precaución al realizar la ruta en caso de encontrarnos nieve o hielo en el sendero, frecuente en invierno.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Desde la Estación Superior del Teleférico, emplazado en los 3.555 m de La Rambleta, el sendero se encuentra perfectamente acondicionado y transcurre sin apenas desnivel amoldándose al malpaís formado por lava aa y rodeando el cráter del Teide hacia el oeste. Al poco tiempo de marcha llegamos al mirador de La Rambleta y a los veinte minutos
+de excursión sale un sendero en bajada hacia la derecha que conduce hacia el Refugio de Altavista (SPN 7). Nosotros hemos de continuar de frente (sin bajar) para ir dando vista a la parte norte y oeste de la isla. Contrasta el color negro de la superficie porque transitamos frente a las tonalidades blancas de Montaña Blanca, bajo nuestros pies.
+ El sendero finaliza en el mirador dispuesto sobre los riscos de La Fortaleza, al norte, aunque en realidad se disfruta de una vista mucho más generosa sobre el noroeste de Tenerife desde Teno hasta el Macizo de Anaga pasando por La Orotava y los Montes de La Esperanza. Probablemente lo que más llame nuestra atención sea la vertiginosa caída que presentan las faldas del Teide en su parte occidental, las más altas.
+ La dificultad del sendero radica en la altitud a la que transcurre, que requiere de una marcha lenta.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Teide</SimpleData>
+<SimpleData name="Nombre">Mirador de La Fortaleza</SimpleData>
+<SimpleData name="Número">SPN11</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+<SimpleData name="Dificultad">Media</SimpleData>
+<SimpleData name="Duración (h)">0.5</SimpleData>
+<SimpleData name="Longitud (km)">1.2</SimpleData>
+<SimpleData name="Recomendaciones">Aunque sin mucho desnivel (50 metros), la marcha transcurre a gran altitud, camine despacio. Hay que tener la debida precaución al realizar la ruta en caso de encontrarnos nieve o hielo en el sendero, frecuente en invierno.</SimpleData>
+<SimpleData name="Descripción">Desde la Estación Superior del Teleférico, emplazado en los 3.555 m de La Rambleta, el sendero se encuentra perfectamente acondicionado y transcurre sin apenas desnivel amoldándose al malpaís formado por lava aa y rodeando el cráter del Teide hacia el oeste. Al poco tiempo de marcha llegamos al mirador de La Rambleta y a los veinte minutos
+de excursión sale un sendero en bajada hacia la derecha que conduce hacia el Refugio de Altavista (SPN 7). Nosotros hemos de continuar de frente (sin bajar) para ir dando vista a la parte norte y oeste de la isla. Contrasta el color negro de la superficie porque transitamos frente a las tonalidades blancas de Montaña Blanca, bajo nuestros pies.
+ El sendero finaliza en el mirador dispuesto sobre los riscos de La Fortaleza, al norte, aunque en realidad se disfruta de una vista mucho más generosa sobre el noroeste de Tenerife desde Teno hasta el Macizo de Anaga pasando por La Orotava y los Montes de La Esperanza. Probablemente lo que más llame nuestra atención sea la vertiginosa caída que presentan las faldas del Teide en su parte occidental, las más altas.
+ La dificultad del sendero radica en la altitud a la que transcurre, que requiere de una marcha lenta.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-16.6386866669999,28.2703827180001,3544.3999 -16.6386786989999,28.2704310810001,3544.1179 -16.6386899809999,28.2704765830001,3543.88310000001 -16.6387496759999,28.2705364710001,3545.9341 -16.6390318939999,28.2706170820001,3549.738 -16.6391458909999,28.2706866710001,3547.2849 -16.6391603619999,28.2707136800001,3547.96000000001 -16.6391588229999,28.270771993,3547.145 -16.6391219989999,28.2708417150001,3543.76489999999 -16.6391316769999,28.270887218,3542.72410000001 -16.6392039369999,28.2709383550001,3544.7151 -16.639189514,28.2709540120001,3545.28999999999 -16.6390451269999,28.2709683620001,3546.9431 -16.6389666449999,28.271090744,3550.405 -16.6388543129999,28.2710751990001,3551.844 -16.6387997719999,28.2710852020001,3551.9299 -16.6386971789999,28.271169205,3551.6179 -16.6386234079999,28.2712005590001,3549.927 -16.6386122069999,28.2712275920001,3550.6311 -16.6386765519999,28.2713740250001,3553.698 -16.6385563589999,28.2715021320001,3554.29300000001 -16.6385002959999,28.2715860930001,3554.821 -16.6383624169999,28.2716815050001,3553.2681 -16.6383464069999,28.2717128080001,3552.56909999999 -16.6383561439999,28.271810933,3550.93799999999 -16.6383802289999,28.2718265570001,3550.93799999999 -16.63839637,28.271911877,3550.59910000001 -16.638439725,28.2719417050001,3551.84299999999 -16.6385104649999,28.2720682220001,3550.87209999999 -16.6385123189999,28.2722900890001,3548.3879 -16.638595806,28.2723369490001,3547.75 -16.6386295539999,28.2723838530001,3547.428 -16.6385960149999,28.272521839,3544.2991 -16.638617161,28.2727778230001,3546.783 -16.6385594499999,28.272823385,3546.8579 -16.638506623,28.2729315220001,3547.84110000001 -16.6385163169999,28.272991247,3548.44190000001 -16.6385692789999,28.273002578,3550.50810000001 -16.6385580719999,28.273023922,3549.9319 -16.6384826709999,28.2730339440001,3549.53810000001 -16.6384972389999,28.27314771,3548.19899999999 -16.638514927,28.2731818280001,3547.5 -16.6385855519999,28.2732045210001,3548.09789999999 -16.6386048299999,28.2732258380001,3547.6799 -16.6385984409999,28.273251443,3547.6799 -16.6386129249999,28.2732898310001,3546.56690000001 -16.638699604,28.2733210440001,3545.31909999999 -16.6387704079999,28.2735030270001,3540.395 -16.6387928939999,28.2735229180001,3540.33689999999 -16.63881857,28.2735257400001,3540.33689999999 -16.6388346389999,28.2735470590001,3537.5879 -16.6388962149999,28.27369787,3536.6001 -16.6389649909999,28.2738882800001,3537.6899 -16.6390726089999,28.2739891640001,3538.5779 -16.6391964039999,28.2742066550001,3539.66409999999 -16.6390726089999,28.2739891640001,3538.5779 -16.6389649909999,28.2738882800001,3537.6899 -16.6388962149999,28.27369787,3536.6001 -16.6388346389999,28.2735470590001,3537.5879 -16.63881857,28.2735257400001,3540.33689999999 -16.6387928939999,28.2735229180001,3540.33689999999 -16.6387704079999,28.2735030270001,3540.395 -16.638699604,28.2733210440001,3545.31909999999 -16.6386129249999,28.2732898310001,3546.56690000001 -16.6385984409999,28.273251443,3547.6799 -16.6386048299999,28.2732258380001,3547.6799 -16.6385855519999,28.2732045210001,3548.09789999999 -16.638514927,28.2731818280001,3547.5 -16.6384972389999,28.27314771,3548.19899999999 -16.6384826709999,28.2730339440001,3549.53810000001 -16.6385580719999,28.273023922,3549.9319 -16.6385692789999,28.273002578,3550.50810000001 -16.6385163169999,28.272991247,3548.44190000001 -16.638506623,28.2729315220001,3547.84110000001 -16.6385594499999,28.272823385,3546.8579 -16.638617161,28.2727778230001,3546.783 -16.6385960149999,28.272521839,3544.2991 -16.6386295539999,28.2723838530001,3547.428 -16.638595806,28.2723369490001,3547.75 -16.6385123189999,28.2722900890001,3548.3879 -16.6385104649999,28.2720682220001,3550.87209999999 -16.638439725,28.2719417050001,3551.84299999999 -16.63839637,28.271911877,3550.59910000001 -16.6383802289999,28.2718265570001,3550.93799999999 -16.6383561439999,28.271810933,3550.93799999999 -16.6383464069999,28.2717128080001,3552.56909999999 -16.6383624169999,28.2716815050001,3553.2681 -16.6385002959999,28.2715860930001,3554.821 -16.6385563589999,28.2715021320001,3554.29300000001 -16.6386765519999,28.2713740250001,3553.698 -16.6386122069999,28.2712275920001,3550.6311 -16.6386234079999,28.2712005590001,3549.927 -16.6386971789999,28.271169205,3551.6179 -16.6387997719999,28.2710852020001,3551.9299 -16.6388543129999,28.2710751990001,3551.844 -16.6389666449999,28.271090744,3550.405 -16.6390451269999,28.2709683620001,3546.9431 -16.639189514,28.2709540120001,3545.28999999999 -16.6392039369999,28.2709383550001,3544.7151 -16.6391316769999,28.270887218,3542.72410000001 -16.6391219989999,28.2708417150001,3543.76489999999 -16.6391588229999,28.270771993,3547.145 -16.6391603619999,28.2707136800001,3547.96000000001 -16.6391458909999,28.2706866710001,3547.2849 -16.6390318939999,28.2706170820001,3549.738 -16.6387496759999,28.2705364710001,3545.9341 -16.6386899809999,28.2704765830001,3543.88310000001 -16.6386786989999,28.2704310810001,3544.1179 -16.6386866669999,28.2703827180001,3544.3999</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

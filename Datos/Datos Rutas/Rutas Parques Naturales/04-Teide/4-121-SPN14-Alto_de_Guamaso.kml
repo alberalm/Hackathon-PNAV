@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>4-121-SPN14-Alto_de_Guamaso</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>Alto de Guamaso - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Teide</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Alto de Guamaso</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>SPN14</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>1.5</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>2.8</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Preste atención al interior del cono volcánico y a la proliferación de bombas volcánicas en sus laderas. Ruta sencilla y con grandes recompensas panorámicas. Buena zona de ecotono para observar aves forestales y de matorral.Tagoror guanche.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Desde el kilómetro 42,3 de la TF-24 parte la pista de acceso restringido (existe una cancela metálica que impide el paso a vehículos) que lleva a la Montaña Guamaso (2.152 m), en la cabecera del Valle de La Orotava.
+Llegamos al pie de la montaña en apenas 5 minutos por un sendero adaptado hasta el cruce con el sendero que lleva a la izquierda hacia El Portillo. Al llegar a la base del volcán, la pista se dirige en ligera bajada hacia la derecha pero nosotros la abandonamos para tomar el sendero (de frente) que nos llevará a dar la vuelta completa al cráter en torno a los 2.050 metros de altitud. El mencionado desvío a la izquierda se continua unos metros más como sendero adaptado hasta las construcciones circulares en piedra que simbolizan lo que muy probablemente aquí se encontraba: un tagoror. Un tagoror era un punto de reunión de mandatarios y personajes relevantes del pueblo guanche para tomar decisiones.
+ A partir del desvío, donde hemos de continuar de frente, poco a poco el sendero va rodeando la montaña hasta llegar a la entrada del cráter, que se encuentra al norte, con el impresionante Valle de La Orotava a sus pies, y el panorama del impenetrable tapiz de pino canario que cubre el valle. Con bastante frecuencia este lugar es, además, un balcón de lujo colgado sobre el mar de nubes que el viento alisio suele formar en esta parte de la isla. El sitio es inmejorable para contemplar todo el noroeste de Tenerife. 
+ El sendero prosigue su camino recorriendo la base del volcán para llegar de nuevo a la pista y volver al mirador junto a la carretera. 
+ Existe la opción, desde el punto donde el sendero vuelve a la pista, de tomar el sendero que baja en diagonal hasta la zona de El Portillo (ramal). Este itinerario opcional desemboca en una pista que hemos de tomar hacia la izquierda en ligera subida hasta el punto de información de El Portillo.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Teide</SimpleData>
+<SimpleData name="Nombre">Alto de Guamaso</SimpleData>
+<SimpleData name="Número">SPN14</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">1.5</SimpleData>
+<SimpleData name="Longitud (km)">2.8</SimpleData>
+<SimpleData name="Recomendaciones">Preste atención al interior del cono volcánico y a la proliferación de bombas volcánicas en sus laderas. Ruta sencilla y con grandes recompensas panorámicas. Buena zona de ecotono para observar aves forestales y de matorral.Tagoror guanche.</SimpleData>
+<SimpleData name="Descripción">Desde el kilómetro 42,3 de la TF-24 parte la pista de acceso restringido (existe una cancela metálica que impide el paso a vehículos) que lleva a la Montaña Guamaso (2.152 m), en la cabecera del Valle de La Orotava.
+Llegamos al pie de la montaña en apenas 5 minutos por un sendero adaptado hasta el cruce con el sendero que lleva a la izquierda hacia El Portillo. Al llegar a la base del volcán, la pista se dirige en ligera bajada hacia la derecha pero nosotros la abandonamos para tomar el sendero (de frente) que nos llevará a dar la vuelta completa al cráter en torno a los 2.050 metros de altitud. El mencionado desvío a la izquierda se continua unos metros más como sendero adaptado hasta las construcciones circulares en piedra que simbolizan lo que muy probablemente aquí se encontraba: un tagoror. Un tagoror era un punto de reunión de mandatarios y personajes relevantes del pueblo guanche para tomar decisiones.
+ A partir del desvío, donde hemos de continuar de frente, poco a poco el sendero va rodeando la montaña hasta llegar a la entrada del cráter, que se encuentra al norte, con el impresionante Valle de La Orotava a sus pies, y el panorama del impenetrable tapiz de pino canario que cubre el valle. Con bastante frecuencia este lugar es, además, un balcón de lujo colgado sobre el mar de nubes que el viento alisio suele formar en esta parte de la isla. El sitio es inmejorable para contemplar todo el noroeste de Tenerife. 
+ El sendero prosigue su camino recorriendo la base del volcán para llegar de nuevo a la pista y volver al mirador junto a la carretera. 
+ Existe la opción, desde el punto donde el sendero vuelve a la pista, de tomar el sendero que baja en diagonal hasta la zona de El Portillo (ramal). Este itinerario opcional desemboca en una pista que hemos de tomar hacia la izquierda en ligera subida hasta el punto de información de El Portillo.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-16.5581462889999,28.3062437230001,2077.7629 -16.558001793,28.306408402,2077.78999999999 -16.5577530499999,28.3068118770001,2077.6079 -16.5575758419999,28.3070168200001,2077.0601 -16.5574878559999,28.3071617750001,2076.62209999999 -16.5574444569999,28.3072750040001,2075.9409 -16.5573696999999,28.3073868560001,2074.8879 -16.5572460089999,28.3075010000001,2073.708 -16.5569574769999,28.3077280240001,2071.2061 -16.5568029069999,28.3078737390001,2070.0879 -16.5567088679999,28.3080066220001,2069.65089999999 -16.5565467279999,28.3083050470001,2068.71000000001 -16.556461242,28.3083528490001,2068.53999999999 -16.556355579,28.3084945370001,2068.052 -16.5562820959999,28.3085595460001,2068.094 -16.55624216,28.3086300190001,2067.137 -16.5562540949999,28.308788801,2068.50290000001 -16.5561872949999,28.3089092330001,2069.58010000001 -16.5558239609999,28.3091110920001,2071.9819 -16.55574867,28.3091865280001,2073.5549 -16.555620378,28.3092538960001,2073.2271 -16.5553353509999,28.309453127,2071.8279 -16.5548052429999,28.3099048970001,2073.81299999999 -16.5546649799999,28.310092071,2073.55809999999 -16.5544277149999,28.3104780660001,2071.17600000001 -16.5542947889999,28.310765749,2071.3501 -16.5541757809999,28.311202429,2074.41409999999 -16.5541470949999,28.3113848630001,2075.28999999999 -16.554163199,28.311549443,2076.86500000001 -16.5542103349999,28.3116928580001,2078.1311 -16.5543245349999,28.3118684620001,2079.93700000001 -16.5546158339999,28.3122345630001,2081.4409 -16.5547170749999,28.3123270650001,2082.387 -16.5548664949999,28.3123652530001,2080.43799999999 -16.555078432,28.3123923220001,2076.947 -16.555239577,28.3124286410001,2074.6079 -16.5553592929999,28.3124446210001,2073.15700000001 -16.5554570369999,28.3124313660001,2072.02099999999 -16.5555560579999,28.312371269,2072.47289999999 -16.5556097829999,28.3122943450001,2070.65700000001 -16.5556570159999,28.3120405910001,2069.678 -16.555661922,28.3118393490001,2070.65889999999 -16.5557080909999,28.3117815890001,2070.606 -16.5557914189999,28.3117199370001,2069.3459 -16.5561346579999,28.3116171650001,2066.614 -16.5562044789999,28.3115695420001,2067.16310000001 -16.5562981279999,28.3115441930001,2068.5791 -16.5565548549999,28.311553405,2068.1841 -16.5566295259999,28.3115698970001,2066.98 -16.556689112,28.3116264510001,2067.333 -16.5567362759999,28.3117715990001,2067.4231 -16.5567555409999,28.3121529380001,2064.927 -16.5568066229999,28.3122980410001,2063.417 -16.5569122879999,28.3124251780001,2061.13499999999 -16.5572236489999,28.3126887170001,2059.49709999999 -16.5575133809999,28.312812019,2062.1121 -16.5578098599999,28.3128606650001,2064.3101 -16.5581336179999,28.3127650480001,2063.4819 -16.5585232529999,28.3126201170001,2062.3501 -16.5586981949999,28.3125279320001,2062.448 -16.55893943,28.3122806330001,2062.6709 -16.5589732899999,28.312184856,2063.76609999999 -16.5592336169999,28.3120379310001,2063.75999999999 -16.559351815,28.3119498620001,2063.98 -16.559469997,28.3117265150001,2065.2749 -16.5598817939999,28.3106846640001,2070.39109999999 -16.5602012849999,28.3100288940001,2071.84110000001 -16.5602612689999,28.309844367,2071.94899999999 -16.5602766919999,28.3096933020001,2070.553 -16.5602400499999,28.3095983310001,2070.19899999999 -16.5600073029999,28.309352979,2068.2549 -16.5598526289999,28.309222935,2067.8689 -16.5596716869999,28.3090376930001,2064.5759 -16.5593040189999,28.3088077560001,2061.56690000001 -16.5591265549999,28.3087265340001,2060.3689 -16.559011757,28.3086445960001,2059.18090000001 -16.5589459179999,28.3085620990001,2058.7939 -16.5588234639999,28.308492389,2058.9209 -16.5586731499999,28.3082582330001,2057.93799999999 -16.5585781639999,28.3081916780001,2057.40089999999 -16.5583397649999,28.308095542,2056.3511 -16.5583214829999,28.3080506570001,2055.4951 -16.5584024189999,28.3079595470001,2054.80809999999 -16.5585345739999,28.3078886630001,2052.78909999999 -16.558755081,28.30783238,2052.35890000001 -16.5589700159999,28.3077969720001,2049.8311 -16.5591025749999,28.307753834,2048.761 -16.5594493959999,28.3074949210001,2046.36599999999 -16.5596018019999,28.307335353,2044.486 -16.559706741,28.3072786550001,2044.00199999999 -16.5598190829999,28.3071923880001,2043.526 -16.55992886,28.307064525,2042.364 -16.5600203289999,28.3068900440001,2042.391 -16.5600629559999,28.306858338,2042.037 -16.56024902,28.306857946,2041.60000000001 -16.5604749089999,28.3069021910001,2040.24189999999 -16.5605843179999,28.306862966,2040.556 -16.5607194439999,28.306882052,2039.375 -16.5608777119999,28.3068559610001,2037.099 -16.560951191,28.3067909490001,2037.5129 -16.5610644179999,28.3067653730001,2036.902 -16.5610848549999,28.3067387390001,2037.36900000001 -16.5612774179999,28.3067317190001,2034.766 -16.5616898419999,28.3065396900001,2035.09299999999 -16.5618088419999,28.30650711,2034.87 -16.5619269809999,28.306415572,2034.245 -16.5621316899999,28.306350792,2035.08 -16.5622374119999,28.3063478480001,2035.11689999999 -16.5622906919999,28.3063749880001,2033.361 -16.562348471,28.3064419660001,2032.064 -16.5623976559999,28.3064570120001,2030.319 -16.5624698849999,28.3064405760001,2032.00599999999 -16.5626791879999,28.3065561170001,2027.639 -16.5630615819999,28.3067217050001,2021.8459 -16.5631676099999,28.3067395680001,2022.25 -16.5632150139999,28.3067667750001,2021.069 -16.5632788209999,28.3068440900001,2020.111 -16.5634060229999,28.3068983840001,2018.52 -16.5635498489999,28.3068838340001,2020.67600000001 -16.5635937779999,28.3068914500001,2021.204 -16.563790997,28.3068646710001,2022.84699999999 -16.5638417989999,28.3068348890001,2023.7061 -16.563874509,28.3067936660001,2024.391 -16.5638977309999,28.306721155,2025.114 -16.5638305049999,28.3066135700001,2024.084 -16.5637227899999,28.3064876820001,2025.6281 -16.5636891629999,28.3064029810001,2024.799 -16.5636977639999,28.3063777930001,2025.537 -16.5637339329999,28.3063678590001,2025.739 -16.5639148039999,28.3063761910001,2027.1689 -16.5640675619999,28.3063555320001,2028.94100000001 -16.564075821,28.3062867470001,2030.0699 -16.564038868,28.3062286630001,2031.22199999999</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

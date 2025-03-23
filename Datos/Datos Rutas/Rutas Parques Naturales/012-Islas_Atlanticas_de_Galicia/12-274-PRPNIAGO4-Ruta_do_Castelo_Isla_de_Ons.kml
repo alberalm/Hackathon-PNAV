@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>12-274-PRPNIAGO4-Ruta_do_Castelo_Isla_de_Ons</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>Ruta do Castelo (Isla de Ons) - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Islas Atlánticas de Galicia</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Ruta do Castelo (Isla de Ons)</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>PR-PNIAGO4</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Circular</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Media</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>0.5</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>1.3</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Ninguna en especial.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Desde el área de descanso de la playa das Dornas, tomamos un sendero que bordea suavemente la costa hacia el norte hasta llegar al mirador do Castelo (10 minutos), antigua fortificación de carácter defensivo hoy en día en ruinas. Este mirador nos ofrece unas hermosas vistas de toda la costa oriental de la isla de Ons y de la ría de Pontevedra.
+Tomamos luego hacia la derecha y nos adentramos en un pequeño bosque de sauces que alberga la fuente do Castelo (20 minutos), auténtico remanso de paz para los que gustan disfrutar de una buena sombra y el silencio de la naturaleza. De ahí saldremos a la pista de Melide que hacia la izquierda nos conduce de nuevo al pueblo.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Islas Atlánticas de Galicia</SimpleData>
+<SimpleData name="Nombre">Ruta do Castelo (Isla de Ons)</SimpleData>
+<SimpleData name="Número">PR-PNIAGO4</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Circular</SimpleData>
+<SimpleData name="Dificultad">Media</SimpleData>
+<SimpleData name="Duración (h)">0.5</SimpleData>
+<SimpleData name="Longitud (km)">1.3</SimpleData>
+<SimpleData name="Recomendaciones">Ninguna en especial.</SimpleData>
+<SimpleData name="Descripción">Desde el área de descanso de la playa das Dornas, tomamos un sendero que bordea suavemente la costa hacia el norte hasta llegar al mirador do Castelo (10 minutos), antigua fortificación de carácter defensivo hoy en día en ruinas. Este mirador nos ofrece unas hermosas vistas de toda la costa oriental de la isla de Ons y de la ría de Pontevedra.
+Tomamos luego hacia la derecha y nos adentramos en un pequeño bosque de sauces que alberga la fuente do Castelo (20 minutos), auténtico remanso de paz para los que gustan disfrutar de una buena sombra y el silencio de la naturaleza. De ahí saldremos a la pista de Melide que hacia la izquierda nos conduce de nuevo al pueblo.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-8.93176534799994,42.3773668844654,5.18700000000536 -8.93175093499991,42.3774588884654,8.68399999999383 -8.93171027499995,42.3775561834653,10.7609999999986 -8.93163623599992,42.3776375344654,10.3350000000064 -8.93146434399995,42.3777595244653,11.775999999998 -8.93132505899996,42.3778996654654,11.7200000000012 -8.93123508699995,42.3779436294653,12.0489999999991 -8.93117374299993,42.3779558994653,11.5840000000026 -8.93084963899992,42.3780683634653,7.9829999999929 -8.93076020399991,42.3781271474653,7.86299999999756 -8.93070047599991,42.3782085064653,8.72900000000664 -8.93061141799996,42.3783699744653,9.96099999999569 -8.93057851599991,42.3784773894653,10.5739999999932 -8.93057367099993,42.3785446254653,11.1159999999945 -8.93065221199993,42.3787110024653,12.8380000000034 -8.93073032699994,42.3788127874653,12.7160000000003 -8.93071872999991,42.3788460484653,12.7160000000003 -8.93064004599995,42.3789046924653,8.2609999999986 -8.93053882699991,42.3790161354654,5.97599999999511 -8.93044987799993,42.3791234884653,8.07600000000093 -8.93037258399994,42.3792497774654,10.4349999999977 -8.93034145899992,42.3792788074653,11.0690000000031 -8.93025554799993,42.3793052984653,10.8910000000033 -8.93019586899993,42.3793406514653,10.1579999999958 -8.93012180699992,42.3794379254653,10.6910000000062 -8.93004768999992,42.3795847444653,11.2510000000038 -8.93002371599994,42.3796908974653,11.9309999999969 -8.93002447399994,42.3798471904653,12.8270000000048 -8.92998848599995,42.3800101204653,12.9429999999993 -8.92992697799991,42.3801540754653,13.349000000002 -8.92990538399994,42.3802463384653,13.8410000000003 -8.92989687799991,42.3803372924653,14.3669999999984 -8.92991618099995,42.3803830954653,14.4980000000069 -8.92990288999994,42.3804158124653,14.4980000000069 -8.92986403799995,42.3804444394654,14.3619999999937 -8.92976895399994,42.3804546644653,13.1440000000002 -8.92968716199994,42.3804475064653,10.721000000005 -8.92953649799995,42.3803993544653,9.70900000000256 -8.92947654499994,42.3804096774653,9.88199999999779 -8.92943667199995,42.3804403494653,10.7799999999988 -8.92945009799996,42.3805021304653,11.5529999999999 -8.92946938899991,42.3805160084653,10.2649999999994 -8.92951335199996,42.3805221424653,11.3889999999956 -8.92957878599992,42.3804873804654,12.6349999999948 -8.92960329399995,42.3804518004653,11.7839999999997 -8.92973214699992,42.3804710234654,13.195000000007 -8.92986199299992,42.3804659114653,14.3619999999937 -8.92993208899992,42.3804589724654,15.2970000000059 -8.93002120299991,42.3804210464654,16.5800000000017 -8.93021030699992,42.3802031514653,16.3819999999978 -8.93035726199991,42.3800892274653,15.8920000000071 -8.93047727799995,42.3799767494654,16.1140000000014 -8.93087511799996,42.3795723664653,19.7559999999939 -8.93091830399993,42.3795573164653,18.9049999999988 -8.93103536699994,42.3795552614653,18.7480000000069 -8.93111546599994,42.3795263174653,18.3809999999939 -8.93133134999993,42.3794014974653,20.3450000000012 -8.93144829899995,42.3793520224654,22.4279999999999 -8.93152463999991,42.3793502984653,23.554999999993 -8.93163673599992,42.3793751384653,25.1000000000058 -8.93199437999994,42.3795576044653,29.6180000000022 -8.93205163499994,42.3795576384653,30.7850000000035 -8.93208744399993,42.3795346564654,31.4489999999932 -8.93219495099993,42.3793913944654,32.3849999999948 -8.93221414999994,42.3792852394653,31.1830000000045 -8.93240312499995,42.3788075974653,30.5800000000017 -8.93247003299996,42.3787032404653,29.2719999999972 -8.93254884999993,42.3786165834653,28.804999999993 -8.93261816699993,42.3785740114653,28.3169999999955 -8.93275316099994,42.3784218874653,26.5409999999974 -8.93279697999992,42.3783372564653,25.8139999999985 -8.93277855899993,42.3779655594653,22.2700000000041 -8.93282396799992,42.3778877304653,21.3739999999962 -8.93289107299995,42.3778095564653,20.5190000000002 -8.93298158499994,42.3777268014653,20.0570000000007 -8.93316299699995,42.3776225104653,19.8089999999938 -8.93319986999995,42.3775575664653,20.0390000000043 -8.93317274199995,42.3774314134653,20.6319999999978 -8.93308938399991,42.3773039654653,20.2899999999936 -8.93305607499991,42.3772207804653,20.051999999996 -8.93304446999991,42.3769164284653,22.2100000000064 -8.93302787099992,42.3768226384653,22.2609999999986 -8.93297960099994,42.3766265604654,22.8589999999967 -8.9329602919999,42.3765481294653,22.9400000000023 -8.93290338899993,42.3762168604653,20.224000000002 -8.93277365399996,42.3763175654653,19.301999999996 -8.93207202399992,42.3766235854653,15.570000000007 -8.93179495599992,42.3769505764653,9.87900000000081 -8.93173504899994,42.3771427774653,5.88000000000466 -8.93176534799994,42.3773668844654,5.18700000000536</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

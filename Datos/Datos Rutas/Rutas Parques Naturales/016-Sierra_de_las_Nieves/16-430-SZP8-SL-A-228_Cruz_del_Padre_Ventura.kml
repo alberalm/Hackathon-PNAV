@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>16-430-SZP8-SL-A-228_Cruz_del_Padre_Ventura</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>SL-A-228 Cruz del Padre Ventura - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Sierra de las Nieves</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>SL-A-228 Cruz del Padre Ventura</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>SZP8</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>1.25</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>1.8</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Para descansar en el trayecto existen unos bancos de hierro muy socorridos. Se recomienda consultar las normas de comportamiento que deben cumplir los visitantes a la Sierra de las Nieves, así como los consejos generales que buscan asegurar su disfrute de la visita con seguridad.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Dejamos atrás las últimas casas del pueblo y bajamos por la rampa hormigonada hasta la ribera del río de los Horcajos, también conocido como Alfaguara. Pronto cruzamos por un puente el curso fluvial y enfilamos el sendero de la Cruz que, brevemente, coincide con la traza de una acequia. En la primera curva obviamos un ramal que se dirige hacia una finca privada.
+
+El paisaje circundante es de campos de labranza, con preponderancia de cultivos leñosos: olivos y almendros; también abunda el algarrobo entre pinos dispersos. Gracias al diseño del camino, con cerrados zig-zags, el ascenso se hace algo más liviano, aunque los días de calor tendremos que realizar constantes paradas para recuperar el resuello. Llegado un momento, la trocha afluye a un carril por donde subiremos durante 300 metros más, hasta una marcada vereda que se desprende a la izquierda.
+
+La pendiente se suaviza y caminamos entre matas de romero, palmito y retama. Al fondo vislumbramos una blanqueada hornacina, visitada asiduamente por los naturales de Tolox como lugar de culto y que supone el soporte que indica el final del recorrido, a 427 metros de altitud. Una señal panorámica convenientemente orientada diserta sobre la geo y biodiversidad de la Sierra de las Nieves y sobre el urbanismo de Tolox. El lugar invita al reposo y la contemplación, disfrutando de unas panorámicas embelesadoras, especialmente al atardecer. El regreso se efectúa por el mismo camino de la ida.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Sierra de las Nieves</SimpleData>
+<SimpleData name="Nombre">SL-A-228 Cruz del Padre Ventura</SimpleData>
+<SimpleData name="Número">SZP8</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">1.25</SimpleData>
+<SimpleData name="Longitud (km)">1.8</SimpleData>
+<SimpleData name="Recomendaciones">Para descansar en el trayecto existen unos bancos de hierro muy socorridos. Se recomienda consultar las normas de comportamiento que deben cumplir los visitantes a la Sierra de las Nieves, así como los consejos generales que buscan asegurar su disfrute de la visita con seguridad.</SimpleData>
+<SimpleData name="Descripción">Dejamos atrás las últimas casas del pueblo y bajamos por la rampa hormigonada hasta la ribera del río de los Horcajos, también conocido como Alfaguara. Pronto cruzamos por un puente el curso fluvial y enfilamos el sendero de la Cruz que, brevemente, coincide con la traza de una acequia. En la primera curva obviamos un ramal que se dirige hacia una finca privada.
+
+El paisaje circundante es de campos de labranza, con preponderancia de cultivos leñosos: olivos y almendros; también abunda el algarrobo entre pinos dispersos. Gracias al diseño del camino, con cerrados zig-zags, el ascenso se hace algo más liviano, aunque los días de calor tendremos que realizar constantes paradas para recuperar el resuello. Llegado un momento, la trocha afluye a un carril por donde subiremos durante 300 metros más, hasta una marcada vereda que se desprende a la izquierda.
+
+La pendiente se suaviza y caminamos entre matas de romero, palmito y retama. Al fondo vislumbramos una blanqueada hornacina, visitada asiduamente por los naturales de Tolox como lugar de culto y que supone el soporte que indica el final del recorrido, a 427 metros de altitud. Una señal panorámica convenientemente orientada diserta sobre la geo y biodiversidad de la Sierra de las Nieves y sobre el urbanismo de Tolox. El lugar invita al reposo y la contemplación, disfrutando de unas panorámicas embelesadoras, especialmente al atardecer. El regreso se efectúa por el mismo camino de la ida.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-4.90458299599993,36.6885479774852,283.722999999998 -4.90485199499994,36.6884559794852,281.220000000001 -4.90522900199994,36.6882649814852,276.419999999998 -4.90532079399992,36.6882287824852,277.550000000003 -4.90539751499995,36.6883233344852,278.294999999998 -4.90535383999992,36.6883983254852,278.692999999999 -4.90520863899991,36.6885167734852,278.198000000004 -4.90503606799996,36.6886911404852,282.384999999995 -4.90487142499995,36.6890683124852,288.426999999996 -4.90502275099993,36.6890145074852,296.517999999996 -4.90520268699993,36.6888352204852,300.241999999998 -4.90541737899991,36.6887026064852,302.366999999998 -4.90556086199996,36.6886837454852,308.847999999998 -4.90585381499994,36.6887221204852,318.747000000003 -4.90613499899996,36.6888259804852,323.059999999998 -4.90626999699993,36.6888289814852,324.929999999993 -4.90654600299996,36.6887499774852,322.687999999995 -4.90677583199994,36.6887537194852,328.735000000001 -4.90694399899991,36.6887829794852,332.0 -4.90704518199993,36.6888355254852,336.741999999998 -4.90711399599991,36.6888809814852,340.755000000005 -4.90720300299995,36.6890029784852,346.717000000004 -4.90714599399996,36.6892129804852,354.994999999995 -4.90678699699993,36.6894579794852,361.952999999994 -4.90636500399995,36.6895599824852,370.365000000005 -4.90620999699991,36.6896279754852,376.087 -4.90611699799996,36.6897839784852,371.544999999998 -4.90609500299996,36.6899369814852,373.645000000004 -4.90617799399996,36.6902369754852,377.611999999994 -4.90629399599993,36.6903859834852,388.486999999994 -4.90677000399995,36.6905759764852,395.462 -4.90697502199993,36.6906127314852,397.244999999995 -4.90711313699995,36.6907048084852,396.926999999996 -4.90722599399993,36.6908319744852,398.567999999999 -4.90723899599993,36.6907739804852,400.514999999999 -4.90714199499996,36.6906279784852,401.236999999994 -4.90664199999992,36.6904059784852,401.616999999998 -4.90652799599991,36.6902529804852,402.399999999994 -4.90661099799991,36.6901249774852,405.130000000005 -4.90665461099991,36.6900849624852,406.220000000001 -4.90668110199994,36.6900916214852,405.130000000005 -4.90669136699995,36.6901289174852,407.926999999996 -4.90672421499994,36.6901272074852,407.926999999996 -4.90674919399993,36.6900799874852,408.779999999999 -4.90680399499996,36.6900539784852,414.970000000001 -4.90686210899992,36.6900526144852,416.289999999994 -4.90688434999993,36.6900892264852,420.585000000006 -4.90694525599992,36.6901378144852,420.210000000006 -4.90700239799992,36.6901467104852,422.032999999996 -4.90702463899993,36.6901220744852,424.100000000006 -4.90706125099996,36.6900926484852,424.823000000004 -4.90709615199995,36.6900902524852,424.823000000004 -4.90715299899995,36.6901359824852,426.698000000004 -4.90709615199995,36.6900902524852,424.823000000004 -4.90706125099996,36.6900926484852,424.823000000004 -4.90702463899993,36.6901220744852,424.100000000006 -4.90700239799992,36.6901467104852,422.032999999996 -4.90694525599992,36.6901378144852,420.210000000006 -4.90688434999993,36.6900892264852,420.585000000006 -4.90686210899992,36.6900526144852,416.289999999994 -4.90680399499996,36.6900539784852,414.970000000001 -4.90674919399993,36.6900799874852,408.779999999999 -4.90672421499994,36.6901272074852,407.926999999996 -4.90669136699995,36.6901289174852,407.926999999996 -4.90668110199994,36.6900916214852,405.130000000005 -4.90665461099991,36.6900849624852,406.220000000001 -4.90661099799991,36.6901249774852,405.130000000005 -4.90652799599991,36.6902529804852,402.399999999994 -4.90664199999992,36.6904059784852,401.616999999998 -4.90714199499996,36.6906279784852,401.236999999994 -4.90723899599993,36.6907739804852,400.514999999999 -4.90722599399993,36.6908319744852,398.567999999999 -4.90711313699995,36.6907048084852,396.926999999996 -4.90697502199993,36.6906127314852,397.244999999995 -4.90677000399995,36.6905759764852,395.462 -4.90629399599993,36.6903859834852,388.486999999994 -4.90617799399996,36.6902369754852,377.611999999994 -4.90609500299996,36.6899369814852,373.645000000004 -4.90611699799996,36.6897839784852,371.544999999998 -4.90620999699991,36.6896279754852,376.087 -4.90636500399995,36.6895599824852,370.365000000005 -4.90678699699993,36.6894579794852,361.952999999994 -4.90714599399996,36.6892129804852,354.994999999995 -4.90720300299995,36.6890029784852,346.717000000004 -4.90711399599991,36.6888809814852,340.755000000005 -4.90704518199993,36.6888355254852,336.741999999998 -4.90694399899991,36.6887829794852,332.0 -4.90677583199994,36.6887537194852,328.735000000001 -4.90654600299996,36.6887499774852,322.687999999995 -4.90626999699993,36.6888289814852,324.929999999993 -4.90613499899996,36.6888259804852,323.059999999998 -4.90585381499994,36.6887221204852,318.747000000003 -4.90556086199996,36.6886837454852,308.847999999998 -4.90541737899991,36.6887026064852,302.366999999998 -4.90520268699993,36.6888352204852,300.241999999998 -4.90502275099993,36.6890145074852,296.517999999996 -4.90487142499995,36.6890683124852,288.426999999996 -4.90503606799996,36.6886911404852,282.384999999995 -4.90520863899991,36.6885167734852,278.198000000004 -4.90535383999992,36.6883983254852,278.692999999999 -4.90539751499995,36.6883233344852,278.294999999998 -4.90532079399992,36.6882287824852,277.550000000003 -4.90522900199994,36.6882649814852,276.419999999998 -4.90485199499994,36.6884559794852,281.220000000001 -4.90458299599993,36.6885479774852,283.722999999998</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

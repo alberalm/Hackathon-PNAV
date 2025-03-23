@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>6-28-PRPNPE2-Ruta_de_los_Lagos</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Style id="kml_style_ft_Ramales">
+<LineStyle>
+<color>ff2a69e8</color>
+</LineStyle>
+<PolyStyle>
+<color>b02a69e8</color>
+</PolyStyle>
+</Style>
+<Schema name="Ramales" id="kml_schema_ft_Ramales">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Name">
+<displayName>Name</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>Ruta de los Lagos - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Picos de Europa</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Ruta de los Lagos</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>PR-PNPE-2</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Circular</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>2.5</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>5.9</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Tenga en cuenta que al llegar al Mirador del Príncipe hay que regresar por la misma pista para continuar la ruta. Atención a la niebla, especialmente en el recorrido largo.
+ Preste atención a las formaciones lacustres. El recorrido interior por las minas. El Centro de Visitantes Pedro Pidal y sus exposiciones. Maqueta de los Picos de Europa. El hayedo de Palomberu. Vistas de las cumbres del Macizo Occidental.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Este paseo de no más de cinco kilómetros parte del aparcamiento de Buferrera (alt.1.050 m), tomando un sendero peatonal que sale al final de la plataforma superior del mismo, y que enseguida da acceso al Centro de Visitantes «Pedro Pidal» (10 minutos, altitud 1.070 m).
+D. Pedro Pidal fue el impulsor de la primera ley de Parques Nacionales en 1916, y responsable de que el primer Parque Nacional fuera el de la Montaña de Covadonga, declarado en 1918, antecesor del actual Parque Nacional de los Picos de Europa. El Centro de Visitantes Pedro Pidal, además de homenaje a la figura de este ilustre personaje, muestra en una atractiva exposición, la naturaleza y morfología de los Picos de Europa, así como la vida y actividades tradicionales de sus habitantes.
+A la salida del centro, tras subir unas escaleras, se toma la pista de la izquierda que en unos minutos llega al mirador del Príncipe (20 minutos, altitud 1.090 m), atalaya desde donde se divisa en primer término la Vega de Comeya, (poljé o depresión de origen cárstico, con altos valores geológicos y botánicos), con la sierra del Sueve y el valle del río Güeña al fondo.
+Para seguir la ruta hay que ir por la misma pista hasta las escaleras del centro de visitantes, donde se cruza una valla de madera en dirección a las minas de Buferrera, cruzando primero por el arboreto, (35 minutos, altitud 1.080 m). Aquí se recomienda visitar el edificio que alberga la maqueta de los Picos de Europa, donde se puede ver un audiovisual sincronizado con un juego de luces que proyectan sobre la maqueta los lugares descritos (consultar horarios en el centro de visitantes).
+La senda continúa hacia la antigua mina de la Buferrera, explotación de hierro y manganeso, cuyos vestigios hoy son una muestra de la actividad minera que hubo en su momento en los Picos de Europa. A partir de aquí el camino se dirige hacia el Lago Ercina en dos senderos alternativos: uno sube hacia la derecha por unas escaleras para bordear la mina desde arriba. El segundo se adentra en el interior de la mina a través de la antigua galería de acceso; al llegar al otro lado, la senda discurre por el interior de la zona que se explotaba a cielo abierto a través de un sugerente laberinto, para llegar finalmente al lago Ercina (1 hora y 5 minutos, altitud 1.160 m).
+Se alcanza la explanada de La Tiese, desde donde las aguas del lago Ercina contrastan con la panorámica del macizo del Cornión, destacando las cumbres de las Peñas Santas. El lago Ercina es de poca profundidad, debido a un proceso natural de colmatación. Tiene su origen en antiguas glaciaciones, a la vez que su cuenca está afectada por la erosión cárstica, de modo que su desagüe se realiza a través de un sumidero por su extremo sur. En las orillas del lago se desarrollan interesantes formaciones vegetales, donde algunas aves acuáticas,
+como el ánade real y la focha común, tienen su refugio durante todo el año. Otras utilizan el lago como lugar de descanso en sus recorridos migratorios.
+Bordeando el lago por la derecha se alcanza la majada de Las Reblagas, junto a la que hay una fuente. Tras pasar un pequeño collado se llega a la majada del Bricial (1 hora y 30 minutos, altitud 1.100 m), junto a una pequeña vega, la cual, en días de lluvia, forma un pequeño lago.
+Dejando atrás la vega de Bricial la ruta atraviesa una zona de rocas para llegar a un cruce en el que se señalizan dos alternativas. Siguiendo de frente se ataja para llegar a la Vega de Enol. Girando a la izquierda, el sendero se adentra en el hayedo de Palomberu, opción que recomendamos.
+La ruta atraviesa el bosque de Palomberu para salir en la amplia Vega de Enol (2 horas y 10 minutos, altitud 1.107 m) a la altura de la pista que viene del lago Enol en dirección a Pandecarmen. Se toma el ramal derecho de la pista pasando cerca del refugio o Casa de Pastores. 
+El Enol es un lago de 515 m de largo por 395 m de ancho y un calado en algunos puntos de hasta 20 m. Está encajado entre la Porra de Enol, al oeste, el pico del Mosquital al sureste y el cerro de Sohornín, quedando separado del lago La Ercina por la loma que forma la morrena glaciar de La Picota.
+El lago se puede bordear por la derecha, a pie de agua, pasando por un complicado sendero que va hacia Piedra del Llagu, aunque es más recomendable hacerlo por la izquierda, siguiendo primero la pista que lo bordea para luego tomar el sendero que accede a la majada de Los Acebos y que terminará entroncando con la carretera, a la altura del aliviadero del lago. Desde aquí, de nuevo la senda peatonal empedrada nos llevará al aparcamiento de Buferrera (2 horas y 30 minutos, altitud 1.050 m), punto de comienzo y final de la ruta.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Picos de Europa</SimpleData>
+<SimpleData name="Nombre">Ruta de los Lagos</SimpleData>
+<SimpleData name="Número">PR-PNPE-2</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Circular</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">2.5</SimpleData>
+<SimpleData name="Longitud (km)">5.9</SimpleData>
+<SimpleData name="Recomendaciones">Tenga en cuenta que al llegar al Mirador del Príncipe hay que regresar por la misma pista para continuar la ruta. Atención a la niebla, especialmente en el recorrido largo.
+ Preste atención a las formaciones lacustres. El recorrido interior por las minas. El Centro de Visitantes Pedro Pidal y sus exposiciones. Maqueta de los Picos de Europa. El hayedo de Palomberu. Vistas de las cumbres del Macizo Occidental.</SimpleData>
+<SimpleData name="Descripción">Este paseo de no más de cinco kilómetros parte del aparcamiento de Buferrera (alt.1.050 m), tomando un sendero peatonal que sale al final de la plataforma superior del mismo, y que enseguida da acceso al Centro de Visitantes «Pedro Pidal» (10 minutos, altitud 1.070 m).
+D. Pedro Pidal fue el impulsor de la primera ley de Parques Nacionales en 1916, y responsable de que el primer Parque Nacional fuera el de la Montaña de Covadonga, declarado en 1918, antecesor del actual Parque Nacional de los Picos de Europa. El Centro de Visitantes Pedro Pidal, además de homenaje a la figura de este ilustre personaje, muestra en una atractiva exposición, la naturaleza y morfología de los Picos de Europa, así como la vida y actividades tradicionales de sus habitantes.
+A la salida del centro, tras subir unas escaleras, se toma la pista de la izquierda que en unos minutos llega al mirador del Príncipe (20 minutos, altitud 1.090 m), atalaya desde donde se divisa en primer término la Vega de Comeya, (poljé o depresión de origen cárstico, con altos valores geológicos y botánicos), con la sierra del Sueve y el valle del río Güeña al fondo.
+Para seguir la ruta hay que ir por la misma pista hasta las escaleras del centro de visitantes, donde se cruza una valla de madera en dirección a las minas de Buferrera, cruzando primero por el arboreto, (35 minutos, altitud 1.080 m). Aquí se recomienda visitar el edificio que alberga la maqueta de los Picos de Europa, donde se puede ver un audiovisual sincronizado con un juego de luces que proyectan sobre la maqueta los lugares descritos (consultar horarios en el centro de visitantes).
+La senda continúa hacia la antigua mina de la Buferrera, explotación de hierro y manganeso, cuyos vestigios hoy son una muestra de la actividad minera que hubo en su momento en los Picos de Europa. A partir de aquí el camino se dirige hacia el Lago Ercina en dos senderos alternativos: uno sube hacia la derecha por unas escaleras para bordear la mina desde arriba. El segundo se adentra en el interior de la mina a través de la antigua galería de acceso; al llegar al otro lado, la senda discurre por el interior de la zona que se explotaba a cielo abierto a través de un sugerente laberinto, para llegar finalmente al lago Ercina (1 hora y 5 minutos, altitud 1.160 m).
+Se alcanza la explanada de La Tiese, desde donde las aguas del lago Ercina contrastan con la panorámica del macizo del Cornión, destacando las cumbres de las Peñas Santas. El lago Ercina es de poca profundidad, debido a un proceso natural de colmatación. Tiene su origen en antiguas glaciaciones, a la vez que su cuenca está afectada por la erosión cárstica, de modo que su desagüe se realiza a través de un sumidero por su extremo sur. En las orillas del lago se desarrollan interesantes formaciones vegetales, donde algunas aves acuáticas,
+como el ánade real y la focha común, tienen su refugio durante todo el año. Otras utilizan el lago como lugar de descanso en sus recorridos migratorios.
+Bordeando el lago por la derecha se alcanza la majada de Las Reblagas, junto a la que hay una fuente. Tras pasar un pequeño collado se llega a la majada del Bricial (1 hora y 30 minutos, altitud 1.100 m), junto a una pequeña vega, la cual, en días de lluvia, forma un pequeño lago.
+Dejando atrás la vega de Bricial la ruta atraviesa una zona de rocas para llegar a un cruce en el que se señalizan dos alternativas. Siguiendo de frente se ataja para llegar a la Vega de Enol. Girando a la izquierda, el sendero se adentra en el hayedo de Palomberu, opción que recomendamos.
+La ruta atraviesa el bosque de Palomberu para salir en la amplia Vega de Enol (2 horas y 10 minutos, altitud 1.107 m) a la altura de la pista que viene del lago Enol en dirección a Pandecarmen. Se toma el ramal derecho de la pista pasando cerca del refugio o Casa de Pastores. 
+El Enol es un lago de 515 m de largo por 395 m de ancho y un calado en algunos puntos de hasta 20 m. Está encajado entre la Porra de Enol, al oeste, el pico del Mosquital al sureste y el cerro de Sohornín, quedando separado del lago La Ercina por la loma que forma la morrena glaciar de La Picota.
+El lago se puede bordear por la derecha, a pie de agua, pasando por un complicado sendero que va hacia Piedra del Llagu, aunque es más recomendable hacerlo por la izquierda, siguiendo primero la pista que lo bordea para luego tomar el sendero que accede a la majada de Los Acebos y que terminará entroncando con la carretera, a la altura del aliviadero del lago. Desde aquí, de nuevo la senda peatonal empedrada nos llevará al aparcamiento de Buferrera (2 horas y 30 minutos, altitud 1.050 m), punto de comienzo y final de la ruta.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-4.98550888099993,43.2766482344641,1038.11689999999 -4.98553081099993,43.2770674704641,1036.173 -4.98521000299991,43.2771256214641,1037.011 -4.98494979799994,43.2771511104641,1036.95 -4.98493559199994,43.2771525014641,1036.95 -4.98492387799996,43.2771536494641,1036.95 -4.98490643099996,43.2771553584641,1037.9449 -4.98472297399991,43.2771990784641,1041.126 -4.98468193999992,43.2772126244641,1042.548 -4.98455883899993,43.2772532654641,1042.261 -4.98445086399994,43.2772052224641,1043.027 -4.98441198199993,43.2771998634641,1042.693 -4.98432559499992,43.2772383434641,1041.803 -4.98429732299991,43.2772619044641,1041.803 -4.98427200199995,43.2772816204641,1043.533 -4.98428178899991,43.2774466324641,1045.871 -4.98424863199995,43.2774629494641,1046.53 -4.98383100099994,43.2773426214641,1056.355 -4.98334549799995,43.2772359884641,1066.46000000001 -4.98330701699996,43.2772234224641,1066.717 -4.98311669399993,43.2771111534641,1067.822 -4.98309579899995,43.2770615024641,1067.66800000001 -4.98287886199995,43.2768002204641,1068.446 -4.98286086199994,43.2766392204641,1067.18799999999 -4.98290686199994,43.2765342214641,1067.7939 -4.98284474599995,43.2764452554641,1070.41800000001 -4.98274922099995,43.2763312644641,1072.49099999999 -4.98269892499991,43.2762932454641,1073.66 -4.98243583999994,43.2761723514641,1081.481 -4.98238927299991,43.2760714314641,1081.808 -4.98235532799993,43.2760446834641,1081.92200000001 -4.98202708199995,43.2759996524641,1082.496 -4.98165086999995,43.2758407084641,1082.77499999999 -4.98158599899995,43.2757656194641,1082.82399999999 -4.98145870299993,43.2755606224641,1082.85799999999 -4.98134885999991,43.2752512214641,1083.189 -4.98136193799991,43.2751425094641,1083.318 -4.98152426299993,43.2750334764641,1085.151 -4.98154315099993,43.2749981104641,1085.712 -4.98147961399991,43.2748453354641,1091.3979 -4.98137146499994,43.2746475554641,1096.715 -4.98129890899992,43.2746011094641,1097.07799999999 -4.98126880499996,43.2743897834641,1095.708 -4.98118602499994,43.2743108014641,1093.9771 -4.98111020199991,43.2742760834641,1090.754 -4.98097338499991,43.2741740824641,1088.755 -4.98071399799994,43.2741636194641,1085.49800000001 -4.98056315399992,43.2742344424641,1087.321 -4.98052156699993,43.2742437174641,1087.734 -4.98045038199996,43.2742385444641,1088.70699999999 -4.98038948799996,43.2741937894641,1089.626 -4.98037372899995,43.2741356974641,1092.201 -4.98044949099994,43.2739928284641,1095.371 -4.98044041799994,43.2739617664641,1095.371 -4.98033807699994,43.2739027484641,1097.89999999999 -4.98032905999992,43.2737961484641,1099.546 -4.98027151299993,43.2737526854641,1100.856 -4.98026773899994,43.2737093324641,1101.39599999999 -4.98030058999996,43.2735931124641,1101.061 -4.98029272499991,43.2735342004641,1100.90300000001 -4.98033081299991,43.2734917824641,1100.78 -4.98031196799991,43.2734339954641,1101.28999999999 -4.98033785899992,43.2733282184641,1100.02499999999 -4.98032467599995,43.2732600244641,1102.12 -4.98028942699994,43.2732203884641,1102.681 -4.98029102699991,43.2732067474641,1102.681 -4.98034373299993,43.2731765144641,1102.81299999999 -4.98036396999993,43.2731296594641,1104.465 -4.98030866599993,43.2730791184641,1106.501 -4.98037871599996,43.2730177514641,1106.50900000001 -4.98038557499996,43.2729644704641,1107.916 -4.98044672999993,43.2729344764641,1109.649 -4.98046934399992,43.2729044354641,1110.734 -4.98050996499995,43.2727925814641,1111.469 -4.98064163499993,43.2727398934641,1111.74189999999 -4.98075809999995,43.2726469214641,1112.204 -4.98086328999995,43.2725985594641,1112.62699999999 -4.98092893399991,43.2725903314641,1112.823 -4.98105866499992,43.2726099414641,1111.598 -4.98124639099996,43.2726891464641,1112.8719 -4.98134755299992,43.2727472934641,1112.913 -4.98147895299991,43.2730088084641,1113.62699999999 -4.98153523799994,43.2729735554641,1113.641 -4.98178320699992,43.2726849284641,1118.639 -4.98179568599994,43.2725512104641,1119.587 -4.98182779699994,43.2724855914641,1119.621 -4.98221826699995,43.2720291424641,1121.48209999999 -4.98227795199995,43.2717428684641,1121.8459 -4.98227548499994,43.2716700104641,1121.745 -4.98241770299995,43.2716337944641,1122.18799999999 -4.98252677699992,43.2716406104641,1122.5551 -4.98272447399995,43.2716235684641,1123.656 -4.98290883299995,43.2709582644641,1123.338 -4.98288594399992,43.2707287834641,1122.07799999999 -4.98289654399991,43.2703207834641,1121.9771 -4.98305752699992,43.2698318444641,1120.113 -4.98302759099994,43.2689745754641,1120.4659 -4.98303729399993,43.2687675724641,1121.11599999999 -4.98308726499994,43.2686620024641,1120.719 -4.98307492599991,43.2683548524641,1122.43799999999 -4.98309098099992,43.2681343614641,1123.033 -4.98310437399994,43.2680974814641,1122.49400000001 -4.98315194999992,43.2680561804641,1122.59 -4.98310959499992,43.2678889244642,1123.425 -4.98311932199994,43.2677969754641,1124.4449 -4.98306856299996,43.2677047694641,1123.3979 -4.98290211599993,43.2675905114641,1124.024 -4.98260866199996,43.2675379424641,1124.08 -4.98251865799995,43.2674782654641,1122.2791 -4.98228401099993,43.2671178054641,1116.333 -4.98227408999992,43.2669939994641,1116.421 -4.98223692399995,43.2668792484641,1115.5909 -4.98205205599993,43.2667388814641,1115.02800000001 -4.98197500399993,43.2666157014641,1114.80100000001 -4.98204360599993,43.2664480184641,1115.567 -4.98211629799994,43.2664416544641,1116.0551 -4.98214455699991,43.2664068444641,1116.902 -4.98214767899992,43.2663697244641,1116.902 -4.98200871499995,43.2662169114641,1117.83199999999 -4.98192434899994,43.2660417494641,1119.2729 -4.98189388799995,43.2659269834641,1118.075 -4.98190647199994,43.2658032144641,1119.7371 -4.98209949799991,43.2654706364641,1121.249 -4.98219242399995,43.2653240904641,1121.024 -4.98224020299995,43.2652859474641,1122.333 -4.98227548799991,43.2652183534641,1124.31600000001 -4.98227873799993,43.2651193594642,1125.428 -4.98241300199993,43.2647906134641,1127.1949 -4.98252917699995,43.2646977304641,1129.682 -4.98256793799993,43.2645435074642,1131.9301 -4.98268154299995,43.2642698344641,1135.1591 -4.98272418299996,43.2640168014641,1139.281 -4.98281894599995,43.2638069014641,1142.23209999999 -4.98285900299993,43.2636596134641,1142.97500000001 -4.98305500299995,43.2634426144641,1143.474 -4.98333300399992,43.2633726144641,1146.4449 -4.98351464599995,43.2633764584641,1148.03999999999 -4.98359900399993,43.2633676134641,1149.465 -4.98382435599996,43.2633819584641,1148.943 -4.98432522499991,43.2634621464641,1148.55100000001 -4.98473831899992,43.2634268504641,1148.519 -4.98497661499994,43.2634801274641,1148.489 -4.98524179599991,43.2634692454641,1148.28599999999 -4.98534141899995,43.2634430514641,1147.433 -4.98547580099995,43.2633722704641,1145.69100000001 -4.98565581099996,43.2633441284641,1146.386 -4.98594334899991,43.2635319414641,1144.114 -4.98600699399992,43.2635476204641,1142.06600000001 -4.98605568499994,43.2635389824641,1140.70699999999 -4.98613421799996,43.2635727514641,1138.9351 -4.98615463699991,43.2635908134641,1137.605 -4.98616877299992,43.2636489284641,1136.52 -4.98619807699993,43.2636738714641,1134.82399999999 -4.98645424899991,43.2637588644641,1128.21000000001 -4.98684715699994,43.2639104774641,1127.3149 -4.98710081799993,43.2638913754641,1122.436 -4.98722564699995,43.2638632394641,1120.446 -4.98759515099994,43.2638199904641,1123.655 -4.98772879499995,43.2637306904641,1125.39290000001 -4.98782721099991,43.2636842144641,1128.14999999999 -4.98812145699992,43.2636944474641,1133.00900000001 -4.98818284199996,43.2636167004641,1130.444 -4.98827366799992,43.2636151214641,1129.889 -4.98838024799994,43.2636570774641,1129.99099999999 -4.98842337999992,43.2636508504641,1129.5439 -4.98861322299996,43.2638455974641,1126.47 -4.98881157199992,43.2639303304641,1122.28200000001 -4.98894594999996,43.2639710544641,1121.4189 -4.98907400199994,43.2640424384641,1121.054 -4.98932725399993,43.2642248024641,1120.906 -4.98936889699991,43.2642343634641,1120.599 -4.98942109599994,43.2642889744641,1119.762 -4.98953433799994,43.2643317244641,1119.10799999999 -4.98966040199991,43.2643012934641,1118.269 -4.98974368899991,43.2643204154641,1117.223 -4.98979517499993,43.2643987404641,1117.507 -4.98989267699994,43.2644580804641,1117.00199999999 -4.98995227199992,43.2645131464641,1115.02099999999 -4.99002081999993,43.2646378174641,1113.632 -4.99005214899995,43.2646689804641,1112.942 -4.99011014499996,43.2646971614641,1112.64290000001 -4.99017550499991,43.2646767904641,1112.19100000001 -4.99021273699992,43.2646759964641,1112.193 -4.99043887499994,43.2645181324641,1110.2629 -4.99046880899993,43.2644764564641,1110.068 -4.99054266699994,43.2644368384641,1110.8781 -4.99069552699996,43.2641791884641,1108.00199999999 -4.99067606299991,43.2639183104641,1110.103 -4.99066220699996,43.2638876224641,1110.546 -4.99067815999996,43.2638483554641,1111.162 -4.99078859699995,43.2637808644641,1112.5551 -4.99083168399994,43.2637666654641,1112.4561 -4.99092505699991,43.2636756784641,1113.36500000001 -4.99099414999995,43.2635971724641,1114.056 -4.99115794999994,43.2633144974641,1113.78999999999 -4.99122307299996,43.2632750304641,1113.682 -4.99123895699995,43.2632261994641,1113.868 -4.99130237999992,43.2632253994641,1113.71400000001 -4.99144247099991,43.2631228484641,1114.78999999999 -4.99210392999993,43.2635871684641,1107.317 -4.99263160399994,43.2638854894641,1102.151 -4.99314778899992,43.2640351074641,1099.166 -4.99415773399994,43.2643929904641,1089.8 -4.99445828799992,43.2645139914641,1088.9969 -4.99490902099996,43.2646297884641,1086.052 -4.99629393499993,43.2651808004641,1084.295 -4.99684110999993,43.2653724944641,1079.63499999999 -4.99714162899994,43.2655435494641,1079.04700000001 -4.99736131499992,43.2656547144641,1081.073 -4.99753309899995,43.2657131724641,1082.52099999999 -4.99782576699994,43.2658595374641,1084.583 -4.99787049099996,43.2659094924641,1084.967 -4.99787954499993,43.2659773524641,1085.55899999999 -4.99768444499995,43.2662916624641,1088.632 -4.99763984499992,43.2667034014641,1091.545 -4.99760550999992,43.2668683844641,1093.15300000001 -4.99761263099992,43.2672116734641,1094.564 -4.99755171499993,43.2677563084641,1092.333 -4.99760438099992,43.2682859504641,1090.24099999999 -4.99765947599991,43.2684846014641,1089.36599999999 -4.99757688099993,43.2686157814641,1089.0291 -4.99745063599994,43.2687114764641,1088.478 -4.99656933499995,43.2692592514641,1087.23 -4.99470123199996,43.2705526684641,1080.692 -4.99401313799996,43.2712466844641,1077.47 -4.99399127499993,43.2713195624641,1077.3521 -4.99404081399996,43.2714268624641,1076.077 -4.99433519799993,43.2716604394641,1075.988 -4.99456898199992,43.2718542084641,1079.557 -4.99470096799996,43.2720766984641,1082.40300000001 -4.99492347299991,43.2722720334641,1085.38099999999 -4.99512793099996,43.2725539024641,1088.376 -4.99518890599995,43.2726969594641,1089.442 -4.99517717199996,43.2728228774641,1090.3521 -4.99514061299993,43.2729503644641,1091.92200000001 -4.99518890599995,43.2732192524641,1094.442 -4.99515003799991,43.2732775564641,1095.269 -4.99511337999991,43.2732955384641,1095.52499999999 -4.99500288499991,43.2733097274641,1096.62300000001 -4.99493009099996,43.2733854494641,1097.27099999999 -4.99488535699993,43.2737779064641,1103.302 -4.99524720899996,43.2741205124641,1109.82399999999 -4.99529793399995,43.2742121954641,1110.9091 -4.99529307599994,43.2742711054641,1112.11500000001 -4.99522777499993,43.2743561524641,1112.76700000001 -4.99508824199995,43.2743893974641,1111.785 -4.99444366199992,43.2744880424641,1106.698 -4.99375758799994,43.2743201204641,1101.755 -4.99330085299994,43.2742989514641,1098.1639 -4.99197877899991,43.2739464984641,1087.63 -4.99139592799992,43.2738595404641,1083.807 -4.99095839799992,43.2738114894641,1080.84 -4.99040383699992,43.2737806914641,1078.641 -4.98973234799996,43.2737620294641,1075.583 -4.98940730099991,43.2738399864641,1074.60799999999 -4.98936542399991,43.2738468374641,1074.3051 -4.98909832999993,43.2739078544641,1073.113 -4.98885579299991,43.2739358884641,1072.10000000001 -4.98860542799991,43.2738576024641,1071.3149 -4.98822790299994,43.2737044504641,1072.552 -4.98812716599991,43.2737981734641,1073.22500000001 -4.98796874499993,43.2738575834641,1073.78999999999 -4.98784992899994,43.2739021434641,1074.274 -4.98773860399996,43.2739489914641,1074.511 -4.98766329799992,43.2739641014641,1073.36599999999 -4.98687941799994,43.2739489144641,1071.02 -4.98676020199991,43.2739719394641,1070.095 -4.98669800599993,43.2739926204641,1070.83199999999 -4.98645590099994,43.2741264504641,1069.37 -4.98620418399992,43.2742829124641,1067.739 -4.98586893199996,43.2745563324641,1067.03999999999 -4.98558658199994,43.2748226474641,1066.969 -4.98530662599995,43.2750654994641,1067.712 -4.98526547999995,43.2751455134641,1067.402 -4.98529081699991,43.2756850194641,1056.254 -4.98533865899992,43.2757391464641,1055.6591 -4.98535640499995,43.2758224944641,1054.99800000001 -4.98532394999995,43.2759477914641,1051.844 -4.98526571299993,43.2762760764641,1045.412 -4.98532059999991,43.2763812574641,1041.202 -4.98541401199992,43.2764746694641,1039.311 -4.98550888099993,43.2766482344641,1038.11689999999</coordinates>
+</LineString>
+</Placemark>
+<Folder id="kml_ft_Ramales">
+<name>Ramales</name>
+<Placemark id="kml_2">
+<name>Ruta de los Lagos - Variante</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Picos de Europa</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Ruta de los Lagos</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Name</th>
+<td>Ruta_de_los_Lagos</td>
+</tr><tr bgcolor="">
+<th>Número</th>
+<td>PR-PNPE-2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Tipo</th>
+<td>Variante</td>
+</tr><tr bgcolor="">
+<th>Sentido</th>
+<td>Ida</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ramales</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ramales">
+<SimpleData name="Parque Nacional">Picos de Europa</SimpleData>
+<SimpleData name="Nombre">Ruta de los Lagos</SimpleData>
+<SimpleData name="Name">Ruta_de_los_Lagos</SimpleData>
+<SimpleData name="Número">PR-PNPE-2</SimpleData>
+<SimpleData name="Tipo">Variante</SimpleData>
+<SimpleData name="Sentido">Ida</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-4.98137146499994,43.2746475554641,1096.715 -4.98149954999991,43.2746871604641,1096.06299999999 -4.98152777099995,43.2746700794641,1096.433 -4.98151441099992,43.2746043954641,1099.427 -4.98147953699993,43.2745382964641,1100.353 -4.98145555299993,43.2744229504641,1104.36500000001 -4.98146840799995,43.2742733624641,1108.00900000001 -4.98135770499994,43.2741365524641,1107.974 -4.98133962699995,43.2739052564641,1110.889 -4.98133183399995,43.2738707444641,1110.889 -4.98130234999991,43.2738341574641,1110.86500000001 -4.98129843499993,43.2737872494641,1111.181 -4.98133183399995,43.2736592214641,1112.02 -4.98136968499995,43.2735746124641,1113.106 -4.98138527099991,43.2732751404641,1111.75900000001 -4.98147895299991,43.2730088084641,1113.62699999999</coordinates>
+</LineString>
+</Placemark>
+</Folder>
+</Document></kml>

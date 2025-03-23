@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>1-66-SIA1-SIA_San_Urbez_al_Molino_de_Aso</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>SIA San Úrbez al Molino de Aso - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Ordesa y Monte Perdido</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>SIA San Úrbez al Molino de Aso</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>SIA1</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Circular</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>0.75</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>El camino está bien señalizado y acondicionado. En invierno, cerca de la pasarela peatonal sobre el río Aso pueden formarse placas de hielo que obligan a extremar la precaución. La tendremos también en aquellos puntos en que el camino se asoma más al río.
+Preste atención al molino y las cascadas de Aso. La ermita rupestre de San Úrbez y su puente de piedra. El impresionante cañón de Añisclo, abierto en la roca por el río Bellós.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Tanto si nos acercamos desde Fanlo como si venimos desde Escalona, nuestro destino será el aparcamiento de la Ereta de Biés, una pequeña explanada junto a la carretera. Dado que es circular, podemos realizar el recorrido en cualquiera de sus dos sentidos. Elegimos iniciarlo por una pista que sale desde el aparcamiento en dirección noroeste y conduce hasta una caseta de guardas del Parque. A lo largo del camino iremos encontrando paneles interpretativos del itinerario señalizado como «La ruta del agua». La pista sigue en paralelo remontando el curso del río Aso, que tiene cercana su desembocadura en el Bellós. Pronto se convierte en una cómoda senda que se interna en el bosque abriendo un pasillo flanqueado por tupida vegetación. Roble, boj, haya, sauce… son especies vegetales que nos acompañarán a lo largo del recorrido. 
+
+Dejaremos atrás un cruce de caminos para continuar en busca del cauce del río hasta encontrarnos con las cascadas de Aso. A sus pies veremos las ruinas del molino harinero e hidroeléctrico que un día se benefició de la caída de estas aguas. Una primera pasarela peatonal nos permite cruzar a la margen izquierda del barranco. La senda cambia ahora de dirección y nos lleva aguas abajo hasta un mirador señalizado. 
+
+Descendemos al encuentro del río Bellós, en una serie de lazadas a través del bosque hasta llegar al puente. Lo cruzamos y, ya en la margen izquierda del Bellós, el itinerario asciende y vuelve a zigzaguear hasta que enlaza con el viejo camino de Añisclo. Lo tomaremos a la derecha para situarnos ahora sobre el trazado del GR 15 que viene de Sercué y continúa hacia Bestué. El camino gana anchura y discurre paralelo y en altura por la margen izquierda del cañón de Añisclo. 
+
+Pronto llegamos a la pared caliza donde se encuentra la ermita de San Úrbez, pastor y santo invocado en el Alto Aragón como traedor de lluvias. Nació en Burdeos en el año 702 y fundó en Nocito el monasterio que lleva su nombre. Llegamos a un cruce en el que dejamos a nuestra izquierda el GR 15 para seguir por una de sus variantes, la GR 15.1 que lleva desde San Úrbez hacia Vió y Buerba. Continuamos hasta los cercanos puentes de San Úrbez que franquean el Bellós, el tradicional de mampostería y un solo ojo que desafía al vértigo a más de 40 metros de altura, y el más moderno levantado a su lado. Ascendemos un trecho del camino hasta llegar a la carretera, que tomaremos a la derecha abandonando el GR 15.1 para retornar de nuevo al aparcamiento de la Ereta de Biés.
+</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Ordesa y Monte Perdido</SimpleData>
+<SimpleData name="Nombre">SIA San Úrbez al Molino de Aso</SimpleData>
+<SimpleData name="Número">SIA1</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Circular</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">0.75</SimpleData>
+<SimpleData name="Longitud (km)">2</SimpleData>
+<SimpleData name="Recomendaciones">El camino está bien señalizado y acondicionado. En invierno, cerca de la pasarela peatonal sobre el río Aso pueden formarse placas de hielo que obligan a extremar la precaución. La tendremos también en aquellos puntos en que el camino se asoma más al río.
+Preste atención al molino y las cascadas de Aso. La ermita rupestre de San Úrbez y su puente de piedra. El impresionante cañón de Añisclo, abierto en la roca por el río Bellós.</SimpleData>
+<SimpleData name="Descripción">Tanto si nos acercamos desde Fanlo como si venimos desde Escalona, nuestro destino será el aparcamiento de la Ereta de Biés, una pequeña explanada junto a la carretera. Dado que es circular, podemos realizar el recorrido en cualquiera de sus dos sentidos. Elegimos iniciarlo por una pista que sale desde el aparcamiento en dirección noroeste y conduce hasta una caseta de guardas del Parque. A lo largo del camino iremos encontrando paneles interpretativos del itinerario señalizado como «La ruta del agua». La pista sigue en paralelo remontando el curso del río Aso, que tiene cercana su desembocadura en el Bellós. Pronto se convierte en una cómoda senda que se interna en el bosque abriendo un pasillo flanqueado por tupida vegetación. Roble, boj, haya, sauce… son especies vegetales que nos acompañarán a lo largo del recorrido. 
+
+Dejaremos atrás un cruce de caminos para continuar en busca del cauce del río hasta encontrarnos con las cascadas de Aso. A sus pies veremos las ruinas del molino harinero e hidroeléctrico que un día se benefició de la caída de estas aguas. Una primera pasarela peatonal nos permite cruzar a la margen izquierda del barranco. La senda cambia ahora de dirección y nos lleva aguas abajo hasta un mirador señalizado. 
+
+Descendemos al encuentro del río Bellós, en una serie de lazadas a través del bosque hasta llegar al puente. Lo cruzamos y, ya en la margen izquierda del Bellós, el itinerario asciende y vuelve a zigzaguear hasta que enlaza con el viejo camino de Añisclo. Lo tomaremos a la derecha para situarnos ahora sobre el trazado del GR 15 que viene de Sercué y continúa hacia Bestué. El camino gana anchura y discurre paralelo y en altura por la margen izquierda del cañón de Añisclo. 
+
+Pronto llegamos a la pared caliza donde se encuentra la ermita de San Úrbez, pastor y santo invocado en el Alto Aragón como traedor de lluvias. Nació en Burdeos en el año 702 y fundó en Nocito el monasterio que lleva su nombre. Llegamos a un cruce en el que dejamos a nuestra izquierda el GR 15 para seguir por una de sus variantes, la GR 15.1 que lleva desde San Úrbez hacia Vió y Buerba. Continuamos hasta los cercanos puentes de San Úrbez que franquean el Bellós, el tradicional de mampostería y un solo ojo que desafía al vértigo a más de 40 metros de altura, y el más moderno levantado a su lado. Ascendemos un trecho del camino hasta llegar a la carretera, que tomaremos a la derecha abandonando el GR 15.1 para retornar de nuevo al aparcamiento de la Ereta de Biés.
+</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>0.0532966920000604,42.5578372734651,944.248999999996 0.0531668360000594,42.557878953465,940.273000000001 0.0527621890000773,42.5578586334651,934.986999999994 0.0526409330000775,42.557898733465,934.523000000001 0.0525684970000384,42.5579626034651,933.909 0.052455218000091,42.557988503465,933.370999999999 0.0523483670000928,42.5580848034651,926.964999999997 0.0522300690000748,42.5583464994651,930.933999999994 0.052149201000077,42.558408349465,932.610000000001 0.0519576120000807,42.5584934644651,935.131999999998 0.0518932370000584,42.558541333465,933.815000000002 0.0518746370000827,42.558574172465,935.388000000006 0.0517794110000409,42.558656364465,935.091 0.0517544190000763,42.5587214544651,932.433000000005 0.0517713540000386,42.5587498064651,935.476999999999 0.051832963000038,42.558786510465,937.110000000001 0.0519107440000539,42.558867755465,940.001000000004 0.0519198290000418,42.558907611465,939.152000000002 0.0519035230000782,42.558969324465,937.531000000003 0.0518812310000385,42.559002968465,937.531000000003 0.0516749190000496,42.559167845465,928.391000000003 0.051579752000066,42.559300464465,923.069000000003 0.0514767380000762,42.5595220314651,935.892000000007 0.051516078000077,42.5597211494651,950.270000000004 0.0514834040000665,42.559794145465,951.741999999998 0.0513708890000544,42.5598812964651,940.686000000002 0.0513508100000877,42.560023053465,938.642999999996 0.0513587800000437,42.5601124064651,940.611999999994 0.0512161170000809,42.560684136465,937.932000000001 0.0511982630000603,42.560907894465,941.305999999997 0.0512278770000876,42.561003207465,940.512000000002 0.051197496000043,42.5611050774651,941.759000000005 0.0511972800000535,42.561105231465,941.759000000005 0.0510651310000867,42.561199820465,937.759999999995 0.0509768050000616,42.5613164084651,935.826000000001 0.0508888730000763,42.5613987874651,933.660999999993 0.0508584740000515,42.561449331465,933.566000000006 0.0508162190000689,42.561467154465,931.884999999995 0.0507691520000435,42.561457836465,930.104999999996 0.0508699840000872,42.5613343674651,927.900999999998 0.0508573640000804,42.5613178344651,927.900999999998 0.0508320690000801,42.561311779465,927.900999999998 0.0508070160000784,42.561326442465,925.714000000007 0.0507728530000691,42.5613534764651,925.842999999993 0.050737376000086,42.5614083934651,926.304999999993 0.0507140910000885,42.561411395465,926.304999999993 0.0507040740000662,42.561391325465,926.304999999993 0.0509116930000459,42.561147242465,923.917000000001 0.0509043590000715,42.561044400465,922.498999999996 0.0509744700000852,42.560771561465,917.365999999995 0.0510026050000647,42.560717357465,915.040999999997 0.0510074840000811,42.560691368465,913.328999999998 0.0509895310000843,42.5606846024651,913.328999999998 0.050787921000051,42.560827086465,911.752999999997 0.0506180140000652,42.5609947004651,909.747000000003 0.0504911970000421,42.561152618465,905.415999999997 0.0504838420000624,42.561179443465,905.771999999997 0.0502075750000586,42.561277682465,902.777000000002 0.0501611600000729,42.561306202465,904.520000000004 0.0501419390000706,42.561403858465,907.034 0.0501490000000899,42.561460769465,907.949999999997 0.0501223490000484,42.561483495465,908.751999999993 0.0500821290000886,42.561458145465,908.387000000002 0.0500029440000844,42.561329139465,909.720000000001 0.0499041700000475,42.561279768465,912.509000000005 0.049868960000083,42.5613031754651,917.188999999998 0.0498660760000575,42.5613643324651,918.411999999997 0.0499278060000847,42.5615793354651,922.831000000006 0.0498947870000848,42.561582087465,922.831000000006 0.0498163400000635,42.561489117465,923.850999999995 0.049795313000061,42.5613408984651,922.125 0.0497732580000729,42.561317818465,921.472999999998 0.0497526600000811,42.561315485465,921.472999999998 0.0497241130000816,42.561352569465,924.831000000006 0.0497209880000469,42.561393010465,926.303 0.0498417650000533,42.561569915465,926.660000000003 0.049836970000058,42.561594104465,926.660000000003 0.0498175460000425,42.5615927024651,926.660000000003 0.0497382510000648,42.5615177214651,928.373999999996 0.0496648960000812,42.5613942664651,928.312999999995 0.0496247000000381,42.5612392494651,933.442999999999 0.0495437650000667,42.561173230465,937.850000000006 0.0494647700000428,42.561169393465,940.354999999996 0.0492127340000934,42.5612187274651,948.558000000005 0.0489009400000668,42.5612178944651,937.726999999999 0.0488158350000845,42.561266128465,932.668000000005 0.0484924590000446,42.561588266465,938.361999999994 0.0483630740000649,42.561671375465,939.510999999999 0.0481830990000844,42.561742374465,938.593999999997 0.0474169360000474,42.5618450834651,931.468999999997 0.0470272330000512,42.5618431374651,930.085999999996 0.0470052210000631,42.561819156465,929.881999999998 0.0470264270000484,42.561782783465,929.909 0.0473387190000381,42.561644060465,928.687000000005 0.0475755930000901,42.5615547194651,921.228000000003 0.0477746660000662,42.561466204465,929.563999999998 0.0478499120000606,42.561420418465,928.297000000006 0.047901434000039,42.5613353014651,929.176999999996 0.0478860420000728,42.5611710184651,933.244999999995 0.0479460800000879,42.561086121465,933.0 0.0482412760000557,42.5608190874651,920.251999999993 0.0484411660000887,42.560687369465,921.798999999999 0.0486172750000833,42.560620771465,924.172000000006 0.0488543810000692,42.560397261465,928.108999999997 0.0489745690000518,42.5603283214651,931.034 0.049163012000065,42.560258439465,941.421000000002 0.0501397950000637,42.5601575454651,948.245999999999 0.0503888550000511,42.560093725465,947.808000000005 0.050515080000082,42.560025838465,952.222999999998 0.0505980170000839,42.5599460324651,952.585000000006 0.0506176870000559,42.5597871554651,955.089000000007 0.0506373480000661,42.5597318314651,955.756999999998 0.0507301270000653,42.5595982504651,956.497000000003 0.0507365840000489,42.559435430465,958.441000000006 0.0506677300000433,42.5593715234651,957.198999999993 0.0504920300000435,42.5593003634651,956.796000000002 0.0503404370000453,42.5592604384651,956.394 0.0501773690000391,42.559179695465,954.639999999999 0.0500899850000565,42.559095501465,954.682000000001 0.0500598510000714,42.559037095465,954.841 0.0500528320000626,42.5589792834651,954.490000000005 0.0500741630000903,42.5589402124651,954.626000000004 0.0501439020000589,42.5589077914651,955.455000000002 0.0504855780000639,42.558779313465,953.199999999997 0.0507565640000394,42.5586301194651,951.854000000007 0.0510458190000804,42.558444388465,951.865999999995 0.0511645650000787,42.558298238465,950.447 0.0512954910000758,42.558097282465,949.478000000003 0.0514081480000641,42.557981579465,949.107999999993 0.0516365070000688,42.557908505465,947.739000000001 0.0518009250000659,42.557875012465,947.203999999998 0.0522150160000479,42.5578871914651,943.301000000007 0.0524251060000438,42.5578780574651,943.990999999995 0.052510360000042,42.557820207465,944.085999999996 0.0532966920000604,42.5578372734651,944.248999999996</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

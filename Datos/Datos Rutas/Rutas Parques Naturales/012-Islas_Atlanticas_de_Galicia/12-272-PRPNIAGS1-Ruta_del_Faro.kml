@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>12-272-PRPNIAGS1-Ruta_del_Faro</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>Ruta del Faro - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Islas Atlánticas de Galicia</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Ruta del Faro</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>PR-PNIAGS1</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>1.25</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>2.6</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>No hay sombra en el recorrido y se recomienda llevar agua y comida.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Este cómodo paseo por la parte meridional de la isla supone un acercamiento no sólo al paisaje y buena parte de la población de gaviotas, sino a la historia y leyendas de Sálvora. El faro es el final de este bonito recorrido entre moles de granito. 
+Recorrido de ida y vuelta al faro con el muelle como punto de partida. El suave trazado transcurre por firme en buen estado, apto para minusválidos, y comienza con la bella visión de la playa del almacén y el pazo, la primera imagen que obtenemos nada más pisar el muelle. La ruta se encuentra señalizada con postes rojos y cuenta con la colocación de paneles informativos en sus cuatro paradas.
+Comenzamos a caminar junto a la playa del Almacén, que debe su nombre a la fábrica de salazón que ocupó el actual pazo. A unos 100 metros nos encontramos con la primera de las paradas, en la que se nos explica la leyenda de la sirena de Sálvora, vinculada a la nobleza que habitó la isla. También se hace referencia a la biodiversidad marina del parque nacional y sus fondos arenosos, rocosos, de maërl y el bosque de algas, así como algunas de las aves que podemos observar en la isla.
+Proseguimos el sendero hasta toparnos con la pasarela de madera que conduce al pazo y la ermita. Unos metros después de este desvío, en el que seguimos por la izquierda, efectuamos la segunda parada de la ruta. Esta parada tiene por objeto contar alguna leyenda atribuida a los islotes rocosos que envuelven Sálvora y que se contemplan con nitidez desde este punto. Se nos cuenta también el difícil papel de adaptación que la vegetación costera ha de asumir si quiere soportar las duras condiciones de salinidad, viento, xericidad, etc., como Anchusa Calcarea, Rumex bucephalophorus, Linaria arenaria, Iberis procumbens o Silene scabriflora. Frente a nosotros, en la fina arena de la duna del Almacén, tenemos un estupendo ejemplo de supervivencia vegetal. Llevamos 400 metros de ruta y la siguiente parada nos aguarda 300 metros después. Continuamos camino desde la segunda parada describiendo una curva de 90° para enfilar una ligera y cómoda recta en subida hacia el promontorio rocoso que cierra visualmente el camino. Nada más comenzar esta recta sale a la derecha un desvío por una pista ancha y balizada con postes azules (15 minutos). Es la ruta de la Aldea. Obviamos la desviación y seguimos de frente en busca de la tercera parada (20 minutos).
+La vegetación de tojos, brezos, carrasquilla azul, viboreras, torviscos, helechos, etc. es ya importante, si bien el verdadero protagonista es el paisaje rocoso que nos envuelve. Sobre las rocas, de formas caprichosas, se agrupan cientos de gaviotas que en época de cría se encargarán de dejar claro a los visitantes que las habitantes de la isla son ellas.
+Para ello realizan vuelos bajos emitiendo agudos “chillidos”, y acercándose de forma intimidatoria a los caminantes. Sálvora cuenta con una población aproximada de unas 7.000 parejas de gaviota patiamarilla, y es sin duda uno de los alicientes de la visita.
+Sin mayor problema, nos detenemos en el poste 3. En él se nos muestra todo lo concerniente a la erosión que explica las curiosas formas de las rocas de Sálvora. A la derecha encontramos el alto de Gralleiros cuyas rocas están ligadas, desde antaño, a la “Santa Compaña”. Dejamos atrás estas ánimas para proseguir ruta, con el faro ya a la vista, entre piedras y gaviotas. En el horizonte, a la izquierda, los perfiles de Ons y Cíes.
+Casi sin darnos cuenta llegamos al faro. El sendero se adentra unos metros a la derecha junto a la valla hasta dar vista al suroeste, en el límite con una zona de reserva. Frente a nosotros, el faro en primer término; Ons y Cíes a su izquierda y el islote rocoso de la Piedra de Lapegar a su derecha. El faro actual, inaugurado en diciembre de 1921, es el mejor punto para conocer la historia de unas heroínas (panel 5.º 40 minutos), las habitantes de Sálvora que unos meses antes, en la madrugada del 2 de enero de 1921 vincularon su imagen para siempre al naufragio del vapor Santa Isabel que chocó con la piedra de Lapegar, frente a la punta Besugueiros. Gracias a ellas y su valor de echarse al mar en una dorna en plena tempestad, salvaron la vida 53 personas (213 fallecidos). Muchos han sido los naufragios acontecidos en estas difíciles aguas de las islas gallegas. Para el camino de regreso es preciso desandar nuestros pasos hasta el muelle, disfrutando doblemente del recorrido.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Islas Atlánticas de Galicia</SimpleData>
+<SimpleData name="Nombre">Ruta del Faro</SimpleData>
+<SimpleData name="Número">PR-PNIAGS1</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">1.25</SimpleData>
+<SimpleData name="Longitud (km)">2.6</SimpleData>
+<SimpleData name="Recomendaciones">No hay sombra en el recorrido y se recomienda llevar agua y comida.</SimpleData>
+<SimpleData name="Descripción">Este cómodo paseo por la parte meridional de la isla supone un acercamiento no sólo al paisaje y buena parte de la población de gaviotas, sino a la historia y leyendas de Sálvora. El faro es el final de este bonito recorrido entre moles de granito. 
+Recorrido de ida y vuelta al faro con el muelle como punto de partida. El suave trazado transcurre por firme en buen estado, apto para minusválidos, y comienza con la bella visión de la playa del almacén y el pazo, la primera imagen que obtenemos nada más pisar el muelle. La ruta se encuentra señalizada con postes rojos y cuenta con la colocación de paneles informativos en sus cuatro paradas.
+Comenzamos a caminar junto a la playa del Almacén, que debe su nombre a la fábrica de salazón que ocupó el actual pazo. A unos 100 metros nos encontramos con la primera de las paradas, en la que se nos explica la leyenda de la sirena de Sálvora, vinculada a la nobleza que habitó la isla. También se hace referencia a la biodiversidad marina del parque nacional y sus fondos arenosos, rocosos, de maërl y el bosque de algas, así como algunas de las aves que podemos observar en la isla.
+Proseguimos el sendero hasta toparnos con la pasarela de madera que conduce al pazo y la ermita. Unos metros después de este desvío, en el que seguimos por la izquierda, efectuamos la segunda parada de la ruta. Esta parada tiene por objeto contar alguna leyenda atribuida a los islotes rocosos que envuelven Sálvora y que se contemplan con nitidez desde este punto. Se nos cuenta también el difícil papel de adaptación que la vegetación costera ha de asumir si quiere soportar las duras condiciones de salinidad, viento, xericidad, etc., como Anchusa Calcarea, Rumex bucephalophorus, Linaria arenaria, Iberis procumbens o Silene scabriflora. Frente a nosotros, en la fina arena de la duna del Almacén, tenemos un estupendo ejemplo de supervivencia vegetal. Llevamos 400 metros de ruta y la siguiente parada nos aguarda 300 metros después. Continuamos camino desde la segunda parada describiendo una curva de 90° para enfilar una ligera y cómoda recta en subida hacia el promontorio rocoso que cierra visualmente el camino. Nada más comenzar esta recta sale a la derecha un desvío por una pista ancha y balizada con postes azules (15 minutos). Es la ruta de la Aldea. Obviamos la desviación y seguimos de frente en busca de la tercera parada (20 minutos).
+La vegetación de tojos, brezos, carrasquilla azul, viboreras, torviscos, helechos, etc. es ya importante, si bien el verdadero protagonista es el paisaje rocoso que nos envuelve. Sobre las rocas, de formas caprichosas, se agrupan cientos de gaviotas que en época de cría se encargarán de dejar claro a los visitantes que las habitantes de la isla son ellas.
+Para ello realizan vuelos bajos emitiendo agudos “chillidos”, y acercándose de forma intimidatoria a los caminantes. Sálvora cuenta con una población aproximada de unas 7.000 parejas de gaviota patiamarilla, y es sin duda uno de los alicientes de la visita.
+Sin mayor problema, nos detenemos en el poste 3. En él se nos muestra todo lo concerniente a la erosión que explica las curiosas formas de las rocas de Sálvora. A la derecha encontramos el alto de Gralleiros cuyas rocas están ligadas, desde antaño, a la “Santa Compaña”. Dejamos atrás estas ánimas para proseguir ruta, con el faro ya a la vista, entre piedras y gaviotas. En el horizonte, a la izquierda, los perfiles de Ons y Cíes.
+Casi sin darnos cuenta llegamos al faro. El sendero se adentra unos metros a la derecha junto a la valla hasta dar vista al suroeste, en el límite con una zona de reserva. Frente a nosotros, el faro en primer término; Ons y Cíes a su izquierda y el islote rocoso de la Piedra de Lapegar a su derecha. El faro actual, inaugurado en diciembre de 1921, es el mejor punto para conocer la historia de unas heroínas (panel 5.º 40 minutos), las habitantes de Sálvora que unos meses antes, en la madrugada del 2 de enero de 1921 vincularon su imagen para siempre al naufragio del vapor Santa Isabel que chocó con la piedra de Lapegar, frente a la punta Besugueiros. Gracias a ellas y su valor de echarse al mar en una dorna en plena tempestad, salvaron la vida 53 personas (213 fallecidos). Muchos han sido los naufragios acontecidos en estas difíciles aguas de las islas gallegas. Para el camino de regreso es preciso desandar nuestros pasos hasta el muelle, disfrutando doblemente del recorrido.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-9.00228445699991,42.4710919004652,2.86199999999371 -9.00163974599991,42.4704942234652,3.63700000000244 -9.00156839999994,42.4704051804652,4.16800000000512 -9.00154065299995,42.4703347264652,4.57700000000477 -9.00155914799995,42.4702721014652,4.83900000000722 -9.00162388499996,42.4702192614652,4.99899999999616 -9.00211808799992,42.4700708354652,5.99199999999837 -9.00222513499995,42.4700131964652,6.02700000000186 -9.00244432399995,42.4698650234652,6.17299999999523 -9.00251698699992,42.4698366444652,6.36699999999837 -9.00264381899996,42.4698258774652,6.0679999999993 -9.00282614199995,42.4698346804652,6.50699999999779 -9.00301506999995,42.4698562024652,7.02000000000407 -9.00315247399993,42.4698835974652,7.90399999999499 -9.00360960899991,42.4700518884652,8.18899999999849 -9.00378136399991,42.4700871104652,7.82799999999406 -9.00388441599995,42.4700782994652,7.49800000000687 -9.00430057799991,42.4699549914652,7.56399999999849 -9.00435606499991,42.4699197624652,8.30299999999988 -9.00443136599995,42.4698375654652,8.84600000000501 -9.0046400889999,42.4695273664652,9.2390000000014 -9.00467971999996,42.4694774604652,9.22999999999593 -9.00473124299992,42.4694451664652,9.38000000000466 -9.00484618099995,42.4694079784652,9.35000000000582 -9.00535614799992,42.4693805574652,11.9750000000058 -9.00599558799991,42.4693521484652,15.5690000000031 -9.00616601499991,42.4693227844652,16.0479999999952 -9.00623867599995,42.4692963614652,16.2519999999931 -9.00641173899993,42.4692033914652,17.4759999999951 -9.00727307899996,42.4687258234652,22.4529999999941 -9.00738272799993,42.4686719974652,22.5950000000012 -9.00759542499992,42.4686034884652,22.7390000000014 -9.00911470899996,42.4683646194652,25.1030000000028 -9.00919529899994,42.4683695044652,25.0610000000015 -9.00932081099995,42.4683949364652,25.1370000000024 -9.01040419099991,42.4686590434652,27.7440000000061 -9.01048213999991,42.4686649064652,27.5910000000003 -9.01059839999994,42.4686570674652,27.6659999999974 -9.01068823299994,42.4686316194652,27.2339999999967 -9.01138707899992,42.4684025774652,27.0270000000019 -9.01151389599994,42.4683340684652,27.3629999999976 -9.01156276899991,42.4682831804652,27.3859999999986 -9.01184818099995,42.4678268654652,25.8859999999986 -9.01187974399994,42.4677655134652,26.1100000000006 -9.01189030099994,42.4677009304652,26.0240000000049 -9.01187853599993,42.4675368714652,25.5720000000001 -9.01189189999991,42.4674450094652,25.2060000000056 -9.01197701399991,42.4672621814652,25.2850000000035 -9.01214646799991,42.4670208324652,25.3390000000072 -9.01242912399994,42.4667057204652,25.3310000000056 -9.01269593299992,42.4664346414652,26.3509999999951 -9.01288788999994,42.4662047864652,25.2149999999965 -9.01269593299992,42.4664346414652,26.3509999999951 -9.01242912399994,42.4667057204652,25.3310000000056 -9.01214646799991,42.4670208324652,25.3390000000072 -9.01197701399991,42.4672621814652,25.2850000000035 -9.01189189999991,42.4674450094652,25.2060000000056 -9.01187853599993,42.4675368714652,25.5720000000001 -9.01189030099994,42.4677009304652,26.0240000000049 -9.01187974399994,42.4677655134652,26.1100000000006 -9.01184818099995,42.4678268654652,25.8859999999986 -9.01156276899991,42.4682831804652,27.3859999999986 -9.01151389599994,42.4683340684652,27.3629999999976 -9.01138707899992,42.4684025774652,27.0270000000019 -9.01068823299994,42.4686316194652,27.2339999999967 -9.01059839999994,42.4686570674652,27.6659999999974 -9.01048213999991,42.4686649064652,27.5910000000003 -9.01040419099991,42.4686590434652,27.7440000000061 -9.00932081099995,42.4683949364652,25.1370000000024 -9.00919529899994,42.4683695044652,25.0610000000015 -9.00911470899996,42.4683646194652,25.1030000000028 -9.00759542499992,42.4686034884652,22.7390000000014 -9.00738272799993,42.4686719974652,22.5950000000012 -9.00727307899996,42.4687258234652,22.4529999999941 -9.00641173899993,42.4692033914652,17.4759999999951 -9.00623867599995,42.4692963614652,16.2519999999931 -9.00616601499991,42.4693227844652,16.0479999999952 -9.00599558799991,42.4693521484652,15.5690000000031 -9.00535614799992,42.4693805574652,11.9750000000058 -9.00484618099995,42.4694079784652,9.35000000000582 -9.00473124299992,42.4694451664652,9.38000000000466 -9.00467971999996,42.4694774604652,9.22999999999593 -9.0046400889999,42.4695273664652,9.2390000000014 -9.00443136599995,42.4698375654652,8.84600000000501 -9.00435606499991,42.4699197624652,8.30299999999988 -9.00430057799991,42.4699549914652,7.56399999999849 -9.00388441599995,42.4700782994652,7.49800000000687 -9.00378136399991,42.4700871104652,7.82799999999406 -9.00360960899991,42.4700518884652,8.18899999999849 -9.00315247399993,42.4698835974652,7.90399999999499 -9.00301506999995,42.4698562024652,7.02000000000407 -9.00282614199995,42.4698346804652,6.50699999999779 -9.00264381899996,42.4698258774652,6.0679999999993 -9.00251698699992,42.4698366444652,6.36699999999837 -9.00244432399995,42.4698650234652,6.17299999999523 -9.00222513499995,42.4700131964652,6.02700000000186 -9.00211808799992,42.4700708354652,5.99199999999837 -9.00162388499996,42.4702192614652,4.99899999999616 -9.00155914799995,42.4702721014652,4.83900000000722 -9.00154065299995,42.4703347264652,4.57700000000477 -9.00156839999994,42.4704051804652,4.16800000000512 -9.00163974599991,42.4704942234652,3.63700000000244 -9.00228445699991,42.4710919004652,2.86199999999371</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>1-397-SP7-SP12-Enlace_SP_Puerto_de_Fanlo_-_SP_Las_Cutas</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>Enlace SP Puerto de Fanlo - SP Las Cutas - Enlace</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Ordesa y Monte Perdido</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Enlace SP Puerto de Fanlo - SP Las Cutas</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>SP7/SP12</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Enlace</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>No disponible</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>0.5</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>1.4</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>No disponible</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Se trata de una ruta de enlace entre el sendero periférico Puerto de Fanlo y el sendero periférico Las Cutas.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Ordesa y Monte Perdido</SimpleData>
+<SimpleData name="Nombre">Enlace SP Puerto de Fanlo - SP Las Cutas</SimpleData>
+<SimpleData name="Número">SP7/SP12</SimpleData>
+<SimpleData name="Tipo">Enlace</SimpleData>
+<SimpleData name="Sentido">Ida</SimpleData>
+<SimpleData name="Dificultad">No disponible</SimpleData>
+<SimpleData name="Duración (h)">0.5</SimpleData>
+<SimpleData name="Longitud (km)">1.4</SimpleData>
+<SimpleData name="Recomendaciones">No disponible</SimpleData>
+<SimpleData name="Descripción">Se trata de una ruta de enlace entre el sendero periférico Puerto de Fanlo y el sendero periférico Las Cutas.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-0.00457351999995126,42.604376678465,1722.5861 -0.00457338199993274,42.604376953465,1722.5861 -0.00427086599995619,42.604979511465,1746.59 -0.00421607599992058,42.605326324465,1756.27800000001 -0.00426575299991327,42.605902000465,1773.071 -0.00420059299995046,42.606147504465,1781.10400000001 -0.00403269599991063,42.606314439465,1786.25199999999 -0.00381560199991782,42.606372958465,1791.25900000001 -0.00353240899994489,42.606296898465,1789.23299999999 -0.00328236899991907,42.606420518465,1797.5959 -0.00295168199994578,42.606814138465,1810.08500000001 -0.00292634599992425,42.606973270465,1814.723 -0.00313304599995945,42.607117795465,1816.215 -0.00307451399993397,42.6073106934649,1820.74000000001 -0.00288952499994366,42.607579656465,1827.679 -0.00279484699996146,42.607791212465,1833.75599999999 -0.00286608299995805,42.608006912465,1836.91800000001 -0.00294813899995461,42.608455778465,1844.3 -0.00305890299995326,42.608770294465,1847.92 -0.00306817899991074,42.6090392914649,1852.287 -0.00295437299990908,42.6092583894649,1857.626 -0.00270923999994466,42.609357566465,1862.255 -0.00234292599992614,42.609361501465,1867.68799999999 -0.00211741399994025,42.609345176465,1871.395 -0.00198884899992891,42.609460205465,1875.394 -0.00186321599994699,42.610118138465,1888.141 -0.00159907099993006,42.610532077465,1899.38 -0.00125812699991457,42.610819259465,1908.66800000001 -0.000225163999914457,42.611399884465,1937.6851 0.000263564000078986,42.611441134465,1956.838 0.000602230000083637,42.611201137465,1972.2469 0.00103582300005201,42.611130612465,1975.12300000001 0.0023160930000472,42.611252393465,1985.976 0.0026377150000485,42.611434605465,1991.516 0.00306655600007844,42.611338678465,1994.802 0.00322767200009366,42.611486972465,1996.88 0.00314876800007369,42.612013480465,2002.1281 0.00313713100007362,42.612179760465,2004.25810000001</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

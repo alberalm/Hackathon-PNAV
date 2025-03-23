@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>11-240-PRPND2-La_Rocina</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>La Rocina - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Doñana</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>La Rocina</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>PR-PND2</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>3.7</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Ninguna en especial.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Se localiza en la Zona de Protección del Arroyo de la Rocina, que ocupa una extensión aproximada de 1.200 ha, dentro del término municipal de Almonte (Huelva), al borde de la carretera A-483 y a unos tres kilómetros de la aldea del Rocío.
+Este centro cuenta con: punto de información, sala de audiovisuales, sala de exposiciones, senderos peatonales y observatorios. Junto al Centro se ubica la vivienda destinada al guarda de la zona. El audiovisual «Bosques de la Rocina» tiene una duración aproximada de unos 15 minutos y ofrece información sobre el Parque Nacional en general y sobre la Rocina en particular. De esta forma introduce al espectador en el mundo de estos bosques a través de su historia y hechos que acontecen en el mismo.
+En la pequeña choza se ha ubicado una exposición que interpreta para el visitante aspectos de la vida cotidiana y familiar de los habitantes de la zona, así como otros referentes a la Romería del Rocío y a las Hermandades que acuden cada año a la ermita para dar culto a la Patrona de Almonte.
+El sendero peatonal «Charco de la Boca» discurre por la margen derecha del arroyo y tiene una extensión aproximada de tres kilómetros, que se encuentran totalmente entablados permitiendo de esta forma dar un cómodo paseo por estos parajes. A lo largo del sendero se han dispuesto, áreas de descanso, observatorios que miran al arroyo y una serie de pasarelas que permiten cruzar las localmente conocidas «algaidas», topónimo que hace referencia a los «caños provistos de abundante vegetación», y en las que el visitante se verá conducido, a su paso por ellas, por muros naturales de zarzas y carrizos. Los distintos circuitos que describe el sendero permiten el cruce de dos de estas algaidas, la del Carrizal y la del Meloncillo.
+El arroyo de la Rocina y los charcos que lo forman mantiene una gran dependencia del acuífero y de los aportes de las lluvias, de esta forma, durante el estío, el nivel de sus aguas decrece incluso puede llegar a desaparecer totalmente, para empezar a correr de nuevo con las primeras lluvias que recargan el manto freático, haciendo que se desborde arroyo arriba. La Rocina constituye actualmente uno de los aportes fundamentales con los que cuenta la marisma y a la que vierte sus aguas a través de la Canaliega.
+Desde los observatorios que se disponen junto al arroyo se pueden observar, dependiendo de la época del año, numerosos representantes de la avifauna de Doñana como: ánades azulones, porrones, fochas, calamones, zampullines, cigüeñas, garzas, espátulas, moritos…No es difícil ver sobrevolando el territorio distintas especies de rapaces.
+La vegetación de la zona es típica de matorral, y entre la de tipo arbóreo destaca, como en el resto de la zona, el pino piñonero, pero también en algunos tramos del recorrido acebuches y alcornoques. Recientemente en la algaida del carrizal se han llevado a cabo trabajos de repoblación de alcornoques con participación de escolares del entorno de Doñana. Con esta iniciativa se pretende que las comunidades locales y sobre todo sus representantes más jóvenes tomen conciencia y participen en actuaciones encaminadas a la conservación y mejora del territorio.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Doñana</SimpleData>
+<SimpleData name="Nombre">La Rocina</SimpleData>
+<SimpleData name="Número">PR-PND2</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">1</SimpleData>
+<SimpleData name="Longitud (km)">3.7</SimpleData>
+<SimpleData name="Recomendaciones">Ninguna en especial.</SimpleData>
+<SimpleData name="Descripción">Se localiza en la Zona de Protección del Arroyo de la Rocina, que ocupa una extensión aproximada de 1.200 ha, dentro del término municipal de Almonte (Huelva), al borde de la carretera A-483 y a unos tres kilómetros de la aldea del Rocío.
+Este centro cuenta con: punto de información, sala de audiovisuales, sala de exposiciones, senderos peatonales y observatorios. Junto al Centro se ubica la vivienda destinada al guarda de la zona. El audiovisual «Bosques de la Rocina» tiene una duración aproximada de unos 15 minutos y ofrece información sobre el Parque Nacional en general y sobre la Rocina en particular. De esta forma introduce al espectador en el mundo de estos bosques a través de su historia y hechos que acontecen en el mismo.
+En la pequeña choza se ha ubicado una exposición que interpreta para el visitante aspectos de la vida cotidiana y familiar de los habitantes de la zona, así como otros referentes a la Romería del Rocío y a las Hermandades que acuden cada año a la ermita para dar culto a la Patrona de Almonte.
+El sendero peatonal «Charco de la Boca» discurre por la margen derecha del arroyo y tiene una extensión aproximada de tres kilómetros, que se encuentran totalmente entablados permitiendo de esta forma dar un cómodo paseo por estos parajes. A lo largo del sendero se han dispuesto, áreas de descanso, observatorios que miran al arroyo y una serie de pasarelas que permiten cruzar las localmente conocidas «algaidas», topónimo que hace referencia a los «caños provistos de abundante vegetación», y en las que el visitante se verá conducido, a su paso por ellas, por muros naturales de zarzas y carrizos. Los distintos circuitos que describe el sendero permiten el cruce de dos de estas algaidas, la del Carrizal y la del Meloncillo.
+El arroyo de la Rocina y los charcos que lo forman mantiene una gran dependencia del acuífero y de los aportes de las lluvias, de esta forma, durante el estío, el nivel de sus aguas decrece incluso puede llegar a desaparecer totalmente, para empezar a correr de nuevo con las primeras lluvias que recargan el manto freático, haciendo que se desborde arroyo arriba. La Rocina constituye actualmente uno de los aportes fundamentales con los que cuenta la marisma y a la que vierte sus aguas a través de la Canaliega.
+Desde los observatorios que se disponen junto al arroyo se pueden observar, dependiendo de la época del año, numerosos representantes de la avifauna de Doñana como: ánades azulones, porrones, fochas, calamones, zampullines, cigüeñas, garzas, espátulas, moritos…No es difícil ver sobrevolando el territorio distintas especies de rapaces.
+La vegetación de la zona es típica de matorral, y entre la de tipo arbóreo destaca, como en el resto de la zona, el pino piñonero, pero también en algunos tramos del recorrido acebuches y alcornoques. Recientemente en la algaida del carrizal se han llevado a cabo trabajos de repoblación de alcornoques con participación de escolares del entorno de Doñana. Con esta iniciativa se pretende que las comunidades locales y sobre todo sus representantes más jóvenes tomen conciencia y participen en actuaciones encaminadas a la conservación y mejora del territorio.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-6.49653445099995,37.124137662483,7.05999999999767 -6.49667471199996,37.124277079483,7.01600000000326 -6.49686434999995,37.124439421483,6.96700000000419 -6.49711039099992,37.124597326483,6.87600000000384 -6.49734376799995,37.124814613483,6.93099999999686 -6.49748661299992,37.124927037483,6.93300000000454 -6.49758133099994,37.1250327834829,6.97599999999511 -6.49770755899994,37.125132320483,6.5109999999986 -6.49772491599992,37.125198594483,6.36699999999837 -6.49779118999993,37.125269601483,5.7219999999943 -6.49790283299996,37.125272701483,4.94400000000314 -6.49794330399993,37.1252506074829,4.47599999999511 -6.49799286599995,37.125164957483,4.23399999999674 -6.49797935899994,37.1249915454829,4.48699999999371 -6.49804228799991,37.124904386483,4.2609999999986 -6.49815866299991,37.124799122483,4.56699999999546 -6.49824721299996,37.1247488834829,4.60199999999895 -6.49835609099995,37.124750460483,4.45100000000093 -6.49845234499992,37.1247125904829,5.16800000000512 -6.49853439799995,37.124663673483,5.41300000000047 -6.49882257999991,37.1246265474829,3.6649999999936 -6.49897937599991,37.124568997483,3.10899999999674 -6.49915475499995,37.124606628483,2.57200000000012 -6.49932564299991,37.1245967694829,2.4320000000007 -6.49942571099996,37.124621965483,2.31500000000233 -6.49958800699994,37.124630278483,2.19800000000396 -6.49975238499991,37.124696187483,4.0 -6.49992886199993,37.124702521483,5.18899999999849 -6.49998555799993,37.1248376844829,5.31900000000314 -6.50005460399996,37.124929552483,5.17299999999523 -6.50014925799991,37.125157246483,4.00599999999395 -6.50030109699992,37.1253233274829,4.76900000000023 -6.50046719799991,37.1254287474829,5.50100000000384 -6.50060168399995,37.1254732254829,4.86299999999756 -6.50078301399992,37.125446295483,4.80499999999302 -6.50139102499992,37.125065627483,5.05599999999686 -6.50180456299995,37.124848447483,4.95299999999406 -6.50206668199991,37.124729954483,5.5280000000057 -6.50230479799996,37.1245892394829,6.77599999999802 -6.50261428899995,37.124520966483,7.18799999999464 -6.50277085399995,37.124517056483,6.71499999999651 -6.50310289599992,37.1245501894829,6.69400000000314 -6.50300516799996,37.124681504483,5.48699999999371 -6.50297737699992,37.124773741483,4.49000000000524 -6.50299545999991,37.1248741544829,4.98399999999674 -6.50310904999992,37.1250477744829,6.87099999999919 -6.50311212799994,37.1251253414829,6.06600000000617 -6.50307510199991,37.125224593483,5.44999999999709 -6.50306906399993,37.1253055734829,5.35199999999895 -6.50312547499993,37.1254725814829,7.38499999999476 -6.50317729899996,37.125539460483,7.68600000000151 -6.50318547399991,37.125683400483,7.49199999999837 -6.50312329399992,37.1258925504829,6.70200000000477 -6.50342858599993,37.126559903483,7.90399999999499 -6.50350482099992,37.1266242794829,7.94100000000617 -6.50356226899993,37.1266993354829,8.00100000000384 -6.50354651199996,37.1267580804829,7.91199999999662 -6.50355729799992,37.126850614483,7.84399999999732 -6.50376539799993,37.127109767483,7.93499999999767 -6.50404646199991,37.127532918483,7.42999999999302 -6.50420493399992,37.1279633634829,7.68099999999686 -6.50396974399996,37.1282344604829,7.49300000000221 -6.50378661899993,37.128421175483,7.32799999999406 -6.50361785699994,37.1284696494829,7.23699999999371 -6.50378661899993,37.128421175483,7.32799999999406 -6.50396974399996,37.1282344604829,7.49300000000221 -6.50420493399992,37.1279633634829,7.68099999999686 -6.50435601099991,37.1282114364829,7.56299999999464 -6.50441915799991,37.128253381483,7.5460000000021 -6.50449709199995,37.128266099483,7.58000000000175 -6.50476075999995,37.1281875254829,7.83800000000338 -6.50491789999995,37.1281750704829,7.85300000000279 -6.50510776099992,37.128190725483,7.93499999999767 -6.50549921999993,37.1283124654829,7.97999999999593 -6.50632328999995,37.1286167534829,8.33199999999488 -6.50657526999993,37.1287217284829,8.45200000000477 -6.50681391799992,37.1288920114829,8.44000000000233 -6.50691029699993,37.1289782344829,8.44100000000617 -6.50763388399992,37.129385369483,8.2219999999943 -6.50774563399995,37.129479206483,8.15600000000268 -6.50781112299995,37.1295870164829,8.14599999999336 -6.50778814699993,37.129642366483,8.125 -6.50757787699996,37.129850338483,8.19000000000233 -6.50743539899992,37.1300169474829,8.21700000000419 -6.50735381799996,37.1300835904829,8.17999999999302 -6.50728028099991,37.1301915984829,8.05499999999302 -6.50735381799996,37.1300835904829,8.17999999999302 -6.50743539899992,37.1300169474829,8.21700000000419 -6.50757787699996,37.129850338483,8.19000000000233 -6.50778814699993,37.129642366483,8.125 -6.50781112299995,37.1295870164829,8.14599999999336 -6.50774563399995,37.129479206483,8.15600000000268 -6.50763388399992,37.129385369483,8.2219999999943 -6.50691029699993,37.1289782344829,8.44100000000617 -6.50681391799992,37.1288920114829,8.44000000000233 -6.50657526999993,37.1287217284829,8.45200000000477 -6.50632328999995,37.1286167534829,8.33199999999488 -6.50549921999993,37.1283124654829,7.97999999999593 -6.50510776099992,37.128190725483,7.93499999999767 -6.50491789999995,37.1281750704829,7.85300000000279 -6.50476075999995,37.1281875254829,7.83800000000338 -6.50449709199995,37.128266099483,7.58000000000175 -6.50441915799991,37.128253381483,7.5460000000021 -6.50435601099991,37.1282114364829,7.56299999999464 -6.50420493399992,37.1279633634829,7.68099999999686 -6.50404646199991,37.127532918483,7.42999999999302 -6.50376539799993,37.127109767483,7.93499999999767 -6.50355729799992,37.126850614483,7.84399999999732 -6.50354651199996,37.1267580804829,7.91199999999662 -6.50356226899993,37.1266993354829,8.00100000000384 -6.50350482099992,37.1266242794829,7.94100000000617 -6.50342858599993,37.126559903483,7.90399999999499 -6.50312329399992,37.1258925504829,6.70200000000477 -6.50318547399991,37.125683400483,7.49199999999837 -6.50317729899996,37.125539460483,7.68600000000151 -6.50312547499993,37.1254725814829,7.38499999999476 -6.50306906399993,37.1253055734829,5.35199999999895 -6.50307510199991,37.125224593483,5.44999999999709 -6.50311212799994,37.1251253414829,6.06600000000617 -6.50310904999992,37.1250477744829,6.87099999999919 -6.50299545999991,37.1248741544829,4.98399999999674 -6.50297737699992,37.124773741483,4.49000000000524 -6.50300516799996,37.124681504483,5.48699999999371 -6.50310289599992,37.1245501894829,6.69400000000314 -6.50323329899993,37.1244177584829,7.7960000000021 -6.50341312899991,37.1241621674829,8.14800000000105 -6.50355338199995,37.123890097483,8.50699999999779 -6.50359027799993,37.123753958483,8.60099999999511 -6.50359390599993,37.123643568483,8.65099999999802 -6.50354797799992,37.123555148483,8.69500000000698 -6.50345483799993,37.1235048574829,8.64599999999336 -6.50327218199993,37.123468789483,8.53599999999278 -6.50312480399992,37.1234081494829,8.55100000000675 -6.50261332699995,37.1231511254829,8.76600000000326 -6.5024634529999,37.1230566964829,9.09399999999732 -6.50229289499993,37.1229238414829,8.86000000000058 -6.50204693399991,37.122764055483,8.71199999999953 -6.50189432999991,37.1226491534829,8.48799999999756 -6.50178122299991,37.122579135483,8.47999999999593 -6.50156458099991,37.122478959483,8.48200000000361 -6.50147062899993,37.1224929594829,8.35700000000361 -6.50135970799994,37.122572745483,7.27999999999884 -6.50119266999991,37.1228308364829,7.23600000000442 -6.50101938099993,37.1229868424829,6.53699999999662 -6.50054985699995,37.123457844483,6.19500000000698 -6.50046449599995,37.123506248483,6.27999999999884 -6.50030365699996,37.123501940483,4.95500000000175 -6.50026056899992,37.123437308483,4.61900000000605 -6.50023363899993,37.123352927483,4.64500000000407 -6.50017467399994,37.123060573483,4.45799999999872 -6.50010795199995,37.122939818483,4.74400000000605 -6.50001640299996,37.1228987074829,4.44599999999627 -6.49998767699992,37.122837665483,4.77599999999802 -6.49997353199995,37.122713427483,4.52000000000407 -6.49989452099993,37.122670335483,4.89900000000489 -6.49970725399993,37.122695542483,4.75 -6.49964824599994,37.122641635483,4.36100000000442 -6.49947712699992,37.122605167483,5.39400000000023 -6.49920221599996,37.122574310483,5.95900000000256 -6.49905914899995,37.122641635483,4.68099999999686 -6.49880948499992,37.122694934483,6.15700000000652 -6.49871130199995,37.122762260483,6.81100000000151 -6.49859348299992,37.1229726514829,6.22000000000116 -6.49856823599993,37.123118523483,6.22999999999593 -6.49856543099992,37.123292447483,5.82700000000477 -6.49850932599992,37.123407460483,5.90799999999581 -6.49833259699994,37.123508449483,7.1359999999986 -6.49809695899995,37.1235589424829,6.6530000000057 -6.49779556599992,37.1235970944829,5.96499999999651 -6.49771544899994,37.123657125483,5.94899999999325 -6.49759628299995,37.123688657483,6.04899999999907 -6.49751549299992,37.123735336483,6.68799999999464 -6.49746522299995,37.123789195483,6.98500000000058 -6.49742090099994,37.123881544483,7.15200000000186 -6.49700572799992,37.124170480483,6.96700000000419 -6.49674736599991,37.1242757594829,6.97999999999593 -6.49667471199996,37.124277079483,7.01600000000326 -6.49653445099995,37.124137662483,7.05999999999767</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

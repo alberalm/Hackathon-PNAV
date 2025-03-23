@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>14-281-Excursion4-Molino_de_Molemocho_Ruta_Magenta</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>Molino de Molemocho. Ruta Magenta - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Tablas de Daimiel</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Molino de Molemocho. Ruta Magenta</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>Excursión4</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>1.5</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>1.2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Ninguna en especial.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Corto recorrido sobre pasarela de madera para acceder al Molino de Molemocho. Al interior de este centro de visitantes se puede acceder de forma libre o guiada pero será necesario consulta previa de horarios de apertura en el Centro de Visitantes del Parque.
+La última de las rutas en incorporarse al uso público del parque conduce hasta el Centro de Visitantes del Molino de Molemocho. Desde el aparcamiento una pasarela de madera lleva directamente al molino ofreciendo antes de llegar una buena panorámica de la Madre del Guadiana y la laguna Permanente. La ruta salva el curso del río por un gran puente de piedra de cuatro ojos. El puente forma parte de la excelente obra de rehabilitación del conjunto de Molemocho junto al enorme molino llevada a cabo por el Ministerio de Medioambiente tras más de treinta años de abandono. Se trata de uno de los más antiguos molinos hidráulicos harineros de Castilla-La Mancha. Se desconoce la fecha exacta de su construcción pero ya se tiene constancia de él en 1575 cuando aparece en las Relaciones Topográficas de Felipe II.
+El horario de apertura del Molino de Molemocho es variable en función de la época del año. Para visitarlo, tanto de forma libre como guiada, es preciso llamar al Centro de Visitantes del Parque. Dentro del molino existe una exposición sobre la vida en Las Tablas y los diferentes aspectos de la relación hombre-agua.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Tablas de Daimiel</SimpleData>
+<SimpleData name="Nombre">Molino de Molemocho. Ruta Magenta</SimpleData>
+<SimpleData name="Número">Excursión4</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">1.5</SimpleData>
+<SimpleData name="Longitud (km)">1.2</SimpleData>
+<SimpleData name="Recomendaciones">Ninguna en especial.</SimpleData>
+<SimpleData name="Descripción">Corto recorrido sobre pasarela de madera para acceder al Molino de Molemocho. Al interior de este centro de visitantes se puede acceder de forma libre o guiada pero será necesario consulta previa de horarios de apertura en el Centro de Visitantes del Parque.
+La última de las rutas en incorporarse al uso público del parque conduce hasta el Centro de Visitantes del Molino de Molemocho. Desde el aparcamiento una pasarela de madera lleva directamente al molino ofreciendo antes de llegar una buena panorámica de la Madre del Guadiana y la laguna Permanente. La ruta salva el curso del río por un gran puente de piedra de cuatro ojos. El puente forma parte de la excelente obra de rehabilitación del conjunto de Molemocho junto al enorme molino llevada a cabo por el Ministerio de Medioambiente tras más de treinta años de abandono. Se trata de uno de los más antiguos molinos hidráulicos harineros de Castilla-La Mancha. Se desconoce la fecha exacta de su construcción pero ya se tiene constancia de él en 1575 cuando aparece en las Relaciones Topográficas de Felipe II.
+El horario de apertura del Molino de Molemocho es variable en función de la época del año. Para visitarlo, tanto de forma libre como guiada, es preciso llamar al Centro de Visitantes del Parque. Dentro del molino existe una exposición sobre la vida en Las Tablas y los diferentes aspectos de la relación hombre-agua.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-3.69206393899992,39.1321448374741,618.616999999998 -3.69216437999995,39.1320045694741,618.945000000007 -3.69226658599996,39.1319264674741,619.192999999999 -3.69235756799992,39.1318835754741,619.375 -3.69272798299994,39.1317840564741,619.649000000005 -3.69289952299994,39.1316974304742,619.611000000004 -3.69307422499992,39.1315792494741,619.130000000005 -3.69323366499992,39.1314386314742,618.459000000003 -3.69333184299995,39.1313037834741,617.880999999994 -3.69347607399993,39.1310280884741,616.930999999997 -3.69350018199992,39.1308909784741,616.373000000007 -3.69349035199991,39.1307144204741,615.888999999996 -3.69342264099993,39.1305346024741,615.160000000003 -3.69331954499995,39.1304036544742,614.414999999994 -3.69304216599994,39.1301971494742,613.111999999994 -3.69290605199996,39.1301204634742,612.665999999997 -3.69274686099993,39.1300502244741,612.5 -3.69263664899995,39.1300193404741,612.179000000004 -3.69248608699991,39.1300031134742,611.623999999996 -3.69232530699992,39.1300067724741,611.035000000003 -3.69197312899996,39.1300773474741,610.217999999993 -3.69178362899993,39.1301019004741,610.078999999998 -3.69155927399993,39.1301113424742,609.562999999995 -3.69140171799995,39.1300897484741,609.339000000007 -3.69118084399992,39.1299820254741,610.115999999995 -3.69109566999993,39.1299086394741,610.926999999996 -3.69107654299995,39.1298456764741,610.298999999999 -3.69109100199995,39.1297861184742,609.854000000007 -3.69116987499996,39.1296883314741,609.501999999993 -3.69124937599992,39.1295364744742,607.180999999997 -3.69130613899995,39.1293072574741,608.332999999999 -3.69136419699993,39.1292104964742,609.062999999995 -3.69158568299991,39.1290262574742,608.839999999997 -3.69136419699993,39.1292104964742,609.062999999995 -3.69130613899995,39.1293072574741,608.332999999999 -3.69124937599992,39.1295364744742,607.180999999997 -3.69116987499996,39.1296883314741,609.501999999993 -3.69109100199995,39.1297861184742,609.854000000007 -3.69107654299995,39.1298456764741,610.298999999999 -3.69109566999993,39.1299086394741,610.926999999996 -3.69118084399992,39.1299820254741,610.115999999995 -3.69140171799995,39.1300897484741,609.339000000007 -3.69155927399993,39.1301113424742,609.562999999995 -3.69178362899993,39.1301019004741,610.078999999998 -3.69197312899996,39.1300773474741,610.217999999993 -3.69232530699992,39.1300067724741,611.035000000003 -3.69248608699991,39.1300031134742,611.623999999996 -3.69263664899995,39.1300193404741,612.179000000004 -3.69274686099993,39.1300502244741,612.5 -3.69290605199996,39.1301204634742,612.665999999997 -3.69304216599994,39.1301971494742,613.111999999994 -3.69331954499995,39.1304036544742,614.414999999994 -3.69342264099993,39.1305346024741,615.160000000003 -3.69349035199991,39.1307144204741,615.888999999996 -3.69350018199992,39.1308909784741,616.373000000007 -3.69347607399993,39.1310280884741,616.930999999997 -3.69333184299995,39.1313037834741,617.880999999994 -3.69323366499992,39.1314386314742,618.459000000003 -3.69307422499992,39.1315792494741,619.130000000005 -3.69289952299994,39.1316974304742,619.611000000004 -3.69272798299994,39.1317840564741,619.649000000005 -3.69235756799992,39.1318835754741,619.375 -3.69226658599996,39.1319264674741,619.192999999999 -3.69216437999995,39.1320045694741,618.945000000007 -3.69206393899992,39.1321448374741,618.616999999998</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

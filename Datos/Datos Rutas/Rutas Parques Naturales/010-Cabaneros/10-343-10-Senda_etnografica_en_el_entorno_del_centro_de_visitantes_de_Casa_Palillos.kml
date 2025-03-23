@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>10-343-10-Senda_etnografica_en_el_entorno_del_centro_de_visitantes_de_Casa_Palillos</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>Senda etnográfica en el entorno del centro de visitantes de Casa Palillos - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Cabañeros</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Senda etnográfica en el entorno del centro de visitantes de Casa Palillos</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>10</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>0.5</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>0.9</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Accesible para personas con movilidad reducida.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Es una senda sin pendiente con paneles interpretativos sobre los usos tradicionales de los habitantes del entorno de Cabañeros. Consta de 7 paradas explicativas sobre la ganadería, los huertos (con una noria), la arquitectura tradicional (con las cabañas típicas de la zona), un mirador de la raña, la apicultura, el carboneo y una era. Es accesible para personas de movilidad reducida.  </td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Cabañeros</SimpleData>
+<SimpleData name="Nombre">Senda etnográfica en el entorno del centro de visitantes de Casa Palillos</SimpleData>
+<SimpleData name="Número">10</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">0.5</SimpleData>
+<SimpleData name="Longitud (km)">0.9</SimpleData>
+<SimpleData name="Recomendaciones">Accesible para personas con movilidad reducida.</SimpleData>
+<SimpleData name="Descripción">Es una senda sin pendiente con paneles interpretativos sobre los usos tradicionales de los habitantes del entorno de Cabañeros. Consta de 7 paradas explicativas sobre la ganadería, los huertos (con una noria), la arquitectura tradicional (con las cabañas típicas de la zona), un mirador de la raña, la apicultura, el carboneo y una era. Es accesible para personas de movilidad reducida.  </SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-4.31549339099996,39.3030407664735,613.486999999994 -4.31539960999993,39.3030138524735,613.300000000003 -4.31532771699995,39.3030197514735,613.277000000002 -4.31513473499996,39.3031134794735,613.429000000004 -4.31488367499992,39.3030768994735,613.551999999996 -4.31474311399995,39.3030861154735,613.366999999998 -4.31461919899994,39.3031104014735,613.418000000005 -4.31447552199995,39.3031717854735,613.296000000002 -4.31424259199991,39.3031858584735,613.331999999995 -4.31402313699994,39.3030891594735,613.551999999996 -4.31383542099991,39.3030186704735,613.445000000007 -4.31382046699991,39.3029781964735,613.445000000007 -4.31373943399996,39.3027588874735,613.267000000007 -4.31371578699992,39.3026948884735,613.107000000004 -4.31378656999993,39.3024308884735,613.332999999999 -4.31382413699993,39.3018823854735,613.392000000007 -4.31381887499992,39.3017074924735,613.231 -4.31378207999995,39.3014447064735,613.159 -4.31381643399993,39.3013638094735,613.107999999993 -4.31393358999992,39.3012355304735,612.942999999999 -4.31400983199995,39.3010504284735,612.955000000002 -4.3142269029999,39.3007243954735,612.631999999998 -4.31430508399995,39.3006430024735,612.604999999996 -4.31443084399996,39.3005486884735,612.587 -4.31452172999991,39.3005074084735,612.558999999994 -4.31489368099994,39.3004722424735,612.399000000005 -4.31539603999994,39.3003783154735,612.043000000005 -4.31549963199996,39.3003771454735,612.176999999996 -4.31557470299992,39.3004490654735,612.061000000002 -4.31564013199994,39.3005381234735,612.197 -4.31565725699994,39.3006014084735,612.464000000007 -4.31564568899995,39.3007284954735,612.414000000004 -4.31558246899993,39.3008639064735,612.635999999999 -4.31547568299993,39.3010137464735,612.695999999996 -4.31525690699993,39.3012484554735,612.675000000003 -4.31500414099992,39.3013705254735,612.827999999994 -4.31489717199992,39.3014042464735,612.759999999995 -4.31481168299996,39.3014145024735,612.923999999999 -4.31469197899992,39.3014065634735,612.981 -4.31449822399992,39.3014877124735,613.241999999998 -4.31446493599992,39.3015190534735,613.055999999997 -4.31445390999994,39.3015687224735,612.865999999995 -4.31447427099994,39.3016985444735,612.822 -4.31445928999995,39.3017498054735,612.812000000005 -4.31424002699993,39.3021718574735,613.062000000005 -4.31417423799991,39.3023831614735,612.709000000003 -4.31397730999993,39.3026145244735,613.081000000006 -4.31393741899995,39.3028255354735,613.284 -4.31383542099991,39.3030186704735,613.445000000007 -4.31402313699994,39.3030891594735,613.551999999996 -4.31424259199991,39.3031858584735,613.331999999995 -4.31447552199995,39.3031717854735,613.296000000002 -4.31461919899994,39.3031104014735,613.418000000005 -4.31474311399995,39.3030861154735,613.366999999998 -4.31488367499992,39.3030768994735,613.551999999996 -4.31513473499996,39.3031134794735,613.429000000004 -4.31532771699995,39.3030197514735,613.277000000002 -4.31539960999993,39.3030138524735,613.300000000003 -4.31549339099996,39.3030407664735,613.486999999994</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

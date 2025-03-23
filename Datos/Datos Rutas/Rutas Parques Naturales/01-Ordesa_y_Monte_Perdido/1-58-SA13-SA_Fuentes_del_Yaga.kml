@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>1-58-SA13-SA_Fuentes_del_Yaga</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>SA Fuentes del Yaga - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Ordesa y Monte Perdido</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>SA Fuentes del Yaga</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>SA13</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Alta</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>1.25</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Existe un pequeño paso con gradas de roca, equipadas con cadena, es el punto más complicado y que puede resultar peligroso con suelo húmedo o hielo. Lo mismo ocurre en la empinada bajada a las Fuentes del Yaga y en el paso por pasarela de madera que encontraremos, equipada con sirga pasamanos para asegurarnos.
+Preste atención al pintoresco tramo inicial del camino, que discurre entre muros de piedra cubiertos por el musgo y se interna en la frondosa vegetación; la salida natural de las aguas subterráneas y la angostura de la garganta.
+El sendero coincide prácticamente en su totalidad con buena parte del límite Sur de la Zona de Reserva «Garganta de Escuaín», área de enorme importancia en el Parque Nacional para la conservación de aves rapaces y anfibios extremadamente sensibles a la presencia humana. Gracias por respetar la traza del sendero y no salirse de él, con su colaboración la Garganta de Escuaín seguirá siendo uno de los
+lugares de referencia para estas especies en la cadena pirenaica.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Tomamos el camino que sale de detrás de la iglesia y, en su primera parte, discurre llaneando entre umbríos muros de piedra seca, ancho y cómodo, con tramos de suelo empedrado. Cruzamos el barranco, lugar entrando ya en territorio del Parque Nacional. Dejamos un desvío a la izquierda y llegamos a un corto paso de roca acondicionado con pasamanos de cadenas para hacerlo más seguro y en el que pondremos mucho cuidado para no resbalar. En una pequeña zona de prado, nos separamos del camino de la Faja Cazcarra y seguimos a la derecha por senda más angosta iniciando el tramo de
+mayor pendiente, el descenso hacia el Yaga. En la bajada encontramos un paso de roca complicado que salvamos por una pasarela de madera, equipada con sirga a mondo de pasamanos, otro punto donde debemos extremar la precaución. Durante la bajada, también nos encontramos frente a un saliente rocoso que nos impediría el paso si no estuviera horadado por un túnel que atravesamos para situarnos frente al barranco de Angonés y a menos de 300 metros de las fuentes del Yaga, salida natural de las aguas subterráneas del complejo kárstico de Escuaín.
+Regresamos por el mismo camino.
+</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Ordesa y Monte Perdido</SimpleData>
+<SimpleData name="Nombre">SA Fuentes del Yaga</SimpleData>
+<SimpleData name="Número">SA13</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+<SimpleData name="Dificultad">Alta</SimpleData>
+<SimpleData name="Duración (h)">1.25</SimpleData>
+<SimpleData name="Longitud (km)">2</SimpleData>
+<SimpleData name="Recomendaciones">Existe un pequeño paso con gradas de roca, equipadas con cadena, es el punto más complicado y que puede resultar peligroso con suelo húmedo o hielo. Lo mismo ocurre en la empinada bajada a las Fuentes del Yaga y en el paso por pasarela de madera que encontraremos, equipada con sirga pasamanos para asegurarnos.
+Preste atención al pintoresco tramo inicial del camino, que discurre entre muros de piedra cubiertos por el musgo y se interna en la frondosa vegetación; la salida natural de las aguas subterráneas y la angostura de la garganta.
+El sendero coincide prácticamente en su totalidad con buena parte del límite Sur de la Zona de Reserva «Garganta de Escuaín», área de enorme importancia en el Parque Nacional para la conservación de aves rapaces y anfibios extremadamente sensibles a la presencia humana. Gracias por respetar la traza del sendero y no salirse de él, con su colaboración la Garganta de Escuaín seguirá siendo uno de los
+lugares de referencia para estas especies en la cadena pirenaica.</SimpleData>
+<SimpleData name="Descripción">Tomamos el camino que sale de detrás de la iglesia y, en su primera parte, discurre llaneando entre umbríos muros de piedra seca, ancho y cómodo, con tramos de suelo empedrado. Cruzamos el barranco, lugar entrando ya en territorio del Parque Nacional. Dejamos un desvío a la izquierda y llegamos a un corto paso de roca acondicionado con pasamanos de cadenas para hacerlo más seguro y en el que pondremos mucho cuidado para no resbalar. En una pequeña zona de prado, nos separamos del camino de la Faja Cazcarra y seguimos a la derecha por senda más angosta iniciando el tramo de
+mayor pendiente, el descenso hacia el Yaga. En la bajada encontramos un paso de roca complicado que salvamos por una pasarela de madera, equipada con sirga a mondo de pasamanos, otro punto donde debemos extremar la precaución. Durante la bajada, también nos encontramos frente a un saliente rocoso que nos impediría el paso si no estuviera horadado por un túnel que atravesamos para situarnos frente al barranco de Angonés y a menos de 300 metros de las fuentes del Yaga, salida natural de las aguas subterráneas del complejo kárstico de Escuaín.
+Regresamos por el mismo camino.
+</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>0.129339298000048,42.595881961465,1201.7371 0.129282014000069,42.595961567465,1202.93399999999 0.129034012000091,42.596080514465,1203.10000000001 0.128789665000056,42.596146424465,1202.442 0.128713135000055,42.596140902465,1203.114 0.12864834700008,42.596118567465,1203.7271 0.128552895000041,42.596126978465,1202.667 0.128423789000067,42.596151654465,1201.348 0.128288780000048,42.596198696465,1200.745 0.128211107000084,42.596297600465,1199.71799999999 0.128151102000061,42.596330312465,1198.9041 0.127945503000092,42.596401695465,1198.2889 0.127776319000077,42.596502807465,1197.266 0.127646026000093,42.596632808465,1196.374 0.127542792000042,42.596677944465,1195.694 0.127432831000078,42.596710303465,1195.558 0.127289303000055,42.596703999465,1195.74800000001 0.12720862000009,42.596762307465,1199.37300000001 0.12719442000008,42.596806074465,1199.37300000001 0.127222911000047,42.596849112465,1200.83 0.127405511000063,42.596959949465,1204.2729 0.127580481000052,42.597024672465,1204.55100000001 0.127674524000042,42.597099969465,1207.611 0.127805765000062,42.597241036465,1210.3051 0.127850305000038,42.597359214465,1213.41499999999 0.127884760000086,42.597405103465,1213.264 0.12795761600006,42.597437548465,1212.6801 0.128019700000039,42.597492232465,1213.132 0.12806211700007,42.597577041465,1213.4041 0.12807610200008,42.597644027465,1213.897 0.128054980000059,42.597811887465,1215.625 0.128088259000094,42.597856844465,1215.874 0.128243975000089,42.597995823465,1209.50599999999 0.128252136000071,42.598136501465,1206.875 0.128228877000083,42.598191748465,1205.43700000001 0.128065993000064,42.598420885465,1216.29700000001 0.128085335000094,42.598583456465,1213.73299999999 0.128032789000088,42.598719010465,1210.56299999999 0.127917644000092,42.598784558465,1205.125 0.127964586000076,42.598797442465,1203.6219 0.128067801000043,42.598779320465,1204.34 0.128125701000044,42.598792478465,1198.82799999999 0.128236152000056,42.598855580465,1193.224 0.128296111000054,42.598930023465,1192.53200000001 0.128286457000058,42.599166607465,1178.60000000001 0.128258474000063,42.599192018465,1172.97500000001 0.128135614000087,42.599213250465,1173.054 0.128068960000064,42.599523141465,1134.73299999999 0.128032456000085,42.599548340465,1127.74099999999 0.128027191000058,42.599583326465,1127.74099999999 0.127823639000042,42.599715992465,1114.443 0.127661934000059,42.599839802465,1106.864 0.127444680000053,42.599952314465,1109.07799999999 0.127392738000083,42.599995135465,1106.802 0.127244543000074,42.600169710465,1099.235 0.127180840000051,42.600203230465,1100.66 0.127073753000047,42.600332011465,1079.493 0.126917861000038,42.600488384465,1076.599 0.12686304600004,42.600567151465,1079.567 0.126808412000059,42.600907059465,1070.13400000001 0.126774110000042,42.600963829465,1076.111 0.126617601000078,42.601080565465,1085.167 0.126540505000094,42.601299246465,1089.139 0.12631001200009,42.601460949465,1098.236 0.126235964000045,42.601533830465,1102.78599999999 0.126229582000065,42.601593102465,1100.243 0.126159618000088,42.601683194465,1100.01700000001 0.125972130000093,42.601810856465,1100.072 0.125840635000088,42.601860683465,1102.095 0.125677213000074,42.601942125465,1099.088 0.125617798000064,42.601988359465,1099.318 0.125523931000089,42.602121073465,1090.18700000001 0.125381578000088,42.602194939465,1086.70699999999 0.125288366000063,42.602366391465,1080.281 0.125163829000087,42.602529852465,1076.204 0.125288366000063,42.602366391465,1080.281 0.125381578000088,42.602194939465,1086.70699999999 0.125523931000089,42.602121073465,1090.18700000001 0.125617798000064,42.601988359465,1099.318 0.125677213000074,42.601942125465,1099.088 0.125840635000088,42.601860683465,1102.095 0.125972130000093,42.601810856465,1100.072 0.126159618000088,42.601683194465,1100.01700000001 0.126229582000065,42.601593102465,1100.243 0.126235964000045,42.601533830465,1102.78599999999 0.12631001200009,42.601460949465,1098.236 0.126540505000094,42.601299246465,1089.139 0.126617601000078,42.601080565465,1085.167 0.126774110000042,42.600963829465,1076.111 0.126808412000059,42.600907059465,1070.13400000001 0.12686304600004,42.600567151465,1079.567 0.126917861000038,42.600488384465,1076.599 0.127073753000047,42.600332011465,1079.493 0.127180840000051,42.600203230465,1100.66 0.127244543000074,42.600169710465,1099.235 0.127392738000083,42.599995135465,1106.802 0.127444680000053,42.599952314465,1109.07799999999 0.127661934000059,42.599839802465,1106.864 0.127823639000042,42.599715992465,1114.443 0.128027191000058,42.599583326465,1127.74099999999 0.128032456000085,42.599548340465,1127.74099999999 0.128068960000064,42.599523141465,1134.73299999999 0.128135614000087,42.599213250465,1173.054 0.128258474000063,42.599192018465,1172.97500000001 0.128286457000058,42.599166607465,1178.60000000001 0.128296111000054,42.598930023465,1192.53200000001 0.128236152000056,42.598855580465,1193.224 0.128125701000044,42.598792478465,1198.82799999999 0.128067801000043,42.598779320465,1204.34 0.127964586000076,42.598797442465,1203.6219 0.127917644000092,42.598784558465,1205.125 0.128032789000088,42.598719010465,1210.56299999999 0.128085335000094,42.598583456465,1213.73299999999 0.128065993000064,42.598420885465,1216.29700000001 0.128228877000083,42.598191748465,1205.43700000001 0.128252136000071,42.598136501465,1206.875 0.128243975000089,42.597995823465,1209.50599999999 0.128088259000094,42.597856844465,1215.874 0.128054980000059,42.597811887465,1215.625 0.12807610200008,42.597644027465,1213.897 0.12806211700007,42.597577041465,1213.4041 0.128019700000039,42.597492232465,1213.132 0.12795761600006,42.597437548465,1212.6801 0.127884760000086,42.597405103465,1213.264 0.127850305000038,42.597359214465,1213.41499999999 0.127805765000062,42.597241036465,1210.3051 0.127674524000042,42.597099969465,1207.611 0.127580481000052,42.597024672465,1204.55100000001 0.127405511000063,42.596959949465,1204.2729 0.127222911000047,42.596849112465,1200.83 0.12719442000008,42.596806074465,1199.37300000001 0.12720862000009,42.596762307465,1199.37300000001 0.127289303000055,42.596703999465,1195.74800000001 0.127432831000078,42.596710303465,1195.558 0.127542792000042,42.596677944465,1195.694 0.127646026000093,42.596632808465,1196.374 0.127776319000077,42.596502807465,1197.266 0.127945503000092,42.596401695465,1198.2889 0.128151102000061,42.596330312465,1198.9041 0.128211107000084,42.596297600465,1199.71799999999 0.128288780000048,42.596198696465,1200.745 0.128423789000067,42.596151654465,1201.348 0.128552895000041,42.596126978465,1202.667 0.12864834700008,42.596118567465,1203.7271 0.128713135000055,42.596140902465,1203.114 0.128789665000056,42.596146424465,1202.442 0.129034012000091,42.596080514465,1203.10000000001 0.129282014000069,42.595961567465,1202.93399999999 0.129339298000048,42.595881961465,1201.7371</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

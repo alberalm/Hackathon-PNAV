@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>5-35-Excursion10-La_Laguna_Grande_I</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>La Laguna Grande I - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Garajonay</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>La Laguna Grande I</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>Excursión10</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>0.25</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>0.7</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Por razones conservacionistas la acampada no está permitida dentro del Parque. Hasta la fecha existe una sola área de acampada, de propiedad particular, situada en el Caserío de El Cedro</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Agradable paseo a través de un recorrido muy fácil y corto por un bello fayal brezal. Un lugar idóneo para disfrutar de la naturaleza de manera sosegada y tener un contacto rápido con Garajonay es un área recreativa. En el Parque existen cuatro áreas recreativas: Chorros de Epina, Las Creces, la ermita de El Cedro y la Laguna Grande, la mayor de todas. A pesar de su nombre que no espere el visitante encontrar una enorme laguna permanente, pues es en realidad una gran explanada despejada de vegetación y rodeada de fayal brezal aunque, eso si, cuando llueve fuerte suele encharcarse.
+
+La Laguna Grande se encuentra perfectamente acondicionada con los servicios propios de una gran área recreativa y es precisamente entre el restaurante y la caseta de información de donde parte este corto paseo circular. Se trata de una ruta apta y recomendable para cualquier condición física en el que sólo es necesario poner a punto los sentidos antes de adentrarse en el bello fayal brezal por el que transcurre el recorrido, de gran colorido con la floración primaveral. Además, una serie de paneles explicativos ponen la nota didáctica al trayecto.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Garajonay</SimpleData>
+<SimpleData name="Nombre">La Laguna Grande I</SimpleData>
+<SimpleData name="Número">Excursión10</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">0.25</SimpleData>
+<SimpleData name="Longitud (km)">0.7</SimpleData>
+<SimpleData name="Recomendaciones">Por razones conservacionistas la acampada no está permitida dentro del Parque. Hasta la fecha existe una sola área de acampada, de propiedad particular, situada en el Caserío de El Cedro</SimpleData>
+<SimpleData name="Descripción">Agradable paseo a través de un recorrido muy fácil y corto por un bello fayal brezal. Un lugar idóneo para disfrutar de la naturaleza de manera sosegada y tener un contacto rápido con Garajonay es un área recreativa. En el Parque existen cuatro áreas recreativas: Chorros de Epina, Las Creces, la ermita de El Cedro y la Laguna Grande, la mayor de todas. A pesar de su nombre que no espere el visitante encontrar una enorme laguna permanente, pues es en realidad una gran explanada despejada de vegetación y rodeada de fayal brezal aunque, eso si, cuando llueve fuerte suele encharcarse.
+
+La Laguna Grande se encuentra perfectamente acondicionada con los servicios propios de una gran área recreativa y es precisamente entre el restaurante y la caseta de información de donde parte este corto paseo circular. Se trata de una ruta apta y recomendable para cualquier condición física en el que sólo es necesario poner a punto los sentidos antes de adentrarse en el bello fayal brezal por el que transcurre el recorrido, de gran colorido con la floración primaveral. Además, una serie de paneles explicativos ponen la nota didáctica al trayecto.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-17.2579933789999,28.1261154160001,1247.772 -17.2579533239999,28.1261127060001,1247.8361 -17.2578860249999,28.1260370140001,1248.109 -17.2578393939999,28.126040952,1248.533 -17.2578265699999,28.1260113920001,1248.533 -17.2577708759999,28.1259866790001,1248.92200000001 -17.2577264959999,28.1259390310001,1249.155 -17.2576683799999,28.1259366,1249.433 -17.2575955149999,28.1258899540001,1249.60000000001 -17.2575589829999,28.1258472790001,1249.605 -17.257520703,28.1258556320001,1249.728 -17.2574624569999,28.1258444140001,1250.139 -17.2573777249999,28.1257937440001,1250.28599999999 -17.2573448639999,28.125706757,1250.62 -17.2572636169999,28.1255941320001,1251.976 -17.2572342209999,28.1256020050001,1251.735 -17.2571289009999,28.1254600180001,1254.64290000001 -17.2570924059999,28.1253746250001,1255.156 -17.2570324999999,28.125327971,1256.505 -17.2570106599999,28.1252720240001,1257.054 -17.2570088699999,28.1252089220001,1257.825 -17.2569601249999,28.1251333540001,1259.32399999999 -17.2569565169999,28.125058165,1261.053 -17.2569189239999,28.1250373010001,1261.05 -17.2568225609999,28.124936382,1263.30100000001 -17.256810039,28.1248923860001,1264.283 -17.2567674439999,28.1248606000001,1265.85400000001 -17.256687741,28.1247599060001,1268.876 -17.2566652709999,28.1247206280001,1269.954 -17.2565756549999,28.1247034120001,1271.11900000001 -17.2565307319999,28.124706775,1271.64200000001 -17.2564865929999,28.1246355710001,1274.564 -17.2564929469999,28.1245936100001,1276.208 -17.2564753569999,28.1245653860001,1276.637 -17.2563718949999,28.124519089,1280.60799999999 -17.2563495329999,28.1244814720001,1280.60799999999 -17.2562590499999,28.124447768,1281.356 -17.2560612889999,28.1242532370001,1280.052 -17.2560067759999,28.124148016,1277.02099999999 -17.2559794269999,28.1241513090001,1275.886 -17.2559197029999,28.124233282,1276.761 -17.2559150459999,28.1242731450001,1277.49400000001 -17.2558297849999,28.1244349880001,1276.959 -17.2558593049999,28.124493424,1277.23 -17.255898746,28.1245299460001,1277.307 -17.2559604449999,28.1245602440001,1277.73209999999 -17.2560302129999,28.1245573770001,1278.2939 -17.2561855349999,28.1245872140001,1278.09699999999 -17.2563031509999,28.124643479,1275.99189999999 -17.2563483999999,28.1246800910001,1274.08900000001 -17.2564569709999,28.1247031120001,1272.141 -17.256504994,28.1247268710001,1271.8621 -17.256601336,28.1247293500001,1271.11900000001 -17.2566401919999,28.1247622690001,1269.505 -17.256687741,28.1247599060001,1268.876 -17.2567674439999,28.1248606000001,1265.85400000001 -17.256810039,28.1248923860001,1264.283 -17.2568225609999,28.124936382,1263.30100000001 -17.2569189239999,28.1250373010001,1261.05 -17.2569565169999,28.125058165,1261.053 -17.2569601249999,28.1251333540001,1259.32399999999 -17.2570088699999,28.1252089220001,1257.825 -17.2570106599999,28.1252720240001,1257.054 -17.2570324999999,28.125327971,1256.505 -17.2570924059999,28.1253746250001,1255.156 -17.2571289009999,28.1254600180001,1254.64290000001 -17.2572342209999,28.1256020050001,1251.735 -17.2572636169999,28.1255941320001,1251.976 -17.2573448639999,28.125706757,1250.62 -17.2573777249999,28.1257937440001,1250.28599999999 -17.2574624569999,28.1258444140001,1250.139 -17.257520703,28.1258556320001,1249.728 -17.2575589829999,28.1258472790001,1249.605 -17.2575955149999,28.1258899540001,1249.60000000001 -17.2576683799999,28.1259366,1249.433 -17.2577264959999,28.1259390310001,1249.155 -17.2577708759999,28.1259866790001,1248.92200000001 -17.2578265699999,28.1260113920001,1248.533 -17.2578393939999,28.126040952,1248.533 -17.2578860249999,28.1260370140001,1248.109 -17.2579533239999,28.1261127060001,1247.8361 -17.2579933789999,28.1261154160001,1247.772</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

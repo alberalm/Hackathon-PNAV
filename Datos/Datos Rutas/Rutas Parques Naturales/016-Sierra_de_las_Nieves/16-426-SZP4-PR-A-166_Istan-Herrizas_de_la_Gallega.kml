@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>16-426-SZP4-PR-A-166_Istan-Herrizas_de_la_Gallega</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>PR-A-166 Istán-Herrizas de la Gallega - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Sierra de las Nieves</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>PR-A-166 Istán-Herrizas de la Gallega</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>SZP4</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Circular</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>1.5</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>2.3</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Se recomienda consultar las normas de comportamiento que deben cumplir los visitantes a la Sierra de las Nieves, así como los consejos generales que buscan asegurar su disfrute de la visita con seguridad.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Desde la posición dominante que nos permite el inicio del recorrido, gozamos al norte de una interesante panorámica de Sierra Real, escenario de cruentas batallas durante el periodo de revueltas moriscas (siglo XVI). Al noreste se expande el frondoso monte Albornoque, cubierto en su mayor extensión de alcornoques. Cerrando el cuadro aparecen al este las escabrosas cañadas de Sierra Blanca. Por el pasillo que media entre estas montañas circulan precipitosas las aguas del río Verde, a la postre retenidas en el embalse de la Concepción para suministro de la populosa Costa del Sol. Sin duda, el desigual cromatismo de estas sierras, rocas bermejas, pardas y grises, exterioriza las tres litologías más representativas del Parque Nacional de la Sierra de las Nieves y su entorno: peridotitas, pizarras y calizas.
+ 
+Con este sugestivo panorama, partimos de la calle Monda y descendemos hasta el camino de Istán a Monda, una pista hormigonada que, a la izquierda, se encamina al río Verde. Por el contrario, nuestro sendero sigue el carril en el otro sentido e igualmente en descenso. Tras recorrer algo menos de 200 metros giraremos por el vial que mengua a la izquierda entre fincas dedicadas a diferentes cultivos, aunque prepondera de unos años acá el de aguacate sobre los tradicionales de cítricos: naranjos y limoneros.
+
+En este trecho estaremos atentos a la margen izquierda para reconocer la sencilla fuente del Perro, cuyas aguas son captadas y reconducidas a las huertas de los Bancales Bajos. A decir de los naturales del lugar, es la de mayor calidad del municipio. En este peculiar entorno rural se nota la impronta andalusí, que además de aportar sus conocimientos  y gestión sobre el uso del agua aplicada a la agricultura, resolvió el cultivo en fuertes pendientes mediante un eficaz sistema de bancales y tablas a las que llega el líquido elemento por medio de una laberíntica y articulada red de acequias. En la margen contraria, pero algo más arriba, la casita que vemos es un antiguo molino harinero, muy parecido a los que se ven en los valles del Rif, al norte de Marruecos.
+
+No dejamos de perder altura entretenidos con el verdor de las arboledas y después de dos lazadas, obviaremos un sendero que nos sale a la izquierda. Acaba el continuo descenso a escasa distancia de esta última bifurcación, cuando cruzamos el río Molinos. Inmediatamente desechamos un ramal que sale a la derecha y avanzamos al frente hasta que el carril da paso a un estrecho sendero por el que ganaremos un importante desnivel con vistas privilegiadas a Istán y al travertino donde se emplaza. Entre pinos resineros y algunos enebros, finalmente accedemos al carril que nos llevará de vuelta.
+
+En este punto engarzamos con el PR-A 280, sendero que se dirige desde Istán al popular charco del Canalón. También pasa este vial, a  la izquierda y a escasos metros, por las Herrizas de la Gallega, hasta donde podemos acercarnos para disfrutar de una privilegiada panorámica del valle del río Verde. Resulta curioso este topónimo que tiene dos lecturas: la primera, el significado de «Herriza», terreno pedregoso, inculto y de escasa productividad, que lo es; la segunda alude al término «Gallega», hecho que desvela la intensa repoblación llevada a cabo en tiempos de los Reyes Católicos con gentes de Galicia, Asturias y León pero, sobre todo, de Murcia, de ahí el gentilicio «Panocho» de los habitantes de Istán.
+
+Retomamos la ruta recorriendo la pista algo más de 500 metros, donde estaremos avizores para desviarnos a la derecha por un sendero que transita por una vieja acequia. De nuevo cruzamos el río Molinos, profusamente cortejado de cañas, por un puente de madera que nos lleva a desembocar a un carril que a su vez conecta con el que ya transitamos en la ida, justo al lado de Istán y que nos devuelve al punto de partida.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Sierra de las Nieves</SimpleData>
+<SimpleData name="Nombre">PR-A-166 Istán-Herrizas de la Gallega</SimpleData>
+<SimpleData name="Número">SZP4</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Circular</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">1.5</SimpleData>
+<SimpleData name="Longitud (km)">2.3</SimpleData>
+<SimpleData name="Recomendaciones">Se recomienda consultar las normas de comportamiento que deben cumplir los visitantes a la Sierra de las Nieves, así como los consejos generales que buscan asegurar su disfrute de la visita con seguridad.</SimpleData>
+<SimpleData name="Descripción">Desde la posición dominante que nos permite el inicio del recorrido, gozamos al norte de una interesante panorámica de Sierra Real, escenario de cruentas batallas durante el periodo de revueltas moriscas (siglo XVI). Al noreste se expande el frondoso monte Albornoque, cubierto en su mayor extensión de alcornoques. Cerrando el cuadro aparecen al este las escabrosas cañadas de Sierra Blanca. Por el pasillo que media entre estas montañas circulan precipitosas las aguas del río Verde, a la postre retenidas en el embalse de la Concepción para suministro de la populosa Costa del Sol. Sin duda, el desigual cromatismo de estas sierras, rocas bermejas, pardas y grises, exterioriza las tres litologías más representativas del Parque Nacional de la Sierra de las Nieves y su entorno: peridotitas, pizarras y calizas.
+ 
+Con este sugestivo panorama, partimos de la calle Monda y descendemos hasta el camino de Istán a Monda, una pista hormigonada que, a la izquierda, se encamina al río Verde. Por el contrario, nuestro sendero sigue el carril en el otro sentido e igualmente en descenso. Tras recorrer algo menos de 200 metros giraremos por el vial que mengua a la izquierda entre fincas dedicadas a diferentes cultivos, aunque prepondera de unos años acá el de aguacate sobre los tradicionales de cítricos: naranjos y limoneros.
+
+En este trecho estaremos atentos a la margen izquierda para reconocer la sencilla fuente del Perro, cuyas aguas son captadas y reconducidas a las huertas de los Bancales Bajos. A decir de los naturales del lugar, es la de mayor calidad del municipio. En este peculiar entorno rural se nota la impronta andalusí, que además de aportar sus conocimientos  y gestión sobre el uso del agua aplicada a la agricultura, resolvió el cultivo en fuertes pendientes mediante un eficaz sistema de bancales y tablas a las que llega el líquido elemento por medio de una laberíntica y articulada red de acequias. En la margen contraria, pero algo más arriba, la casita que vemos es un antiguo molino harinero, muy parecido a los que se ven en los valles del Rif, al norte de Marruecos.
+
+No dejamos de perder altura entretenidos con el verdor de las arboledas y después de dos lazadas, obviaremos un sendero que nos sale a la izquierda. Acaba el continuo descenso a escasa distancia de esta última bifurcación, cuando cruzamos el río Molinos. Inmediatamente desechamos un ramal que sale a la derecha y avanzamos al frente hasta que el carril da paso a un estrecho sendero por el que ganaremos un importante desnivel con vistas privilegiadas a Istán y al travertino donde se emplaza. Entre pinos resineros y algunos enebros, finalmente accedemos al carril que nos llevará de vuelta.
+
+En este punto engarzamos con el PR-A 280, sendero que se dirige desde Istán al popular charco del Canalón. También pasa este vial, a  la izquierda y a escasos metros, por las Herrizas de la Gallega, hasta donde podemos acercarnos para disfrutar de una privilegiada panorámica del valle del río Verde. Resulta curioso este topónimo que tiene dos lecturas: la primera, el significado de «Herriza», terreno pedregoso, inculto y de escasa productividad, que lo es; la segunda alude al término «Gallega», hecho que desvela la intensa repoblación llevada a cabo en tiempos de los Reyes Católicos con gentes de Galicia, Asturias y León pero, sobre todo, de Murcia, de ahí el gentilicio «Panocho» de los habitantes de Istán.
+
+Retomamos la ruta recorriendo la pista algo más de 500 metros, donde estaremos avizores para desviarnos a la derecha por un sendero que transita por una vieja acequia. De nuevo cruzamos el río Molinos, profusamente cortejado de cañas, por un puente de madera que nos lleva a desembocar a un carril que a su vez conecta con el que ya transitamos en la ida, justo al lado de Istán y que nos devuelve al punto de partida.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-4.94842184899994,36.5841538834857,239.202000000005 -4.94829946799996,36.5841201634858,236.054999999993 -4.94819902799992,36.5840532034857,235.464999999997 -4.94807912099992,36.5840008434858,234.119999999995 -4.94785388999992,36.5839599384858,226.567999999999 -4.94799865899995,36.5840486574858,227.178 -4.94819995899991,36.5843669574858,220.432000000001 -4.94833297999992,36.5844829634858,214.535000000003 -4.94835790399992,36.5844918154858,214.919999999998 -4.94840487899995,36.5845613854858,213.690000000002 -4.94856007399994,36.5849657264857,203.896999999997 -4.94868480099996,36.5851751034858,202.847999999998 -4.94869926199993,36.5852576834858,202.077000000005 -4.94865105099996,36.5853831484857,201.384999999995 -4.94865759199996,36.5854223934857,201.384999999995 -4.94868898699991,36.5854616614858,201.669999999998 -4.94885084299995,36.5855609394857,201.922999999995 -4.94888789499993,36.5856170564857,201.187999999995 -4.94891922399995,36.5858677624858,200.146999999997 -4.94889900699991,36.5861032314858,199.845000000001 -4.94894835999992,36.5862506964858,196.672999999995 -4.94906074299996,36.5863048064858,191.732000000004 -4.94910000799996,36.5863669634857,191.755000000005 -4.94919691099995,36.5863934054858,186.835000000006 -4.94928610299991,36.5863755664857,186.735000000001 -4.94937291799994,36.5863422674858,187.667000000001 -4.94946270499992,36.5862988604857,184.622000000003 -4.94958297299991,36.5862170114858,177.437999999995 -4.94963990099996,36.5862132354857,177.437999999995 -4.94966071299996,36.5862322634857,177.437999999995 -4.94965655099992,36.5862566424858,174.199999999997 -4.94956973599994,36.5863880534857,172.312999999995 -4.94956795199994,36.5864903274858,167.464999999997 -4.94953643799994,36.5865973594857,164.581999999995 -4.94945378599994,36.5867002284858,165.455000000002 -4.94936221399996,36.5867585004858,167.322 -4.94915288499993,36.5869298464858,165.199999999997 -4.94906193199995,36.5869660224858,165.622000000003 -4.94894997199992,36.5870500054858,165.059999999998 -4.94890001599992,36.5870500054858,168.574999999997 -4.94884997599991,36.5870670204857,171.505000000005 -4.94873296499992,36.5870670204857,169.270000000004 -4.94868300899992,36.5870500054858,168.759999999995 -4.94855156399996,36.5870811304857,164.413 -4.94833363399994,36.5870487284858,164.472999999998 -4.94825837699995,36.5870753814858,164.494999999995 -4.94823298399996,36.5870999614858,164.494999999995 -4.94820454799992,36.5871569094858,162.264999999999 -4.94820088999995,36.5872018534858,161.457999999999 -4.94827562399996,36.5872718844858,160.692999999999 -4.94832527199992,36.5872906984857,159.895000000004 -4.94846010599991,36.5872922664858,157.675000000003 -4.94865190599995,36.5873879044858,157.667000000001 -4.94885415699992,36.5874338944857,158.429999999993 -4.94896416699993,36.5875065374858,157.487999999998 -4.94900989599995,36.5875726814858,159.277000000002 -4.94901887799995,36.5876118774858,161.210000000006 -4.94897958399991,36.5876805684857,164.029999999999 -4.94897383599994,36.5877317844858,164.252999999997 -4.94894456899993,36.5877385784858,164.252999999997 -4.94886931299993,36.5876695934858,172.225000000006 -4.94876699499991,36.5876169574857,172.889999999999 -4.94871703899992,36.5876329664857,177.557000000001 -4.94868300899992,36.5876669974858,180.222999999998 -4.94861688999993,36.5876863174858,183.960000000006 -4.94856358399994,36.5877605284857,186.142999999996 -4.94856358399994,36.5877929304858,189.350000000006 -4.94852647799991,36.5878347394857,191.347999999998 -4.94854159299996,36.5878833344858,192.758000000002 -4.94852490999995,36.5879309004857,194.115000000005 -4.94854372399993,36.5880296744858,195.587 -4.94852781599991,36.5880588574857,195.580000000002 -4.94849459899996,36.5880777544858,195.580000000002 -4.94844219099991,36.5881387964857,194.330000000002 -4.94837648799995,36.5881817554857,197.274999999994 -4.94835336199992,36.5882136994857,195.702000000005 -4.94830003899995,36.5883829794857,192.187999999995 -4.94817126799995,36.5884237674857,191.667000000001 -4.94806702199992,36.5884330194858,191.087 -4.94783558299991,36.5883719864858,188.633000000002 -4.94772165299992,36.5883646694858,190.962 -4.94761699799994,36.5884170094857,188.437999999995 -4.94756955099996,36.5884277804857,190.133000000002 -4.94754630199992,36.5884129244857,191.866999999998 -4.94754212399994,36.5883873094858,194.883000000002 -4.94757138299991,36.5883782644858,192.779999999999 -4.94757289599994,36.5883595484858,194.228000000003 -4.94755516899994,36.5883531934857,196.722999999998 -4.94743301499995,36.5883669694857,198.699999999997 -4.94702232999992,36.5883631344858,211.190000000002 -4.94696698199993,36.5883829794857,211.085000000006 -4.94692518899996,36.5883735544858,214.137000000002 -4.94686979199992,36.5883787804858,217.985000000001 -4.94677484399995,36.5884475144857,219.387000000002 -4.94671731399996,36.5884699244858,220.955000000002 -4.94670159399993,36.5884501904857,222.679999999993 -4.94671530699992,36.5884026954857,223.425000000003 -4.94667818099992,36.5883695824858,225.942999999999 -4.94662834399992,36.5884217604858,230.335000000006 -4.94657817399991,36.5883946674857,230.345000000001 -4.94655208499995,36.5884033644857,230.345000000001 -4.94653770199994,36.5884424974857,232.587 -4.94651596199992,36.5884521974858,232.587 -4.94648953799992,36.5884461764857,234.320000000007 -4.94648330899992,36.5884206794857,234.320000000007 -4.94646319899994,36.5884190214857,234.320000000007 -4.94632765299991,36.5885103954857,238.097999999998 -4.94628450599993,36.5885154124857,238.392999999996 -4.94613499699994,36.5884525314858,237.404999999999 -4.94590005999993,36.5884091624857,240.523000000001 -4.94599859499993,36.5883651924858,240.618000000002 -4.94601531799992,36.5883270414857,240.618000000002 -4.94600434299991,36.5882345394858,242.404999999999 -4.94595364999992,36.5881697344858,240.154999999999 -4.94587525799994,36.5881044084857,240.297999999995 -4.94538296899992,36.5878669894858,244.625 -4.94535002899994,36.5878329584858,244.195000000007 -4.94511701199991,36.5877000214857,244.907999999996 -4.94505003999996,36.5876329664857,245.163 -4.94503280399994,36.5875974724858,245.163 -4.94503302499993,36.5874830144858,244.315000000002 -4.94507095499995,36.5874129904858,245.104999999996 -4.94517234199992,36.5872828594858,247.514999999999 -4.94529881499995,36.5871710194858,253.324999999997 -4.94537250299993,36.5871151004857,249.695000000007 -4.94541797099993,36.5870957634858,248.163 -4.94557475499994,36.5870597034857,248.729999999996 -4.94572526799993,36.5869604064858,248.097999999998 -4.94588257399994,36.5869018734857,247.587 -4.94590609199992,36.5868673814857,249.482000000004 -4.94589145899994,36.5868276624858,251.067999999999 -4.94585957899994,36.5867983964857,251.442999999999 -4.94573299799993,36.5867500164857,252.422999999995 -4.94566359899994,36.5866504964857,251.282999999996 -4.94565941799993,36.5865679234858,251.273000000001 -4.94568304199993,36.5864330134858,248.057000000001 -4.94579996899995,36.5861829814858,251.304999999993 -4.94582665499991,36.5860672594857,251.198000000004 -4.94583031299993,36.5860176104857,251.198000000004 -4.94581097599996,36.5859768474858,252.035000000003 -4.94563300199991,36.5858669834858,250.929999999993 -4.94519533699992,36.5857468964857,246.285000000003 -4.94501701599995,36.5856329604857,245.918000000005 -4.94487079399994,36.5856308764858,246.788 -4.94480076399992,36.5856094494857,243.389999999999 -4.94474223099991,36.5855854094858,244.107000000004 -4.94467429099996,36.5855164244857,242.247000000003 -4.94467272299994,36.5854730474857,242.247000000003 -4.94472237199994,36.5854291474858,241.615000000005 -4.94481115299993,36.5853964524857,241.669999999998 -4.94496133199993,36.5853141724858,248.267999999996 -4.94523809399993,36.5852045864858,250.692999999999 -4.94540222699993,36.5852192854857,250.315000000002 -4.94555002099992,36.5852499914858,246.800000000003 -4.94574192599993,36.5852499914858,247.360000000001 -4.94578438799994,36.5852315344857,249.639999999999 -4.94596321999995,36.5852168354858,245.226999999999 -4.94610004099991,36.5851499954857,250.820000000007 -4.94614999699991,36.5851499954857,250.130000000005 -4.94643357299992,36.5850543354857,252.853000000003 -4.94667038199992,36.5851049634857,250.889999999999 -4.94674387499992,36.5851523254858,248.407999999996 -4.94685084699995,36.5852543984858,245.110000000001 -4.94693658899996,36.5852846124858,248.353000000003 -4.94701579699995,36.5853491224858,241.770000000004 -4.94707377499992,36.5854160824857,242.417000000001 -4.94714726699993,36.5854446624858,240.752999999997 -4.94720034499994,36.5854348634857,237.824999999997 -4.94724280799994,36.5854022004858,237.402000000002 -4.94732854899991,36.5852854284858,241.767999999996 -4.94737101199991,36.5851858054858,239.823000000004 -4.94737836099995,36.5851025134858,236.630000000005 -4.94736366199993,36.5850420864857,240.142999999996 -4.94725668999996,36.5848036444858,240.384999999995 -4.94717748099993,36.5847236184857,246.514999999999 -4.94716196599995,36.5846591084858,245.462 -4.94710480499992,36.5845684674858,239.589999999997 -4.94700926499991,36.5844672114857,238.922999999995 -4.94690555899996,36.5843912694858,238.755000000005 -4.94687534499991,36.5843455404858,232.532999999996 -4.94684431499991,36.5842434674858,229.800000000003 -4.94677163899991,36.5841495604858,230.172999999995 -4.94673897499996,36.5839666454858,228.304999999993 -4.94671703299991,36.5836829944858,227.482000000004 -4.94675938999995,36.5835575364857,223.532999999996 -4.94680756799994,36.5835330394858,222.460000000006 -4.94685248099995,36.5835363054857,222.460000000006 -4.94690474199996,36.5835714184858,221.835000000006 -4.94698299099991,36.5835669894858,223.387000000002 -4.94700599399994,36.5835893124858,223.387000000002 -4.94708275699992,36.5837837304858,226.633000000002 -4.94713237799994,36.5838157734858,226.633000000002 -4.94717532699991,36.5838274054858,228.917000000001 -4.94731700999995,36.5838170214858,229.524999999994 -4.94736696599995,36.5838000064857,229.190000000002 -4.94755783899996,36.5838071614858,228.422999999995 -4.94769071199994,36.5838927234858,228.955000000002 -4.94785388999992,36.5839599384858,226.567999999999 -4.94807912099992,36.5840008434858,234.119999999995 -4.94819902799992,36.5840532034857,235.464999999997 -4.94829946799996,36.5841201634858,236.054999999993 -4.94842184899994,36.5841538834857,239.202000000005</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

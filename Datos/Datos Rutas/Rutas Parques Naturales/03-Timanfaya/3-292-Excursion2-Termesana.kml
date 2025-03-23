@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>3-292-Excursion2-Termesana</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>Termesana - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Timanfaya</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Termesana</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>Excursión2</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>2.5</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>3.3</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Ruta de acceso regulado que sólo puede ser cubierta con la compañía de un Guía Interpretador oficial del Parque Nacional</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Excursión recomendada para todo tipo de visitante que transcurre por el sur del Parque Nacional y que ofrece una buena representación de elementos geológicos derivados de las erupciones acontecidas entre 1730-1736 y apuntes sobre el uso agrícola del suelo por parte de los habitantes de Lanzarote. Ruta de acceso regulado que sólo puede ser cubierta con la compañía de un Guía Interpretador oficial del Parque Nacional. Esta ruta puede realizarse en cualquiera de los dos sentidos.
+
+El recorrido comienza a rodear la base de la enorme Montaña de Termesana ofreciendo los usos agrícolas del suelo que el lanzaroteño hace de manera tradicional. Aunque no muy abundantes podemos apreciar plantaciones de higueras rodeadas de muros de piedra en seco, sin argamasa, en forma de media luna (gerias). De esta manera la higuera queda protegida frente a la abrasadora acción del viento, que no obstante hace crecer a las higueras con porte achaparrado. El aprovechamiento de la fertilidad del suelo, escondida bajo el lapilli, pronto deja su protagonismo a la fuerza de las erupciones que tuvieron lugar entre los años 1730 y 1736. Un buen ejemplo lo constituyen los volcanes de Montaña Rajada (373 m) o Caldera Rajada (229 m). Tras situarnos frente al cráter del primero que oculta parcialmente el conjunto de las Montañas del Fuego, el paisaje marcado por los materiales piroclásticos del tipo lapilli de aspecto grácil, ligero y suave, el sendero describe un giro pronunciado hacia el sur a la par que el paisaje cambia repentinamente apareciendo de nuevo las lavas, predominando las lisas, donde encontramos burbujas de lava y jameos producidos al desplomarse el techo de algunos de los tubos volcánicos, incapaces de aguantar las bóvedas subterráneas de lava. Es  muy importante no salirse del sendero, pues caminamos por terreno donde los tubos de lava y las burbujas pueden ceder ante una pisada humana, dejando al descubierto verdaderos cuchillos de lava. El perfecto perfil de la Caldera Rajada y sus tonalidades contrastan con el caos del mar de lava. A medida que avanzamos podemos contemplar las características cordadas de las lavas lisas. Acometemos un ligero descenso hacia la falda de la Montaña de María Hernández donde crece una palmera solitaria y poco a poco vamos apreciando cada vez mejor el precioso cráter de Montaña Encantada, a la derecha del camino. Éste se abre paso entre ambos volcanes para llevarnos, muy cerca ya del final, hasta la formación de un curioso lago de lava. Todavía aguarda una última sorpresa este completo recorrido, pues tendremos la oportunidad de adentrarnos en un jameo y conocer desde dentro lo que es un tubo volcánico y la seguridad que estos lugares ofrecen a la distinta fauna, especialmente aves, como lugar de cría. La sombra y la agradable temperatura no tienen precio en este mundo hostil de fuerte insolación.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Timanfaya</SimpleData>
+<SimpleData name="Nombre">Termesana</SimpleData>
+<SimpleData name="Número">Excursión2</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">2.5</SimpleData>
+<SimpleData name="Longitud (km)">3.3</SimpleData>
+<SimpleData name="Recomendaciones">Ruta de acceso regulado que sólo puede ser cubierta con la compañía de un Guía Interpretador oficial del Parque Nacional</SimpleData>
+<SimpleData name="Descripción">Excursión recomendada para todo tipo de visitante que transcurre por el sur del Parque Nacional y que ofrece una buena representación de elementos geológicos derivados de las erupciones acontecidas entre 1730-1736 y apuntes sobre el uso agrícola del suelo por parte de los habitantes de Lanzarote. Ruta de acceso regulado que sólo puede ser cubierta con la compañía de un Guía Interpretador oficial del Parque Nacional. Esta ruta puede realizarse en cualquiera de los dos sentidos.
+
+El recorrido comienza a rodear la base de la enorme Montaña de Termesana ofreciendo los usos agrícolas del suelo que el lanzaroteño hace de manera tradicional. Aunque no muy abundantes podemos apreciar plantaciones de higueras rodeadas de muros de piedra en seco, sin argamasa, en forma de media luna (gerias). De esta manera la higuera queda protegida frente a la abrasadora acción del viento, que no obstante hace crecer a las higueras con porte achaparrado. El aprovechamiento de la fertilidad del suelo, escondida bajo el lapilli, pronto deja su protagonismo a la fuerza de las erupciones que tuvieron lugar entre los años 1730 y 1736. Un buen ejemplo lo constituyen los volcanes de Montaña Rajada (373 m) o Caldera Rajada (229 m). Tras situarnos frente al cráter del primero que oculta parcialmente el conjunto de las Montañas del Fuego, el paisaje marcado por los materiales piroclásticos del tipo lapilli de aspecto grácil, ligero y suave, el sendero describe un giro pronunciado hacia el sur a la par que el paisaje cambia repentinamente apareciendo de nuevo las lavas, predominando las lisas, donde encontramos burbujas de lava y jameos producidos al desplomarse el techo de algunos de los tubos volcánicos, incapaces de aguantar las bóvedas subterráneas de lava. Es  muy importante no salirse del sendero, pues caminamos por terreno donde los tubos de lava y las burbujas pueden ceder ante una pisada humana, dejando al descubierto verdaderos cuchillos de lava. El perfecto perfil de la Caldera Rajada y sus tonalidades contrastan con el caos del mar de lava. A medida que avanzamos podemos contemplar las características cordadas de las lavas lisas. Acometemos un ligero descenso hacia la falda de la Montaña de María Hernández donde crece una palmera solitaria y poco a poco vamos apreciando cada vez mejor el precioso cráter de Montaña Encantada, a la derecha del camino. Éste se abre paso entre ambos volcanes para llevarnos, muy cerca ya del final, hasta la formación de un curioso lago de lava. Todavía aguarda una última sorpresa este completo recorrido, pues tendremos la oportunidad de adentrarnos en un jameo y conocer desde dentro lo que es un tubo volcánico y la seguridad que estos lugares ofrecen a la distinta fauna, especialmente aves, como lugar de cría. La sombra y la agradable temperatura no tienen precio en este mundo hostil de fuerte insolación.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-13.77755794,28.9844317910001,208.694000000003 -13.7775227829999,28.984628882,209.069000000003 -13.7773481849999,28.9850477940001,209.425000000003 -13.7771329059999,28.9855128770001,213.343999999997 -13.7770891359999,28.9856665560001,214.573000000004 -13.7770816619999,28.985836614,214.876000000004 -13.7771253799999,28.985997506,214.563999999998 -13.7771663259999,28.9860838580001,213.964999999997 -13.777244428,28.9861799490001,213.190000000002 -13.7774216149999,28.9862723560001,211.726999999999 -13.777573377,28.986310421,210.394 -13.7778523379999,28.9863478060001,208.937999999995 -13.7780622609999,28.9864047410001,208.933999999994 -13.7781337789999,28.9864402420001,208.807000000001 -13.778235934,28.986530132,208.331999999995 -13.778273199,28.9866414420001,207.933000000005 -13.7782975569999,28.9867865670001,205.580000000002 -13.778311679,28.9872259950001,203.0 -13.7783445289999,28.98738037,203.933000000005 -13.778387161,28.9874786600001,204.479000000007 -13.7786155429999,28.987761602,205.672000000006 -13.7787687389999,28.987921885,206.065000000002 -13.7791850609999,28.988203324,205.255999999994 -13.780068362,28.98864789,202.684999999998 -13.7802844169999,28.9887381220001,201.169999999998 -13.7803731289999,28.9887967050001,200.410999999993 -13.7804303389999,28.988896733,198.769 -13.78044732,28.9890044190001,198.505000000005 -13.780387716,28.989263882,198.122000000003 -13.7802459239999,28.9895306220001,197.587 -13.779671397,28.9904466550001,196.800000000003 -13.7796525699999,28.9904962370001,196.688999999998 -13.7796520229999,28.9905427750001,196.584000000003 -13.7796769039999,28.9905991750001,196.517000000007 -13.7797094969999,28.9906203360001,196.504000000001 -13.7797841439999,28.9906338520001,196.536999999997 -13.7811338459999,28.990204733,196.543000000005 -13.7824831429999,28.989809301,191.599000000002 -13.782710053,28.9897519720001,189.381999999998 -13.7831395359999,28.9896900570001,189.061000000002 -13.7835889549999,28.9896395540001,189.489000000001 -13.7838208109999,28.9896272080001,190.332999999999 -13.7840980309999,28.9896361350001,190.005999999994 -13.7844116619999,28.989651811,190.504000000001 -13.7848434229999,28.989707072,191.464999999997 -13.78562397,28.989892276,191.154999999999 -13.7858024719999,28.989917962,190.554999999993 -13.7860342909999,28.9899088220001,188.937000000005 -13.786295955,28.9898437750001,188.084000000003 -13.7865431929999,28.9897641540001,185.172999999995 -13.7867706069999,28.9896634890001,183.008000000002 -13.7875953389999,28.9891894420001,177.823000000004 -13.7885683929999,28.9886685770001,176.016000000003 -13.7887872609999,28.988518077,174.581000000006 -13.7895252949999,28.9878105170001,167.850999999995 -13.7896196789999,28.9876958080001,166.875 -13.7898276349999,28.9875419990001,166.691999999995 -13.7903426839999,28.9873379900001,165.698000000004 -13.790829378,28.9872187860001,164.322 -13.7914160889999,28.987127763,164.936000000002 -13.7917269609999,28.987066358,162.828999999998 -13.7922337939999,28.98694091,162.013999999996 -13.7928533389999,28.9868501770001,161.399999999994 -13.7929591089999,28.9868543370001,161.524000000005 -13.7931503209999,28.9868849430001,160.824999999997 -13.7937200499999,28.9869991930001,157.350999999995 -13.7939346809999,28.9870556870001,158.536999999997 -13.7941565719999,28.9871154560001,159.599000000002 -13.794908657,28.987395043,156.839999999997 -13.7950196209999,28.9874233210001,156.523000000001 -13.7951307909999,28.9874339470001,156.448000000004 -13.795930977,28.9873416090001,153.092000000004 -13.7966412889999,28.9872901900001,148.267999999996 -13.7967090099999,28.9872715370001,147.509000000005 -13.7971033469999,28.9870920990001,144.433000000005 -13.7972993609999,28.987023234,144.447 -13.797403099,28.98688774,144.116999999998 -13.7974970229999,28.9866542550001,143.153999999995 -13.7975696919999,28.9865232990001,141.831000000006 -13.7976305239999,28.9864692730001,141.063999999998 -13.79770193,28.9864474430001,140.172000000006 -13.7979336669999,28.9864446990001,139.645999999993 -13.7980539559999,28.9864554060001,139.573999999993 -13.7982092409999,28.9864375340001,139.470000000001 -13.798395947,28.986384634,139.289999999994 -13.7986647619999,28.986330862,138.498999999996 -13.8001308999999,28.9860771290001,127.273000000001 -13.8005534329999,28.9859829960001,127.482999999993 -13.8007479059999,28.9860473240001,125.376999999993 -13.800937647,28.9860474120001,126.756999999998 -13.8012450109999,28.985973114,128.141000000003 -13.8018217229999,28.9857984980001,130.479999999996</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

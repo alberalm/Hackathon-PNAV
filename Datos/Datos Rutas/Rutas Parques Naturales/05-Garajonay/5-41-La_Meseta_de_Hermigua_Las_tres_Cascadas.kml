@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>5-41-La_Meseta_de_Hermigua_Las_tres_Cascadas</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>La Meseta de Hermigua (Las tres Cascadas) - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Garajonay</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>La Meseta de Hermigua (Las tres Cascadas)</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td></td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>0.5</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>1.2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Por razones conservacionistas la acampada no está permitida dentro del Parque. Hasta la fecha existe una sola área de acampada, de propiedad particular, situada en el Caserío de El Cedro</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Esta ruta está en la cota más baja del Parque Nacional. En ella además de encontrar elementos patrimoniales como la pequeña hornacina dedicada a la Virgen de Guadalupe, patrona de la isla, el visitante podrá disfrutar de uno de los cursos permanentes de agua del Parque que se desprende en forma de pequeños saltos de agua.
+
+El recorrido también nos ofrece vegetación de ribera con una sauceda y bosques de laurisilva donde aparecen helechos de gran tamaño cerca del cauce así como barbusanos en situaciones escarpadas, especie característica de los bosques de laurisilva seca propia de las altitudes inferiores del Parque.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Garajonay</SimpleData>
+<SimpleData name="Nombre">La Meseta de Hermigua (Las tres Cascadas)</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">0.5</SimpleData>
+<SimpleData name="Longitud (km)">1.2</SimpleData>
+<SimpleData name="Recomendaciones">Por razones conservacionistas la acampada no está permitida dentro del Parque. Hasta la fecha existe una sola área de acampada, de propiedad particular, situada en el Caserío de El Cedro</SimpleData>
+<SimpleData name="Descripción">Esta ruta está en la cota más baja del Parque Nacional. En ella además de encontrar elementos patrimoniales como la pequeña hornacina dedicada a la Virgen de Guadalupe, patrona de la isla, el visitante podrá disfrutar de uno de los cursos permanentes de agua del Parque que se desprende en forma de pequeños saltos de agua.
+
+El recorrido también nos ofrece vegetación de ribera con una sauceda y bosques de laurisilva donde aparecen helechos de gran tamaño cerca del cauce así como barbusanos en situaciones escarpadas, especie característica de los bosques de laurisilva seca propia de las altitudes inferiores del Parque.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-17.2079250209999,28.128376281,734.555999999997 -17.2078591769999,28.128700516,724.485000000001 -17.2078832319999,28.1288065040001,727.184999999998 -17.2079030639999,28.1288200480001,727.184999999998 -17.2079242249999,28.1288104290001,727.441000000006 -17.208028151,28.1286359870001,724.077999999994 -17.2081225049999,28.1285346660001,726.441000000006 -17.2082401449999,28.128518817,722.884999999995 -17.2083287919999,28.128559033,724.089000000007 -17.2084269289999,28.128743812,719.641000000003 -17.2085029639999,28.128788021,718.760999999999 -17.208735568,28.1288123780001,716.907999999996 -17.2088899309999,28.128850582,716.130000000005 -17.2093150349999,28.1287230200001,722.528000000006 -17.2093629119999,28.128723789,722.229000000007 -17.209370142,28.128743059,720.846000000005 -17.2092576279999,28.1288750160001,717.687000000005 -17.2091797379999,28.1289953930001,717.225999999995 -17.2090206919999,28.1290900340001,716.089000000007 -17.2087426449999,28.1290819330001,712.534 -17.2087425249999,28.1290819330001,712.534 -17.2087088199999,28.129101366,711.974000000002 -17.2086414089999,28.1291402310001,710.103000000003 -17.2086047349999,28.1292247970001,710.308000000005 -17.2085635809999,28.1292310030001,708.547000000006 -17.2084574179999,28.129287747,708.971000000005 -17.2083647439999,28.1293139300001,705.357999999993 -17.208330836,28.1293595490001,704.663 -17.2082511309999,28.1294108210001,697.940000000002 -17.2082133769999,28.129491494,700.218999999997 -17.2078125859999,28.1295773790001,688.345000000001 -17.2077715959999,28.1296121160001,690.240000000005 -17.2076163739999,28.129667876,683.160000000003 -17.2074990279999,28.1298902780001,681.841 -17.2074080269999,28.129986934,679.368000000002 -17.2074147719999,28.1300963,676.762000000002 -17.207472864,28.1301326660001,675.006999999998 -17.2075463509999,28.130239691,675.080000000002 -17.2074597509999,28.130239885,670.566999999995 -17.2074275379999,28.130222303,668.902000000002 -17.2073630959999,28.1302194140001,666.963000000003 -17.2072596859999,28.130302026,659.490999999995 -17.2072690659999,28.1303676320001,657.930999999997 -17.207220897,28.1303694520001,656.793999999994 -17.2071364689999,28.1304070250001,655.168999999994 -17.2071545219999,28.13011872,658.535999999993 -17.2072838619999,28.1297715490001,673.558999999994 -17.2074990769999,28.1294803200001,674.323000000004 -17.2076277859999,28.1295411610001,679.274999999994 -17.207700052,28.1295239980001,683.394 -17.2077196229999,28.1294466900001,679.873999999996 -17.2079984879999,28.1293311970001,686.360000000001 -17.2080098739999,28.1293010580001,686.588000000003 -17.2079663179999,28.1291688960001,692.225000000006 -17.2081478429999,28.1291639410001,696.118000000002 -17.2082417689999,28.129184529,698.445000000007 -17.20832329,28.129167743,701.839999999997 -17.208365511,28.1291454920001,703.460000000006 -17.2084368119999,28.1291840650001,704.495999999999 -17.2084959489999,28.1291996790001,706.838000000003 -17.2085806009999,28.1291411290001,708.452999999994 -17.2086414089999,28.1291402310001,710.103000000003 -17.2086454129999,28.129137728,710.103000000003 -17.2087425249999,28.1290819330001,712.534</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

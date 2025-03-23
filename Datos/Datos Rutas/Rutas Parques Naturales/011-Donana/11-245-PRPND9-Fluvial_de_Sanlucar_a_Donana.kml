@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>11-245-PRPND9-Fluvial_de_Sanlucar_a_Donana</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Style id="kml_style_ft_Ramales">
+<LineStyle>
+<color>ff2a69e8</color>
+</LineStyle>
+<PolyStyle>
+<color>b02a69e8</color>
+</PolyStyle>
+</Style>
+<Schema name="Ramales" id="kml_schema_ft_Ramales">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Name">
+<displayName>Name</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>Fluvial de Sanlúcar a Doñana - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Doñana</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Fluvial de Sanlúcar a Doñana</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>PR-PND9</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>No aplicable (barco)</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>4</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>28.1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Se realiza en barco.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Este recorrido lo desarrolla una empresa concesionaria del servicio con la que se debe contactar para realizar la reserva de plaza y consultar las características del mismo.
+El itinerario parte del pantalán situado en el barrio de Bajo de Guía de Sanlúcar de Barrameda. Se realiza a bordo del buque Real Fernando que, remontando el río Guadalquivir, recorre unos doce kilómetros del mismo y efectúa dos paradas, una de ellas la ya comentada en el Poblado de la Plancha del Parque Nacional y la otra en las Salinas del Parque Natural.
+El buque toma su nombre del primer vapor que la Real Compañía de Navegación botó en 1817 y que realizaba el recorrido con viajeros entre Sevilla, Sanlúcar y Cádiz. El Real Fernando cuenta con una sala de audiovisuales, una pequeña exposición con el Río Grande como protagonista y en la cubierta se ha instalado un servicio de cafetería.
+El recorrido tiene con una duración aproximada de cuatro horas, durante las cuáles pueden apreciarse distintos aspectos del paisaje urbano y natural de la zona por donde discurre. De esta forma, en la orilla gaditana y en la misma Sanlúcar, el primer punto de referencia lo constituye el barrio de pescadores de Bajo de Guía, donde se encuentran ubicados un buen número de espléndidos restaurantes en los que se puede degustar la cocina marinera y los apreciados langostinos de la zona.
+Otros puntos de referencia lo constituyen la fortaleza del San Salvador, el muelle de bonanza tras el que se sitúa la lonja, y el faro de esta misma localidad.
+El Gran Río Guadalquivir fue ampliamente conocido por las culturas que sucesivamente fueron poblando la zona. Con el imperio romano toma el nombre de Betis, y con el árabe, su actual denominación, pero sin duda su máximo esplendor lo tuvo tras el descubrimiento de América. En aquella época el Guadalquivir jugó un importante papel en el tráfico de mercancías entre el viejo y el nuevo mundo, cuando los Reyes Católicos decidieron instalar la Casa de la Contratación en la ciudad de Sevilla y su puerto sería el único al que podían llegar las embarcaciones con los preciados bienes. También Sanlúcar de Barrameda se vio beneficiada por este hecho, ya que todos los barcos debían pasar por esta ciudad.
+Pero el tráfico por el Guadalquivir decae debido a las dificultades que, por una parte, presentaba su cauce para la navegación de barcos de gran tonelaje y por otra, a las que ofrecía la barra de arena situada en la desembocadura, que debían salvar los navíos para no quedar encallados. Estas circunstancias hacen que se trasladen a Cádiz las cuestiones referentes al comercio con las Américas.
+En los últimos siglos se han acometido diversos proyectos que han facilitado la navegabilidad del río a la vez que se le ha provisto de una adecuada señalización.
+Pero también el río constituye una fuente de recursos económicos de la zona. Diversas y apreciadas son las especies que se recogen en sus aguas. A lo largo del recorrido se podrán ver los barcos «cuchareros» que bajo el mando de los «riacheros», pescan camarones y angulas fundamentalmente. También en su cauce habitan otras especies con y sin valor comercial que son fundamentales para la vida en el Guadalquivir.
+En la otra margen del Guadalquivir se encuentra el Parque Nacional.
+Desde el Real Fernando se puede observar el Pinar del Faro, el Poblado de la Plancha y las casas salineras de San Isidoro, San Diego y San Rafael.
+El Pinar del Faro constituye un gran bosque cuyo principal exponente es el pino piñonero y al que se asocian otras especies vegetales, albergando a ciervos, gamos, jabalies y otros representantes de la fauna de Doñana.
+Sobre el poblado de la Plancha se ofrece información en el recorrido descrito anteriormente, ya que constituye una parada común para ambos itinerarios. El Real Fernando atraca en el pantalán levantado al efecto y durante una hora aproximadamente los visitantes, acompañados por el equipo de guías del buque, permanecen en esta zona.
+Continuando viaje, la siguiente parada se realiza en las salinas del Parque Natural de Doñana. La extracción de la sal ha constituido desde antiguo una de las principales actividades de los habitantes de la zona, ya que era un elemento principal para la conservación del pescado y para la preparación de diversos platos muy apreciados en la zona y fuera de ella. Entre estos manjares se encontraba el «garum», una pasta que elaboraba el pueblo romano, hecha a base de atún.
+Las salinas de esta margen del Guadalquivir cuentan con una gran importancia, ya que al mantener agua durante todo el año constituyen uno de los enclaves de mayor concentración de aves cuando el resto de las marismas de Doñana se han secado o tienen un bajo nivel de agua. Entre otras especies se pueden observar flamencos, garzas, diversos ánades…</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Doñana</SimpleData>
+<SimpleData name="Nombre">Fluvial de Sanlúcar a Doñana</SimpleData>
+<SimpleData name="Número">PR-PND9</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+<SimpleData name="Dificultad">No aplicable (barco)</SimpleData>
+<SimpleData name="Duración (h)">4</SimpleData>
+<SimpleData name="Longitud (km)">28.1</SimpleData>
+<SimpleData name="Recomendaciones">Se realiza en barco.</SimpleData>
+<SimpleData name="Descripción">Este recorrido lo desarrolla una empresa concesionaria del servicio con la que se debe contactar para realizar la reserva de plaza y consultar las características del mismo.
+El itinerario parte del pantalán situado en el barrio de Bajo de Guía de Sanlúcar de Barrameda. Se realiza a bordo del buque Real Fernando que, remontando el río Guadalquivir, recorre unos doce kilómetros del mismo y efectúa dos paradas, una de ellas la ya comentada en el Poblado de la Plancha del Parque Nacional y la otra en las Salinas del Parque Natural.
+El buque toma su nombre del primer vapor que la Real Compañía de Navegación botó en 1817 y que realizaba el recorrido con viajeros entre Sevilla, Sanlúcar y Cádiz. El Real Fernando cuenta con una sala de audiovisuales, una pequeña exposición con el Río Grande como protagonista y en la cubierta se ha instalado un servicio de cafetería.
+El recorrido tiene con una duración aproximada de cuatro horas, durante las cuáles pueden apreciarse distintos aspectos del paisaje urbano y natural de la zona por donde discurre. De esta forma, en la orilla gaditana y en la misma Sanlúcar, el primer punto de referencia lo constituye el barrio de pescadores de Bajo de Guía, donde se encuentran ubicados un buen número de espléndidos restaurantes en los que se puede degustar la cocina marinera y los apreciados langostinos de la zona.
+Otros puntos de referencia lo constituyen la fortaleza del San Salvador, el muelle de bonanza tras el que se sitúa la lonja, y el faro de esta misma localidad.
+El Gran Río Guadalquivir fue ampliamente conocido por las culturas que sucesivamente fueron poblando la zona. Con el imperio romano toma el nombre de Betis, y con el árabe, su actual denominación, pero sin duda su máximo esplendor lo tuvo tras el descubrimiento de América. En aquella época el Guadalquivir jugó un importante papel en el tráfico de mercancías entre el viejo y el nuevo mundo, cuando los Reyes Católicos decidieron instalar la Casa de la Contratación en la ciudad de Sevilla y su puerto sería el único al que podían llegar las embarcaciones con los preciados bienes. También Sanlúcar de Barrameda se vio beneficiada por este hecho, ya que todos los barcos debían pasar por esta ciudad.
+Pero el tráfico por el Guadalquivir decae debido a las dificultades que, por una parte, presentaba su cauce para la navegación de barcos de gran tonelaje y por otra, a las que ofrecía la barra de arena situada en la desembocadura, que debían salvar los navíos para no quedar encallados. Estas circunstancias hacen que se trasladen a Cádiz las cuestiones referentes al comercio con las Américas.
+En los últimos siglos se han acometido diversos proyectos que han facilitado la navegabilidad del río a la vez que se le ha provisto de una adecuada señalización.
+Pero también el río constituye una fuente de recursos económicos de la zona. Diversas y apreciadas son las especies que se recogen en sus aguas. A lo largo del recorrido se podrán ver los barcos «cuchareros» que bajo el mando de los «riacheros», pescan camarones y angulas fundamentalmente. También en su cauce habitan otras especies con y sin valor comercial que son fundamentales para la vida en el Guadalquivir.
+En la otra margen del Guadalquivir se encuentra el Parque Nacional.
+Desde el Real Fernando se puede observar el Pinar del Faro, el Poblado de la Plancha y las casas salineras de San Isidoro, San Diego y San Rafael.
+El Pinar del Faro constituye un gran bosque cuyo principal exponente es el pino piñonero y al que se asocian otras especies vegetales, albergando a ciervos, gamos, jabalies y otros representantes de la fauna de Doñana.
+Sobre el poblado de la Plancha se ofrece información en el recorrido descrito anteriormente, ya que constituye una parada común para ambos itinerarios. El Real Fernando atraca en el pantalán levantado al efecto y durante una hora aproximadamente los visitantes, acompañados por el equipo de guías del buque, permanecen en esta zona.
+Continuando viaje, la siguiente parada se realiza en las salinas del Parque Natural de Doñana. La extracción de la sal ha constituido desde antiguo una de las principales actividades de los habitantes de la zona, ya que era un elemento principal para la conservación del pescado y para la preparación de diversos platos muy apreciados en la zona y fuera de ella. Entre estos manjares se encontraba el «garum», una pasta que elaboraba el pueblo romano, hecha a base de atún.
+Las salinas de esta margen del Guadalquivir cuentan con una gran importancia, ya que al mantener agua durante todo el año constituyen uno de los enclaves de mayor concentración de aves cuando el resto de las marismas de Doñana se han secado o tienen un bajo nivel de agua. Entre otras especies se pueden observar flamencos, garzas, diversos ánades…</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-6.35286621399996,36.7903494794847,0.0 -6.35274653699992,36.7906283844847,0.0 -6.35244055299995,36.7907939464847,0.0 -6.35185559199994,36.7911564044846,-0.00840000000607688 -6.35040601699996,36.7921427884847,0.100000000005821 -6.34906800799996,36.7929774244847,0.100000000005821 -6.34726948599996,36.7940762504846,0.100000000005821 -6.34638691799995,36.7946426454847,0.100000000005821 -6.34466518299996,36.7958239024846,0.100000000005821 -6.34368320899995,36.7964240834847,0.100000000005821 -6.34341692599992,36.7966623004847,0.100000000005821 -6.34331398799992,36.7967998384846,0.100000000005821 -6.34277496299995,36.7976603634847,0.100000000005821 -6.34214409899994,36.7991906884846,0.100000000005821 -6.34205126799992,36.7994375554846,0.100000000005821 -6.34190874399991,36.7999409214846,0.100000000005821 -6.34181092299991,36.8004530634846,0.100000000005821 -6.34168787599992,36.8014841094846,0.100000000005821 -6.34164827299992,36.8021614344846,0.100000000005821 -6.34165239899994,36.8026147074846,0.100000000005821 -6.34172293599994,36.8035217804846,0.100000000005821 -6.34190456099992,36.8049567634846,0.100000000005821 -6.34202853099992,36.8056725074846,0.100000000005821 -6.34219535899996,36.8063785224846,0.100000000005821 -6.34229970799993,36.8067258724846,0.100000000005821 -6.34256000699992,36.8074052494846,0.19999999999709 -6.34271984799994,36.8077356674846,0.19999999999709 -6.34300219599993,36.8082174494846,0.19999999999709 -6.34763590999995,36.8152768584845,0.19999999999709 -6.34925954199991,36.8176531674845,0.19999999999709 -6.34962587099994,36.8182185724846,0.19999999999709 -6.35013650199994,36.8190822134845,0.19999999999709 -6.35116484199995,36.8210165974845,0.19999999999709 -6.35315007599991,36.8249078514845,0.19999999999709 -6.35744179999995,36.8332056884845,0.19999999999709 -6.35771321199991,36.8338205954844,0.19999999999709 -6.35785527199994,36.8342410454844,0.19999999999709 -6.35807544499994,36.8351018154845,0.19999999999709 -6.35818062099992,36.8357907294844,0.19999999999709 -6.35819523899994,36.8361349904844,0.19999999999709 -6.35816199299995,36.8366486954844,0.19999999999709 -6.35808816799994,36.8371307964844,0.19999999999709 -6.35790130199996,36.8380928764844,0.19999999999709 -6.35749583199993,36.8400172684844,0.19999999999709 -6.35734873299992,36.8409845714844,0.19999999999709 -6.35535512499996,36.8583063094843,0.19999999999709 -6.35512048199996,36.8601205974843,0.19999999999709 -6.35494190199995,36.8613278134843,0.19999999999709 -6.35453828699991,36.8637374784843,0.19999999999709 -6.35383908199992,36.8673426474843,0.19999999999709 -6.35332781699992,36.8697418854842,0.19999999999709 -6.35225064899993,36.8745364774842,0.19999999999709 -6.35193516799996,36.8758663594842,0.19999999999709 -6.35123493199995,36.8785108844842,0.19999999999709 -6.35045603799995,36.8811399174842,0.19999999999709 -6.34990119899993,36.8828868554842,0.19999999999709 -6.34872806999994,36.8863746514842,0.19999999999709 -6.34851117999995,36.8869798954842,0.19999999999709 -6.34803734199994,36.8881766994842,0.19999999999709 -6.34751134599992,36.8893579774842,0.19999999999709 -6.34713244799991,36.8901384794842,0.19999999999709 -6.34630889199991,36.8916870004841,0.19999999999709 -6.34582841199995,36.8924515514842,0.19999999999709 -6.34546958299995,36.8929411884841,0.19999999999709 -6.34467743099992,36.8938923584841,0.19999999999709 -6.34419584899996,36.8944056244841,0.19999999999709 -6.34394338599992,36.8946514974842,0.19999999999709 -6.34354717399992,36.8950080444841,0.19999999999709 -6.34290648299992,36.8955181014841,0.19999999999709 -6.34211144999995,36.8960547714841,0.19999999999709 -6.34155720699994,36.8963782624842,0.19999999999709 -6.34117608499992,36.8965817974841,0.19999999999709 -6.34051019499992,36.8971605154841,0.19999999999709 -6.33955677399996,36.8976278424841,0.19999999999709 -6.33932147599995,36.8977158344841,0.19999999999709 -6.33873382299993,36.8979707214841,0.19999999999709 -6.33757822499996,36.8988820564841,0.19999999999709 -6.33635153599994,36.8993364574841,0.19999999999709 -6.33557324799995,36.8995563904841,0.19999999999709 -6.33487115499992,36.8997102014841,0.19999999999709 -6.33441628699995,36.8999452744841,0.19999999999709 -6.33381387999992,36.9000595174841,0.19999999999709 -6.33331278999992,36.9002008754841,0.19999999999709 -6.3327894219999,36.9003756454841,0.19999999999709 -6.33209402799991,36.9006398104841,0.19999999999709 -6.33156740699991,36.9009077654841,0.19999999999709 -6.33032575399994,36.9013970384841,0.19999999999709 -6.32985600099994,36.9015475634841,0.19999999999709 -6.32950612199994,36.9015905654841,0.19999999999709 -6.32922159099991,36.9015952534841,0.19999999999709 -6.32950612199994,36.9015905654841,0.19999999999709 -6.32985600099994,36.9015475634841,0.19999999999709 -6.33032575399994,36.9013970384841,0.19999999999709 -6.33156740699991,36.9009077654841,0.19999999999709 -6.33209402799991,36.9006398104841,0.19999999999709 -6.3327894219999,36.9003756454841,0.19999999999709 -6.33331278999992,36.9002008754841,0.19999999999709 -6.33381387999992,36.9000595174841,0.19999999999709 -6.33441628699995,36.8999452744841,0.19999999999709 -6.33487115499992,36.8997102014841,0.19999999999709 -6.33557324799995,36.8995563904841,0.19999999999709 -6.33635153599994,36.8993364574841,0.19999999999709 -6.33757822499996,36.8988820564841,0.19999999999709 -6.33873382299993,36.8979707214841,0.19999999999709 -6.33932147599995,36.8977158344841,0.19999999999709 -6.33955677399996,36.8976278424841,0.19999999999709 -6.34051019499992,36.8971605154841,0.19999999999709 -6.34117608499992,36.8965817974841,0.19999999999709 -6.34155720699994,36.8963782624842,0.19999999999709 -6.34211144999995,36.8960547714841,0.19999999999709 -6.34290648299992,36.8955181014841,0.19999999999709 -6.34354717399992,36.8950080444841,0.19999999999709 -6.34394338599992,36.8946514974842,0.19999999999709 -6.34419584899996,36.8944056244841,0.19999999999709 -6.34467743099992,36.8938923584841,0.19999999999709 -6.34546958299995,36.8929411884841,0.19999999999709 -6.34582841199995,36.8924515514842,0.19999999999709 -6.34630889199991,36.8916870004841,0.19999999999709 -6.34713244799991,36.8901384794842,0.19999999999709 -6.34751134599992,36.8893579774842,0.19999999999709 -6.34803734199994,36.8881766994842,0.19999999999709 -6.34851117999995,36.8869798954842,0.19999999999709 -6.34872806999994,36.8863746514842,0.19999999999709 -6.34990119899993,36.8828868554842,0.19999999999709 -6.35045603799995,36.8811399174842,0.19999999999709 -6.35123493199995,36.8785108844842,0.19999999999709 -6.35193516799996,36.8758663594842,0.19999999999709 -6.35225064899993,36.8745364774842,0.19999999999709 -6.35332781699992,36.8697418854842,0.19999999999709 -6.35383908199992,36.8673426474843,0.19999999999709 -6.35453828699991,36.8637374784843,0.19999999999709 -6.35494190199995,36.8613278134843,0.19999999999709 -6.35512048199996,36.8601205974843,0.19999999999709 -6.35535512499996,36.8583063094843,0.19999999999709 -6.35734873299992,36.8409845714844,0.19999999999709 -6.35749583199993,36.8400172684844,0.19999999999709 -6.35790130199996,36.8380928764844,0.19999999999709 -6.35808816799994,36.8371307964844,0.19999999999709 -6.35816199299995,36.8366486954844,0.19999999999709 -6.35819523899994,36.8361349904844,0.19999999999709 -6.35818062099992,36.8357907294844,0.19999999999709 -6.35807544499994,36.8351018154845,0.19999999999709 -6.35785527199994,36.8342410454844,0.19999999999709 -6.35771321199991,36.8338205954844,0.19999999999709 -6.35744179999995,36.8332056884845,0.19999999999709 -6.35315007599991,36.8249078514845,0.19999999999709 -6.35116484199995,36.8210165974845,0.19999999999709 -6.35013650199994,36.8190822134845,0.19999999999709 -6.34962587099994,36.8182185724846,0.19999999999709 -6.34925954199991,36.8176531674845,0.19999999999709 -6.34763590999995,36.8152768584845,0.19999999999709 -6.34300219599993,36.8082174494846,0.19999999999709 -6.34271984799994,36.8077356674846,0.19999999999709 -6.34256000699992,36.8074052494846,0.19999999999709 -6.34229970799993,36.8067258724846,0.100000000005821 -6.34219535899996,36.8063785224846,0.100000000005821 -6.34202853099992,36.8056725074846,0.100000000005821 -6.34190456099992,36.8049567634846,0.100000000005821 -6.34172293599994,36.8035217804846,0.100000000005821 -6.34165239899994,36.8026147074846,0.100000000005821 -6.34164827299992,36.8021614344846,0.100000000005821 -6.34168787599992,36.8014841094846,0.100000000005821 -6.34181092299991,36.8004530634846,0.100000000005821 -6.34190874399991,36.7999409214846,0.100000000005821 -6.34205126799992,36.7994375554846,0.100000000005821 -6.34214409899994,36.7991906884846,0.100000000005821 -6.34277496299995,36.7976603634847,0.100000000005821 -6.34331398799992,36.7967998384846,0.100000000005821 -6.34341692599992,36.7966623004847,0.100000000005821 -6.34368320899995,36.7964240834847,0.100000000005821 -6.34466518299996,36.7958239024846,0.100000000005821 -6.34638691799995,36.7946426454847,0.100000000005821 -6.34726948599996,36.7940762504846,0.100000000005821 -6.34906800799996,36.7929774244847,0.100000000005821 -6.35040601699996,36.7921427884847,0.100000000005821 -6.35185559199994,36.7911564044846,-0.00840000000607688 -6.35244055299995,36.7907939464847,0.0 -6.35274653699992,36.7906283844847,0.0 -6.35286621399996,36.7903494794847,0.0</coordinates>
+</LineString>
+</Placemark>
+<Folder id="kml_ft_Ramales">
+<name>Ramales</name>
+<Placemark id="kml_2">
+<name>Fluvial de Sanlúcar a Doñana - Derivación</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Doñana</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Fluvial de Sanlúcar a Doñana</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Name</th>
+<td>Fluvial_de_Sanlucar_a_Donana</td>
+</tr><tr bgcolor="">
+<th>Número</th>
+<td>PR-PND9</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Tipo</th>
+<td>Derivación</td>
+</tr><tr bgcolor="">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ramales</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ramales">
+<SimpleData name="Parque Nacional">Doñana</SimpleData>
+<SimpleData name="Nombre">Fluvial de Sanlúcar a Doñana</SimpleData>
+<SimpleData name="Name">Fluvial_de_Sanlucar_a_Donana</SimpleData>
+<SimpleData name="Número">PR-PND9</SimpleData>
+<SimpleData name="Tipo">Derivación</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-6.35807544499994,36.8351018154845,0.19999999999709 -6.35840056999996,36.8351103084845,0.19999999999709 -6.35878166799995,36.8351498324844,0.19999999999709 -6.35894205999995,36.8351759124844,0.19999999999709 -6.35919806599992,36.8352810104844,2.24000000000524 -6.35894205999995,36.8351759124844,0.19999999999709 -6.35878166799995,36.8351498324844,0.19999999999709 -6.35840056999996,36.8351103084845,0.19999999999709 -6.35807544499994,36.8351018154845,0.19999999999709</coordinates>
+</LineString>
+</Placemark>
+</Folder>
+</Document></kml>

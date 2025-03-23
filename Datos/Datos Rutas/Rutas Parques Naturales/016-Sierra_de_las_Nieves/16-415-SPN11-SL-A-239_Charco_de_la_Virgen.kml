@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>16-415-SPN11-SL-A-239_Charco_de_la_Virgen</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>SL-A-239 Charco de la Virgen - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Sierra de las Nieves</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>SL-A-239 Charco de la Virgen</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>SPN11</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>1.75</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>4.4</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Se recomienda consultar las normas de comportamiento que deben cumplir los visitantes a la Sierra de las Nieves, así como los consejos generales que buscan asegurar su disfrute de la visita con seguridad.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Lo primero que llamará la atención del senderista es el bonito edificio del balneario de Fuente Amargosa, construido en 1910 sobre uno anterior que fue arrasado por una riada en 1869. A diferencia de otros balnearios, en éste el tratamiento se ciñe a la inhalación de gases destinados básicamente a la mejora de las afecciones respiratorias. Los señores agüistas, como son llamados los usuarios del establecimiento, pueden disfrutar de sus instalaciones desde el 1 de mayo hasta el 15 de octubre de cada año. Otro elemento a destacar del lugar es la escultura dedicada a la cabra montés, icono de la fauna salvaje del Parque Nacional de la Sierra de las Nieves, junto al escurridizo corzo morisco.
+
+El sendero nace tras las instalaciones del balneario, descendiendo por una escalinata que nos lleva al vado del río, muy cerca de las famosas charcas del Tubo y la Bañera, frecuentadas por bañistas en verano. Seguidamente volvemos a cruzar el curso fluvial y subimos una pedregosa rampa hasta traspasar una de las numerosas acequias de origen andalusí. En la otra orilla del río de los Caballos vemos afluir el arroyo de Marcos López, donde se hallan un par de idílicas pozas a modo de marmitas de gigante. Hasta ese lugar se llega por una intuitiva vereda.
+
+Continuamos por la vereda hasta alcanzar un carril bajo la sombra de un pinar cortejado de palmitos, enebros, lentiscos y aulagas, por el que avanzamos siempre en paralelo al río, pero algo alejado de su orilla, comprobando cómo el bosque de ribera, compuesto de adelfas, sauces y juncos, se empeña en ganar terreno a los introducidos eucaliptos.
+
+En adelante vadearemos dos veces seguidas el río de los Caballos y otra su afluente, el arroyo Palmarejo. Ojo, antes del primer vado existe una pequeña fuente en el lateral del camino que da al río, llamada del Lucero. Dejamos el carril, que muere a la entrada a una finca privada y subimos por un talud que nos sitúa en la parte superior de un amplio bancal cultivado principalmente con árboles frutales. Caminamos  unos 300 metros a través de la trocha y bajamos de nuevo al río para vadearlo con sumo cuidado, pues las rocas húmedas suelen resbalar.
+
+El siguiente hito es el cruce con un sendero que sube a la cascada  de la Rejía. Progresaremos durante un corto tramo por las piedras del propio cauce, aunque finalmente retomamos la vereda que viene a morir junto al charco de la Virgen, de cierta dimensión y profundidad. La cascada de 22 metros de altura que lo alimenta suma belleza a este excepcional paraje. Merece la pena reposar un buen rato al regazo de una dulce sinfonía de sonidos acuosos. El regreso lo realizaremos por el mismo camino de ida.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Sierra de las Nieves</SimpleData>
+<SimpleData name="Nombre">SL-A-239 Charco de la Virgen</SimpleData>
+<SimpleData name="Número">SPN11</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">1.75</SimpleData>
+<SimpleData name="Longitud (km)">4.4</SimpleData>
+<SimpleData name="Recomendaciones">Se recomienda consultar las normas de comportamiento que deben cumplir los visitantes a la Sierra de las Nieves, así como los consejos generales que buscan asegurar su disfrute de la visita con seguridad.</SimpleData>
+<SimpleData name="Descripción">Lo primero que llamará la atención del senderista es el bonito edificio del balneario de Fuente Amargosa, construido en 1910 sobre uno anterior que fue arrasado por una riada en 1869. A diferencia de otros balnearios, en éste el tratamiento se ciñe a la inhalación de gases destinados básicamente a la mejora de las afecciones respiratorias. Los señores agüistas, como son llamados los usuarios del establecimiento, pueden disfrutar de sus instalaciones desde el 1 de mayo hasta el 15 de octubre de cada año. Otro elemento a destacar del lugar es la escultura dedicada a la cabra montés, icono de la fauna salvaje del Parque Nacional de la Sierra de las Nieves, junto al escurridizo corzo morisco.
+
+El sendero nace tras las instalaciones del balneario, descendiendo por una escalinata que nos lleva al vado del río, muy cerca de las famosas charcas del Tubo y la Bañera, frecuentadas por bañistas en verano. Seguidamente volvemos a cruzar el curso fluvial y subimos una pedregosa rampa hasta traspasar una de las numerosas acequias de origen andalusí. En la otra orilla del río de los Caballos vemos afluir el arroyo de Marcos López, donde se hallan un par de idílicas pozas a modo de marmitas de gigante. Hasta ese lugar se llega por una intuitiva vereda.
+
+Continuamos por la vereda hasta alcanzar un carril bajo la sombra de un pinar cortejado de palmitos, enebros, lentiscos y aulagas, por el que avanzamos siempre en paralelo al río, pero algo alejado de su orilla, comprobando cómo el bosque de ribera, compuesto de adelfas, sauces y juncos, se empeña en ganar terreno a los introducidos eucaliptos.
+
+En adelante vadearemos dos veces seguidas el río de los Caballos y otra su afluente, el arroyo Palmarejo. Ojo, antes del primer vado existe una pequeña fuente en el lateral del camino que da al río, llamada del Lucero. Dejamos el carril, que muere a la entrada a una finca privada y subimos por un talud que nos sitúa en la parte superior de un amplio bancal cultivado principalmente con árboles frutales. Caminamos  unos 300 metros a través de la trocha y bajamos de nuevo al río para vadearlo con sumo cuidado, pues las rocas húmedas suelen resbalar.
+
+El siguiente hito es el cruce con un sendero que sube a la cascada  de la Rejía. Progresaremos durante un corto tramo por las piedras del propio cauce, aunque finalmente retomamos la vereda que viene a morir junto al charco de la Virgen, de cierta dimensión y profundidad. La cascada de 22 metros de altura que lo alimenta suma belleza a este excepcional paraje. Merece la pena reposar un buen rato al regazo de una dulce sinfonía de sonidos acuosos. El regreso lo realizaremos por el mismo camino de ida.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-4.90881963399994,36.6793911574852,339.907999999996 -4.90926816999996,36.6791748744853,333.925000000003 -4.90933568199995,36.6789424404853,336.073000000004 -4.90973467499992,36.6787054454852,339.603000000003 -4.91021638399991,36.6773731074853,373.389999999999 -4.91048017799994,36.6768135414853,386.827999999994 -4.91057578199991,36.6766486464852,396.184999999998 -4.91064005499993,36.6765759044853,398.220000000001 -4.91169499999995,36.6760039964853,393.369999999995 -4.91265621099996,36.6753447264853,393.187999999995 -4.91342779799993,36.6751438694853,394.860000000001 -4.91428400299992,36.6754249944853,387.337 -4.91491955999993,36.6755120534853,386.807000000001 -4.91544112899993,36.6752458804853,390.853000000003 -4.91529835999995,36.6746308144853,400.422000000006 -4.91566275399992,36.6741597204853,411.869999999995 -4.91597882999991,36.6736141354853,422.050000000003 -4.91754300399992,36.6734089934853,426.600000000006 -4.91857159999995,36.6732466884853,421.274999999994 -4.92027800999995,36.6725149984853,418.366999999998 -4.92086500199991,36.6725109924853,423.384999999995 -4.92120076299994,36.6719279834853,438.794999999998 -4.92224637099991,36.6710944694853,453.505000000005 -4.92262800499992,36.6705039914853,444.75 -4.92342400199993,36.6702119934853,444.293000000005 -4.92384527299993,36.6700447904853,452.25 -4.92402715599991,36.6699913504853,451.017999999996 -4.92417066299993,36.6699792394853,448.122000000003 -4.92425258299994,36.6699533604853,447.240000000005 -4.92446016799994,36.6698447254853,447.830000000002 -4.92497026799992,36.6695281404853,452.517000000007 -4.92536298099992,36.6690512324853,459.115000000005 -4.92571041299993,36.6683966504853,478.339999999997 -4.92536298099992,36.6690512324853,459.115000000005 -4.92497026799992,36.6695281404853,452.517000000007 -4.92446016799994,36.6698447254853,447.830000000002 -4.92425258299994,36.6699533604853,447.240000000005 -4.92417066299993,36.6699792394853,448.122000000003 -4.92402715599991,36.6699913504853,451.017999999996 -4.92384527299993,36.6700447904853,452.25 -4.92342400199993,36.6702119934853,444.293000000005 -4.92262800499992,36.6705039914853,444.75 -4.92224637099991,36.6710944694853,453.505000000005 -4.92120076299994,36.6719279834853,438.794999999998 -4.92086500199991,36.6725109924853,423.384999999995 -4.92027800999995,36.6725149984853,418.366999999998 -4.91857159999995,36.6732466884853,421.274999999994 -4.91754300399992,36.6734089934853,426.600000000006 -4.91597882999991,36.6736141354853,422.050000000003 -4.91566275399992,36.6741597204853,411.869999999995 -4.91529835999995,36.6746308144853,400.422000000006 -4.91544112899993,36.6752458804853,390.853000000003 -4.91491955999993,36.6755120534853,386.807000000001 -4.91428400299992,36.6754249944853,387.337 -4.91342779799993,36.6751438694853,394.860000000001 -4.91265621099996,36.6753447264853,393.187999999995 -4.91169499999995,36.6760039964853,393.369999999995 -4.91064005499993,36.6765759044853,398.220000000001 -4.91057578199991,36.6766486464852,396.184999999998 -4.91048017799994,36.6768135414853,386.827999999994 -4.91021638399991,36.6773731074853,373.389999999999 -4.90973467499992,36.6787054454852,339.603000000003 -4.90933568199995,36.6789424404853,336.073000000004 -4.90926816999996,36.6791748744853,333.925000000003 -4.90881963399994,36.6793911574852,339.907999999996</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

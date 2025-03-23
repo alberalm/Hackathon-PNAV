@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>16-432-SZP10-SL-A-246_Yunquera-Nacimiento_de_Rio_Grande</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>SL-A-246 Yunquera-Nacimiento de Río Grande - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Sierra de las Nieves</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>SL-A-246 Yunquera-Nacimiento de Río Grande</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>SZP10</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>2.5</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>9.2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Se recomienda consultar las normas de comportamiento que deben cumplir los visitantes a la Sierra de las Nieves, así como los consejos generales que buscan asegurar su disfrute de la visita con seguridad.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Nuestro punto de partida es la zona de Los Arbolitos, un recinto que cuenta, además de varias instalaciones deportivas, con una zona habilitada para mesas de picnic y barbacoas, al amparo de un pequeño pinar de pinos piñoneros que ofrecen abundante sombra. Este lugar, también puede servir de referencia como punto desde donde también parte el acceso principal a la zona de los pinsapares de Yunquera, los más extensos del Parque Nacional.
+
+Para ir a nuestro destino, la surgencia de Zarzalones o Nacimiento de Río Grande, tomamos el camino asfaltado, denominado Lomilla de los Bueyes, que parte junto a la zona del rocódromo y que, dejando a nuestra izquierda la piscina, se adentra por entre una hilera de grandes árboles, eucaliptos y pinos, otorgando al camino un excelente resguardo del sol.
+
+Tras un tramo llano de unos 500 metros encontramos a nuestra izquierda dos excelentes miradores, con bonitas vistas hacia el pueblo de Yunquera en primer término, gran parte del Valle de río Grande, y en lontananza parte de la Hoya de Málaga e incluso algunos trazos del Mar Mediterráneo.
+
+Tras los miradores, el camino, aún asfaltado, gira a la derecha iniciando un suave descenso por entre campos de cultivo, en los que a modo de bonito collage se entremezclan huertos con olivos, cítricos con aguacates, castaños con cerezos…, casi todos ellos en bancales o tableros construidos por sabias manos ancestrales que, piedra sobre piedra, supieron generar y retener el suelo suficiente en estas pedregosas laderas y distribuir el agua de los pequeños manantiales a través de ingeniosas y zigzagueantes acequias.
+
+Como ejemplo, pasamos junto a la fuente de la «Manguan», nombre que procede de la deformación hecha sobre la «Majada de Don Juan», o la del «Trojilar» a la que se le atribuye popularmente capacidad de despertar el apetito a los niños «desganaos”, y que se encuentra en el fondo del arroyo de la Umbría, sufriendo entonces el camino un fuerte giro a la izquierda.
+
+Sin posibilidad de pérdida, puesto que nuestro camino sigue siendo el principal, seguimos en descenso y siempre acompañados por la sombra de los árboles que lo bordean, hasta que encontramos un cruce de caminos en el que tomamos el ramal de la izquierda, que en descenso más acusado, continúa en la vertiente del arroyo de la Umbría. Unos 700 metros más de descenso, siempre por el camino de mayor rango, nos llevan al llamado puerto de río Grande, donde pasar bajo un pequeño acueducto en el ramal de la derecha nos indica cual debe ser el camino a seguir para entrar propiamente en el valle de río Grande.
+
+A partir de aquí la pendiente de descenso se vuelve algo más pronunciada, llegando a una pequeña explanada en la que abandonamos el carril y nos incorporamos a la derecha por un pequeño sendero que, siempre bajando, nos introduce al llamado circo de Zarzalones, lugar de gran belleza por la densa vegetación, lo abrupto del terreno y las cascadas que se forman por las aguas de escorrentía en las épocas de lluvias.
+
+Unas escalinatas de hormigón nos conducen hasta el fondo del río, donde se encuentra una pequeña represa de captación que construyó la ya antigua industria hidroeléctrica en la primera mitad del siglo xx.
+
+En la parte izquierda de la represa, y escondida entre la densa vegetación que crece animada por la abundancia del líquido elemento que sustenta la vida, se encuentra la cueva de Zarzalones, de cuyo fondo, a modo de borboteo emana y ve la luz el agua que trae la esencia de la Sierra de las Nieves, puesto que la ha recorrido previamente por su interior más profundo durante no se sabe cuántos kilómetros y por qué recónditos y enrevesados recorridos.
+
+Desde que en los primeros años de la década de 1970 audaces espeleólogos malagueños descubrieran la magnitud del sistema de simas  y galerías de estas sierras, con el descubrimiento de la sima GESM, con más de 1.101 metros de desnivel, muchas han sido las complejas expediciones de espeleobuceo en este manantial, que han demostrado la conexión de todo el entramado, y ha situado a Zarzalones como uno de los más importantes a nivel mundial de este tipo, gracias a sus más de 1.300 metros de galerías inundadas descubiertas y lo mucho más que se estima que debe albergar. Posiblemente el futuro lo dirá.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Sierra de las Nieves</SimpleData>
+<SimpleData name="Nombre">SL-A-246 Yunquera-Nacimiento de Río Grande</SimpleData>
+<SimpleData name="Número">SZP10</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">2.5</SimpleData>
+<SimpleData name="Longitud (km)">9.2</SimpleData>
+<SimpleData name="Recomendaciones">Se recomienda consultar las normas de comportamiento que deben cumplir los visitantes a la Sierra de las Nieves, así como los consejos generales que buscan asegurar su disfrute de la visita con seguridad.</SimpleData>
+<SimpleData name="Descripción">Nuestro punto de partida es la zona de Los Arbolitos, un recinto que cuenta, además de varias instalaciones deportivas, con una zona habilitada para mesas de picnic y barbacoas, al amparo de un pequeño pinar de pinos piñoneros que ofrecen abundante sombra. Este lugar, también puede servir de referencia como punto desde donde también parte el acceso principal a la zona de los pinsapares de Yunquera, los más extensos del Parque Nacional.
+
+Para ir a nuestro destino, la surgencia de Zarzalones o Nacimiento de Río Grande, tomamos el camino asfaltado, denominado Lomilla de los Bueyes, que parte junto a la zona del rocódromo y que, dejando a nuestra izquierda la piscina, se adentra por entre una hilera de grandes árboles, eucaliptos y pinos, otorgando al camino un excelente resguardo del sol.
+
+Tras un tramo llano de unos 500 metros encontramos a nuestra izquierda dos excelentes miradores, con bonitas vistas hacia el pueblo de Yunquera en primer término, gran parte del Valle de río Grande, y en lontananza parte de la Hoya de Málaga e incluso algunos trazos del Mar Mediterráneo.
+
+Tras los miradores, el camino, aún asfaltado, gira a la derecha iniciando un suave descenso por entre campos de cultivo, en los que a modo de bonito collage se entremezclan huertos con olivos, cítricos con aguacates, castaños con cerezos…, casi todos ellos en bancales o tableros construidos por sabias manos ancestrales que, piedra sobre piedra, supieron generar y retener el suelo suficiente en estas pedregosas laderas y distribuir el agua de los pequeños manantiales a través de ingeniosas y zigzagueantes acequias.
+
+Como ejemplo, pasamos junto a la fuente de la «Manguan», nombre que procede de la deformación hecha sobre la «Majada de Don Juan», o la del «Trojilar» a la que se le atribuye popularmente capacidad de despertar el apetito a los niños «desganaos”, y que se encuentra en el fondo del arroyo de la Umbría, sufriendo entonces el camino un fuerte giro a la izquierda.
+
+Sin posibilidad de pérdida, puesto que nuestro camino sigue siendo el principal, seguimos en descenso y siempre acompañados por la sombra de los árboles que lo bordean, hasta que encontramos un cruce de caminos en el que tomamos el ramal de la izquierda, que en descenso más acusado, continúa en la vertiente del arroyo de la Umbría. Unos 700 metros más de descenso, siempre por el camino de mayor rango, nos llevan al llamado puerto de río Grande, donde pasar bajo un pequeño acueducto en el ramal de la derecha nos indica cual debe ser el camino a seguir para entrar propiamente en el valle de río Grande.
+
+A partir de aquí la pendiente de descenso se vuelve algo más pronunciada, llegando a una pequeña explanada en la que abandonamos el carril y nos incorporamos a la derecha por un pequeño sendero que, siempre bajando, nos introduce al llamado circo de Zarzalones, lugar de gran belleza por la densa vegetación, lo abrupto del terreno y las cascadas que se forman por las aguas de escorrentía en las épocas de lluvias.
+
+Unas escalinatas de hormigón nos conducen hasta el fondo del río, donde se encuentra una pequeña represa de captación que construyó la ya antigua industria hidroeléctrica en la primera mitad del siglo xx.
+
+En la parte izquierda de la represa, y escondida entre la densa vegetación que crece animada por la abundancia del líquido elemento que sustenta la vida, se encuentra la cueva de Zarzalones, de cuyo fondo, a modo de borboteo emana y ve la luz el agua que trae la esencia de la Sierra de las Nieves, puesto que la ha recorrido previamente por su interior más profundo durante no se sabe cuántos kilómetros y por qué recónditos y enrevesados recorridos.
+
+Desde que en los primeros años de la década de 1970 audaces espeleólogos malagueños descubrieran la magnitud del sistema de simas  y galerías de estas sierras, con el descubrimiento de la sima GESM, con más de 1.101 metros de desnivel, muchas han sido las complejas expediciones de espeleobuceo en este manantial, que han demostrado la conexión de todo el entramado, y ha situado a Zarzalones como uno de los más importantes a nivel mundial de este tipo, gracias a sus más de 1.300 metros de galerías inundadas descubiertas y lo mucho más que se estima que debe albergar. Posiblemente el futuro lo dirá.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-4.92688457099996,36.735677145485,717.157000000007 -4.92775631399991,36.735452843485,721.889999999999 -4.92872141399994,36.735024715485,723.320000000007 -4.92881246099995,36.733403222485,722.307000000001 -4.92888199099991,36.732586246485,722.604999999996 -4.92888154799994,36.732081843485,724.309999999998 -4.92874075799995,36.731761666485,727.312999999995 -4.92851541599993,36.731386995485,730.645000000004 -4.92847818099995,36.731148986485,722.527000000002 -4.92844743999996,36.730801458485,719.339999999997 -4.92848352999994,36.730663537485,718.297000000006 -4.92883864599992,36.730463829485,719.619999999995 -4.92895700099996,36.730198412485,720.020000000004 -4.92932976099991,36.729972421485,718.357999999993 -4.92985476599995,36.730060183485,716.103000000003 -4.93018987899995,36.730201479485,714.285000000003 -4.93049103999993,36.730372051485,712.679999999993 -4.93074191399995,36.730378675485,711.221999999994 -4.93097059599995,36.730235707485,705.25 -4.93121666099995,36.730001269485,708.714999999997 -4.93137806299996,36.730035108485,709.146999999997 -4.93163507999992,36.730290558485,712.804999999993 -4.93176045399991,36.730321902485,710.809999999998 -4.93206762099993,36.730257647485,706.789999999994 -4.93351412599992,36.729779658485,699.502999999997 -4.93380091999995,36.729610403485,695.074999999997 -4.93421778899994,36.729472491485,697.044999999998 -4.93471458499994,36.729522641485,696.425000000003 -4.93478980899994,36.729220176485,695.713000000003 -4.93540120499995,36.728752177485,696.240000000005 -4.93580507499991,36.728665460485,696.942999999999 -4.93586664899993,36.728465109485,697.741999999998 -4.93610937299991,36.728206337485,697.580000000002 -4.93646982399991,36.727778372485,696.520000000004 -4.93707288199994,36.727254413485,695.565000000002 -4.93824430499996,36.726988258485,703.226999999999 -4.93841312499995,36.726847468485,702.429999999993 -4.93841312499995,36.726604653485,701.002999999997 -4.93828620599993,36.726547065485,704.389999999999 -4.93764363999992,36.726668810485,706.846999999994 -4.93725184599992,36.726670377485,711.116999999998 -4.93699959699995,36.726606682485,714.259999999995 -4.93655601899991,36.726606123485,712.922000000006 -4.93622942399992,36.726796263485,707.160000000003 -4.93586973799995,36.726884801485,699.986999999994 -4.93548563599995,36.726960305485,699.934999999998 -4.93513919199995,36.726876461485,695.660000000003 -4.93440319999991,36.726886562485,691.365000000005 -4.93392485199996,36.726769046485,693.130000000005 -4.93380122599996,36.726693594485,693.384999999995 -4.93411278799994,36.726433733485,695.182000000001 -4.93411943299992,36.726243478485,694.550000000003 -4.93357367899995,36.726027834485,696.258000000002 -4.93291263499992,36.725928766485,697.513000000006 -4.93263493899991,36.725744175485,688.648000000001 -4.93243747499992,36.725524770485,685.585000000006 -4.93175731999992,36.725253648485,691.304999999993 -4.93155201899992,36.725278723485,689.307000000001 -4.93083924699994,36.725177052485,686.785000000003 -4.93020984399993,36.725147179485,678.032000000007 -4.93064323499993,36.725963315485,663.842000000004 -4.93072944699992,36.726334960485,655.383000000002 -4.93096566699995,36.726352458485,660.963000000003 -4.93100649499991,36.726486607485,655.967999999993 -4.93092228799992,36.726599822485,653.383000000002 -4.93074626699996,36.726565794485,650.366999999998 -4.93061131299993,36.726474760485,643.327999999994 -4.93018368499992,36.725993732485,649.764999999999 -4.92998929399994,36.725815488485,644.705000000002 -4.92984722699992,36.725628861485,646.115000000005 -4.92959023799995,36.725647808485,644.225000000006 -4.92924623999994,36.725561812485,641.767999999996 -4.92898158999992,36.725539768485,643.482999999993 -4.92862576099992,36.725635421485,643.332999999999 -4.92804629099993,36.725861875485,636.838000000003 -4.92791922299995,36.725850815485,635.111999999994 -4.92774218799991,36.725757771485,632.817999999999 -4.92750330499996,36.725718887485,631.625 -4.92711321299993,36.725864901485,625.929999999993 -4.92694926799993,36.725824830485,624.770000000004 -4.92687734699996,36.725672783485,625.914999999994 -4.92688221299994,36.725531796485,622.728000000003 -4.92713232999995,36.725295768485,618.027000000002 -4.92736433999994,36.725177913485,617.589999999997 -4.92749223999993,36.725018825485,614.948000000004 -4.92745720299996,36.724847840485,611.741999999998 -4.92725721499994,36.724680866485,605.25 -4.92671424099996,36.724062789485,602.889999999999 -4.92669630299991,36.723990874485,602.432000000001 -4.92684834899995,36.723817868485,599.125 -4.92681600699996,36.723604977485,590.657000000007 -4.92661031499995,36.723533964485,594.297000000006 -4.92661276399991,36.723460502485,589.419999999998 -4.92697223399995,36.7235768014851,589.615000000005 -4.92791518899992,36.723646880485,574.324999999997 -4.92810629699994,36.723633798485,573.292000000001 -4.92845733399992,36.7235167884851,569.661999999997 -4.92849823999995,36.723479910485,569.661999999997 -4.92849522399996,36.723427773485,569.661999999997 -4.92843219499991,36.723402798485,567.832999999999 -4.92805566999993,36.723366533485,563.607000000004 -4.92800975599994,36.723263228485,561.195000000007 -4.92823549699995,36.723140792485,556.002999999997 -4.92835721599994,36.723023617485,554.036999999997 -4.92857243499992,36.722700788485,549.630000000005 -4.92824362799996,36.722635027485,541.851999999999 -4.92804634299995,36.722467634485,535.407000000007 -4.92800178899995,36.722294677485,535.205000000002 -4.92795223999991,36.721864886485,530.652000000002 -4.92803164199995,36.721093103485,520.5 -4.92796859999993,36.720840973485,515.241999999998 -4.92804326899994,36.7207318194851,511.192999999999 -4.92821426499995,36.7206768324851,509.005000000005 -4.92834921499991,36.720536852485,506.133000000002 -4.92834333699994,36.7202738314851,500.282999999996 -4.92829120599993,36.720112904485,494.880000000005 -4.92830428399992,36.720018857485,495.550000000003 -4.92837419399996,36.719935873485,495.964999999997 -4.92879227299994,36.719703863485,491.252999999997 -4.92935520799995,36.719548802485,482.190000000002 -4.92946131699995,36.719441845485,477.809999999998 -4.92984320599993,36.719210835485,469.161999999997 -4.92991628799996,36.719195919485,468.095000000001 -4.93015534199992,36.719231798485,468.595000000001 -4.93024620699993,36.719273874485,469.949999999997 -4.93035919199991,36.7194007714851,467.785000000003 -4.93051828099993,36.7195068924851,470.312999999995 -4.93065222199994,36.719533878485,470.913 -4.93082421799994,36.719703863485,465.752999999997 -4.93065222199994,36.719533878485,470.913 -4.93051828099993,36.7195068924851,470.312999999995 -4.93035919199991,36.7194007714851,467.785000000003 -4.93024620699993,36.719273874485,469.949999999997 -4.93015534199992,36.719231798485,468.595000000001 -4.92991628799996,36.719195919485,468.095000000001 -4.92984320599993,36.719210835485,469.161999999997 -4.92946131699995,36.719441845485,477.809999999998 -4.92935520799995,36.719548802485,482.190000000002 -4.92879227299994,36.719703863485,491.252999999997 -4.92837419399996,36.719935873485,495.964999999997 -4.92830428399992,36.720018857485,495.550000000003 -4.92829120599993,36.720112904485,494.880000000005 -4.92834333699994,36.7202738314851,500.282999999996 -4.92834921499991,36.720536852485,506.133000000002 -4.92821426499995,36.7206768324851,509.005000000005 -4.92804326899994,36.7207318194851,511.192999999999 -4.92796859999993,36.720840973485,515.241999999998 -4.92803164199995,36.721093103485,520.5 -4.92795223999991,36.721864886485,530.652000000002 -4.92800178899995,36.722294677485,535.205000000002 -4.92804634299995,36.722467634485,535.407000000007 -4.92824362799996,36.722635027485,541.851999999999 -4.92857243499992,36.722700788485,549.630000000005 -4.92835721599994,36.723023617485,554.036999999997 -4.92823549699995,36.723140792485,556.002999999997 -4.92800975599994,36.723263228485,561.195000000007 -4.92805566999993,36.723366533485,563.607000000004 -4.92843219499991,36.723402798485,567.832999999999 -4.92849522399996,36.723427773485,569.661999999997 -4.92849823999995,36.723479910485,569.661999999997 -4.92845733399992,36.7235167884851,569.661999999997 -4.92810629699994,36.723633798485,573.292000000001 -4.92791518899992,36.723646880485,574.324999999997 -4.92697223399995,36.7235768014851,589.615000000005 -4.92661276399991,36.723460502485,589.419999999998 -4.92661031499995,36.723533964485,594.297000000006 -4.92681600699996,36.723604977485,590.657000000007 -4.92684834899995,36.723817868485,599.125 -4.92669630299991,36.723990874485,602.432000000001 -4.92671424099996,36.724062789485,602.889999999999 -4.92725721499994,36.724680866485,605.25 -4.92745720299996,36.724847840485,611.741999999998 -4.92749223999993,36.725018825485,614.948000000004 -4.92736433999994,36.725177913485,617.589999999997 -4.92713232999995,36.725295768485,618.027000000002 -4.92688221299994,36.725531796485,622.728000000003 -4.92687734699996,36.725672783485,625.914999999994 -4.92694926799993,36.725824830485,624.770000000004 -4.92711321299993,36.725864901485,625.929999999993 -4.92750330499996,36.725718887485,631.625 -4.92774218799991,36.725757771485,632.817999999999 -4.92791922299995,36.725850815485,635.111999999994 -4.92804629099993,36.725861875485,636.838000000003 -4.92862576099992,36.725635421485,643.332999999999 -4.92898158999992,36.725539768485,643.482999999993 -4.92924623999994,36.725561812485,641.767999999996 -4.92959023799995,36.725647808485,644.225000000006 -4.92984722699992,36.725628861485,646.115000000005 -4.92998929399994,36.725815488485,644.705000000002 -4.93018368499992,36.725993732485,649.764999999999 -4.93061131299993,36.726474760485,643.327999999994 -4.93074626699996,36.726565794485,650.366999999998 -4.93092228799992,36.726599822485,653.383000000002 -4.93100649499991,36.726486607485,655.967999999993 -4.93096566699995,36.726352458485,660.963000000003 -4.93072944699992,36.726334960485,655.383000000002 -4.93064323499993,36.725963315485,663.842000000004 -4.93020984399993,36.725147179485,678.032000000007 -4.93083924699994,36.725177052485,686.785000000003 -4.93155201899992,36.725278723485,689.307000000001 -4.93175731999992,36.725253648485,691.304999999993 -4.93243747499992,36.725524770485,685.585000000006 -4.93263493899991,36.725744175485,688.648000000001 -4.93291263499992,36.725928766485,697.513000000006 -4.93357367899995,36.726027834485,696.258000000002 -4.93411943299992,36.726243478485,694.550000000003 -4.93411278799994,36.726433733485,695.182000000001 -4.93380122599996,36.726693594485,693.384999999995 -4.93392485199996,36.726769046485,693.130000000005 -4.93440319999991,36.726886562485,691.365000000005 -4.93513919199995,36.726876461485,695.660000000003 -4.93548563599995,36.726960305485,699.934999999998 -4.93586973799995,36.726884801485,699.986999999994 -4.93622942399992,36.726796263485,707.160000000003 -4.93655601899991,36.726606123485,712.922000000006 -4.93699959699995,36.726606682485,714.259999999995 -4.93725184599992,36.726670377485,711.116999999998 -4.93764363999992,36.726668810485,706.846999999994 -4.93828620599993,36.726547065485,704.389999999999 -4.93841312499995,36.726604653485,701.002999999997 -4.93841312499995,36.726847468485,702.429999999993 -4.93824430499996,36.726988258485,703.226999999999 -4.93707288199994,36.727254413485,695.565000000002 -4.93646982399991,36.727778372485,696.520000000004 -4.93610937299991,36.728206337485,697.580000000002 -4.93586664899993,36.728465109485,697.741999999998 -4.93580507499991,36.728665460485,696.942999999999 -4.93540120499995,36.728752177485,696.240000000005 -4.93478980899994,36.729220176485,695.713000000003 -4.93471458499994,36.729522641485,696.425000000003 -4.93421778899994,36.729472491485,697.044999999998 -4.93380091999995,36.729610403485,695.074999999997 -4.93351412599992,36.729779658485,699.502999999997 -4.93206762099993,36.730257647485,706.789999999994 -4.93176045399991,36.730321902485,710.809999999998 -4.93163507999992,36.730290558485,712.804999999993 -4.93137806299996,36.730035108485,709.146999999997 -4.93121666099995,36.730001269485,708.714999999997 -4.93097059599995,36.730235707485,705.25 -4.93074191399995,36.730378675485,711.221999999994 -4.93049103999993,36.730372051485,712.679999999993 -4.93018987899995,36.730201479485,714.285000000003 -4.92985476599995,36.730060183485,716.103000000003 -4.92932976099991,36.729972421485,718.357999999993 -4.92895700099996,36.730198412485,720.020000000004 -4.92883864599992,36.730463829485,719.619999999995 -4.92848352999994,36.730663537485,718.297000000006 -4.92844743999996,36.730801458485,719.339999999997 -4.92847818099995,36.731148986485,722.527000000002 -4.92851541599993,36.731386995485,730.645000000004 -4.92874075799995,36.731761666485,727.312999999995 -4.92888154799994,36.732081843485,724.309999999998 -4.92888199099991,36.732586246485,722.604999999996 -4.92881246099995,36.733403222485,722.307000000001 -4.92872141399994,36.735024715485,723.320000000007 -4.92775631399991,36.735452843485,721.889999999999 -4.92688457099996,36.735677145485,717.157000000007</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

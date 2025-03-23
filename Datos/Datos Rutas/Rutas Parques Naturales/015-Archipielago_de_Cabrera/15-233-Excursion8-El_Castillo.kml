@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>15-233-Excursion8-El_Castillo</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>El Castillo - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Archipiélago de Cabrera</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>El Castillo</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>Excursión8</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>1.4</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Ninguna en especial.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>La ruta que conduce hasta el castillo roquero de Cabrera es la más visitada del parque nacional. Magnífico emplazamiento sobre la bocana de la bahía y no menos espectaculares panorámicas. Recorrido autoguiado sencillo.
+Una de las rutas más cortas, y más célebres del parque nacional es la que sube hasta el Castillo. Es una ruta fácil (1,5 kilómetros) que no lleva más de 25 minutos de subida y 20 de bajada, pero bien es cierto que el enclave donde se ubica este castillo roquero bien merece una visita pausada. El emplazamiento no puede ser mejor y cumple a la perfección su cometido de dominar la entrada a la bahía de Cabrera. Desde sus 72 metros de altitud se observa una panorámica circular inolvidable tanto de la propia isla como de algunos de los islotes e islas vecinas situadas al norte. En días despejados incluso la sierra mallorquina de Tramuntana.
+El recorrido comienza en la explanada del puerto (Es Moll) y continúa por la pista principal unos 50 metros hasta que encontramos el primer desvío a la izquierda. Es el ancho camino de tierra que lleva al castillo. Enseguida llama nuestra atención un gran orificio en la pared rocosa que queda a nuestra derecha. Es la cueva des Teatre, conocida así por ser el lugar donde los prisioneros franceses que ocuparon durante 5 años la isla efectuaban sus particulares representaciones teatrales. El acceso no está permitido pues no se puede abandonar el camino.
+La subida se realiza por una pista de notable pendiente hasta el cementerio. En dicho cementerio fue enterrado el piloto alemán Johannes Böckler tras su accidente mortal cerca del faro de l’Enciola durante la II Guerra Mundial— y de allí por una senda hacia el castillo. Los restos del piloto fueron trasladados en 1982 al cementerio de Cuacos de Yuste (Cáceres). Yacen en el pequeño cementerio junto al Castillo —acceso no permitido— los restos de un pescador, un niño y los últimos propietarios de la isla.
+No existe sombra sino una maquia aclarada en la que predominan lechetreznas y belchos pero amenizarán la subida a buen seguro las lagartijas baleares que gustan de tomar el sol en las rocas y plantas del camino. Se trata de un interesante endemismo.
+Una vez arriba, nos espera esta esbelta fortificación originaria del siglo XIV desde donde se comunicaron mediante señales con la costa de Sa Ràpita (Mallorca) ante los ataques de piratas y corsarios. De hecho se produjeron varios ataques que obligaron a reconstruir en muchas ocasiones la fortificación. Concluidas sus funciones militares durante los siglos siguientes, sirvió incluso de hospital de campaña a los prisioneros franceses y hospital de cuarentena en época de epidemias. En 1949 el castillo fue declarado BIC (Bien de Interés Cultural) y fue reformado de nuevo en 1982.
+El castillo es, mención aparte de los restos arqueológicos (ruta 6), la construcción más antigua de Cabrera. Se puede entrar y recorrer la atalaya accediendo por su estrecha escalera de caracol hasta las almenas superiores. Aquí es una delicia contemplar cómo las gaviotas patiamarillas, las más abundantes, pasan sin parar bajo los muros del castillo o sobre nuestras cabezas en espectaculares vuelos rasantes. Podemos observar también, de forma esporádica, alguna gaviota de Audouin de las que crían en el parque.
+Para regresar empleamos el mismo camino de ida. A pesar de lo sencillo del terreno hay que tener precaución en la bajada pues el lecho de arenilla y piedrecillas sueltas que cubre la pista propicia no pocos resbalones.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Archipiélago de Cabrera</SimpleData>
+<SimpleData name="Nombre">El Castillo</SimpleData>
+<SimpleData name="Número">Excursión8</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">1</SimpleData>
+<SimpleData name="Longitud (km)">1.4</SimpleData>
+<SimpleData name="Recomendaciones">Ninguna en especial.</SimpleData>
+<SimpleData name="Descripción">La ruta que conduce hasta el castillo roquero de Cabrera es la más visitada del parque nacional. Magnífico emplazamiento sobre la bocana de la bahía y no menos espectaculares panorámicas. Recorrido autoguiado sencillo.
+Una de las rutas más cortas, y más célebres del parque nacional es la que sube hasta el Castillo. Es una ruta fácil (1,5 kilómetros) que no lleva más de 25 minutos de subida y 20 de bajada, pero bien es cierto que el enclave donde se ubica este castillo roquero bien merece una visita pausada. El emplazamiento no puede ser mejor y cumple a la perfección su cometido de dominar la entrada a la bahía de Cabrera. Desde sus 72 metros de altitud se observa una panorámica circular inolvidable tanto de la propia isla como de algunos de los islotes e islas vecinas situadas al norte. En días despejados incluso la sierra mallorquina de Tramuntana.
+El recorrido comienza en la explanada del puerto (Es Moll) y continúa por la pista principal unos 50 metros hasta que encontramos el primer desvío a la izquierda. Es el ancho camino de tierra que lleva al castillo. Enseguida llama nuestra atención un gran orificio en la pared rocosa que queda a nuestra derecha. Es la cueva des Teatre, conocida así por ser el lugar donde los prisioneros franceses que ocuparon durante 5 años la isla efectuaban sus particulares representaciones teatrales. El acceso no está permitido pues no se puede abandonar el camino.
+La subida se realiza por una pista de notable pendiente hasta el cementerio. En dicho cementerio fue enterrado el piloto alemán Johannes Böckler tras su accidente mortal cerca del faro de l’Enciola durante la II Guerra Mundial— y de allí por una senda hacia el castillo. Los restos del piloto fueron trasladados en 1982 al cementerio de Cuacos de Yuste (Cáceres). Yacen en el pequeño cementerio junto al Castillo —acceso no permitido— los restos de un pescador, un niño y los últimos propietarios de la isla.
+No existe sombra sino una maquia aclarada en la que predominan lechetreznas y belchos pero amenizarán la subida a buen seguro las lagartijas baleares que gustan de tomar el sol en las rocas y plantas del camino. Se trata de un interesante endemismo.
+Una vez arriba, nos espera esta esbelta fortificación originaria del siglo XIV desde donde se comunicaron mediante señales con la costa de Sa Ràpita (Mallorca) ante los ataques de piratas y corsarios. De hecho se produjeron varios ataques que obligaron a reconstruir en muchas ocasiones la fortificación. Concluidas sus funciones militares durante los siglos siguientes, sirvió incluso de hospital de campaña a los prisioneros franceses y hospital de cuarentena en época de epidemias. En 1949 el castillo fue declarado BIC (Bien de Interés Cultural) y fue reformado de nuevo en 1982.
+El castillo es, mención aparte de los restos arqueológicos (ruta 6), la construcción más antigua de Cabrera. Se puede entrar y recorrer la atalaya accediendo por su estrecha escalera de caracol hasta las almenas superiores. Aquí es una delicia contemplar cómo las gaviotas patiamarillas, las más abundantes, pasan sin parar bajo los muros del castillo o sobre nuestras cabezas en espectaculares vuelos rasantes. Podemos observar también, de forma esporádica, alguna gaviota de Audouin de las que crían en el parque.
+Para regresar empleamos el mismo camino de ida. A pesar de lo sencillo del terreno hay que tener precaución en la bajada pues el lecho de arenilla y piedrecillas sueltas que cubre la pista propicia no pocos resbalones.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>2.93389199800009,39.1512963604741,1.45600000000559 2.93420363000007,39.1512909364741,3.20600000000559 2.93424919100005,39.1512741644741,3.5460000000021 2.93432115800005,39.1512163444741,4.24099999999453 2.93444118900004,39.1510278994741,7.42299999999523 2.93455166600006,39.150802119474,9.79099999999744 2.93459727600009,39.1507312194741,11.0460000000021 2.93468845400008,39.1506360824741,12.4649999999965 2.93474841000005,39.1506053184741,13.1059999999998 2.93480834500008,39.1505978854741,13.6589999999997 2.93483949300008,39.1506128344741,14.551999999996 2.93484424400009,39.1506594984741,14.9170000000013 2.93483699800009,39.1507192214741,15.2329999999929 2.93471206200007,39.1510289854741,14.5789999999979 2.93462081800004,39.1511950484741,14.1180000000022 2.93459908500006,39.1513667504741,14.9649999999965 2.93460854200009,39.1515086064741,16.2810000000027 2.93460130300008,39.1515608634741,16.5969999999943 2.93457729200009,39.1516037784741,16.4790000000066 2.93441899200008,39.1516988794741,19.0109999999986 2.93404972000008,39.1518199904741,21.4199999999983 2.93390823400006,39.151877770474,23.4250000000029 2.93327263500009,39.1522544344741,30.6929999999993 2.93310712500005,39.152366326474,33.6839999999938 2.93303760100008,39.1523737524741,33.8849999999948 2.93297767900009,39.152366251474,34.622000000003 2.93279560600007,39.1522485614741,36.7339999999967 2.93273808300006,39.152239195474,37.2029999999941 2.93268052500008,39.1522671584741,37.6079999999929 2.93268047200007,39.1523231524741,39.4360000000015 2.93283842000005,39.1526013464741,45.2859999999928 2.93288390000009,39.152670431474,45.9940000000061 2.93298928200005,39.1527694154741,48.7189999999973 2.93301799900007,39.1528216914741,49.5420000000013 2.93301796100008,39.1528608874741,50.3559999999998 2.93299876500009,39.152881407474,50.3559999999998 2.93295561400009,39.1528832494741,50.6169999999984 2.93276869200008,39.1528215484741,53.1809999999969 2.93271355400009,39.152825249474,53.8709999999992 2.93267996700007,39.1528532274741,54.3600000000006 2.93268467000007,39.1529484194741,56.9940000000061 2.93266784000008,39.153000669474,57.7489999999962 2.93263663800008,39.1530417144741,58.8089999999938 2.93258867100008,39.1530659514741,59.3640000000014 2.93248079200009,39.1530714874741,60.252999999997 2.93244482200009,39.153084531474,59.8260000000009 2.93238655500005,39.1530492424741,60.523000000001 2.93233032900008,39.152984043474,61.2160000000003 2.93225883800005,39.1529363814741,61.9809999999998 2.93221470700007,39.152928438474,63.148000000001 2.93218141100005,39.1528982774741,64.3549999999959 2.93211111200009,39.1527774564741,66.9649999999965 2.93208825700009,39.1526846934741,66.5660000000062 2.93204187600008,39.1526026874741,68.0209999999934 2.93196323000006,39.152550255474,70.9619999999995 2.93192123800009,39.1525511224741,75.1100000000006 2.93184577500006,39.1525100794741,79.851999999999 2.93177010900007,39.152587025474,90.7590000000055 2.93184577500006,39.1525100794741,79.851999999999 2.93192123800009,39.1525511224741,75.1100000000006 2.93196323000006,39.152550255474,70.9619999999995 2.93204187600008,39.1526026874741,68.0209999999934 2.93208825700009,39.1526846934741,66.5660000000062 2.93211111200009,39.1527774564741,66.9649999999965 2.93218141100005,39.1528982774741,64.3549999999959 2.93221470700007,39.152928438474,63.148000000001 2.93225883800005,39.1529363814741,61.9809999999998 2.93233032900008,39.152984043474,61.2160000000003 2.93238655500005,39.1530492424741,60.523000000001 2.93244482200009,39.153084531474,59.8260000000009 2.93248079200009,39.1530714874741,60.252999999997 2.93258867100008,39.1530659514741,59.3640000000014 2.93263663800008,39.1530417144741,58.8089999999938 2.93266784000008,39.153000669474,57.7489999999962 2.93268467000007,39.1529484194741,56.9940000000061 2.93267996700007,39.1528532274741,54.3600000000006 2.93271355400009,39.152825249474,53.8709999999992 2.93276869200008,39.1528215484741,53.1809999999969 2.93295561400009,39.1528832494741,50.6169999999984 2.93299876500009,39.152881407474,50.3559999999998 2.93301796100008,39.1528608874741,50.3559999999998 2.93301799900007,39.1528216914741,49.5420000000013 2.93298928200005,39.1527694154741,48.7189999999973 2.93288390000009,39.152670431474,45.9940000000061 2.93283842000005,39.1526013464741,45.2859999999928 2.93268047200007,39.1523231524741,39.4360000000015 2.93268052500008,39.1522671584741,37.6079999999929 2.93273808300006,39.152239195474,37.2029999999941 2.93279560600007,39.1522485614741,36.7339999999967 2.93297767900009,39.152366251474,34.622000000003 2.93303760100008,39.1523737524741,33.8849999999948 2.93310712500005,39.152366326474,33.6839999999938 2.93327263500009,39.1522544344741,30.6929999999993 2.93390823400006,39.151877770474,23.4250000000029 2.93404972000008,39.1518199904741,21.4199999999983 2.93441899200008,39.1516988794741,19.0109999999986 2.93457729200009,39.1516037784741,16.4790000000066 2.93460130300008,39.1515608634741,16.5969999999943 2.93460854200009,39.1515086064741,16.2810000000027 2.93459908500006,39.1513667504741,14.9649999999965 2.93462081800004,39.1511950484741,14.1180000000022 2.93471206200007,39.1510289854741,14.5789999999979 2.93483699800009,39.1507192214741,15.2329999999929 2.93484424400009,39.1506594984741,14.9170000000013 2.93483949300008,39.1506128344741,14.551999999996 2.93480834500008,39.1505978854741,13.6589999999997 2.93474841000005,39.1506053184741,13.1059999999998 2.93468845400008,39.1506360824741,12.4649999999965 2.93459727600009,39.1507312194741,11.0460000000021 2.93455166600006,39.150802119474,9.79099999999744 2.93444118900004,39.1510278994741,7.42299999999523 2.93432115800005,39.1512163444741,4.24099999999453 2.93424919100005,39.1512741644741,3.5460000000021 2.93420363000007,39.1512909364741,3.20600000000559 2.93389199800009,39.1512963604741,1.45600000000559</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

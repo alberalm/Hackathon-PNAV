@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>4-140-SPN24-Portillo_Alto</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>Portillo Alto - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Teide</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Portillo Alto</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>SPN24</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>0.75</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>1.5</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>No abandonar el sendero hasta llegar al cruce con el SPN6.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>La ruta tiene su inicio en el km 33,5 de la TF-21 y pasa por detrás del puesto de la Cruz Roja y del puesto contra incendios a través del retamar de cumbre que crece en el Portillo de la Villa. Al poco de comenzar a caminar hallamos algún desvío que sale a izquierda y derecha del camino pero hemos de seguir de frente. A la par que vamos disfrutando de las fantásticas vistas sobre el Teide, el sendero va avanzando hacia el oeste hasta toparse, cuando llevamos 1,2 km., con el cruce del SPN 6. 
+
+Encontramos indicaciones (hacia la erecha) para ir al SPN 1 y el Punto de Información El Portillo. Es el ramal que nos lleva al Jardín Botánico y Centro de Visitantes El Portillo. 
+Seguimos de frente en este cruce manteniendo el sentido de la marcha que traíamos para llegar enseguida a un nuevo cruce, a la altura del Roque del Peral. Es la intersección con el SPN 1, la ruta de La Fortaleza,que marca el final del sendero.
+
+Este sendero presenta el ramal 24.1 Ramal al Jardín Botánico:
+Duración: 15 min.
+Distancia: 600 metros.
+Difi cultad: Baja.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Teide</SimpleData>
+<SimpleData name="Nombre">Portillo Alto</SimpleData>
+<SimpleData name="Número">SPN24</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">0.75</SimpleData>
+<SimpleData name="Longitud (km)">1.5</SimpleData>
+<SimpleData name="Recomendaciones">No abandonar el sendero hasta llegar al cruce con el SPN6.</SimpleData>
+<SimpleData name="Descripción">La ruta tiene su inicio en el km 33,5 de la TF-21 y pasa por detrás del puesto de la Cruz Roja y del puesto contra incendios a través del retamar de cumbre que crece en el Portillo de la Villa. Al poco de comenzar a caminar hallamos algún desvío que sale a izquierda y derecha del camino pero hemos de seguir de frente. A la par que vamos disfrutando de las fantásticas vistas sobre el Teide, el sendero va avanzando hacia el oeste hasta toparse, cuando llevamos 1,2 km., con el cruce del SPN 6. 
+
+Encontramos indicaciones (hacia la erecha) para ir al SPN 1 y el Punto de Información El Portillo. Es el ramal que nos lleva al Jardín Botánico y Centro de Visitantes El Portillo. 
+Seguimos de frente en este cruce manteniendo el sentido de la marcha que traíamos para llegar enseguida a un nuevo cruce, a la altura del Roque del Peral. Es la intersección con el SPN 1, la ruta de La Fortaleza,que marca el final del sendero.
+
+Este sendero presenta el ramal 24.1 Ramal al Jardín Botánico:
+Duración: 15 min.
+Distancia: 600 metros.
+Difi cultad: Baja.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-16.5657773069999,28.2970401470001,2126.33689999999 -16.566192757,28.2972825800001,2126.001 -16.566466675,28.2973909780001,2122.262 -16.5672396799999,28.2976413630001,2121.16409999999 -16.5674355389999,28.2977657280001,2118.126 -16.567497069,28.2977831090001,2117.50199999999 -16.567571815,28.297773207,2116.37699999999 -16.5676123039999,28.2977486250001,2115.53909999999 -16.5677484919999,28.2977500760001,2114.645 -16.5679047259999,28.297831564,2114.05100000001 -16.5679992949999,28.29790697,2113.6899 -16.5680065429999,28.2981691580001,2110.5759 -16.5680812669999,28.2982843400001,2109.30590000001 -16.5681498069999,28.2985460370001,2107.20510000001 -16.5681717919999,28.298688649,2106.06690000001 -16.5682021819999,28.2987427020001,2105.71189999999 -16.568382132,28.2989426140001,2102.78999999999 -16.5685214149999,28.2991550510001,2100.13989999999 -16.5685954549999,28.2993290480001,2098.51489999999 -16.5686669119999,28.2994245230001,2097.75900000001 -16.5688466169999,28.2995100530001,2096.9099 -16.5690342159999,28.2997671540001,2095.58590000001 -16.5692956789999,28.2999540690001,2094.874 -16.5693849259999,28.300004292,2093.36010000001 -16.569460116,28.300024529,2092.53810000001 -16.5695553739999,28.3000204200001,2090.97410000001 -16.569599798,28.3000319670001,2091.03999999999 -16.5697388199999,28.3002263180001,2093.1289 -16.5698773559999,28.3003875140001,2093.167 -16.570101829,28.3005876990001,2093.5649 -16.5702238999999,28.3006723600001,2094.052 -16.5703728989999,28.300766562,2093.7061 -16.5707533459999,28.3009260970001,2090.96799999999 -16.5708245499999,28.300924599,2091.41310000001 -16.570868683,28.300952576,2090.59910000001 -16.5709421859999,28.3010354640001,2089.6321 -16.5709723169999,28.3010613330001,2089.3931 -16.5710282709999,28.3010853700001,2089.3149 -16.5710802849999,28.3010869460001,2089.3091 -16.5712835279999,28.3010978570001,2088.844 -16.571430861,28.301162483,2088.989 -16.5716215559999,28.301166316,2087.3979 -16.5718944259999,28.3012023650001,2082.9099 -16.5721363279999,28.3011897920001,2079.44409999999 -16.5721643059999,28.3011882160001,2079.44409999999 -16.572198194,28.3012024010001,2077.86599999999 -16.5722168229999,28.3011995290001,2076.56690000001 -16.5722585459999,28.3012085170001,2076.56690000001 -16.572287043,28.3012075080001,2075.61500000001 -16.572345551,28.3012317180001,2074.54489999999 -16.572391895,28.3012328110001,2073.53389999999 -16.5724665099999,28.301213863,2071.7061 -16.5725334759999,28.3011377270001,2070.65089999999 -16.572635143,28.30110641,2069.8621 -16.5726734129999,28.3010967970001,2070.12699999999 -16.5727151819999,28.301092462,2070.32399999999 -16.5727699539999,28.301102314,2070.75199999999 -16.5729482369999,28.301099788,2072.855 -16.5729866799999,28.3011161050001,2072.77099999999 -16.5730343589999,28.301143294,2073.5491 -16.5730627299999,28.3011539340001,2073.0969 -16.5731076519999,28.3011555100001,2073.2571 -16.5731602839999,28.3011666800001,2073.66310000001 -16.573294996,28.301232644,2074.56200000001 -16.5734175559999,28.3012993720001,2076.3291 -16.5734704689999,28.301349627,2077.15089999999 -16.5735252429999,28.3014458470001,2078.311 -16.5736557939999,28.3015337200001,2079.4121 -16.57375573,28.3016089930001,2080.06909999999 -16.5740562309999,28.30167185,2082.39109999999 -16.5741557669999,28.3017087100001,2082.2681 -16.5742646989999,28.3017267230001,2082.853 -16.5743741499999,28.301761636,2083.28 -16.574426226,28.301830372,2083.1741 -16.5744875489999,28.301866094,2083.228 -16.5747756229999,28.3019770720001,2081.05590000001 -16.5750639599999,28.301907424,2080.08500000001 -16.5751579419999,28.3018682780001,2078.68799999999 -16.5752706529999,28.3018417320001,2077.8291 -16.5753830199999,28.30184345,2077.7571 -16.5754621489999,28.3018998140001,2078.0491 -16.5756326599999,28.3021510730001,2079.2959 -16.5758148339999,28.3022695540001,2078.58010000001 -16.5758840629999,28.302347135,2077.708 -16.5759459509999,28.302388625,2077.2019 -16.5761825399999,28.3025034630001,2073.2129 -16.5764002619999,28.302724029,2070.0791 -16.5764493809999,28.3028229440001,2069.0471 -16.5764459059999,28.3030490800001,2067.8201 -16.576503972,28.3033499100001,2065.91499999999</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

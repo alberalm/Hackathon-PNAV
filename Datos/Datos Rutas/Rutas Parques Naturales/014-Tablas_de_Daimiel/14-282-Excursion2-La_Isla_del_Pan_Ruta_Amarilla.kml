@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>14-282-Excursion2-La_Isla_del_Pan_Ruta_Amarilla</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Style id="kml_style_ft_Ramales">
+<LineStyle>
+<color>ff2a69e8</color>
+</LineStyle>
+<PolyStyle>
+<color>b02a69e8</color>
+</PolyStyle>
+</Style>
+<Schema name="Ramales" id="kml_schema_ft_Ramales">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Name">
+<displayName>Name</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>La Isla del Pan. Ruta Amarilla - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Tablas de Daimiel</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>La Isla del Pan. Ruta Amarilla</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>Excursión2</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Circular</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>2.5</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>2.7</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Ruta circular imprescindible, pues al ser la única que atraviesa Las Tablas es sin duda el itinerario más representativo de los existentes. Está indicada en color amarillo. Incluye paso por el Bosque de Tarayes y la laguna de Aclimatación.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Se trata de un recorrido bien acondicionado que permite caminar sobre Las Tablas gracias a la existencia de pasarelas de madera que comunican algunas de las treinta islas del Parque Nacional. Una serie de observatorios y balcones permiten contemplar la avifauna en su medio natural. 
+Desde el aparcamiento del centro de visitantes, donde se encuentran los carteles indicadores de los recorridos del Parque, se puede apreciar que el recorrido, al ser circular, se puede realizar indistintamente comenzando por la izquierda o por la derecha. Nos dirigimos a la derecha, hacia la Laguna de Aclimatación, a la que siempre es recomendable asomarse para observar de cerca varias especies de la fauna principal de Las Tablas. 
+La Laguna de Aclimatación es un elemento interpretativo del Parque Nacional situado a 300 metros del Centro de Visitantes. Es una laguna artificial y permanente habitada por diferentes especies de anátidas que se crían en cautividad en la laguna. 
+Existen dos observatorios desde los que es posible contemplar, con gran proximidad, ánades reales, patos cuchara, patos colorados, porrones, ánades rabudos y cercetas, entre otras especies. 
+Tras dejar la laguna el primer contacto con el ambiente y el paisaje típico de Las Tablas lo tenemos en la isla de la Entradilla. Encontramos la primera pasarela de madera sobre las Tablas y también el primer balcón sobre la lámina de agua y la cubierta vegetal de masiega y carrizo. 
+A la isla de de la Entradilla le sigue la isla de del Descanso. Se llega sin pérdida posible continuando por la pasarela que se adentra en el marjal. En función del nivel de agua la avifauna presente estará dominada por limícolas o especies de patos nadadores y buceadores.
+En las zonas más someras será fácil observar a limícolas como cigüeñuelas, combatientes, archibebes y avocetas escrutando el fondo en busca de alimento mientras caminan sin cesar. Bajo las aguas poco profundas se mueven también los galápagos en busca de crustáceos abriéndose paso entre el manto subacuático verde de las ovas. La proliferación de esta alga indica buena calidad del agua. 
+Sobrevolando Las Tablas la presencia de alguna garza real, más frecuente en invierno, fumareles, pagazas o algún aguilucho lagunero, la estrella entre las rapaces autóctonas. 
+Desde el sendero se aprecian las trochas o canales abiertos entre la vegetación para enlazar una tabla con otra y por las que navegaban los pescadores locales a bordo de sus pequeñas embarcaciones de fondo plano para “ganarse el pan” pescando en la zona cangrejos autóctonos, ya extinguidos, y diferentes peces. 
+La isla del Pan es una de las de mayor tamaño del Parque y la mayor de las cinco por las que transita este recorrido. En ella se encuentra la mejor representación del bosque de tarayes —muy frecuentado por la avifauna como lugar de cría—, y diversas especies vegetales como los juncos, castañuelas, calaminos o malvavisco, entre otras. Es la más frondosa del recorrido y toda su superficie y casi la totalidad del Parque Nacional es bien visible desde el observatorio situado en su parte más elevada y que permite una visión circular del terreno con El Tablazo en primer término a la derecha (este). Son bien visibles las entradas del Guadiana (sureste) y el Gigüela (noreste) a Las Tablas. 
+El sendero abandona la isla del Pan para llegar, mediante pasarela, a la pequeña pero interesante isla de los Tarayes, bautizada así por el bosquete de este árbol que crece en ella. La pasarela describe un semicírculo para acceder al último observatorio faunístico del recorrido y llegar a la isla del Maturro. Desde esta isla final, la pasarela busca la orilla del Guadiana para poner pie a tierra en la intersección con la ruta roja de la Laguna Permanente (Excursión 1) y regresar hacia el punto de inicio de la ruta. Este último tramo de pasarela es el de mayor longitud. Cuenta además con la posibilidad de asomarse a un balcón emplazado frente al primer tramo del recorrido, es decir, situado entre la isla de La Entradilla y la isla del Descanso.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Tablas de Daimiel</SimpleData>
+<SimpleData name="Nombre">La Isla del Pan. Ruta Amarilla</SimpleData>
+<SimpleData name="Número">Excursión2</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Circular</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">2.5</SimpleData>
+<SimpleData name="Longitud (km)">2.7</SimpleData>
+<SimpleData name="Recomendaciones">Ruta circular imprescindible, pues al ser la única que atraviesa Las Tablas es sin duda el itinerario más representativo de los existentes. Está indicada en color amarillo. Incluye paso por el Bosque de Tarayes y la laguna de Aclimatación.</SimpleData>
+<SimpleData name="Descripción">Se trata de un recorrido bien acondicionado que permite caminar sobre Las Tablas gracias a la existencia de pasarelas de madera que comunican algunas de las treinta islas del Parque Nacional. Una serie de observatorios y balcones permiten contemplar la avifauna en su medio natural. 
+Desde el aparcamiento del centro de visitantes, donde se encuentran los carteles indicadores de los recorridos del Parque, se puede apreciar que el recorrido, al ser circular, se puede realizar indistintamente comenzando por la izquierda o por la derecha. Nos dirigimos a la derecha, hacia la Laguna de Aclimatación, a la que siempre es recomendable asomarse para observar de cerca varias especies de la fauna principal de Las Tablas. 
+La Laguna de Aclimatación es un elemento interpretativo del Parque Nacional situado a 300 metros del Centro de Visitantes. Es una laguna artificial y permanente habitada por diferentes especies de anátidas que se crían en cautividad en la laguna. 
+Existen dos observatorios desde los que es posible contemplar, con gran proximidad, ánades reales, patos cuchara, patos colorados, porrones, ánades rabudos y cercetas, entre otras especies. 
+Tras dejar la laguna el primer contacto con el ambiente y el paisaje típico de Las Tablas lo tenemos en la isla de la Entradilla. Encontramos la primera pasarela de madera sobre las Tablas y también el primer balcón sobre la lámina de agua y la cubierta vegetal de masiega y carrizo. 
+A la isla de de la Entradilla le sigue la isla de del Descanso. Se llega sin pérdida posible continuando por la pasarela que se adentra en el marjal. En función del nivel de agua la avifauna presente estará dominada por limícolas o especies de patos nadadores y buceadores.
+En las zonas más someras será fácil observar a limícolas como cigüeñuelas, combatientes, archibebes y avocetas escrutando el fondo en busca de alimento mientras caminan sin cesar. Bajo las aguas poco profundas se mueven también los galápagos en busca de crustáceos abriéndose paso entre el manto subacuático verde de las ovas. La proliferación de esta alga indica buena calidad del agua. 
+Sobrevolando Las Tablas la presencia de alguna garza real, más frecuente en invierno, fumareles, pagazas o algún aguilucho lagunero, la estrella entre las rapaces autóctonas. 
+Desde el sendero se aprecian las trochas o canales abiertos entre la vegetación para enlazar una tabla con otra y por las que navegaban los pescadores locales a bordo de sus pequeñas embarcaciones de fondo plano para “ganarse el pan” pescando en la zona cangrejos autóctonos, ya extinguidos, y diferentes peces. 
+La isla del Pan es una de las de mayor tamaño del Parque y la mayor de las cinco por las que transita este recorrido. En ella se encuentra la mejor representación del bosque de tarayes —muy frecuentado por la avifauna como lugar de cría—, y diversas especies vegetales como los juncos, castañuelas, calaminos o malvavisco, entre otras. Es la más frondosa del recorrido y toda su superficie y casi la totalidad del Parque Nacional es bien visible desde el observatorio situado en su parte más elevada y que permite una visión circular del terreno con El Tablazo en primer término a la derecha (este). Son bien visibles las entradas del Guadiana (sureste) y el Gigüela (noreste) a Las Tablas. 
+El sendero abandona la isla del Pan para llegar, mediante pasarela, a la pequeña pero interesante isla de los Tarayes, bautizada así por el bosquete de este árbol que crece en ella. La pasarela describe un semicírculo para acceder al último observatorio faunístico del recorrido y llegar a la isla del Maturro. Desde esta isla final, la pasarela busca la orilla del Guadiana para poner pie a tierra en la intersección con la ruta roja de la Laguna Permanente (Excursión 1) y regresar hacia el punto de inicio de la ruta. Este último tramo de pasarela es el de mayor longitud. Cuenta además con la posibilidad de asomarse a un balcón emplazado frente al primer tramo del recorrido, es decir, situado entre la isla de La Entradilla y la isla del Descanso.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-3.69751999899995,39.1379811854741,608.293999999994 -3.69755304399996,39.1380467684741,608.091 -3.69755813699993,39.1381273214741,608.097999999998 -3.69757086799996,39.1383287054741,607.739000000001 -3.69762019199993,39.1384023014741,607.630000000005 -3.69777520499991,39.1385158124741,607.514999999999 -3.69784821199994,39.1385270894741,607.486999999994 -3.69791867499993,39.1385149534741,607.350999999995 -3.69798766899993,39.1384712864741,607.520000000004 -3.69805342299992,39.1384510694741,607.525999999998 -3.69817846999996,39.1384593324741,607.744000000006 -3.69843991999994,39.1385713034741,608.676999999996 -3.69872367599993,39.1387155804741,609.112999999998 -3.69901111699994,39.1388814614741,607.725999999995 -3.69907822699991,39.1391153454741,607.482000000004 -3.69921357799996,39.1394632604741,607.475999999995 -3.69925429699992,39.1394855424741,607.437000000005 -3.69933882299995,39.1394913434741,607.372000000003 -3.69940152499993,39.1395134944741,607.346000000005 -3.69942410599992,39.1395737334741,607.288 -3.69940152499993,39.1395134944741,607.346000000005 -3.69933882299995,39.1394913434741,607.372000000003 -3.69925429699992,39.1394855424741,607.437000000005 -3.69921357799996,39.1394632604741,607.475999999995 -3.69907822699991,39.1391153454741,607.482000000004 -3.69901111699994,39.1388814614741,607.725999999995 -3.69910640199993,39.1388051994741,607.834000000003 -3.69915895599991,39.1387373004741,608.214999999997 -3.69929771299991,39.1383769284741,608.892999999996 -3.69933483899996,39.1380360914741,608.452999999994 -3.69932538299992,39.1377820374741,607.792000000001 -3.69935005299993,39.1377025914741,607.611999999994 -3.69940386199994,39.1376445994741,607.653000000006 -3.69968404799994,39.1374284544741,608.660000000003 -3.69988237399991,39.1373587814741,610.354999999996 -3.70024369299995,39.1372737084741,609.112999999998 -3.70055250399992,39.1372610404741,607.428 -3.70093216399994,39.1371587364741,607.517000000007 -3.70102831099996,39.1371698714741,607.395999999993 -3.70113051999994,39.1372089044741,607.577999999994 -3.70125559099995,39.1372198674741,607.134999999995 -3.70141748099991,39.1372098814741,607.224000000002 -3.70190827099992,39.1372294554741,609.365999999995 -3.70209215299991,39.1372202374741,609.513999999996 -3.70216539599994,39.1371699384741,608.982000000004 -3.70224602199994,39.1371390604741,608.240999999995 -3.70240741299995,39.1371579644741,606.957999999999 -3.70297217799993,39.1371698784741,606.562000000005 -3.70312404899994,39.1371996004741,606.710000000006 -3.70342927199994,39.1372914724741,606.710000000006 -3.70360784399992,39.1373300434741,606.805999999997 -3.70390336199995,39.1373769174741,606.823999999993 -3.70430982399995,39.1374116624741,607.918999999994 -3.70480625199991,39.1374147154741,609.031000000003 -3.70508821799996,39.1373787674741,610.118000000002 -3.70535925799993,39.1372915234741,610.876999999993 -3.70555966699993,39.1371992994741,611.392000000007 -3.70570551699996,39.1370893824741,611.910000000003 -3.70574877199994,39.1370179344741,612.557000000001 -3.70577997099991,39.1368978984741,613.293999999994 -3.70579261899991,39.1366581294741,614.426999999996 -3.70585042899995,39.1365379334741,615.543999999994 -3.70586271099995,39.1363774634741,616.088000000003 -3.70588861099992,39.1363061194741,615.812000000005 -3.70617534399992,39.1360529744741,614.339000000007 -3.70634229099994,39.1358546214741,613.010999999999 -3.70637854899991,39.1357778084741,612.519 -3.70636253599991,39.1356805874741,612.047000000006 -3.70630605599996,39.1355863134741,611.148000000001 -3.70590106499992,39.1353517774742,608.812000000005 -3.70577804599992,39.1351984354741,608.006999999998 -3.70570484199993,39.1351673384741,607.940000000002 -3.70567450999994,39.1351422924741,607.743000000002 -3.70562506299996,39.1350569874742,607.661999999997 -3.70552788699996,39.1350584764741,607.725000000006 -3.70542554699995,39.1351221734741,607.697 -3.70541788899993,39.1351663734741,607.721000000005 -3.70538020399994,39.1352161614741,607.642000000007 -3.70537957699992,39.1352693304741,607.754000000001 -3.70535352499991,39.1353253554741,607.724000000002 -3.70524062799996,39.1353746984741,607.433999999994 -3.70519734599992,39.1354434444741,607.630999999994 -3.70515763399993,39.1355220804741,607.766000000003 -3.70515819099995,39.1355779444741,607.850000000006 -3.70513680199991,39.1356375464741,607.885999999999 -3.70507702599991,39.1356766554741,607.995999999999 -3.70502103599995,39.1357472804741,607.976999999999 -3.70487058799995,39.1359761684741,608.123999999996 -3.70466534899992,39.1361639374741,607.994999999995 -3.70463850699991,39.1362569144741,607.854000000007 -3.70451709699995,39.1363810974741,607.712 -3.70448872899993,39.1364371374741,607.654999999999 -3.70449656899996,39.1365272004741,607.635999999999 -3.70455355799993,39.1365565924741,607.762000000002 -3.70459450999994,39.1366023004741,607.725000000006 -3.70467105199992,39.1367361014741,607.797000000006 -3.70469514599995,39.1369477154741,607.857000000004 -3.70463649999994,39.1371003564741,607.971000000005 -3.70450227299995,39.1372156064741,608.032000000007 -3.70436272599994,39.1373777474741,608.077999999994 -3.70430982399995,39.1374116624741,607.918999999994 -3.70390336199995,39.1373769174741,606.823999999993 -3.70360784399992,39.1373300434741,606.805999999997 -3.70367435699995,39.1370376844741,607.099000000002 -3.70368806199991,39.1369033374741,607.017000000007 -3.70367998099994,39.1367889474741,606.716 -3.70318542399991,39.1359250724741,607.467000000004 -3.70313397099994,39.1357541744741,608.197 -3.70314004499994,39.1354342474741,607.764999999999 -3.70302410999994,39.1350618914741,607.256999999998 -3.70299122199992,39.1350125284741,607.168999999994 -3.70294689899993,39.1349767524741,607.129000000001 -3.70288418199993,39.1349528004741,607.183999999994 -3.70269456999995,39.1349281124741,607.792000000001 -3.70251323899993,39.1348829494741,608.312999999995 -3.70233523999991,39.1347849004741,609.096000000005 -3.70217733899995,39.1347299824741,609.576000000001 -3.70198305999992,39.1347401644741,609.286999999997 -3.70190453899994,39.1347559564741,609.051000000007 -3.70184927399993,39.1347833224742,608.770999999993 -3.70152613799991,39.1352168944741,607.705000000002 -3.70142531699992,39.1353175224741,607.486999999994 -3.70126541999991,39.1354112984741,607.425000000003 -3.70114663699991,39.1354507614741,607.540999999997 -3.70074714799995,39.1355360644741,607.498999999996 -3.70065602399995,39.1355645474741,607.417000000001 -3.70035889199994,39.1357042014741,606.987999999998 -3.70016275099994,39.1357603464741,607.137000000002 -3.69980136799995,39.1358382084741,606.676000000007 -3.69923960599994,39.1360118894741,606.702000000005 -3.69895875499992,39.1360433084741,607.316000000006 -3.69860821799995,39.1361652564741,607.525999999998 -3.69856096999996,39.1364187494741,607.725999999995 -3.69832910299994,39.1370752394741,607.953999999998 -3.69809569199992,39.1373415614741,607.680999999997 -3.69770786299995,39.1376718844741,607.646999999997 -3.69757661399996,39.1377384504741,607.774000000005 -3.69751815799992,39.1377946684741,608.085999999996 -3.69750595599993,39.1378479064741,608.241999999998 -3.69751999899995,39.1379811854741,608.293999999994</coordinates>
+</LineString>
+</Placemark>
+<Folder id="kml_ft_Ramales">
+<name>Ramales</name>
+<Placemark id="kml_2">
+<name>La Isla del Pan. Ruta Amarilla - Variante</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Tablas de Daimiel</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>La Isla del Pan. Ruta Amarilla</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Name</th>
+<td>La_Isla_del_Pan_Ruta_Amarilla</td>
+</tr><tr bgcolor="">
+<th>Número</th>
+<td>Excursión2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Tipo</th>
+<td>Variante</td>
+</tr><tr bgcolor="">
+<th>Sentido</th>
+<td>Ida</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ramales</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ramales">
+<SimpleData name="Parque Nacional">Tablas de Daimiel</SimpleData>
+<SimpleData name="Nombre">La Isla del Pan. Ruta Amarilla</SimpleData>
+<SimpleData name="Name">La_Isla_del_Pan_Ruta_Amarilla</SimpleData>
+<SimpleData name="Número">Excursión2</SimpleData>
+<SimpleData name="Tipo">Variante</SimpleData>
+<SimpleData name="Sentido">Ida</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-3.69770786299995,39.1376718844741,607.646999999997 -3.69782763199993,39.1376143974741,607.766000000003 -3.69791646299996,39.1375877344741,607.487999999998 -3.69800660199991,39.1375763814741,607.478000000003 -3.69807140299991,39.1375768934741,607.369000000006 -3.69837625599996,39.1376318374741,607.429999999993 -3.69845608899993,39.1376313594741,607.574999999997 -3.69870206699994,39.1375830264741,607.857999999993 -3.69908856899991,39.1375870174741,607.899000000005 -3.69940386199994,39.1376445994741,607.653000000006</coordinates>
+</LineString>
+</Placemark>
+</Folder>
+</Document></kml>

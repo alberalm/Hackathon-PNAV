@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>10-264-1-Senda_de_la_Torre_de_Abraham</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>Senda de la Torre de Abraham - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Cabañeros</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Senda de la Torre de Abraham</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Circular</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>0.75</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>1</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Accesible para personas con movilidad reducida.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Se trata de una agradable senda sobre pasarelas elevadas por el interior de un bosque de ribera junto al cauce del río Bullaque, rodeada de frondosa vegetación de ribera y también de vegetación típica de los bosques mediterráneos. Permite apreciar ejemplares de sauce, fresno, durillo, quejigo, etc., y disfrutar del canto de aves como el ruiseñor o la lavandera. Cuenta con sencillos paneles explicativos sobre las plantas que se observan, y es accesible para personas con movilidad reducida.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Cabañeros</SimpleData>
+<SimpleData name="Nombre">Senda de la Torre de Abraham</SimpleData>
+<SimpleData name="Número">1</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Circular</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">0.75</SimpleData>
+<SimpleData name="Longitud (km)">1</SimpleData>
+<SimpleData name="Recomendaciones">Accesible para personas con movilidad reducida.</SimpleData>
+<SimpleData name="Descripción">Se trata de una agradable senda sobre pasarelas elevadas por el interior de un bosque de ribera junto al cauce del río Bullaque, rodeada de frondosa vegetación de ribera y también de vegetación típica de los bosques mediterráneos. Permite apreciar ejemplares de sauce, fresno, durillo, quejigo, etc., y disfrutar del canto de aves como el ruiseñor o la lavandera. Cuenta con sencillos paneles explicativos sobre las plantas que se observan, y es accesible para personas con movilidad reducida.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-4.25351497899993,39.3666256284733,642.436000000002 -4.25348613899996,39.3665517234733,641.713000000003 -4.25347648699994,39.3664168904733,641.460000000006 -4.25351027599993,39.3662815874733,642.016000000003 -4.25352268499995,39.3662465964733,641.491999999998 -4.25359629499991,39.3661513454733,641.831000000006 -4.25360826199994,39.3660916194733,641.285000000003 -4.25364947099996,39.3660473214733,640.921000000002 -4.25372637899994,39.3658125994733,640.460000000006 -4.25379975099992,39.3657083274732,640.534 -4.25386318399995,39.3657033894733,640.277000000002 -4.25428497099995,39.3655891824733,640.764999999999 -4.25466743599992,39.3655087744733,640.702000000005 -4.25483593699994,39.3654855024733,640.619000000006 -4.25498204699994,39.3654124084733,640.974000000002 -4.25505546999995,39.3653478404733,640.856 -4.25507662699994,39.3652695364733,640.676000000007 -4.25507300699991,39.3652290934733,640.623999999996 -4.25505082299992,39.3652034704733,640.585999999996 -4.25500981599993,39.3651780494733,640.669999999998 -4.25488210799995,39.3651636834733,641.039999999994 -4.25485863799992,39.3651470684733,640.702000000005 -4.25482696199992,39.3650765674733,640.930999999997 -4.25477708499994,39.3650411234733,641.539000000004 -4.25455266199992,39.3650446674733,640.699999999997 -4.25444064099992,39.3650166374733,639.979999999996 -4.25437881799991,39.3649610814733,639.243000000002 -4.25435635399992,39.3648387544733,639.057000000001 -4.25428344999995,39.3648114284733,639.524999999994 -4.25408989799996,39.3648405024733,640.062999999995 -4.25404834799991,39.3648656874733,640.135999999999 -4.25394040999993,39.3650658854733,640.437999999995 -4.25392180599994,39.3651594174733,640.498000000007 -4.25392848299992,39.3652897854733,640.070999999996 -4.25382627499994,39.3654865464733,640.346999999994 -4.25379630899994,39.3655925724733,640.214999999997 -4.25379975099992,39.3657083274732,640.534 -4.25372637899994,39.3658125994733,640.460000000006 -4.25364947099996,39.3660473214733,640.921000000002 -4.25360826199994,39.3660916194733,641.285000000003 -4.25359629499991,39.3661513454733,641.831000000006 -4.25352268499995,39.3662465964733,641.491999999998 -4.25351027599993,39.3662815874733,642.016000000003 -4.25347648699994,39.3664168904733,641.460000000006 -4.25348613899996,39.3665517234733,641.713000000003 -4.25351497899993,39.3666256284733,642.436000000002</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

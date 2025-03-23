@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>7-176-PRPNASM2-La_Vall_de_Monestero</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>La Vall de Monestero - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Aigüestortes i Estany de Sant Maurici</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>La Vall de Monestero</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>PR-PNASM2</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>1.5</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>2.4</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Época recomendada de junio a octubre. 
+Dificultad baja, camino bien señalizado.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Saliendo de la caseta de información del Estany de Sant Maurici y siguiendo los carteles indicadores de la Vall de Monestero, bajaremos hasta el refugio Ernest Mallafré y después de seguir un pequeño tramo de pista, encontraremos la entrada del valle. Desde allí hay una vista inmejorable sobre Els Encantats (2.747 m). El camino asciende por el interior del abetal que, alrededor de los 2.000 m, se convierte en un bosque de pino negro con rododendro. Un poco más tarde, después de atravesar un pedregal, llegaremos a los Fangassals de Monestero, zona de aigüestortes de gran belleza. Emprendemos otra subida, en la cual el bosque se vuelve poco denso y forma mosaicos con canchales y pequeños pastos, para llegar a un extenso pastizal. A partir de aquí, el camino asciende bordeando el río hasta llegar a un escalón rocoso formado por un pequeño caos de bloques de granito, que se puede atravesar con facilidad. Después de bordear un pequeño estany llegamos, finalmente, al estany de Monestero.
+
+</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Aigüestortes i Estany de Sant Maurici</SimpleData>
+<SimpleData name="Nombre">La Vall de Monestero</SimpleData>
+<SimpleData name="Número">PR-PNASM2</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">1.5</SimpleData>
+<SimpleData name="Longitud (km)">2.4</SimpleData>
+<SimpleData name="Recomendaciones">Época recomendada de junio a octubre. 
+Dificultad baja, camino bien señalizado.</SimpleData>
+<SimpleData name="Descripción">Saliendo de la caseta de información del Estany de Sant Maurici y siguiendo los carteles indicadores de la Vall de Monestero, bajaremos hasta el refugio Ernest Mallafré y después de seguir un pequeño tramo de pista, encontraremos la entrada del valle. Desde allí hay una vista inmejorable sobre Els Encantats (2.747 m). El camino asciende por el interior del abetal que, alrededor de los 2.000 m, se convierte en un bosque de pino negro con rododendro. Un poco más tarde, después de atravesar un pedregal, llegaremos a los Fangassals de Monestero, zona de aigüestortes de gran belleza. Emprendemos otra subida, en la cual el bosque se vuelve poco denso y forma mosaicos con canchales y pequeños pastos, para llegar a un extenso pastizal. A partir de aquí, el camino asciende bordeando el río hasta llegar a un escalón rocoso formado por un pequeño caos de bloques de granito, que se puede atravesar con facilidad. Después de bordear un pequeño estany llegamos, finalmente, al estany de Monestero.
+
+</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>1.00669227600008,42.578787409465,1919.89290000001 1.00673095500008,42.578527035465,1920.91800000001 1.00670273500009,42.578372515465,1919.61500000001 1.00666890000008,42.578319938465,1920.0389 1.00654113900009,42.578244078465,1920.62699999999 1.00649484300004,42.578194027465,1920.359 1.00641908800009,42.578022760465,1920.677 1.00632213600005,42.577891503465,1923.637 1.00628736700008,42.577812176465,1924.459 1.00601811900009,42.577718223465,1928.78200000001 1.00573634800008,42.577652574465,1940.139 1.00567745300009,42.577606716465,1942.177 1.00560211500004,42.577506350465,1946.47900000001 1.00561626700005,42.577382084465,1947.97 1.00563041800007,42.577257816465,1949.595 1.00562655300007,42.577084791465,1949.728 1.00559600500009,42.576916778465,1954.62699999999 1.00554407400006,42.576773205465,1956.78999999999 1.00517750100005,42.576394412465,1961.761 1.00509306700008,42.576222001465,1963.4301 1.00492493200005,42.575776248465,1976.095 1.00490147100004,42.575541640465,1978.605 1.00482863400009,42.575472812465,1981.50999999999 1.00476951200005,42.575419214465,1983.63099999999 1.00445571800009,42.575238606465,1991.192 1.00441982000007,42.575188273465,1992.72900000001 1.00440879700005,42.575131079465,1994.167 1.00447135900009,42.575058742465,1996.413 1.00450459500007,42.574908201465,1997.327 1.00444856400009,42.5747970874651,1998.501 1.00430415200009,42.574614438465,2000.683 1.00421258200009,42.574509127465,2001.625 1.00419377500009,42.574486847465,2001.625 1.00405730500006,42.574307508465,2004.319 1.00390587700008,42.5740535334651,2010.715 1.00381445900007,42.573866157465,2014.401 1.00370241000007,42.5733426874651,2017.17 1.00362321800009,42.573135581465,2020.8459 1.00357570200009,42.573011316465,2021.224 1.00346450400008,42.572773279465,2022.035 1.00348547100009,42.572556142465,2022.5649 1.00344427600004,42.572216891465,2028.402 1.00340600000004,42.5720440024651,2030.30100000001 1.00351674100006,42.571834729465,2028.21000000001 1.00355212900007,42.571690067465,2028.327 1.00360019500005,42.571370591465,2029.281 1.00357087000009,42.571251056465,2029.4399 1.00388393400004,42.570860936465,2029.65700000001 1.00397695800007,42.570764538465,2029.712 1.00401139500008,42.570649614465,2029.9871 1.00399033800005,42.570493467465,2030.42 1.00394737600004,42.570356191465,2030.76790000001 1.00393705000005,42.570314210465,2030.9301 1.00390197800004,42.570171615465,2031.323 1.00389289800006,42.570134699465,2031.395 1.00384083000006,42.5700602774651,2031.507 1.00382884600009,42.569916540465,2032.224 1.00392111900004,42.569770829465,2033.709 1.00388484300009,42.569603495465,2035.311 1.00391062600005,42.569447500465,2035.999 1.00408621200006,42.569248310465,2040.485 1.00413508900004,42.569138828465,2041.5 1.00413868400005,42.568903960465,2046.17200000001 1.00421511300004,42.568769434465,2049.2251 1.00419208200009,42.568689336465,2049.74189999999 1.00413463500007,42.568637795465,2051.0291 1.00401974000005,42.568534714465,2054.958 1.00383596500006,42.568433051465,2058.66310000001 1.00372257200007,42.568390040465,2061.47900000001 1.00360135800008,42.568370489465,2063.0061 1.00347964700006,42.568391045465,2064.12300000001 1.00332172300006,42.568449843465,2066.094 1.00315801200009,42.568472636465,2068.1479 1.00308323600007,42.568425170465,2071.96799999999 1.00304675900009,42.567829534465,2083.6189 1.00310868300005,42.567647118465,2088.5 1.00312236900004,42.567566961465,2089.686 1.00309890800008,42.567471163465,2094.073 1.00306422500006,42.567396718465,2096.37699999999 1.00306416700005,42.567396692465,2096.37699999999 1.00293524400007,42.567338709465,2099.5959 1.00284690500007,42.5673200604651,2099.022 1.00281335700009,42.567302365465,2098.928 1.00278635500007,42.567268118465,2099.3311 1.00275935300004,42.5672338724651,2099.4771 1.00274717000008,42.567170648465,2099.925 1.00278926200008,42.567038356465,2100.22410000001 1.00284843700007,42.566964122465,2100.1021 1.00306447300005,42.566498796465,2100.606 1.00318151700009,42.566317051465,2102.5901 1.00346416500008,42.5656183394651,2107.36109999999 1.00345637700008,42.565488524465,2108.81690000001 1.00344599400006,42.565315439465,2112.5659 1.00358259000006,42.5646650074651,2118.61599999999 1.00373336300004,42.564534277465,2117.84299999999 1.00374341700007,42.5643478634651,2122.0181 1.00373603700007,42.564279501465,2124.761 1.00373234700004,42.564245318465,2124.761 1.00359112100006,42.564135662465,2129.781 1.00343890000005,42.563907318465,2134.459 1.00324801600004,42.5637122404651,2139.717 1.00324838500006,42.5636264804651,2140.8799 1.00328008500009,42.563597276465,2140.7871 1.00332648000006,42.563552576465,2140.06200000001 1.00336147200005,42.563420161465,2140.31299999999 1.00339860700007,42.563294783465,2140.16499999999 1.00340640700006,42.563198649465,2140.08010000001 1.00337991900005,42.5631386774651,2139.81299999999 1.00330122300005,42.563083043465,2141.321 1.00326102300005,42.562933564465,2141.41499999999 1.00321480800005,42.5628242364651,2141.3279 1.00309017800009,42.562650529465,2143.0239 1.00302301000005,42.562530336465,2142.333 1.00293608200008,42.562436051465,2142.35400000001 1.00279707200008,42.562193831465,2146.6621 1.00279207500006,42.562053715465,2150.2939 1.00295051100005,42.561608568465,2161.38499999999 1.00305547000005,42.5614386864651,2159.781 1.00305492500007,42.5613074004651,2163.906 1.00308688200005,42.561195935465,2166.7859 1.00315448600008,42.5610798414651,2167.63890000001 1.00311900600008,42.560779314465,2174.03 1.00302293500005,42.5605296884651,2171.27099999999 1.00299337100006,42.560343637465,2171.87699999999 1.00292866100006,42.560146469465,2170.9761 1.00277055200007,42.5600579464651,2170.66499999999 1.00272058000007,42.5599923114651,2171.073 1.00275202600005,42.559674296465,2173.325</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

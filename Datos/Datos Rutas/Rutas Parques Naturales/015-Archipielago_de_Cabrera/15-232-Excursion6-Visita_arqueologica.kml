@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>15-232-Excursion6-Visita_arqueologica</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Style id="kml_style_ft_Ramales">
+<LineStyle>
+<color>ff2a69e8</color>
+</LineStyle>
+<PolyStyle>
+<color>b02a69e8</color>
+</PolyStyle>
+</Style>
+<Schema name="Ramales" id="kml_schema_ft_Ramales">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Name">
+<displayName>Name</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+</Schema>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>Visita arqueológica - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Archipiélago de Cabrera</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Visita arqueológica</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>Excursión6</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>1</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>1.2</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Ninguna en especial.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Recorrido autoguiado para conocer algunos de los yacimientos arqueológicos vinculados a la presencia del hombre en la isla desde la época romana y bizantina hasta la contemporánea.
+La excursión parte de Es Moll y se dirige a Sa Platgeta (15 minutos) por la pista que rodea parte de la bahía de Es Port. Esta preciosa cala, donde existe un panel informativo sobre la visita arqueológica, es el punto de partida y referencia para conocer los tres enclaves de que consta esta excursión. Los tres se sitúan muy cerca uno de otro, dentro de un área de 10 hectáreas conocida como Pla de ses Figueres. A lo largo de la excursión podremos visitar la factoría de salazones de pescado, la necrópolis bizantina y los restos de algunas viviendas de época napoleónica, del periodo napoleónico.
+Aunque se han encontrado restos, fundamentalmente cerámica (cueva de L’Olló), que indican la presencia humana en la isla en el 2.000 a.C., no se tiene constancia de asentamiento estable, aunque si esporádico o temporal —probablemente vinculado a la estratégica ubicación de Cabrera en las rutas comerciales mediterráneas junto a la existencia de agua potable permanente en la isla y las magníficas características del puerto—, hasta la época bizantina.
+La factoría de salazón de pescado se localiza en la orilla del mar, junto a Sa Platgeta, y consta de diferentes construcciones rectangulares contiguas excavadas en la roca a modo de piletas en las que se elaboraba salazón de pescado. Estas construcciones aparecen relacionadas con otras similares situadas en diferentes enclaves mediterráneos vinculados a almadrabas de época romana. Estas piletas sirvieron también de hogar a los prisioneros del ejército francés. Las excavaciones arqueológicas han sacado a la luz tanto utensilios ligados a la pesca como objetos de cocina y del uniforme de los militares. En esta zona y la vecina Cas Pagès establecieron su morada los soldados y oficiales del ejército francés presos tras su capitulación en la batalla de Bailén. Esta derrota napoleónica en la Guerra de la Independencia española, culminó con el traslado de un buen número de prisioneros franceses desde El Puerto de Santa María (Cádiz) hasta Cabrera. En un principio entre 4.500 y 5.000 personas y a lo largo de los cinco años (1809-1814) que duró su cautiverio en la isla antes de regresar a Francia, entre 9.000 y 15.000 prisioneros. Sólo un tercio de ellos sobrevivieron.
+A la izquierda de la pista que conduce desde Sa Platgeta a Es Celler se encuentra la necrópolis bizantina. Corresponde a una de las pequeñas comunidades monásticas asentada en Cabrera en el siglo VII d.C., de las muchas que surgieron en la cuenca mediterránea a partir del siglo IV d.C. Consta de cinco tumbas —tres de ellas excavadas— y junto a ellas han aparecido restos de vajilla que indica el asentamiento de estos monjes en el lugar. Hecho reforzado por la existencia de una construcción anexa y restos de moluscos marinos de los que se obtenía púrpura. Es muy probable que los monjes tuvieran un taller para la obtención y ornamentación con púrpura.
+Una visita al Museo (excursión 5) es el complemento perfecto de esta visita de campo.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Archipiélago de Cabrera</SimpleData>
+<SimpleData name="Nombre">Visita arqueológica</SimpleData>
+<SimpleData name="Número">Excursión6</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">1</SimpleData>
+<SimpleData name="Longitud (km)">1.2</SimpleData>
+<SimpleData name="Recomendaciones">Ninguna en especial.</SimpleData>
+<SimpleData name="Descripción">Recorrido autoguiado para conocer algunos de los yacimientos arqueológicos vinculados a la presencia del hombre en la isla desde la época romana y bizantina hasta la contemporánea.
+La excursión parte de Es Moll y se dirige a Sa Platgeta (15 minutos) por la pista que rodea parte de la bahía de Es Port. Esta preciosa cala, donde existe un panel informativo sobre la visita arqueológica, es el punto de partida y referencia para conocer los tres enclaves de que consta esta excursión. Los tres se sitúan muy cerca uno de otro, dentro de un área de 10 hectáreas conocida como Pla de ses Figueres. A lo largo de la excursión podremos visitar la factoría de salazones de pescado, la necrópolis bizantina y los restos de algunas viviendas de época napoleónica, del periodo napoleónico.
+Aunque se han encontrado restos, fundamentalmente cerámica (cueva de L’Olló), que indican la presencia humana en la isla en el 2.000 a.C., no se tiene constancia de asentamiento estable, aunque si esporádico o temporal —probablemente vinculado a la estratégica ubicación de Cabrera en las rutas comerciales mediterráneas junto a la existencia de agua potable permanente en la isla y las magníficas características del puerto—, hasta la época bizantina.
+La factoría de salazón de pescado se localiza en la orilla del mar, junto a Sa Platgeta, y consta de diferentes construcciones rectangulares contiguas excavadas en la roca a modo de piletas en las que se elaboraba salazón de pescado. Estas construcciones aparecen relacionadas con otras similares situadas en diferentes enclaves mediterráneos vinculados a almadrabas de época romana. Estas piletas sirvieron también de hogar a los prisioneros del ejército francés. Las excavaciones arqueológicas han sacado a la luz tanto utensilios ligados a la pesca como objetos de cocina y del uniforme de los militares. En esta zona y la vecina Cas Pagès establecieron su morada los soldados y oficiales del ejército francés presos tras su capitulación en la batalla de Bailén. Esta derrota napoleónica en la Guerra de la Independencia española, culminó con el traslado de un buen número de prisioneros franceses desde El Puerto de Santa María (Cádiz) hasta Cabrera. En un principio entre 4.500 y 5.000 personas y a lo largo de los cinco años (1809-1814) que duró su cautiverio en la isla antes de regresar a Francia, entre 9.000 y 15.000 prisioneros. Sólo un tercio de ellos sobrevivieron.
+A la izquierda de la pista que conduce desde Sa Platgeta a Es Celler se encuentra la necrópolis bizantina. Corresponde a una de las pequeñas comunidades monásticas asentada en Cabrera en el siglo VII d.C., de las muchas que surgieron en la cuenca mediterránea a partir del siglo IV d.C. Consta de cinco tumbas —tres de ellas excavadas— y junto a ellas han aparecido restos de vajilla que indica el asentamiento de estos monjes en el lugar. Hecho reforzado por la existencia de una construcción anexa y restos de moluscos marinos de los que se obtenía púrpura. Es muy probable que los monjes tuvieran un taller para la obtención y ornamentación con púrpura.
+Una visita al Museo (excursión 5) es el complemento perfecto de esta visita de campo.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>2.93389199800009,39.1512963604741,1.45600000000559 2.93420363000007,39.1512909364741,3.20600000000559 2.93424919100005,39.1512741644741,3.5460000000021 2.93432115800005,39.1512163444741,4.24099999999453 2.93444118900004,39.1510278994741,7.42299999999523 2.93455166600006,39.150802119474,9.79099999999744 2.93459727600009,39.1507312194741,11.0460000000021 2.93468845400008,39.1506360824741,12.4649999999965 2.93478200200008,39.1505708074741,13.6589999999997 2.93503380500005,39.1504533614741,16.8579999999929 2.93516569000008,39.1504049064741,18.0369999999966 2.93547020800008,39.1503098854741,17.002999999997 2.93588500100009,39.1502037274741,14.4119999999966 2.93595218100006,39.1501365704741,14.5890000000072 2.93591651700007,39.1498136534741,13.948000000004 2.93594296300006,39.1497278104741,13.926999999996 2.93599337900008,39.1496419824741,13.4729999999981 2.93615897400008,39.1494236974741,12.304999999993 2.93636772300005,39.1491961014741,12.0240000000049 2.93658853200009,39.1488845244741,9.45699999999488 2.93665811100004,39.1488117704741,7.9719999999943 2.93680679600004,39.1487353254741,7.47699999999895 2.93685717800008,39.1486868244741,6.80400000000373 2.93687878400004,39.1486495074741,6.41199999999662 2.93688124000005,39.1485841824741,6.65799999999581 2.93686210500005,39.1485375094741,7.09500000000116 2.93680223100006,39.1484796174741,7.25400000000081 2.93655549500005,39.1483040364741,9.14900000000489 2.93611000800007,39.1479062374741,8.77300000000105 2.93604057500005,39.1478166074741,9.07099999999627 2.93598077000007,39.1476840574741,8.77400000000489 2.93592820200007,39.1475011144741,9.74899999999616 2.93592348900006,39.1474115224741,10.1779999999999 2.93597632300009,39.1473014304741,10.7519999999931 2.93606029000006,39.1472212184741,11.5399999999936 2.93626667900008,39.1469469604741,11.0350000000035 2.93642751800007,39.1466782784741,8.76900000000023 2.93661222000009,39.1465271944741,7.60000000000582 2.93672015000004,39.1464525954741,5.9539999999979 2.93697194700007,39.1463220794741,4.33199999999488 2.93718063000006,39.1461560774741,4.05499999999302 2.93742292900009,39.1459229004741,4.43899999999849 2.93746371800006,39.1458762604741,4.10899999999674 2.93749733600009,39.1458072184741,4.3179999999993 2.93751898300007,39.1457232404741,4.47900000000664 2.93750705600007,39.1456579064741,4.02700000000186 2.93747593900008,39.1456093614741,4.24000000000524 2.93733943000007,39.1454786364741,3.77499999999418 2.93729396100008,39.1453964884741,3.78500000000349 2.93729173300005,39.1452061084741,3.74199999999837 2.93734939300009,39.145054954474,3.90499999999884 2.93741914300006,39.1447843564741,3.61699999999837 2.93743121700004,39.1446835724741,3.20299999999406 2.93737402200009,39.1443102494741,3.19000000000233 2.93740524800006,39.1442356074741,3.57700000000477 2.93759962900009,39.1439706734741,4.72500000000582 2.93763681700006,39.1439296314741,4.86900000000605 2.93769795700007,39.1439253634741,5.43700000000536 2.93785021400009,39.1439645154741,5.88000000000466 2.93800899600006,39.1440254184741,6.61599999999453 2.93822389000007,39.1441147254741,7.75400000000081 2.93832933200008,39.1441390444741,8.51499999999942 2.93842281200006,39.1441372274741,9.11900000000605 2.93848275100004,39.1441167284741,9.4320000000007 2.93854991100005,39.1440626354741,9.69100000000617 2.93857633400006,39.1439973234741,9.44899999999325 2.93858360500008,39.1439040034741,9.57600000000093 2.93862925300004,39.1437808414741,10.474000000002</coordinates>
+</LineString>
+</Placemark>
+<Folder id="kml_ft_Ramales">
+<name>Ramales</name>
+<Placemark id="kml_2">
+<name>Visita arqueológica - Derivación</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Archipiélago de Cabrera</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Visita arqueológica</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Name</th>
+<td>Visita_arqueologica</td>
+</tr><tr bgcolor="">
+<th>Número</th>
+<td>Excursión6</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Tipo</th>
+<td>Derivación</td>
+</tr><tr bgcolor="">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ramales</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ramales">
+<SimpleData name="Parque Nacional">Archipiélago de Cabrera</SimpleData>
+<SimpleData name="Nombre">Visita arqueológica</SimpleData>
+<SimpleData name="Name">Visita_arqueologica</SimpleData>
+<SimpleData name="Número">Excursión6</SimpleData>
+<SimpleData name="Tipo">Derivación</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>2.93782335300006,39.1444075464741,7.43700000000536 2.93793136200009,39.1442377554741,7.21099999999569 2.93800902800007,39.1442140154741,7.82600000000093 2.93803503100008,39.1441918554741,7.82600000000093 2.93805615600007,39.1440605084741,6.89100000000326 2.93800899600006,39.1440254184741,6.61599999999453 2.93805615600007,39.1440605084741,6.89100000000326 2.93803503100008,39.1441918554741,7.82600000000093 2.93800902800007,39.1442140154741,7.82600000000093 2.93793136200009,39.1442377554741,7.21099999999569 2.93782335300006,39.1444075464741,7.43700000000536</coordinates>
+</LineString>
+</Placemark>
+<Placemark id="kml_3">
+<name>Visita arqueológica - Derivación</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Archipiélago de Cabrera</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Visita arqueológica</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Name</th>
+<td>Visita_arqueologica</td>
+</tr><tr bgcolor="">
+<th>Número</th>
+<td>Excursión6</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Tipo</th>
+<td>Derivación</td>
+</tr><tr bgcolor="">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ramales</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ramales">
+<SimpleData name="Parque Nacional">Archipiélago de Cabrera</SimpleData>
+<SimpleData name="Nombre">Visita arqueológica</SimpleData>
+<SimpleData name="Name">Visita_arqueologica</SimpleData>
+<SimpleData name="Número">Excursión6</SimpleData>
+<SimpleData name="Tipo">Derivación</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>2.93737402200009,39.1443102494741,3.19000000000233 2.93735370000007,39.1442523784741,3.24000000000524 2.93730103800004,39.1441739594741,3.02099999999336 2.93715498100005,39.1440021654741,2.77099999999336 2.93707117000008,39.1439125304741,2.77199999999721 2.93695617100008,39.1438546074741,2.7899999999936 2.93639535700004,39.1437945754741,3.97400000000198 2.93633063300007,39.1438038734741,4.67799999999988 2.93614121300004,39.1438784274741,4.54399999999441 2.93613389300009,39.1439048194741,4.54399999999441 2.93616504200008,39.1439607824741,3.1359999999986 2.93613389300009,39.1439048194741,4.54399999999441 2.93614121300004,39.1438784274741,4.54399999999441 2.93633063300007,39.1438038734741,4.67799999999988 2.93639535700004,39.1437945754741,3.97400000000198 2.93695617100008,39.1438546074741,2.7899999999936 2.93707117000008,39.1439125304741,2.77199999999721 2.93715498100005,39.1440021654741,2.77099999999336 2.93730103800004,39.1441739594741,3.02099999999336 2.93735370000007,39.1442523784741,3.24000000000524 2.93737402200009,39.1443102494741,3.19000000000233</coordinates>
+</LineString>
+</Placemark>
+</Folder>
+</Document></kml>

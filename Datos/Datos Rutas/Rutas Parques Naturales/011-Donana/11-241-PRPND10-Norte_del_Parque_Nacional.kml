@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>11-241-PRPND10-Norte_del_Parque_Nacional</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>Norte del Parque Nacional - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Doñana</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>Norte del Parque Nacional</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>PR-PND10</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>No aplicable (todo terreno)</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>4</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>14</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Se realiza en vehículo todoterreno.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Actualmente este recorrido lo llevan a cabo diversas empresas de turismo de naturaleza que operan en la zona, y se realiza en vehículos todo terreno. Discurre tanto por el Parque Nacional como por el Parque Natural de Doñana. Cuenta con un trazado lineal que generalmente parte de la aldea del Rocío y desde aquí se encamina hacia el Coto del Rey, Cañada Mayor, la Vera, la Marisma (natural y transformada). Se recorre por el muro de la confederación o muro de la FAO, hasta llegar al Centro de Visitantes José Antonio Valverde, desde el que se retoma el camino de vuelta al punto de inicio. A lo largo del trayecto se efectúan una serie de paradas donde se puede tomar un contacto más directo con el medio. Durante el recorrido se pueden apreciar algunas de las actuaciones que el Proyecto Doñana 2005 para la Regeneración hídrica de cuencas y cauces vertientes a la marisma del Parque Nacional de Doñana, está realizando en la zona.
+Desde la Aldea del Rocío puede apreciarse el inicio de la marisma, más conocida como La Madre, ya que su nacimiento parte del Caño Madre de las Marismas del Rocío. Esta peculiar aldea no cuenta con calles asfaltadas porque está concebida para el tránsito de monturas, y está calificada como la Aldea Internacional del Caballo. La Romería que se celebra en Pentecostés, en honor a la Virgen del Rocío, acoge a un millón de peregrinos que acuden desde distintos puntos de España y del extranjero. Durante el recorrido se podrá apreciar el trazado de sus calles y plazas y su típica arquitectura.
+Cruzando el arroyo del Partido por el puente del Ajolí se accede al Coto del Rey, cuya denominación ha variado a lo largo del tiempo. Con Alfonso X el Sabio estos terrenos se encontraban incluidos en su cazadero real bajo la denominación de Bosques de la Rocina, que incluía no solo este enclave sino el resto de las zonas de arenas hoy integradas en el Parque Nacional y en algunas de sus actuales Zonas de Protección. Posteriormente en sucesivas Cédulas Reales, su nombre cambia a «Coto Real», «Real Coto del Lomo del Grullo»…, hasta que posteriormente adquiere su denominación actual. Durante mucho tiempo los terrenos permanecieron vinculados a la casa real, hasta que finalmente se producen cambios en la propiedad de los mismos. El principal uso del territorio en estos parajes fue la caza mayor y menor, pero también la ganadería junto con el arrendamiento de los pastos.
+La elaboración del carbón vegetal o la explotación de la madera constituyeron otros aprovechamientos típicos de la zona. Actualmente el territorio está protegido, dentro de los Parques Nacional y Natural. La vegetación arbórea dominante es el pino piñonero, pero también se encuentran lentiscos de gran porte, alcornoques, fresnos, etc. En cuanto a la fauna, esta zona acoge a numerosos representantes de los mamíferos de Doñana, entre los que destaca el lince, cuyo carácter esquivo lo hace difícil de divisar.
+Una vez pasada la cancela del Vicioso, los vehículos se adentran en Cañada Mayor. Las cañadas fueron vías de paso del ganado trashumante que partía de la marisma hacia la ciudad de Sevilla. La casa de guardería que se encuentra ubicada en esta zona data de finales del siglo XIX y constituye, junto con otras, una de las mejores edificaciones situadas hoy en el Parque Nacional. En esta zona predomina el alcornoque, cuya corteza era utilizada por los apicultores para la fabricación de las colmenas tradicionales.
+En este recorrido se puede apreciar la franja que constituye la Vera y su situación como zona de contacto entre el matorral y la marisma. En la Vera se concentran un gran número de especies de la fauna de Doñana ya que, al encontrarse próxima la capa de agua subterránea, se ve favorecido el desarrollo de la vegetación.
+A continuación de la Vera se encuentra la gran llanura de la marisma. Un gran número de hectáreas de las que conformaban las primitivas marismas del Guadalquivir se vieron modificadas y transformadas. La conquista de estos terrenos por el hombre estuvo motivada por la necesidad de acabar con el paludismo y de ganar terrenos para la agricultura.
+Diversos proyectos de desecación y colonización se fueron sucediendo, pero no se consolidaron debido al escaso desarrollo de la tecnología necesaria para llevarlos a cabo. A mediados del siglo XX, tras la guerra civil se emprende la introducción del cultivo del arroz en el municipio de Isla Mayor (antiguo Villafranco del Guadalquivir), arrebatando terrenos a las marismas sevillanas. Posteriormente y con la puesta en marcha del Plan Almonte-Marismas, que preveía la puesta en cultivo de terrenos anteriormente baldíos, se acomete la tarea de desecar diversas parcelas, como algunas de las hoy situadas en el Parque Natural de Doñana, que nunca llegaron a ponerse en cultivo y que se pueden apreciar a lo largo de este itinerario.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Doñana</SimpleData>
+<SimpleData name="Nombre">Norte del Parque Nacional</SimpleData>
+<SimpleData name="Número">PR-PND10</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida</SimpleData>
+<SimpleData name="Dificultad">No aplicable (todo terreno)</SimpleData>
+<SimpleData name="Duración (h)">4</SimpleData>
+<SimpleData name="Longitud (km)">14</SimpleData>
+<SimpleData name="Recomendaciones">Se realiza en vehículo todoterreno.</SimpleData>
+<SimpleData name="Descripción">Actualmente este recorrido lo llevan a cabo diversas empresas de turismo de naturaleza que operan en la zona, y se realiza en vehículos todo terreno. Discurre tanto por el Parque Nacional como por el Parque Natural de Doñana. Cuenta con un trazado lineal que generalmente parte de la aldea del Rocío y desde aquí se encamina hacia el Coto del Rey, Cañada Mayor, la Vera, la Marisma (natural y transformada). Se recorre por el muro de la confederación o muro de la FAO, hasta llegar al Centro de Visitantes José Antonio Valverde, desde el que se retoma el camino de vuelta al punto de inicio. A lo largo del trayecto se efectúan una serie de paradas donde se puede tomar un contacto más directo con el medio. Durante el recorrido se pueden apreciar algunas de las actuaciones que el Proyecto Doñana 2005 para la Regeneración hídrica de cuencas y cauces vertientes a la marisma del Parque Nacional de Doñana, está realizando en la zona.
+Desde la Aldea del Rocío puede apreciarse el inicio de la marisma, más conocida como La Madre, ya que su nacimiento parte del Caño Madre de las Marismas del Rocío. Esta peculiar aldea no cuenta con calles asfaltadas porque está concebida para el tránsito de monturas, y está calificada como la Aldea Internacional del Caballo. La Romería que se celebra en Pentecostés, en honor a la Virgen del Rocío, acoge a un millón de peregrinos que acuden desde distintos puntos de España y del extranjero. Durante el recorrido se podrá apreciar el trazado de sus calles y plazas y su típica arquitectura.
+Cruzando el arroyo del Partido por el puente del Ajolí se accede al Coto del Rey, cuya denominación ha variado a lo largo del tiempo. Con Alfonso X el Sabio estos terrenos se encontraban incluidos en su cazadero real bajo la denominación de Bosques de la Rocina, que incluía no solo este enclave sino el resto de las zonas de arenas hoy integradas en el Parque Nacional y en algunas de sus actuales Zonas de Protección. Posteriormente en sucesivas Cédulas Reales, su nombre cambia a «Coto Real», «Real Coto del Lomo del Grullo»…, hasta que posteriormente adquiere su denominación actual. Durante mucho tiempo los terrenos permanecieron vinculados a la casa real, hasta que finalmente se producen cambios en la propiedad de los mismos. El principal uso del territorio en estos parajes fue la caza mayor y menor, pero también la ganadería junto con el arrendamiento de los pastos.
+La elaboración del carbón vegetal o la explotación de la madera constituyeron otros aprovechamientos típicos de la zona. Actualmente el territorio está protegido, dentro de los Parques Nacional y Natural. La vegetación arbórea dominante es el pino piñonero, pero también se encuentran lentiscos de gran porte, alcornoques, fresnos, etc. En cuanto a la fauna, esta zona acoge a numerosos representantes de los mamíferos de Doñana, entre los que destaca el lince, cuyo carácter esquivo lo hace difícil de divisar.
+Una vez pasada la cancela del Vicioso, los vehículos se adentran en Cañada Mayor. Las cañadas fueron vías de paso del ganado trashumante que partía de la marisma hacia la ciudad de Sevilla. La casa de guardería que se encuentra ubicada en esta zona data de finales del siglo XIX y constituye, junto con otras, una de las mejores edificaciones situadas hoy en el Parque Nacional. En esta zona predomina el alcornoque, cuya corteza era utilizada por los apicultores para la fabricación de las colmenas tradicionales.
+En este recorrido se puede apreciar la franja que constituye la Vera y su situación como zona de contacto entre el matorral y la marisma. En la Vera se concentran un gran número de especies de la fauna de Doñana ya que, al encontrarse próxima la capa de agua subterránea, se ve favorecido el desarrollo de la vegetación.
+A continuación de la Vera se encuentra la gran llanura de la marisma. Un gran número de hectáreas de las que conformaban las primitivas marismas del Guadalquivir se vieron modificadas y transformadas. La conquista de estos terrenos por el hombre estuvo motivada por la necesidad de acabar con el paludismo y de ganar terrenos para la agricultura.
+Diversos proyectos de desecación y colonización se fueron sucediendo, pero no se consolidaron debido al escaso desarrollo de la tecnología necesaria para llevarlos a cabo. A mediados del siglo XX, tras la guerra civil se emprende la introducción del cultivo del arroz en el municipio de Isla Mayor (antiguo Villafranco del Guadalquivir), arrebatando terrenos a las marismas sevillanas. Posteriormente y con la puesta en marcha del Plan Almonte-Marismas, que preveía la puesta en cultivo de terrenos anteriormente baldíos, se acomete la tarea de desecar diversas parcelas, como algunas de las hoy situadas en el Parque Natural de Doñana, que nunca llegaron a ponerse en cultivo y que se pueden apreciar a lo largo de este itinerario.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-6.47340741399995,37.1335445744829,4.98399999999674 -6.47275814899996,37.1337756454829,5.08800000000338 -6.47213061799994,37.1339623204829,5.31900000000314 -6.47184478999992,37.1339940694829,5.98099999999977 -6.47156865599993,37.1339844444829,6.625 -6.47134183399993,37.1339476234829,6.19599999999627 -6.47099955799996,37.1339176084829,5.84399999999732 -6.46891783799993,37.1339739254829,5.17299999999523 -6.46792371499993,37.1340148624829,5.41099999999278 -6.46654211499992,37.1340303844829,5.58000000000175 -6.46567557199995,37.1340596124829,5.60000000000582 -6.46485382699996,37.1340618554829,5.79099999999744 -6.46428301399993,37.1340325164829,6.52099999999336 -6.46385436799994,37.1340602884829,6.38400000000547 -6.46361706799991,37.1341134554829,6.25500000000466 -6.46333426499996,37.1341511254829,6.22599999999511 -6.46223332099993,37.1342688924829,6.00400000000081 -6.46196333399996,37.1342306654829,5.84799999999814 -6.46151147399991,37.1341110404829,5.67600000000675 -6.46123418999991,37.1340647144829,5.67200000000594 -6.46030885299996,37.1339915414829,5.53599999999278 -6.45974935199996,37.1339606204829,5.47999999999593 -6.45881217999994,37.1339477304829,5.52999999999884 -6.45809788299994,37.1338662854829,5.69000000000233 -6.45782392199993,37.1338972274829,5.53299999999581 -6.45741618799991,37.1338907774829,5.53100000000268 -6.45663609399992,37.1338510184829,5.53299999999581 -6.45627623999991,37.1338732094829,5.50900000000547 -6.45593158699995,37.1338704114829,5.40499999999884 -6.45526981399991,37.1338147734829,5.2329999999929 -6.45473917599992,37.1337895674829,5.3289999999979 -6.45339238899993,37.1337511424829,4.89999999999418 -6.45250415599992,37.1336887884829,4.99099999999453 -6.45194524199991,37.1336627664829,4.95200000000477 -6.45091385199993,37.1336635914829,5.08800000000338 -6.45041175499995,37.1336879324829,5.04300000000512 -6.44991608299995,37.1337340364829,5.12699999999313 -6.44928761399996,37.1338403104829,5.33299999999872 -6.44905166699993,37.1338513384829,5.24400000000605 -6.44855012599993,37.1338152224829,4.91599999999744 -6.44776841799995,37.1338236984829,5.13400000000547 -6.44722172899992,37.1338487404829,5.03100000000268 -6.44686249199992,37.1338525064829,5.00500000000466 -6.44656276899991,37.1338805664829,5.19500000000698 -6.44628516099993,37.1339344154829,5.14400000000023 -6.44558082699996,37.1341194474829,5.19599999999627 -6.44471369399991,37.1343032264829,5.14900000000489 -6.44171725899992,37.1348089994829,5.87600000000384 -6.44008457599995,37.1351269904829,5.36299999999756 -6.43955359899991,37.1352182494829,5.33999999999651 -6.43902541699993,37.1352933454829,5.55000000000291 -6.43806797099995,37.1355141564829,6.71499999999651 -6.43600209999994,37.1358930144829,5.61199999999371 -6.43457098399995,37.1362071804829,5.56100000000151 -6.43399074499996,37.1363568234829,5.05199999999604 -6.43342570299996,37.1365230164829,4.11299999999756 -6.43311145899992,37.1365955104829,5.11299999999756 -6.43289291899993,37.1366205744829,5.91000000000349 -6.43243280099995,37.1366336164829,5.92999999999302 -6.43213298599994,37.1366639384829,5.75599999999395 -6.43180569899994,37.1367419914829,5.21300000000338 -6.43116446699992,37.1369283034829,4.6820000000007 -6.43091065499993,37.1370424684829,3.92200000000594 -6.43067941899994,37.1371686284829,4.5 -6.43049032099992,37.1372381684829,4.63999999999942 -6.42985798799992,37.1375857584829,4.49400000000605 -6.42940436499992,37.1377462134829,4.68899999999849 -6.42918995399992,37.1377892374829,4.52300000000105 -6.42829365999995,37.1378977494829,4.48699999999371 -6.42793499399994,37.1379521424829,4.19800000000396 -6.4276677439999,37.1379547564829,4.31299999999464 -6.42736227299991,37.1379986964829,4.75999999999476 -6.42723773799992,37.1380653414829,5.23200000000361 -6.42715226599995,37.1380840134829,5.54099999999744 -6.42705983999991,37.1380148284829,5.83400000000256 -6.42683397299993,37.1378805674829,5.55100000000675 -6.42651511799994,37.1377076664829,5.7100000000064 -6.42629910999994,37.1374868024829,5.29099999999744 -6.42608910199994,37.1373227354829,5.09500000000116 -6.42538530799993,37.1368902904829,4.57499999999709 -6.42525730299991,37.1367678394829,4.13199999999779 -6.42511682999992,37.1365047364829,4.22599999999511 -6.42497015499992,37.1360265944829,5.54300000000512 -6.42483890099993,37.1358920584829,5.53200000000652 -6.42466170699993,37.1357804914829,4.69999999999709 -6.42449107499993,37.1357083004829,4.26300000000629 -6.42430329799993,37.1356752714829,4.08699999999953 -6.42404860499994,37.1355516804829,3.76300000000629 -6.42385158699995,37.1353869874829,3.76799999999639 -6.42370147299994,37.1352332264829,3.43700000000536 -6.42348294399994,37.1350058844829,3.66800000000512 -6.42319774999993,37.1346403634829,3.73399999999674 -6.42306004799991,37.1345499194829,3.90200000000186 -6.42287814699995,37.1343227334829,4.19500000000698 -6.42266132999993,37.1341085964829,4.76399999999558 -6.42249634399991,37.1338909844829,4.5280000000057 -6.42235231199993,37.1336485134829,4.79899999999907 -6.42214426699991,37.1334299644829,5.11299999999756 -6.42195264799994,37.1333199334829,5.31100000000151 -6.42170332199993,37.1331327034829,4.9829999999929 -6.42117422599995,37.1325550614829,4.21099999999569 -6.42075394999995,37.1321569894829,4.1359999999986 -6.42060961499993,37.1319237164829,4.00699999999779 -6.42053749599995,37.1317633544829,3.9719999999943 -6.42043797999992,37.1316484234829,3.91099999999278 -6.42023875299992,37.1312551624829,4.13400000000547 -6.42015249699995,37.131172737483,4.03399999999965 -6.41960932399991,37.1308410244829,3.68099999999686 -6.41947333099995,37.1307851324829,3.66300000000047 -6.41910304199996,37.1306919164829,3.62099999999919 -6.41894113599994,37.1306377604829,3.62600000000384 -6.41835395399994,37.1304178474829,3.30599999999686 -6.41819849399991,37.130343118483,3.35000000000582 -6.41793065599995,37.1301094514829,3.15200000000186 -6.41768351699994,37.1299429714829,3.05100000000675 -6.41750334099993,37.129750335483,3.05800000000454 -6.41729458299994,37.1293844784829,3.00699999999779 -6.41720927099993,37.1292744564829,3.00800000000163 -6.41646214899993,37.128537560483,3.55499999999302 -6.41640992899994,37.1284515664829,3.20299999999406 -6.41637803299994,37.1282069314829,3.02199999999721 -6.41622942599992,37.1275086914829,3.27400000000489 -6.41609330299991,37.1271191024829,3.29899999999907 -6.41583617699996,37.126655531483,3.57399999999325 -6.41581401999991,37.126546886483,3.4320000000007 -6.41587362999991,37.125887893483,3.40899999999965 -6.41583968099991,37.125792614483,3.27700000000186 -6.41572574899993,37.1256796664829,3.15499999999884 -6.41557961599995,37.1255844254829,3.09100000000035 -6.41543051199994,37.1255150544829,2.98099999999977 -6.41535707899993,37.1254552994829,3.09100000000035 -6.41531691799992,37.125369274483,3.02700000000186 -6.41535287399995,37.1252411854829,2.94899999999325 -6.41747660899995,37.120735490483,3.2899999999936 -6.41752349299992,37.120623748483,3.41999999999825 -6.41760697199993,37.120321289483,3.71300000000338 -6.41761946599991,37.1201854844829,3.56600000000617 -6.41760725099994,37.120048239483,3.56699999999546 -6.41754538799995,37.119848633483,3.80599999999686 -6.41749459499994,37.119753803483,3.66599999999744 -6.41696293999991,37.119006856483,3.50900000000547 -6.41685969599996,37.118766696483,3.21600000000035 -6.41669396999993,37.118146679483,3.2899999999936 -6.41648399999991,37.117272467483,3.19500000000698 -6.41546395999995,37.113383283483,2.74499999999534 -6.41496169499993,37.111377127483,2.8640000000014 -6.41449115999996,37.109624041483,2.5850000000064 -6.41446454499993,37.109393329483,3.05199999999604 -6.41384832199992,37.106993411483,3.49499999999534 -6.41213205999992,37.1003624834831,3.19000000000233 -6.41049607399992,37.0941230544831,2.60300000000279 -6.40984723699995,37.0915387224831,3.12600000000384 -6.40843402499991,37.0860669774832,2.94100000000617 -6.40758987799995,37.0830931964831,2.55100000000675 -6.4068094989999,37.0820007074832,2.93099999999686 -6.40546485299996,37.0812061434832,1.97500000000582 -6.40020762899991,37.0800168434832,3.08000000000175 -6.39118551599995,37.0777703954832,3.05100000000675 -6.38452277499994,37.0761381134832,2.56399999999849 -6.37752891799994,37.0743865604832,2.89699999999721</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>

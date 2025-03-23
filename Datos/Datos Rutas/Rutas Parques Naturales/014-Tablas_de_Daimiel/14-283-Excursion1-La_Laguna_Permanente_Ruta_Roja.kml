@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>14-283-Excursion1-La_Laguna_Permanente_Ruta_Roja</name>
+<visibility>1</visibility>
+<Style id="kml_style_ft_Ruta_principal">
+<LineStyle>
+<color>ff00c662</color>
+</LineStyle>
+<PolyStyle>
+<color>b000c662</color>
+</PolyStyle>
+</Style>
+<Schema name="Ruta principal" id="kml_schema_ft_Ruta_principal">
+<SimpleField type="xsd:string" name="Parque Nacional">
+<displayName>Parque Nacional</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Nombre">
+<displayName>Nombre</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Número">
+<displayName>Número</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Tipo">
+<displayName>Tipo</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Sentido">
+<displayName>Sentido</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Dificultad">
+<displayName>Dificultad</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Duración (h)">
+<displayName>Duración (h)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Longitud (km)">
+<displayName>Longitud (km)</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Recomendaciones">
+<displayName>Recomendaciones</displayName>
+</SimpleField>
+<SimpleField type="xsd:string" name="Descripción">
+<displayName>Descripción</displayName>
+</SimpleField>
+</Schema>
+<Placemark id="kml_1">
+<name>La Laguna Permanente. Ruta Roja - Principal</name>
+<visibility>1</visibility>
+<snippet> </snippet>
+<description><![CDATA[<center><table><tr><th colspan='2' align='center'><em>Atributos</em></th></tr><tr bgcolor="#E3E3F3">
+<th>Parque Nacional</th>
+<td>Tablas de Daimiel</td>
+</tr><tr bgcolor="">
+<th>Nombre</th>
+<td>La Laguna Permanente. Ruta Roja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Número</th>
+<td>Excursión1</td>
+</tr><tr bgcolor="">
+<th>Tipo</th>
+<td>Principal</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Sentido</th>
+<td>Ida y vuelta</td>
+</tr><tr bgcolor="">
+<th>Dificultad</th>
+<td>Baja</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Duración (h)</th>
+<td>1.5</td>
+</tr><tr bgcolor="">
+<th>Longitud (km)</th>
+<td>1.7</td>
+</tr><tr bgcolor="#E3E3F3">
+<th>Recomendaciones</th>
+<td>Ninguna en especial.</td>
+</tr><tr bgcolor="">
+<th>Descripción</th>
+<td>Recorrido lineal sin desnivel identificado en color rojo. Conduce a dos observatorios ornitológicos situados en una laguna artificial en el margen derecho del río Guadiana.
+A este recorrido también se accede desde la salida del inerario de la Isla del Pan. En este caso la distancia es de 500 metros ida (800 metros desde el centro de visitantes).
+Desde el aparcamiento del centro de visitantes arranca hacia la izquierda, hacia el sur, la ruta que conduce hacia la laguna Permanente. El sendero se abre paso entre un bosque de tarayes en el que abundan los pequeños pájaros como las tarabillas, carboneros y trigueros. Enseguida encontramos a la izquierda una construcción circular formada por la acumulación de piedras llamada majano.
+Poco después, a mitad de camino, sale a la derecha la pasarela de madera que se adentra en Las Tablas por la ruta amarilla (Excursión 2) hacia la isla del Maturro.
+Muy pronto se accede al primero de los dos observatorios, situado sobre el inicio de la madre vieja del Guadiana. El sendero continua hacia el sur entre un grupo de chopos que constituyen un bosque de ribera relicto. Buen lugar para oír y ver al ruiseñor.
+El segundo de los miradores ofrece una mejor panorámica de la entrada del río Guadiana al Parque y de la propia laguna.
+Entre carrizos de esta mancha de agua bucean zampullines chicos y somormujos lavancos, y nadan los ánades rabudos y reales, los porrones comunes o los patos cuchara. En primavera el avetorillo elige estos carrizales para criar mientras que en el invierno es frecuente la presencia de la negra silueta del cormorán grande. En las orillas crecen sauces en los que es posible ver garcetas o martinetes posados sobre los mimbres. Observando con paciencia las aguas del Guadiana se puede avistar a la inquieta nutria. La ruta dibuja un pequeño bucle para regresar de nuevo a la compañía del bosque de tarayes y deshacienco el camino andado, volver al centro de visitantes.</td>
+</tr></table></center>]]></description>
+<styleUrl>#kml_style_ft_Ruta_principal</styleUrl>
+<ExtendedData>
+<SchemaData schemaUrl="#kml_schema_ft_Ruta_principal">
+<SimpleData name="Parque Nacional">Tablas de Daimiel</SimpleData>
+<SimpleData name="Nombre">La Laguna Permanente. Ruta Roja</SimpleData>
+<SimpleData name="Número">Excursión1</SimpleData>
+<SimpleData name="Tipo">Principal</SimpleData>
+<SimpleData name="Sentido">Ida y vuelta</SimpleData>
+<SimpleData name="Dificultad">Baja</SimpleData>
+<SimpleData name="Duración (h)">1.5</SimpleData>
+<SimpleData name="Longitud (km)">1.7</SimpleData>
+<SimpleData name="Recomendaciones">Ninguna en especial.</SimpleData>
+<SimpleData name="Descripción">Recorrido lineal sin desnivel identificado en color rojo. Conduce a dos observatorios ornitológicos situados en una laguna artificial en el margen derecho del río Guadiana.
+A este recorrido también se accede desde la salida del inerario de la Isla del Pan. En este caso la distancia es de 500 metros ida (800 metros desde el centro de visitantes).
+Desde el aparcamiento del centro de visitantes arranca hacia la izquierda, hacia el sur, la ruta que conduce hacia la laguna Permanente. El sendero se abre paso entre un bosque de tarayes en el que abundan los pequeños pájaros como las tarabillas, carboneros y trigueros. Enseguida encontramos a la izquierda una construcción circular formada por la acumulación de piedras llamada majano.
+Poco después, a mitad de camino, sale a la derecha la pasarela de madera que se adentra en Las Tablas por la ruta amarilla (Excursión 2) hacia la isla del Maturro.
+Muy pronto se accede al primero de los dos observatorios, situado sobre el inicio de la madre vieja del Guadiana. El sendero continua hacia el sur entre un grupo de chopos que constituyen un bosque de ribera relicto. Buen lugar para oír y ver al ruiseñor.
+El segundo de los miradores ofrece una mejor panorámica de la entrada del río Guadiana al Parque y de la propia laguna.
+Entre carrizos de esta mancha de agua bucean zampullines chicos y somormujos lavancos, y nadan los ánades rabudos y reales, los porrones comunes o los patos cuchara. En primavera el avetorillo elige estos carrizales para criar mientras que en el invierno es frecuente la presencia de la negra silueta del cormorán grande. En las orillas crecen sauces en los que es posible ver garcetas o martinetes posados sobre los mimbres. Observando con paciencia las aguas del Guadiana se puede avistar a la inquieta nutria. La ruta dibuja un pequeño bucle para regresar de nuevo a la compañía del bosque de tarayes y deshacienco el camino andado, volver al centro de visitantes.</SimpleData>
+</SchemaData>
+</ExtendedData>
+<LineString>
+<extrude>0</extrude>
+<tessellate>1</tessellate>
+<coordinates>-3.69751999899995,39.1379811854741,608.293999999994 -3.69750595599993,39.1378479064741,608.241999999998 -3.69751815799992,39.1377946684741,608.085999999996 -3.69757661399996,39.1377384504741,607.774000000005 -3.69770786299995,39.1376718844741,607.646999999997 -3.69809569199992,39.1373415614741,607.680999999997 -3.69832910299994,39.1370752394741,607.953999999998 -3.69856096999996,39.1364187494741,607.725999999995 -3.69860821799995,39.1361652564741,607.525999999998 -3.69853000599994,39.1360954394741,608.082999999999 -3.69846243799992,39.1359318444741,607.994999999995 -3.69841420999995,39.1358519354741,607.865999999995 -3.69836161199993,39.1357981844741,607.819000000003 -3.69821865499995,39.1357332604741,608.112999999998 -3.69810332299994,39.1356537544741,608.273000000001 -3.69805887699994,39.1356053614741,608.217000000004 -3.69802242399993,39.1355461064741,608.207999999999 -3.69799479999995,39.1354435454741,608.202000000005 -3.69797250599993,39.1354121414741,607.997000000003 -3.69790965599992,39.1353746704741,608.134999999995 -3.69780158799995,39.1352104164741,607.990000000005 -3.69779074799993,39.1351672284741,607.767999999996 -3.69779340099996,39.1350843114741,607.691000000006 -3.69783939499996,39.1349380584741,607.312999999995 -3.69783888799992,39.1348866974741,607.373999999996 -3.69782441799993,39.1348273114742,607.513999999996 -3.69777994599991,39.1347762164741,607.485000000001 -3.69772680699992,39.1346675004741,607.657999999996 -3.69772534899994,39.1345197294741,607.970000000001 -3.69774329099994,39.1344619514741,608.044999999998 -3.69790972399994,39.1342095474741,607.915999999997 -3.69812353799995,39.1339514524741,607.915999999997 -3.69815974099993,39.1338683344741,607.971000000005 -3.69817627699996,39.1337853344742,607.967000000004 -3.69815542499992,39.1336656124741,608.017000000007 -3.69798812399995,39.1334782854741,607.509999999995 -3.69796434499995,39.1334135474741,607.509000000005 -3.69793840399996,39.1332469994741,607.205000000002 -3.69794631599996,39.1331108854741,607.198000000004 -3.69793088499995,39.1330713304741,607.195000000007 -3.69787237999992,39.1330049984741,607.430999999997 -3.69766351199991,39.1328260294741,607.741999999998 -3.69763163499994,39.1327613404741,607.697 -3.69760878199992,39.1326731694742,607.842999999993 -3.69759607799995,39.1322064744742,607.645000000004 -3.69757650999992,39.1320993604742,607.485000000001 -3.69748479799995,39.1317160404741,607.347999999998 -3.69743833599995,39.1315802514741,607.387000000002 -3.69736291699991,39.1314410314741,607.445999999996 -3.69739292699995,39.1313165004741,607.082999999999 -3.69749972899996,39.1311185204742,605.909 -3.69758451199993,39.1310342094741,605.914999999994 -3.69768379199991,39.1310119894741,605.692999999999 -3.69758451199993,39.1310342094741,605.914999999994 -3.69749972899996,39.1311185204742,605.909 -3.69739292699995,39.1313165004741,607.082999999999 -3.69736291699991,39.1314410314741,607.445999999996 -3.69743833599995,39.1315802514741,607.387000000002 -3.69748479799995,39.1317160404741,607.347999999998 -3.69757650999992,39.1320993604742,607.485000000001 -3.69759607799995,39.1322064744742,607.645000000004 -3.69760878199992,39.1326731694742,607.842999999993 -3.69763163499994,39.1327613404741,607.697 -3.69766351199991,39.1328260294741,607.741999999998 -3.69787237999992,39.1330049984741,607.430999999997 -3.69793088499995,39.1330713304741,607.195000000007 -3.69794631599996,39.1331108854741,607.198000000004 -3.69793840399996,39.1332469994741,607.205000000002 -3.69796434499995,39.1334135474741,607.509000000005 -3.69798812399995,39.1334782854741,607.509999999995 -3.69815542499992,39.1336656124741,608.017000000007 -3.69817627699996,39.1337853344742,607.967000000004 -3.69815974099993,39.1338683344741,607.971000000005 -3.69812353799995,39.1339514524741,607.915999999997 -3.69790972399994,39.1342095474741,607.915999999997 -3.69774329099994,39.1344619514741,608.044999999998 -3.69772534899994,39.1345197294741,607.970000000001 -3.69772680699992,39.1346675004741,607.657999999996 -3.69777994599991,39.1347762164741,607.485000000001 -3.69782441799993,39.1348273114742,607.513999999996 -3.69783888799992,39.1348866974741,607.373999999996 -3.69783939499996,39.1349380584741,607.312999999995 -3.69779340099996,39.1350843114741,607.691000000006 -3.69779074799993,39.1351672284741,607.767999999996 -3.69780158799995,39.1352104164741,607.990000000005 -3.69790965599992,39.1353746704741,608.134999999995 -3.69797250599993,39.1354121414741,607.997000000003 -3.69799479999995,39.1354435454741,608.202000000005 -3.69802242399993,39.1355461064741,608.207999999999 -3.69805887699994,39.1356053614741,608.217000000004 -3.69810332299994,39.1356537544741,608.273000000001 -3.69821865499995,39.1357332604741,608.112999999998 -3.69836161199993,39.1357981844741,607.819000000003 -3.69841420999995,39.1358519354741,607.865999999995 -3.69846243799992,39.1359318444741,607.994999999995 -3.69853000599994,39.1360954394741,608.082999999999 -3.69860821799995,39.1361652564741,607.525999999998 -3.69856096999996,39.1364187494741,607.725999999995 -3.69832910299994,39.1370752394741,607.953999999998 -3.69809569199992,39.1373415614741,607.680999999997 -3.69770786299995,39.1376718844741,607.646999999997 -3.69757661399996,39.1377384504741,607.774000000005 -3.69751815799992,39.1377946684741,608.085999999996 -3.69750595599993,39.1378479064741,608.241999999998 -3.69751999899995,39.1379811854741,608.293999999994</coordinates>
+</LineString>
+</Placemark>
+</Document></kml>
