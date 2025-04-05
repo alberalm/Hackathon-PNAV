@@ -1,23 +1,25 @@
 Esta carpeta contiene el código necesario para descargar y procesar los datos de las diferentes fuentes que proporcionan rutas en España. 
 
-En total, se han utilizado X fuentes de datos:
+En total, se han utilizado 5 fuentes de datos:
 
-- **Caminos Naturales:** sss
+- **Caminos Naturales ([enlace](https://centrodedescargas.cnig.es/CentroDescargas/caminos-naturales)):** Conjuntos de caminos que discurren por infraestructuras de transporte, vías pecuarias, plataformas de ferrocarril, caminos de sirga o caminos tradicionales en desuso, que han sido reutilizados para el uso recreativo del campo. Los datos se descargan directamente desde la página del Instituo Geográfico Nacional (IGN) en formato .shp.
 
-- **Rutas Parques Naturales:** ss
+- **Puntos de Interés ([enlace](https://www.mapa.gob.es/es/cartografia-y-sig/ide/descargas/desarrollo-rural/Red-Caminos-Naturales.aspx)):** Conjunto de puntos de interés turístico a los que se puede acceder mientras se realizan algunas de las rutas recogidas. Los datos se descargar directamente desde la página de la Red de Caminos Naturales del Ministerio de Agricultura, Pesca y Alimentación en formato shp. Estos datos no se han tenido en cuenta para este primer procesado, pero se utilizarán más adelante.
 
-- **Senderos FEDME** ss
+- **Rutas Parques Naturales ([enlace](https://centrodedescargas.cnig.es/CentroDescargas/rutas-parques-nacionales)):** Conjunto de rutas para los Parques Nacionales de Ordesa y Monte Perdido, Caldera de Taburiente, Timanfaya, Teide, Garajonay, Picos de Europa, Aigüestortes i Estany de Sant Maurici, Monfragüe, Sierra de Guadarrama, Cabañeros, Doñana, Islas Atlánticas de Galicia, Sierra Nevada, Tablas de Daimiel, Archipiélago de Cabrera y Sierra de las Nieves. Los datos se descargan directamente de la página del IGN en formato .kml.
 
-- **Vías Verdes:** ss
+- **Senderos FEDME ([enlace](https://centrodedescargas.cnig.es/CentroDescargas/senderos-fedme)):** Conjunto de etapas de los Senderos de Gran Recorrido (GR), de los Senderos de Pequeños Recorrido (PR) y de los Senderos Locales (SL) homologados por la Federación Española de Deportes de Montaña y Escalada (FEDME). Los datos se descargan directamente de la página del IGN en formato .shp clasificados en esas tres categorías.
+
+- **Vías Verdes ([enlace](https://centrodedescargas.cnig.es/CentroDescargas/vias-verdes)):** Conjunto de etapas aportadas por la Fundación de Ferrocarriles Españoles mediante su Programa Vías Verdes, desarrolladas a partir de líneas de ferrocarril en desuso o que nunca llegaron a prestar servicio por quedar inconclusas las obras de construcción. Estos antiguos trazados ferroviarios se han acondicionado para ser recorridos por cicloturistas y caminantes, y son accesibles para personas con movilidad reducida. Los datos se descargan directamente de la página del IGN en formato .shp.
 
 
-| Fuente | Código empleado | Descripciones obtenidas |
+| Fuente | Rutas obtenidas |
 |----------|----------|----------|
-| SEO BirdLife    | ``seo_scraper.ipynb``   | Aves - 611   |
-| Fungipedia    | ``fungipedia_scraper.ipynb``   | Hongos - 578   |
-| IEET    | ``ieet_scraper.ipynb``<br>``ieet_description_extractor.ipynb``   | Mamíferos - 98<br>Peces - 44   |
-| VertebradosIbericos    | Recopilación manual  | Anfibios - 31<br>Aves - 127<br>Mamíferos - 60<br>Peces - 50<br>Reptiles - 84  |
-| IEPNB-EIDOS    | Recopilación manual con apoyo de<br>``eidos_webpage_filtering.ipynb``   | Algas - 10<br>Anfibios - 4<br>Aves - 14<br>Cromistas y Bacterias - 3<br>Hongos - 1<br>Invertebrados - 727<br>Mamíferos - 132<br>Peces - 72<br>Plantas no vasculares - 26<br>Plantas vasculares - 770<br>Reptiles - 18   |
+| Caminos Naturales    | 762   |
+| Puntos de Interés    | 2601   |
+| Rutas Parques Naturales    | 391   |
+| Senderos FEDME    | 3433  |
+| Vías Verdes    | 140   |
 
 Tras recopilar los datos de las diferentes fuentes, se combinaron en un solo archivo ``"archivo_rutas.csv"`` a partir de los archivos ``.shp`` y ``.kml`` de las distintas fuentes.. El código empleado para ello se encuentra en el archivo ``1_código_para_unificar.ipynb``. 
 A partir de ahí, se asignó cada ruta a sus cuadrículas correspondientes dentro de la malla de cuadrículas de España ([Miteco IEET Mallas 10x10km
