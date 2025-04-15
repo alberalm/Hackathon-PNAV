@@ -8,6 +8,14 @@
       font-family: Arial, sans-serif;
       margin: 20px;
     }
+    tr.seleccionada {
+  background-color: #d0e8ff;
+}
+tr:hover {
+  background-color: #f0f8ff;
+  cursor: pointer;
+}
+
     .filtros {
       display: flex;
       gap: 10px;
@@ -93,7 +101,7 @@
           <th>Tiempo</th>
         </tr>
       </thead>
-      <tbody>
+      <tbody id="tabla-rutas">
         <tr>
           <td>Ruta de León</td>
           <td>2h</td>
@@ -103,11 +111,12 @@
         </tr>
         <!-- Más filas dinámicamente -->
       </tbody>
+      
     </table>
 
     <div class="previsualizacion">
       <div class="espacio-pdf">
-        Previsualización del PDF
+        <iframe id="visor-pdf" width="100%" height="100%" frameborder="0"></iframe>
       </div>
       <div class="botones">
         <button onclick="descargarPDF()">Descargar</button>
@@ -117,14 +126,69 @@
   </div>
 
   <script>
-    function descargarPDF() {
-      alert("Aquí se descargaría el PDF generado.");
-    }
-
-    function cambiarIA() {
-      window.location.href = "index.html"; // Esto abrirá tu HTML de la IA
-    }
+    let filaSeleccionada = null;
+  
+    document.querySelectorAll("#tabla-rutas tr").forEach(fila => {
+      fila.addEventListener("click", () => {
+        // Quitar selección previa
+        document.querySelectorAll("#tabla-rutas tr").forEach(f => f.classList.remove("seleccionada"));
+  
+        // Seleccionar nueva
+        fila.classList.add("seleccionada");
+        filaSeleccionada = fila;
+      });
+    });
   </script>
+  
+
+  <script>
+
+    function descargarPDF() {
+  if (!filaSeleccionada) {
+    alert("Por favor, selecciona una ruta de la tabla.");
+    return;
+  }
+
+  const celdas = filaSeleccionada.querySelectorAll("td");
+  const datosRuta = {
+    nombre: celdas[0].innerText,
+    duracion: celdas[1].innerText,
+    longitud: celdas[2].innerText,
+    dificultad: celdas[3].innerText,
+    tiempo: celdas[4].innerText
+  };
+
+  fetch('/generar-pdf', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(datosRuta)
+  })
+  .then(res => res.blob())
+  .then(blob => {
+    const url = window.URL.createObjectURL(blob);
+    document.getElementById('visor-pdf').src = url;
+
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'ruta_personalizada.pdf';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+  });
+}
+
+  </script>
+  
+
+
+
+<script>
+    function cambiarIA() {
+      window.location.href = "/ia";
+    }
+</script>
 
 </body>
 </html>
