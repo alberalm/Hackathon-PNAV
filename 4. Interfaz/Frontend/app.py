@@ -46,6 +46,88 @@ def generar_pdf():
 
     return send_file(buffer, as_attachment=True, download_name="ruta_personalizada.pdf", mimetype='application/pdf')
 
+import requests
+from flask import request, jsonify
+
+@app.route('/clima', methods=['POST'])
+def obtener_clima():
+    data = request.get_json()
+    provincia = data.get('provincia')
+    fecha = data.get('fecha')
+
+    # Coordenadas por provincia
+    coordenadas = {
+        'leon': {'lat': 42.5987, 'lon': -5.5671},
+        'burgos': {'lat': 42.3439, 'lon': -3.6969}
+    }
+
+    if not provincia or provincia not in coordenadas:
+        return jsonify({'error': 'Provincia no válida'}), 400
+
+    lat = coordenadas[provincia]['lat']
+    lon = coordenadas[provincia]['lon']
+    api_key = "324e25600b1f59ffb8362340f8c8c052"  # ⚠️ Cámbiala después por seguridad
+
+    try:
+        url = (
+            f'https://api.openweathermap.org/data/3.0/onecall'
+            f'?lat={lat}&lon={lon}&exclude=current,minutely,hourly,alerts'
+            f'&appid={api_key}&units=metric&lang=es'
+        )
+        response = requests.get(url)
+        datos = response.json()
+
+        print(">>> RESPUESTA API:", datos)  # <-- Aquí verás si viene 'daily' o un error
+
+        if 'daily' not in datos:
+            return jsonify({'error': 'No se recibió la información esperada de la API'}), 500
+
+        from datetime import datetime
+        fecha_consulta = datetime.strptime(fecha, '%Y-%m-%d')
+        hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+        diferencia = (fecha_consulta - hoy).days
+
+        if diferencia < 0 or diferencia >= len(datos['daily']):
+            return jsonify({'error': 'Fecha fuera de rango (0–7 días)'}), 400
+
+        dia = datos['daily'][diferencia]
+        descripcion = dia['weather'][0]['description']
+        tipo = dia['weather'][0]['main']
+        temp = round(dia['temp']['day'])
+
+        return jsonify({
+            'descripcion': descripcion,
+            'temperatura': temp,
+            'tipo': tipo
+        })
+
+    except Exception as e:
+        return jsonify({'error': f'Error al obtener el clima: {str(e)}'}), 500
+
+@app.route('/calidad-aire', methods=['POST'])
+def calidad_aire():
+    datos = request.get_json()
+    lat = datos['lat']
+    lon = datos['lon']
+    
+    api_key = "324e25600b1f59ffb8362340f8c8c052"
+    url = f"http://api.openweathermap.org/data/2.5/air_pollution?lat={lat}&lon={lon}&appid={api_key}"
+
+    response = requests.get(url)
+    data = response.json()
+    print(">>> CALIDAD AIRE:", data)
+
+    if 'list' in data:
+        info = data['list'][0]
+        return jsonify({
+            'aqi': info['main']['aqi'],
+            'pm2_5': info['components']['pm2_5'],
+            'pm10': info['components']['pm10'],
+            'co': info['components']['co']
+        })
+    else:
+        return jsonify({'error': 'No se pudo obtener calidad del aire'}), 500
+
 
 
 if __name__ == '__main__':

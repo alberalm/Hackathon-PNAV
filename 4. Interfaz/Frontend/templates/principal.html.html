@@ -2,92 +2,228 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Explorador de Rutas</title>
+  <title>Explorador de Rutas Naturales</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f7f4;
+      color: #2d3e2f;
     }
-    tr.seleccionada {
-  background-color: #d0e8ff;
-}
-tr:hover {
-  background-color: #f0f8ff;
-  cursor: pointer;
-}
+
+    header {
+      background-color: #3a7d44;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
 
     .filtros {
       display: flex;
       gap: 10px;
-      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #d9f2e6;
+      border-bottom: 2px solid #a0d3b4;
+      justify-content: center;
     }
+
     select, input[type="date"] {
-      padding: 6px;
+      padding: 8px;
+      border: 1px solid #a0d3b4;
+      border-radius: 6px;
+      background-color: #f5fff8;
+      font-size: 1rem;
     }
+
     .contenido {
       display: flex;
       gap: 20px;
+      padding: 20px;
     }
+
     table {
       border-collapse: collapse;
       width: 60%;
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     }
+
     th, td {
-      border: 1px solid #ccc;
-      padding: 8px;
+      border-bottom: 1px solid #e0eee6;
+      padding: 6px 10px;
+      text-align: left;
     }
+
+    th {
+      background-color: #a0d3b4;
+      color: #2d3e2f;
+      font-weight: bold;
+    }
+
+    th.col-tiempo, td.col-tiempo {
+      display: none;
+    }
+
+    tr.seleccionada {
+      background-color: #d0e8cc;
+    }
+
+    tr:hover {
+      background-color: #e8f8e4;
+      cursor: pointer;
+    }
+
     .previsualizacion {
-      border: 1px solid #ccc;
-      padding: 10px;
+      border: 1px solid #a0d3b4;
+      border-radius: 10px;
+      padding: 16px;
       width: 35%;
+      background-color: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
       display: flex;
       flex-direction: column;
       justify-content: space-between;
     }
+
     .espacio-pdf {
       height: 300px;
-      background-color: #f5f5f5;
+      background-color: #f0f7f4;
       display: flex;
       align-items: center;
       justify-content: center;
-      color: #999;
-      margin-bottom: 10px;
+      color: #7aa893;
+      margin-bottom: 15px;
+      border-radius: 6px;
+      border: 2px dashed #a0d3b4;
     }
+
     .botones {
       display: flex;
       justify-content: space-between;
     }
+
     button {
-      padding: 8px 16px;
-      cursor: pointer;
+      padding: 10px 18px;
+      background-color: #3a7d44;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #2d5e33;
+    }
+
+    .contenedor-mapa {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .mapa-img {
+      width: 60%;
+      max-width: 400px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border: 2px solid #a0d3b4;
+    }
+
+    /* 🌙 MODO OSCURO */
+    body.tema-oscuro {
+      background-color: #1e1e1e;
+      color: #e0e0e0;
+    }
+
+    body.tema-oscuro header {
+      background-color: #2d4a31;
+    }
+
+    body.tema-oscuro .filtros {
+      background-color: #2e4034;
+      border-color: #456a50;
+    }
+
+    body.tema-oscuro select, 
+    body.tema-oscuro input[type="date"] {
+      background-color: #384d40;
+      color: #e0e0e0;
+      border: 1px solid #5a8b68;
+    }
+
+    body.tema-oscuro table {
+      background-color: #262f28;
+    }
+
+    body.tema-oscuro th {
+      background-color: #2f503b;
+      color: #fff;
+    }
+
+    body.tema-oscuro tr:hover {
+      background-color: #3a5742;
+    }
+
+    body.tema-oscuro tr.seleccionada {
+      background-color: #446b4f;
+    }
+
+    body.tema-oscuro .previsualizacion {
+      background-color: #2f2f2f;
+      border-color: #5a8b68;
+    }
+
+    body.tema-oscuro .espacio-pdf {
+      background-color: #1e1e1e;
+      color: #999;
+      border-color: #5a8b68;
+    }
+
+    body.tema-oscuro button {
+      background-color: #456a50;
+    }
+
+    body.tema-oscuro button:hover {
+      background-color: #2d5e33;
     }
   </style>
 </head>
 <body>
+  <header>🌿 Explorador de Rutas Naturales</header>
 
   <div class="filtros">
-    <select name="provincia">
+    <select name="provincia" id="select-provincia">
       <option value="">Provincia</option>
       <option value="leon">León</option>
       <option value="burgos">Burgos</option>
-      <!-- Añadir más provincias -->
     </select>
 
     <select name="interes">
       <option value="">Me gustaría ver</option>
       <option value="naturaleza">Naturaleza</option>
       <option value="monumentos">Monumentos</option>
-      <!-- Añadir más opciones -->
     </select>
 
-    <input type="date" name="fecha">
+    <input type="date" name="fecha" id="input-fecha">
 
     <select name="idioma">
       <option value="">Idioma</option>
       <option value="es">Español</option>
       <option value="en">Inglés</option>
-      <!-- Añadir más idiomas -->
     </select>
+  </div>
+
+  <div style="text-align: right; padding: 10px 20px;">
+    <button id="toggle-tema" onclick="alternarTema()">🌙 Modo oscuro</button>
+  </div>
+
+  <div class="contenedor-mapa">
+    <img src="{{ url_for('static', filename='mapa_espana.png') }}" alt="Mapa de España" class="mapa-img">
   </div>
 
   <div class="contenido">
@@ -98,7 +234,7 @@ tr:hover {
           <th>Duración</th>
           <th>Longitud</th>
           <th>Dificultad</th>
-          <th>Tiempo</th>
+          <th class="col-tiempo">Tiempo</th>
         </tr>
       </thead>
       <tbody id="tabla-rutas">
@@ -107,17 +243,16 @@ tr:hover {
           <td>2h</td>
           <td>5 km</td>
           <td>Media</td>
-          <td>☀️ 12:00</td>
+          <td class="col-tiempo">-</td>
         </tr>
-        <!-- Más filas dinámicamente -->
       </tbody>
-      
     </table>
 
     <div class="previsualizacion">
       <div class="espacio-pdf">
         <iframe id="visor-pdf" width="100%" height="100%" frameborder="0"></iframe>
       </div>
+      <p id="info-calidad-aire" style="font-size: 0.9rem; color: #555; margin-bottom: 10px;"></p>
       <div class="botones">
         <button onclick="descargarPDF()">Descargar</button>
         <button onclick="cambiarIA()">Cambiar</button>
@@ -126,69 +261,133 @@ tr:hover {
   </div>
 
   <script>
-    let filaSeleccionada = null;
+    function alternarTema() {
+      document.body.classList.toggle('tema-oscuro');
+      const modoOscuro = document.body.classList.contains('tema-oscuro');
+      localStorage.setItem('modoOscuro', modoOscuro);
+      document.getElementById("toggle-tema").textContent = modoOscuro ? "☀️ Modo claro" : "🌙 Modo oscuro";
+    }
   
+    window.addEventListener('DOMContentLoaded', () => {
+      const modoOscuro = localStorage.getItem('modoOscuro') === 'true';
+      if (modoOscuro) {
+        document.body.classList.add('tema-oscuro');
+        document.getElementById("toggle-tema").textContent = "☀️ Modo claro";
+      }
+    });
+  
+    let filaSeleccionada = null;
     document.querySelectorAll("#tabla-rutas tr").forEach(fila => {
       fila.addEventListener("click", () => {
-        // Quitar selección previa
         document.querySelectorAll("#tabla-rutas tr").forEach(f => f.classList.remove("seleccionada"));
-  
-        // Seleccionar nueva
         fila.classList.add("seleccionada");
         filaSeleccionada = fila;
+        descargarPDF();
       });
     });
-  </script>
   
-
-  <script>
-
     function descargarPDF() {
-  if (!filaSeleccionada) {
-    alert("Por favor, selecciona una ruta de la tabla.");
-    return;
-  }
-
-  const celdas = filaSeleccionada.querySelectorAll("td");
-  const datosRuta = {
-    nombre: celdas[0].innerText,
-    duracion: celdas[1].innerText,
-    longitud: celdas[2].innerText,
-    dificultad: celdas[3].innerText,
-    tiempo: celdas[4].innerText
-  };
-
-  fetch('/generar-pdf', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(datosRuta)
-  })
-  .then(res => res.blob())
-  .then(blob => {
-    const url = window.URL.createObjectURL(blob);
-    document.getElementById('visor-pdf').src = url;
-
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'ruta_personalizada.pdf';
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-  });
-}
-
-  </script>
+      if (!filaSeleccionada) return;
+      const celdas = filaSeleccionada.querySelectorAll("td");
+      const datosRuta = {
+        nombre: celdas[0].innerText,
+        duracion: celdas[1].innerText,
+        longitud: celdas[2].innerText,
+        dificultad: celdas[3].innerText,
+        tiempo: celdas[4].innerText
+      };
   
-
-
-
-<script>
+      fetch('/generar-pdf', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(datosRuta)
+      })
+      .then(res => res.blob())
+      .then(blob => {
+        const url = URL.createObjectURL(blob);
+        document.getElementById('visor-pdf').src = url;
+      });
+    }
+  
     function cambiarIA() {
       window.location.href = "/ia";
     }
-</script>
-
+  
+    const inputFecha = document.getElementById('input-fecha');
+    const selectProvincia = document.getElementById('select-provincia');
+    inputFecha.addEventListener('change', intentarObtenerTiempo);
+    selectProvincia.addEventListener('change', intentarObtenerTiempo);
+  
+    function intentarObtenerTiempo() {
+      const fecha = inputFecha.value;
+      const provincia = selectProvincia.value;
+      if (!fecha || !provincia) return;
+  
+      // Coordenadas según provincia
+      const coords = {
+        leon: { lat: 42.5987, lon: -5.5671 },
+        burgos: { lat: 42.3439, lon: -3.6969 }
+      };
+  
+      const { lat, lon } = coords[provincia];
+  
+      // 1. Obtener clima
+      fetch('/clima', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ provincia, fecha })
+      })
+      .then(res => res.json())
+      .then(data => {
+        if (data.error) {
+          mostrarTiempo("⚠️ " + data.error);
+          return;
+        }
+  
+        const emoji = obtenerEmojiClima(data.tipo);
+        const textoClima = `${emoji} ${data.descripcion} (${data.temperatura}°C)`;
+  
+        // 2. Obtener calidad del aire
+        fetch('/calidad-aire', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ lat, lon })
+        })
+        .then(res => res.json())
+        .then(aire => {
+          if (aire.error) throw new Error(aire.error);
+          const calidad = ["Excelente 🌿", "Buena 😊", "Moderada 😐", "Mala 😷", "Muy mala 🚫"][aire.aqi - 1] || "Desconocida";
+          const textoAire = `🌬️ Aire: ${calidad} — PM2.5: ${aire.pm2_5.toFixed(1)} µg/m³`;
+  
+          mostrarTiempo(`${textoClima}\n${textoAire}`);
+        })
+        .catch(() => mostrarTiempo(`${textoClima}\n🌬️ Aire: no disponible`));
+      });
+    }
+  
+    function mostrarTiempo(texto) {
+      document.querySelectorAll('td.col-tiempo, th.col-tiempo').forEach(e => e.style.display = 'table-cell');
+      document.querySelectorAll('#tabla-rutas tr').forEach(tr => {
+        const celda = tr.querySelector('.col-tiempo');
+        if (celda) celda.textContent = texto;
+      });
+    }
+  
+    function obtenerEmojiClima(tipo) {
+      switch (tipo.toLowerCase()) {
+        case "clear": return "☀️";
+        case "clouds": return "⛅";
+        case "rain": return "🌧️";
+        case "snow": return "❄️";
+        case "thunderstorm": return "🌩️";
+        case "drizzle": return "🌦️";
+        case "mist":
+        case "fog":
+        case "haze": return "🌫️";
+        default: return "🌡️";
+      }
+    }
+  </script>
+  
 </body>
 </html>
