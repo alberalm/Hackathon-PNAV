@@ -41,8 +41,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 7756,Leuzea rhaponticoides Graells,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Leuzea,,rhaponticoides,,Sinónimo
 469,Laphangium teydeum Wildpret & Greuter,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Laphangium,,teydeum,,Aceptado/válido
 472,Launaea cervicornis (Boiss.) Font Quer & Rothm.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Launaea,,cervicornis,,Aceptado/válido
-473,Launaea lanifera Pau,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Launaea,,lanifera,,Aceptado/válido
-474,Launaea nudicaulis (L.) Hook. f.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Launaea,,nudicaulis,,Aceptado/válido
 477,"Laurus novocanariensis Rivas-Mart., Lousa, Fern. Prieto, E. Días, J.C. Costa & C. Aguiar",Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Laurales,Lauraceae,Laurus,,novocanariensis,,Aceptado/válido
 480,"Limonium ejulabilis Rosselló, Mus & J.X. Soler",Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Plumbaginaceae,Limonium,,ejulabilis,,Aceptado/válido
 481,Limonium inexpectans L. Sáez & Rosselló,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Plumbaginaceae,Limonium,,inexpectans,,Aceptado/válido
@@ -270,10 +268,8 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 1794,Acinos alpinus (L.) Moench,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Lamiaceae,Acinos,,alpinus,,Sinónimo
 1807,Ailanthus altissima (Mill.) Swingle,Species,Especie no nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Sapindales,Simaroubaceae,Ailanthus,,altissima,,Aceptado/válido
 1845,Anagallis foemina Mill.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Ericales,Primulaceae,Anagallis,,foemina,,Sinónimo
-1847,Anagallis monelli L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Ericales,Primulaceae,Anagallis,,monelli,,Sinónimo
 1851,Anarrhinum bellidifolium (L.) Willd.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Plantaginaceae,Anarrhinum,,bellidifolium,,Aceptado/válido
 1854,Anarrhinum fruticosum Desf.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Plantaginaceae,Anarrhinum,,fruticosum,,Aceptado/válido
-1856,Anarrhinum laxiflorum Boiss.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Plantaginaceae,Anarrhinum,,laxiflorum,,Aceptado/válido
 1874,Adenocarpus gibbsianus Castrov. & Talavera,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Adenocarpus,,gibbsianus,,Aceptado/válido
 1899,Abies alba Mill.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Pinopsida,Pinales,Pinaceae,Abies,,alba,,Aceptado/válido
 1901,Abies pinsapo Boiss.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Pinopsida,Pinales,Pinaceae,Abies,,pinsapo,,Aceptado/válido
@@ -315,7 +311,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 2282,Araujia sericifera Brot.,Species,Especie no nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Apocynaceae,Araujia,,sericifera,,Aceptado/válido
 2322,Arenaria grandiflora subsp. bolosii (Cañig.) P. Küpfer,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Arenaria,,grandiflora,bolosii,Sinónimo
 2337,Arenaria nevadensis Boiss. & Reut.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Arenaria,,nevadensis,,Aceptado/válido
-2393,Asphodelus aestivus Brot.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Asparagales,Asphodelaceae,Asphodelus,,aestivus,,Aceptado/válido
 2394,Asphodelus albus Mill.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Asparagales,Asphodelaceae,Asphodelus,,albus,,Aceptado/válido
 2443,"Armeria bigerrensis subsp. losae (Bernis) Rivas Mart., T.E. Díaz, Fern. Prieto, Loidi & Penas",Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Plumbaginaceae,Armeria,,bigerrensis,losae,Aceptado/válido
 2452,Armeria cantabrica Willk.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Plumbaginaceae,Armeria,,cantabrica,,Aceptado/válido
@@ -335,7 +330,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 2612,Astragalus tremolsianus Pau,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Astragalus,,tremolsianus,,Aceptado/válido
 32074,Boleum asperum (Pers.) Desv.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Capparales,Cruciferae,Boleum,,asperum,,Sinónimo
 2701,Boreava aptera Boiss. & Heldr. in Boiss.,Species,Especie no nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Brassicales,Brassicaceae,Boreava,,aptera,,Aceptado/válido
-2705,Botrychium matricariifolium (Retz.) Koch,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Polypodiopsida,Ophioglossales,Ophioglossaceae,Botrychium,,matricariifolium,,Aceptado/válido
 2723,Atropa baetica Willk.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Solanales,Solanaceae,Atropa,,baetica,,Aceptado/válido
 2727,Azolla filiculoides Lam.,Species,Especie no nativa,Plantas vasculares,Plantae,Tracheophyta,Polypodiopsida,Salviniales,Salviniaceae,Azolla,,filiculoides,,Aceptado/válido
 2802,Bryonia dioica Jacq.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Cucurbitales,Cucurbitaceae,Bryonia,,dioica,,Aceptado/válido
@@ -369,8 +363,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 3333,Centaurea saxifraga Coincy,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Centaurea,,saxifraga,,Aceptado/válido
 3345,Centaurea ultreia Silva Pando,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Centaurea,,ultreia,,Aceptado/válido
 3348,Centaurium erythraea Rafn,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Gentianaceae,Centaurium,,erythraea,,Aceptado/válido
-3351,Centaurium grandiflorum (Pers.) Ronniger,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Gentianaceae,Centaurium,,grandiflorum,,Aceptado/válido
-3357,Centaurium pulchellum (Sw.) Druce,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Gentianaceae,Centaurium,,pulchellum,,Aceptado/válido
 3358,Centaurium quadrifolium (L.) G. López & C.E. Jarvis,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Gentianaceae,Centaurium,,quadrifolium,,Aceptado/válido
 3358,Centaurium quadrifolium (L.) G.López & C.E.Jarvis subsp. quadrifolium,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Gentianaceae,Centaurium,,quadrifolium,quadrifolium,Sinónimo
 3364,Centaurium somedanum M. Laínz,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Gentianaceae,Centaurium,,somedanum,,Aceptado/válido
@@ -398,12 +390,8 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 3741,Coronopus navasii Pau,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Brassicales,Brassicaceae,Coronopus,,navasii,,Sinónimo
 3758,Cosentinia vellea (Aiton) Tod.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Polypodiopsida,Polypodiales,Pteridaceae,Cosentinia,,vellea,,Aceptado/válido
 3776,Cynara tournefortii Boiss. & Reut.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Cynara,,tournefortii,,Aceptado/válido
-3780,Cynoglossum clandestinum Desf.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Boraginales,Boraginaceae,Cynoglossum,,clandestinum,,Aceptado/válido
 3781,Cynoglossum creticum Mill.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Boraginales,Boraginaceae,Cynoglossum,,creticum,,Aceptado/válido
-3788,Cynoglossum pustulatum Boiss.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Boraginales,Boraginaceae,Cynoglossum,,pustulatum,,Aceptado/válido
 3812,Cytisus arboreus (Desf.) DC.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Cytisus,,arboreus,,Aceptado/válido
-3815,Cytisus cantabricus (Willk.) Rchb. f. & Beck,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Cytisus,,cantabricus,,Aceptado/válido
-3823,Cytisus grandiflorus (Brot.) DC.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Cytisus,,grandiflorus,,Aceptado/válido
 3857,Crataegus monogyna Jacq.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Rosales,Rosaceae,Crataegus,,monogyna,,Aceptado/válido
 3906,Cymbalaria fragilis (J.J. Rodr.) A. Chev.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Plantaginaceae,Cymbalaria,,fragilis,,Aceptado/válido
 3916,Cynara baetica (Spreng.) Pau,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Cynara,,baetica,,Aceptado/válido
@@ -413,13 +401,10 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 3995,Delphinium bolosii C. Blanché & Molero,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Ranunculales,Ranunculaceae,Delphinium,,bolosii,,Aceptado/válido
 4038,Dictamnus hispanicus Willk.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Sapindales,Rutaceae,Dictamnus,,hispanicus,,Aceptado/válido
 4043,Digitalis mariana Boiss.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Plantaginaceae,Digitalis,,mariana,,Aceptado/válido
-4046,Digitalis minor L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Plantaginaceae,Digitalis,,minor,,Aceptado/válido
-4050,Digitalis parviflora Jacq.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Plantaginaceae,Digitalis,,parviflora,,Aceptado/válido
 4110,Diplazium caudatum (Cav.) Jermy,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Polypodiopsida,Polypodiales,Athyriaceae,Diplazium,,caudatum,,Aceptado/válido
 4118,Diplotaxis ibicensis (Pau) Gómez-Campo,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Brassicales,Brassicaceae,Diplotaxis,,ibicensis,,Aceptado/válido
 4131,Dipsacus comosus Hoffmanns. & Link,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Dipsacales,Caprifoliaceae,Dipsacus,,comosus,,Aceptado/válido
 4134,Dorycnium fulgurans (Porta) Lassen,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Dorycnium,,fulgurans,,Sinónimo
-4136,Dorycnium hirsutum (L.) Ser.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Dorycnium,,hirsutum,,Sinónimo
 4138,Dorycnium pentaphyllum Scop.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Dorycnium,,pentaphyllum,,Sinónimo
 4139,Dorycnium rectum (L.) Ser.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Dorycnium,,rectum,,Sinónimo
 4146,Draba hispanica subsp. lebrunii P. Monts.,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Brassicales,Brassicaceae,Draba,,hispanica,lebrunii,Aceptado/válido
@@ -459,7 +444,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 4885,Genista falcata Brot.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Genista,,falcata,,Aceptado/válido
 4892,Genista hispanica L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Genista,,hispanica,,Aceptado/válido
 4895,Genista hystrix Lange,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Genista,,hystrix,,Aceptado/válido
-4898,Genista legionensis (Pau) M. Laínz,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Genista,,legionensis,,Aceptado/válido
 4899,Genista longipes Pau,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Genista,,longipes,,Aceptado/válido
 4921,Genista tricuspidata Desf.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Genista,,tricuspidata,,Aceptado/válido
 4933,Gentiana acaulis L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Gentianaceae,Gentiana,,acaulis,,Aceptado/válido
@@ -470,7 +454,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 4970,Helianthemum caput-felis Boiss.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Malvales,Cistaceae,Helianthemum,,caput-felis,,Aceptado/válido
 4971,Helianthemum cinereum (Cav.) Pers.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Malvales,Cistaceae,Helianthemum,,cinereum,,Aceptado/válido
 4992,Glaucium flavum Crantz,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Ranunculales,Papaveraceae,Glaucium,,flavum,,Aceptado/válido
-5069,Hedera maderensis K.Koch ex A.Rutherf.,Species,,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Apiales,Araliaceae,Hedera,,maderensis,,Aceptado/válido
 5078,Helianthemum hirtum (L.) Mill.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Malvales,Cistaceae,Helianthemum,,hirtum,,Aceptado/válido
 5079,Helianthemum ledifolium (L.) Mill.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Malvales,Cistaceae,Helianthemum,,ledifolium,,Aceptado/válido
 5080,Helianthemum marifolium (L.) Mill.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Malvales,Cistaceae,Helianthemum,,marifolium,,Aceptado/válido
@@ -482,11 +465,8 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 5130,Hymenophyllum wilsonii Hook.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Polypodiopsida,Hymenophyllales,Hymenophyllaceae,Hymenophyllum,,wilsonii,,Aceptado/válido
 5156,Herniaria cinerea DC.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Herniaria,,cinerea,,Aceptado/válido
 5160,Herniaria glabra L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Herniaria,,glabra,,Aceptado/válido
-5161,Herniaria hirsuta L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Herniaria,,hirsuta,,Aceptado/válido
 5174,Hypericum caprifolium Boiss.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Malpighiales,Hypericaceae,Hypericum,,caprifolium,,Aceptado/válido
 5183,Hohenackeria polyodon Coss. & Durieu,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Apiales,Apiaceae,Hohenackeria,,polyodon,,Aceptado/válido
-5189,Herniaria lusitanica Chaudhri,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Herniaria,,lusitanica,,Aceptado/válido
-5195,Herniaria scabrida Boiss.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Herniaria,,scabrida,,Aceptado/válido
 5263,Hieracium ramondii Griseb.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Hieracium,,ramondii,,Aceptado/válido
 5264,Hieracium recoderi de Retz,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Hieracium,,recoderi,,Aceptado/válido
 5282,"Hippocrepis grosii (Pau) Boira, L. Gil & L. Llorens",Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Hippocrepis,,grosii,,Aceptado/válido
@@ -572,7 +552,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 6440,Odontites kaliformis (Pourr. ex Willd.) Pau,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Orobanchaceae,Odontites,,kaliformis,,Aceptado/válido
 6452,Odontites viscosus subsp. granatensis (Boiss.) Bolliger,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Orobanchaceae,Odontites,,viscosus,granatensis,Aceptado/válido
 6481,Myrica faya Aiton,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fagales,Myricaceae,Myrica,,faya,,Sinónimo
-6499,Narcissus cantabricus DC.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Asparagales,Amaryllidaceae,Narcissus,,cantabricus,,Aceptado/válido
 6500,Narcissus cavanillesii Barra & G. López,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Asparagales,Amaryllidaceae,Narcissus,,cavanillesii,,Aceptado/válido
 6514,Narcissus cyclamineus DC.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Asparagales,Amaryllidaceae,Narcissus,,cyclamineus,,Aceptado/válido
 6518,Narcissus hedraeanthus (Webb & Heldr.) Colmeiro,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Asparagales,Amaryllidaceae,Narcissus,,hedraeanthus,,Aceptado/válido
@@ -593,7 +572,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 6550,Nepeta hispanica Boiss. & Reut.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Lamiaceae,Nepeta,,hispanica,,Aceptado/válido
 6561,Nerium oleander L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Apocynaceae,Nerium,,oleander,,Aceptado/válido
 6574,Nigella gallica Jord.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Ranunculales,Ranunculaceae,Nigella,,gallica,,Aceptado/válido
-6576,Nigella papillosa G. López,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Ranunculales,Ranunculaceae,Nigella,,papillosa,,Aceptado/válido
 6635,Oenothera glazioviana Micheli in Mart.,Species,Especie no nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Myrtales,Onagraceae,Oenothera,,glazioviana,,Aceptado/válido
 6658,Onobrychis argentea Boiss.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Onobrychis,,argentea,,Aceptado/válido
 6662,Onobrychis humilis (L.) G. López,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Onobrychis,,humilis,,Aceptado/válido
@@ -607,7 +585,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 6908,Oxytropis jabalambrensis (Pau) Podlech,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Oxytropis,,jabalambrensis,,Aceptado/válido
 6911,Paeonia broteri Boiss. & Reut.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Saxifragales,Paeoniaceae,Paeonia,,broteri,,Aceptado/válido
 6912,Paeonia cambessedesii (Willk.) Willk.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Saxifragales,Paeoniaceae,Paeonia,,cambessedesii,,Aceptado/válido
-6917,Paeonia officinalis L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Saxifragales,Paeoniaceae,Paeonia,,officinalis,,Aceptado/válido
 6928,Papaver hybridum L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Ranunculales,Papaveraceae,Papaver,,hybridum,,Sinónimo
 6951,"Paronychia arabica subsp. longiseta auct. canar., non Bertol.",Nombre mal aplicado,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Paronychia,,arabica,longiseta,Sinónimo
 6951,Paronychia argentea Lam.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Paronychia,,argentea,,Aceptado/válido
@@ -727,8 +704,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 8547,Tamarix africana Poir.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Tamaricaceae,Tamarix,,africana,,Aceptado/válido
 8557,Sorbus aria (L.) Crantz,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Rosales,Rosaceae,Sorbus,,aria,,Sinónimo
 8562,Sorbus intermedia (Ehrh.) Pers.,Species,Especie no nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Rosales,Rosaceae,Sorbus,,intermedia,,Aceptado/válido
-8564,Sorbus latifolia (Lam.) Pers.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Rosales,Rosaceae,Sorbus,,latifolia,,Sinónimo
-8566,Sorbus torminalis (L.) Crantz,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Rosales,Rosaceae,Sorbus,,torminalis,,Sinónimo
 8601,Spiraea crenata subsp. parvifolia (Pau) Romo,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Rosales,Rosaceae,Spiraea,,crenata,parvifolia,Aceptado/válido
 8606,Spiranthes aestivalis (Poir.) Rich.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Asparagales,Orchidaceae,Spiranthes,,aestivalis,,Aceptado/válido
 8620,Stachys heraclea All.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Lamiaceae,Stachys,,heraclea,,Aceptado/válido
@@ -765,7 +740,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 9234,Valeriana pyrenaica L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Dipsacales,Caprifoliaceae,Valeriana,,pyrenaica,,Aceptado/válido
 9258,Vandenboschia speciosa (Willd.) G. Kunkel,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Polypodiopsida,Hymenophyllales,Hymenophyllaceae,Vandenboschia,,speciosa,,Aceptado/válido
 9274,Verbascum creticum (L.) Cav.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Scrophulariaceae,Verbascum,,creticum,,Aceptado/válido
-9281,Verbascum giganteum Willk.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Scrophulariaceae,Verbascum,,giganteum,,Aceptado/válido
 9294,Verbascum pulverulentum Vill.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Scrophulariaceae,Verbascum,,pulverulentum,,Aceptado/válido
 9312,Veronica anagallis-aquatica L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Plantaginaceae,Veronica,,anagallis-aquatica,,Aceptado/válido
 9319,Veronica beccabunga L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Plantaginaceae,Veronica,,beccabunga,,Aceptado/válido
@@ -780,7 +754,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 9360,Veronica tenuifolia subsp. fontqueri (Pau) M.M. Mart. Ort. & E. Rico,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Plantaginaceae,Veronica,,tenuifolia,fontqueri,Aceptado/válido
 9369,Viburnum opulus L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Dipsacales,Adoxaceae,Viburnum,,opulus,,Aceptado/válido
 9371,Vicia altissima Desf.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Vicia,,altissima,,Aceptado/válido
-9380,Vinca minor L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Apocynaceae,Vinca,,minor,,Aceptado/válido
 9422,Viscum cruciatum Boiss.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Santalales,Santalaceae,Viscum,,cruciatum,,Aceptado/válido
 9481,Ziziphora aragonensis Pau,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Lamiaceae,Ziziphora,,aragonensis,,Aceptado/válido
 9482,Ziziphora hispanica L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Lamiaceae,Ziziphora,,hispanica,,Aceptado/válido
@@ -804,7 +777,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 10007,Erodium rupicola Boiss.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Geraniales,Geraniaceae,Erodium,,rupicola,,Aceptado/válido
 10029,Festuca elegans Boiss.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Poales,Poaceae,Festuca,,elegans,,Aceptado/válido
 10084,Paspalum dilatatum Poir.,Species,Especie no nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Poales,Poaceae,Paspalum,,dilatatum,,Aceptado/válido
-10104,Piptatherum coerulescens (Desf.) P. Beauv.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Poales,Poaceae,Piptatherum,,coerulescens,,Aceptado/válido
 82594,Piptatherum miliaceum (L.) Coss.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Poales,Poaceae,Piptatherum,,miliaceum,,Sinónimo
 10138,Sonchus crassifolius Willd.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Sonchus,,crassifolius,,Aceptado/válido
 10142,Sorghum halepense (L.) Pers.,Species,Especie no nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Poales,Poaceae,Sorghum,,halepense,,Aceptado/válido
@@ -916,16 +888,13 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 23748,"Egretta alba Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Pelecaniformes,Ardeidae,Egretta,,alba,,Sinónimo
 10652,"Ochthebius albacetinus Ferro, 1984",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Ochthebius,albacetinus,,Aceptado/válido
 10653,"Hydraena albai Sáinz-Cantero, 1993",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,albai,,Aceptado/válido
-10654,"Ilybius albarracinensis (Fery, 1986)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Ilybius,,albarracinensis,,Aceptado/válido
 14084,"Sterna albifrons Pallas,1764",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Laridae,Sterna,,albifrons,,Sinónimo
 10659,"Squalius alburnoides (Steindachner, 1866)",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Squalius,,alburnoides,,Aceptado/válido
-10660,"Hydraena alcantarana Ieniesta, 1985",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,alcantarana,,Aceptado/válido
 10661,"Myotis alcathoe Helversen & Heller, 2001",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Chiroptera,Vespertilionidae,Myotis,,alcathoe,,Aceptado/válido
 10662,"Pterocles alchata (Linnaeus, 1766)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Pteroclidiformes,Pteroclididae,Pterocles,,alchata,,Aceptado/válido
 10663,"Phengaris alcon ([Denis & Schiffermüller], 1775)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Lepidoptera,Lycaenidae,Phengaris,,alcon,,Aceptado/válido
 10664,"Charadrius alexandrinus Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Charadriidae,Charadrius,,alexandrinus,,Aceptado/válido
 10665,"Eumeces algeriensis Peters, 1864",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Scincidae,Eumeces,,algeriensis,,Aceptado/válido
-10666,"Deronectes algibensis Fery & Fresneda, 1988",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Deronectes,,algibensis,,Aceptado/válido
 10668,"Dryops algiricus (Lucas, 1849)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dryopidae,Dryops,,algiricus,,Aceptado/válido
 10669,"Atelerix algirus (Lereboullet, 1842)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Erinaceomorpha,Erinaceidae,Atelerix,,algirus,,Aceptado/válido
 10670,"Psammodromus algirus (Linnaeus, 1758)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Psammodromus,,algirus,,Aceptado/válido
@@ -942,10 +911,8 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 10684,"Suboestophora altimirai (Ortiz de Zárate, 1962)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Trissexodontidae,Suboestophora,,altimirai,,Aceptado/válido
 10687,"Calathus amplius Escalera, 1921",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Carabidae,Calathus,,amplius,,Aceptado/válido
 10690,"Hydraena andalusa Lagar & Fresneda, 1990",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,andalusa,,Aceptado/válido
-10691,"Hydrochus angusi Valladares, 1988",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrochidae,Hydrochus,,angusi,,Aceptado/válido
 10692,"Deronectes angusi Fery & Brancucci, 1990",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Deronectes,,angusi,,Aceptado/válido
 10693,"Esolus angustatus (Müller, 1821)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Esolus,,angustatus,,Aceptado/válido
-10694,"Hydrochus angustatus Germar, 1824",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrochidae,Hydrochus,,angustatus,,Aceptado/válido
 10695,"Tarentola angustimentalis Steindachner, 1891",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Phyllodactylidae,Tarentola,,angustimentalis,,Aceptado/válido
 10696,"Vertigo angustior Jeffreys, 1830",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Vertiginidae,Vertigo,Vertilla,angustior,,Aceptado/válido
 10697,"Papilloderma altonagai Wiktor, Martín y Castillejo, 1990",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Papillodermatidae,Papilloderma,,altonagai,,Aceptado/válido
@@ -954,7 +921,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 10700,"Neomys anomalus Cabrera, 1907",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Soricomorpha,Soricidae,Neomys,,anomalus,,Aceptado/válido
 10701,"Anser anser (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Anseriformes,Anatidae,Anser,,anser,,Aceptado/válido
 10704,"Ochthebius andalusicus Jäch & Castro, 1999",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Ochthebius,andalusicus,,Aceptado/válido
-10705,"Haliplus andalusicus Wehncke, 1874",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,Liaphlus,andalusicus,,Aceptado/válido
 10706,"Nebria andarensis Bolívar y Pieltain, 1923",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Carabidae,Nebria,Nebria,andarensis,,Aceptado/válido
 10708,"Geomalacus anguiformis (Morelet, 1845)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Arionidae,Geomalacus,,anguiformis,,Aceptado/válido
 10709,"Anguilla anguilla (Linnaeus, 1758)",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Anguilliformes,Anguillidae,Anguilla,,anguilla,,Aceptado/válido
@@ -965,7 +931,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 10717,"Ochthebius auropallens Fairmaire, 1879",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Ochthebius,auropallens,,Aceptado/válido
 10718,"Coronella austriaca Laurenti, 1768",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Colubridae,Coronella,,austriaca,,Aceptado/válido
 10720,"Iberodorcadion bolivari (Lauffer, 1898).",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Cerambycidae,Iberodorcadion,Hispanodorcadion,bolivari,,Aceptado/válido
-10721,"Hydraena bolivari Orchymont, 1936",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,bolivari,,Aceptado/válido
 10722,"Dolichopoda bolivari Chopard, 1915",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Orthoptera,Rhaphidophoridae,Dolichopoda,,bolivari,,Aceptado/válido
 10723,"Columba bollii Godman, 1872",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Columbiformes,Columbidae,Columba,,bollii,,Aceptado/válido
 10724,"Phylloscopus bonelli (Vieillot, 1819)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Phylloscopidae,Phylloscopus,,bonelli,,Aceptado/válido
@@ -1011,25 +976,19 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 10778,"Helophorus asturiensis Kuwert, 1885",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,asturiensis,,Aceptado/válido
 10779,"Cryptosaccus asturiensis Prieto & Puente, 1994",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Hygromiidae,Cryptosaccus,,asturiensis,,Aceptado/válido
 16422,"Parus ater Linnaeus,1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Paridae,Parus,,ater,,Sinónimo
-10783,"Ilybius ater (Panzer, 1796)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Ilybius,,ater,,Aceptado/válido
-10784,"Enochrus ater (Kuwert, 1888)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Enochrus,Lumetus,ater,,Aceptado/válido
 10785,"Gallotia atlantica (Peters & Doria, 1882)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Gallotia,,atlantica,,Aceptado/válido
 10786,"Fulica atra Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Gruiformes,Rallidae,Fulica,,atra,,Aceptado/válido
 10788,"Hydraena atrata Desbroches des Loges, 1891",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Phothydraena,atrata,,Aceptado/válido
 10789,"Cygnus atratus (Latham, 1790)",Species,Especie no nativa,Aves,Animalia,Chordata,Aves,Anseriformes,Anatidae,Cygnus,,atratus,,Aceptado/válido
-10790,"Laccobius atratus Rottenberg, 1874",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,Dimorpholaccobius,atratus,,Aceptado/válido
 10791,"Sylvia atricapilla (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Sylviidae,Sylvia,,atricapilla,,Aceptado/válido
 10792,"Liopterus atriceps Sharp, 1882",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Liopterus,,atriceps,,Aceptado/válido
 10793,"Laccobius atrocephalus Reitter, 1872",Species,,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,,atrocephalus,,Aceptado/válido
 10794,"Alcedo atthis (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Coraciiformes,Alcedinidae,Alcedo,,atthis,,Aceptado/válido
 10795,"Cottus aturi Freyhof, Kottelat & Nolte, 2005",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Cottus,,aturi,,Aceptado/válido
-10796,"Gallotia auaritae Mateo, García-Márquez, López-Jurado & Barahona, 2001",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Gallotia,,auaritae,,Aceptado/válido
-10797,"Hyphydrus aubei Ganglbauer, 1892",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hyphydrus,,aubei,,Aceptado/válido
 10798,"Deronectes aubei sanfilippoi Fery & Brancucci, 1997",Subspecies,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Deronectes,,aubei,sanfilippoi,Aceptado/válido
 10799,"Plecotus austriacus (J. Fischer, 1829)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Chiroptera,Vespertilionidae,Plecotus,,austriacus,,Aceptado/válido
 10801,"Recurvirostra avosetta Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Recurvirostridae,Recurvirostra,,avosetta,,Aceptado/válido
 53532,"Islamia azarum (Boeters y Rolán, 1988)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Littorinimorpha,Hydrobiidae,Islamia,,azarum,,Sinónimo
-10804,"Limnebius bacchus Balfour-Browne, 1978",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,bacchus,,Aceptado/válido
 10806,"Exsertotheca baetica (J. Guerra) Draper, González-Mancebo, O. Werner, J. Patiño & Ros",Species,Especie nativa,Plantas no vasculares,Plantae,Bryophyta,Bryopsida,Hypnales,Neckeraceae,Exsertotheca,,baetica,,Aceptado/válido
 10807,"Aphanius baeticus Doadrio, Carmona & Fernández-Delgado, 2002",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Cyprinodontidae,Aphanius,,baeticus,,Aceptado/válido
 10808,"Arion baeticus Garrido, Castillejo e Iglesias, 1994",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Arionidae,Arion,Mesarion,baeticus,,Aceptado/válido
@@ -1054,7 +1013,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 10831,"Thalasseus bengalensis (Lesson, 1831)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Laridae,Thalasseus,,bengalensis,,Aceptado/válido
 10833,"Myrmoxenus bernardi (Espadaler, 1982)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Hymenoptera,Formicidae,Myrmoxenus,,bernardi,,Aceptado/válido
 10835,"Anthus berthelotii Bolle, 1862",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Motacillidae,Anthus,,berthelotii,,Aceptado/válido
-57032,"Stictotarsus bertrandi Legros, 1956",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Stictotarsus,,bertrandi,,Sinónimo
 10837,"Oulimnius bertrandi Berthélemy, 1964",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Oulimnius,,bertrandi,,Aceptado/válido
 10839,"Panurus biarmicus (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Panuridae,Panurus,,biarmicus,,Aceptado/válido
 10841,"Ochthebius bicolon Germar, 1824",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Asiobates,bicolon,,Aceptado/válido
@@ -1066,8 +1024,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 10849,"Phoxinus bigerri Kottelat, 2007",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Phoxinus,,bigerri,,Aceptado/válido
 10852,"Lacerta bilineata (Daudin, 1802)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Lacerta,,bilineata,,Aceptado/válido
 10853,"Graptodytes bilineatus (Sturm, 1835)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Graptodytes,,bilineatus,,Aceptado/válido
-10854,"Rhithrodytes bimaculatus (Dufour, 1852)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Rhithrodytes,,bimaculatus,,Aceptado/válido
-10856,"Laccobius bipunctatus (Fabricius, 1775)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,Dimorpholaccobius,bipunctatus,,Aceptado/válido
 10857,"Anacaena bipustulata (Marsham, 1802)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Anacaena,,bipustulata,,Aceptado/válido
 10858,"Agabus bipustulatus (Linnaeus, 1767)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Agabus,Gaurodytes,bipustulatus,,Aceptado/válido
 10859,"Zospeum biscaiense Gómez y Prieto, 1983",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Ellobiida,Ellobiidae,Zospeum,,biscaiense,,Aceptado/válido
@@ -1082,12 +1038,8 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 10870,"Tarentola boettgeri Steindachner, 1891",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Phyllodactylidae,Tarentola,,boettgeri,,Aceptado/válido
 10871,"Montserratina bofilliana (Fagot, 1884)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Canariellidae,Montserratina,,bofilliana,,Aceptado/válido
 10872,"Hydroporus brancoi brancoi Rocchi, 1981",Subspecies,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,brancoi,brancoi,Aceptado/válido
-10873,"Hydroporus brancoi gredensis Fery, 1999",Subspecies,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,brancoi,gredensis,Aceptado/válido
-10874,"Hydroporus brancuccii Fery, 1987",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,brancuccii,,Aceptado/válido
-10875,"Gallotia bravoana Hutterer, 1985",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Gallotia,,bravoana,,Aceptado/válido
 10876,"Akis bremeri Ardoin, 1979",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Tenebrionidae,Akis,,bremeri,,Aceptado/válido
 10879,"Helophorus brevipalpis Bedel, 1881",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,brevipalpis,,Aceptado/válido
-10881,"Ilybius chalconatus (Panzer, 1796)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Ilybius,,chalconatus,,Aceptado/válido
 10883,"Chamaeleo chamaeleon (Linnaeus, 1758)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Chamaeleonidae,Chamaeleo,,chamaeleon,,Aceptado/válido
 10884,"Dryops championi Dodero, 1918",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dryopidae,Dryops,,championi,,Aceptado/válido
 16434,"Carduelis chloris Linnaeus,1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Fringillidae,Carduelis,,chloris,,Sinónimo
@@ -1116,7 +1068,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 10914,"Dupophilus brevis Mulsant & Rey, 1872",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Dupophilus,,brevis,,Aceptado/válido
 10916,"Agabus brunneus (Fabricius, 1798)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Agabus,Gaurodytes,brunneus,,Aceptado/válido
 10917,"Bubo bubo (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Strigiformes,Strigidae,Bubo,,bubo,,Aceptado/válido
-10919,"Nebrioporus bucheti cazorlensis (Lagar, Fresneda & Hernando, 1987)",Subspecies,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Nebrioporus,,bucheti,cazorlensis,Aceptado/válido
 10920,"Orculella bulgarica (Hesse, 1915)",Species,,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Orculidae,Orculella,Orculella,bulgarica,,Aceptado/válido
 10922,"Buteo buteo (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Accipitriformes,Accipitridae,Buteo,,buteo,,Aceptado/válido
 16235,"Microtus cabrerae Thomas, 1906",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Rodentia,Cricetidae,Microtus,,cabrerae,,Sinónimo
@@ -1131,11 +1082,9 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 10937,"Melanocorypha calandra (Linnaeus, 1766)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Alaudidae,Melanocorypha,,calandra,,Aceptado/válido
 10938,"Emberiza calandra Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Emberizidae,Emberiza,,calandra,,Aceptado/válido
 10939,"Cobitis calderoni Bacescu, 1962",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cobitidae,Cobitis,,calderoni,,Aceptado/válido
-10942,"Helophorus calpensis Angus, 1988",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,calpensis,,Aceptado/válido
 10943,"Dipodillus campestris (Loche, 1867)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Rodentia,Muridae,Dipodillus,,campestris,,Aceptado/válido
 10944,"Anthus campestris (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Motacillidae,Anthus,,campestris,,Aceptado/válido
 10945,"Stenelmis canaliculata (Gyllenhal, 1808)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Stenelmis,,canaliculata,,Aceptado/válido
-10946,"Nebrioporus canaliculatus (Lacordaire, 1835)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Nebrioporus,,canaliculatus,,Aceptado/válido
 10947,"Serinus canaria (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Fringillidae,Serinus,,canaria,,Aceptado/válido
 10948,"Crocidura canariensis Hutterer, López-Jurado y Vogel, 1987",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Soricomorpha,Soricidae,Crocidura,,canariensis,,Aceptado/válido
 10949,"Phylloscopus canariensis (Hartwig, 1886)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Phylloscopidae,Phylloscopus,,canariensis,,Aceptado/válido
@@ -1161,7 +1110,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 10981,"Dericorys carthagonovae (Bolivar, 1897)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Orthoptera,Dericorythidae,Dericorys,,carthagonovae,,Aceptado/válido
 10983,"Gyrinus caspius Ménétries, 1832",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Gyrinidae,Gyrinus,,caspius,,Aceptado/válido
 10985,"Squalius castellanus Doadrio, Perea & Alonso, 2007",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Squalius,,castellanus,,Aceptado/válido
-10986,"Graptodytes castilianus Fery, 1995",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Graptodytes,,castilianus,,Aceptado/válido
 10988,"Lepus castroviejoi Palacios, 1977",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Lagomorpha,Leporidae,Lepus,,castroviejoi,,Aceptado/válido
 10989,"Hydraena catalonica Fresneda, Aguilera & Hernando, 1994",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,catalonica,,Aceptado/válido
 10548,"Rana catesbeiana Shaw, 1802",Species,Especie no nativa,Anfibios,Animalia,Chordata,Amphibia,Anura,Ranidae,Rana,,catesbeiana,,Sinónimo
@@ -1175,12 +1123,10 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11006,"Stictonectes abellani Millán & Picazo, 2013",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Stictonectes,,abellani,,Aceptado/válido
 11008,"Lopinga achine (Scopoli, 1763)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Lepidoptera,Nymphalidae,Lopinga,,achine,,Aceptado/válido
 11009,"Gasterosteus aculeatus Linnaeus, 1758",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Gasterosteiformes,Gasterosteidae,Gasterosteus,,aculeatus,,Aceptado/válido
-11010,"Potamophilus acuminatus (Fabricius, 1792)",Species,,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Potamophilus,,acuminatus,,Aceptado/válido
 11011,"Anas acuta Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Anseriformes,Anatidae,Anas,,acuta,,Aceptado/válido
 11014,"Aquila adalberti Brehm, CL, 1861",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Accipitriformes,Accipitridae,Aquila,,adalberti,,Aceptado/válido
 11015,"Xerosecta adolfi (Pfeiffer, 1854)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Geoplanidae,Xerosecta,Xerosecta,adolfi,,Aceptado/válido
 11017,"Alopochen aegyptiaca (Linnaeus, 1766)",Species,Especie no nativa,Aves,Animalia,Chordata,Aves,Anseriformes,Anatidae,Alopochen,,aegyptiaca,,Aceptado/válido
-11018,"Elmis aenea (Müller, 1806)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Elmis,,aenea,,Aceptado/válido
 11019,"Paracymus aeneus (Germar, 1824)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Paracymus,,aeneus,,Aceptado/válido
 11020,"Ochthebius aeneus Stephens, 1835",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Asiobates,aeneus,,Aceptado/válido
 11021,"Helophorus aequalis Thomson, 1868",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Helophorus,aequalis,,Aceptado/válido
@@ -1191,7 +1137,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11031,"Berosus affinis Brullé, 1835",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Berosus,Berosus,affinis,,Aceptado/válido
 11033,"Hydraena affusa (Orchymont, 1936)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,affusa,,Aceptado/válido
 11034,"Lacerta agilis (Linnaeus, 1758)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Lacerta,,agilis,,Aceptado/válido
-11036,"Nebrioporus clarkii (Wollaston, 1862)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Nebrioporus,,clarkii,,Aceptado/válido
 11037,"Sculptiferussacia clausiliaeformis Alonso e Ibáñez, 1992",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Ferussaciidae,Sculptiferussacia,,clausiliaeformis,,Aceptado/válido
 11039,"Hydrovatus clypealis Sharp, 1876",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydrovatus,,clypealis,,Aceptado/válido
 33013,"Anas clypeata Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Anseriformes,Anatidae,Anas,,clypeata,,Sinónimo
@@ -1237,7 +1182,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11101,"Fulica cristata Gmelin, JF, 1789",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Gruiformes,Rallidae,Fulica,,cristata,,Aceptado/válido
 11102,"Galerida cristata (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Alaudidae,Galerida,,cristata,,Aceptado/válido
 16421,"Parus cristatus Linnaeus,1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Paridae,Parus,,cristatus,,Sinónimo
-11105,"Nebrioporus croceus Angus, Fresneda & Fery, 1992",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Nebrioporus,,croceus,,Aceptado/válido
 11107,"Bombus cullumanus (Kirby,1802)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Hymenoptera,Apidae,Bombus,Cullumanobombus,cullumanus,,Aceptado/válido
 11108,"Pelobates cultripes (Cuvier, 1829)",Species,Especie nativa,Anfibios,Animalia,Chordata,Amphibia,Anura,Pelobatidae,Pelobates,,cultripes,,Aceptado/válido
 11109,"Oryctolagus cuniculus (Linnaeus, 1758)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Lagomorpha,Leporidae,Oryctolagus,,cuniculus,,Aceptado/válido
@@ -1260,10 +1204,8 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11131,"Myotis daubentonii (Kuhl, 1817)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Chiroptera,Vespertilionidae,Myotis,,daubentonii,,Aceptado/válido
 11132,"Cecropis daurica (Laxmann, 1769)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Hirundinidae,Cecropis,,daurica,,Aceptado/válido
 11133,"Boetersiella davisi Arconada & Ramos, 2001",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Littorinimorpha,Hydrobiidae,Boetersiella,,davisi,,Aceptado/válido
-11134,"Oreodytes davisii (Curtis, 1831)",Species,,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Oreodytes,,davisii,,Aceptado/válido
 11135,"Streptopelia decaocto (Frivaldszky, 1838)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Columbiformes,Columbidae,Streptopelia,,decaocto,,Aceptado/válido
 11136,"Hydroporus decipiens Sharp, 1878",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,decipiens,,Aceptado/válido
-11138,"Gyrinus dejeani Brullé, 1832",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Gyrinidae,Gyrinus,Gyrinus,dejeani,,Aceptado/válido
 11140,Siagona dejeani Rambur 1838,Species,,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Carabidae,Siagona,,dejeani,,Aceptado/válido
 11141,"Tarentola delalandii (Duméril & Bibron, 1836)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Phyllodactylidae,Tarentola,,delalandii,,Aceptado/válido
 11142,"Deronectes delarouzei (du Val, 1857)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Deronectes,,delarouzei,,Aceptado/válido
@@ -1276,15 +1218,12 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11149,Cephalota deserticoloides (Codina 1931),Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Carabidae,Cephalota,Taenidia,deserticoloides,,Aceptado/válido
 11150,"Chilostoma desmoulinsi bechi (Altimira, 1959)",Subspecies,,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Helicidae,Chilostoma,Chilostoma,desmoulinsi,bechi,Aceptado/válido
 11152,"Trechus detersus Wollaston, 1864",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Carabidae,Trechus,,detersus,,Aceptado/válido
-11153,"Ilybius dettneri (Fery, 1986)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Ilybius,,dettneri,,Aceptado/válido
 11156,"Ochthebius diazi Jäch, 1999",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Ochthebius,diazi,,Aceptado/válido
 11157,"Hydraena diazi Trizzino, Jäch & Ribera, 2011",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,diazi,,Aceptado/válido
 11158,"Alytes dickhilleni Arntzen & García-París, 1995",Species,Especie nativa,Anfibios,Animalia,Chordata,Amphibia,Anura,Alytidae,Alytes,,dickhilleni,,Aceptado/válido
 11160,"Ochthebius difficilis Mulsant, 1844",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Ochthebius,difficilis,,Aceptado/válido
 11162,"Ochthebius dilatatus Stephens, 1829",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Asiobates,dilatatus,,Aceptado/válido
 11166,"Calonectris diomedea (Scopoli, 1769)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Procellariiformes,Procellariidae,Calonectris,,diomedea,,Aceptado/válido
-11168,"Canthydrus diophthalmus (Reiche & Saulcy, 1855)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Noteridae,Canthydrus,,diophthalmus,,Aceptado/válido
-11169,"Helophorus discrepans Rey, 1885",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,discrepans,,Aceptado/válido
 11170,"Hydroporus discretus Fairmaire & Brisout, 1859",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,discretus,,Aceptado/válido
 11171,"Gyrinus distinctus Aubé, 1836",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Gyrinidae,Gyrinus,Gyrinus,distinctus,,Aceptado/válido
 11173,"Dryops doderoi Bollow, 1936",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dryopidae,Dryops,,doderoi,,Aceptado/válido
@@ -1306,14 +1245,12 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11195,"Cervus elaphus Linnaeus, 1758",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Artiodactyla,Cervidae,Cervus,,elaphus,,Aceptado/válido
 11196,"Nebrioporus elegans Panzer, 1794",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Nebrioporus,,elegans,,Aceptado/válido
 11198,"Falco eleonorae Géné, 1839",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Falconiformes,Falconidae,Falco,,eleonorae,,Aceptado/válido
-11199,"Brychius elevatus (Panzer, 1794)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Haliplidae,Brychius,,elevatus,,Aceptado/válido
 11201,Racomitrium ellipticum (Turner) Bruch & Schimp.,Species,Especie nativa,Plantas no vasculares,Plantae,Bryophyta,Bryopsida,Grimmiales,Grimmiaceae,Racomitrium,,ellipticum,,Aceptado/válido
 11202,Campyliadelphus elodes (Lindb.) Kanda,Species,Especie nativa,Plantas no vasculares,Plantae,Bryophyta,Bryopsida,Hypnales,Amblystegiaceae,Campyliadelphus,,elodes,,Aceptado/válido
 11204,"Hydraena emarginata Rey, 1885",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,emarginata,,Aceptado/válido
 11205,"Canariola emarginata Newman, 1964",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Orthoptera,Tettigoniidae,Canariola,,emarginata,,Aceptado/válido
 11206,"Myotis emarginatus (E. Geoffroy, 1806)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Chiroptera,Vespertilionidae,Myotis,,emarginatus,,Aceptado/válido
 11207,"Amblyopone emeryi (Saunders, 1890)",Species,,Invertebrados,Animalia,Arthropoda,Insecta,Hymenoptera,Formicidae,Amblyopone,,emeryi,,Aceptado/válido
-11209,"Stictonectes epipleuricus (Seidlitz, 1887)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Stictonectes,,epipleuricus,,Aceptado/válido
 11211,"Upupa epops Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Bucerotiformes,Upupidae,Upupa,,epops,,Aceptado/válido
 11212,"Deroceras ercinae de Winter, 1985",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Agriolimacidae,Deroceras,Deroceras,ercinae,,Aceptado/válido
 11213,"Osmoderma eremita (Scopoli, 1763)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Cetoniidae,Osmoderma,,eremita,,Aceptado/válido
@@ -1334,17 +1271,14 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11229,"Caprimulgus europaeus Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Caprimulgiformes,Caprimulgidae,Caprimulgus,,europaeus,,Aceptado/válido
 11230,"Rhinolophus euryale Blasius, 1853",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Chiroptera,Rhinolophidae,Rhinolophus,,euryale,,Aceptado/válido
 11231,"Canariella eutropis (L. Pfeiffer, 1861)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Canariellidae,Canariella,,eutropis,,Aceptado/válido
-11232,"Limnebius evanescens Kiesenwetter, 1865",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,evanescens,,Aceptado/válido
 11233,"Hydraena exarata Kiesenwetter, 1865",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Holcohydraena,exarata,,Aceptado/válido
 60729,"Aulacochthebius exaratus Mulsant, 1844",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Aulacochthebius,,exaratus,,Sinónimo
 11235,"Hydraena exasperata Orchymont, 1935",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,exasperata,,Aceptado/válido
 11236,"Lanius excubitor Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Laniidae,Lanius,,excubitor,,Aceptado/válido
 11238,"Xerosecta explanata (Müller, 1774)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Geoplanidae,Xerosecta,Xerosecta,explanata,,Aceptado/válido
 11239,"Ochthebius exsculptus Germar, 1824",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Enicocerus,exsculptus,,Aceptado/válido
-11240,"Limnebius extraneus D'Orchymont, 1938",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,extraneus,,Aceptado/válido
 11241,"Nebrioporus fabressei (Régimbart, 1901)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Nebrioporus,,fabressei,,Aceptado/válido
 10487,"Herichthys facetum (Jenyns, 1842)",Species,Especie no nativa,Peces,Animalia,Chordata,Actinopterygii,Perciformes,Cichlidae,Herichthys,,facetum,,Sinónimo
-11244,"Deronectes fairmairei (Leprieur, 1876)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Deronectes,,fairmairei,,Aceptado/válido
 11245,Dichelyma falcatum (Hedw.) Myrin,Species,Especie nativa,Plantas no vasculares,Plantae,Bryophyta,Bryopsida,Isobryales,Fontinalaceae,Dichelyma,,falcatum,,Aceptado/válido
 11247,"Plegadis falcinellus (Linnaeus, 1766)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Pelecaniformes,Threskiornithidae,Plegadis,,falcinellus,,Aceptado/válido
 11249,"Alosa fallax (Lacepède, 1803)",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Clupeiformes,Clupeidae,Alosa,,fallax,,Aceptado/válido
@@ -1359,7 +1293,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11260,"Ochthebius ferroi Fresneda, Lagar & Hernando, 1993",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Asiobates,ferroi,,Aceptado/válido
 11261,"Tadorna ferruginea (Pallas, 1764)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Anseriformes,Anatidae,Tadorna,,ferruginea,,Aceptado/válido
 11262,"Calidris ferruginea (Pontoppidan, 1763)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Scolopacidae,Calidris,,ferruginea,,Aceptado/válido
-11263,"Deronectes ferrugineus Fery & Brancucci, 1987",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Deronectes,,ferrugineus,,Aceptado/válido
 11264,"Rhinolophus ferrumequinum (Schreber, 1774)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Chiroptera,Rhinolophidae,Rhinolophus,,ferrumequinum,,Aceptado/válido
 11266,"Spathogyna fezi (Altimira, 1960)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Littorinimorpha,Hydrobiidae,Spathogyna,,fezi,,Aceptado/válido
 11267,"Ochthebius figueroi Garrido, Valladares & Régil, 1991",Species,,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Asiobates,figueroi,,Aceptado/válido
@@ -1370,7 +1303,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11277,"Psithyrus flavidus (Eversmann, 1852)",Species,,Invertebrados,Animalia,Arthropoda,Insecta,Hymenoptera,Apidae,Psithyrus,Fernaldaepsithyrus,flavidus,,Aceptado/válido
 11278,"Hydrochus flavipennis Küster, 1852",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrochidae,Hydrochus,,flavipennis,,Aceptado/válido
 11279,"Hydrochara flavipes (Steven, 1808)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Hydrochara,,flavipes,,Aceptado/válido
-11281,"Helophorus flavipes Fabricius, 1792",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,flavipes,,Aceptado/válido
 11282,"Platichthys flesus (Linnaeus, 1758)",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Pleuronectiformes,Pleuronectidae,Platichthys,,flesus,,Aceptado/válido
 11287,"Salaria fluviatilis (Asso, 1801)",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Perciformes,Blenniidae,Salaria,,fluviatilis,,Sinónimo
 11288,"Neomys fodiens (Pennant, 1771)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Soricomorpha,Soricidae,Neomys,,fodiens,,Aceptado/válido
@@ -1382,20 +1314,13 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11297,"Hydraena fosterorum Trizzino, Jäch & Ribera, 2011",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,fosterorum,,Aceptado/válido
 11298,"Meloe foveolatus Guérin de Méneville, 1842",Species,,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Meloidae,Meloe,Taphromeloe,foveolatus,,Aceptado/válido
 11299,"Hydroporus foveolatus Heer, 1839",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,foveolatus,,Aceptado/válido
-11300,"Graptodytes fractus (Sharp, 1882)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Graptodytes,,fractus,,Aceptado/válido
 11301,"Anguis fragilis Linnaeus, 1758",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Anguidae,Anguis,,fragilis,,Aceptado/válido
-11304,"Hygrotus fresnedai (Fery, 1992)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hygrotus,Coelambus,fresnedai,,Aceptado/válido
-11305,"Limnebius fretalis Peyerimhoff, 1912",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,fretalis,,Aceptado/válido
 11307,"Corvus frugilegus Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Corvidae,Corvus,,frugilegus,,Aceptado/válido
-11309,"Helophorus fulgidicollis Motschuslky, 1860",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,fulgidicollis,,Aceptado/válido
 11310,"Arion fuligineus Morelet, 1845",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Arionidae,Arion,,fuligineus,,Aceptado/válido
-11311,"Ilybius fuliginosus (Fabricius, 1792)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Ilybius,,fuliginosus,,Aceptado/válido
 11312,"Aythya fuligula (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Anseriformes,Anatidae,Aythya,,fuligula,,Aceptado/válido
 11313,"Gyps fulvus (Hablizl, 1783)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Accipitriformes,Accipitridae,Gyps,,fulvus,,Aceptado/válido
-11314,"Haliplus fulvus (Fabricius, 1801)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,Liaphlus,fulvus,,Aceptado/válido
 11315,"Berosus fulvus Kuwert, 1888",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Berosus,Enoplurus,fulvus,,Aceptado/válido
 11316,"Aegolius funereus (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Strigiformes,Strigidae,Aegolius,,funereus,,Aceptado/válido
-11317,"Limnebius furcatus Baudi, 1872",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,furcatus,,Aceptado/válido
 11318,"Enochrus fuscipennis (Thomson, 1884)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Enochrus,Lumetus,fuscipennis,,Aceptado/válido
 11319,"Oulimnius fuscipes (Reiche, 1879)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Oulimnius,,fuscipes,,Aceptado/válido
 11321,Sphagnum fuscum (Schimp.) H. Klinggr.,Species,Especie nativa,Plantas no vasculares,Plantae,Bryophyta,Sphagnopsida,Sphagnales,Sphagnaceae,Sphagnum,,fuscum,,Aceptado/válido
@@ -1433,20 +1358,15 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11362,"Coronella girondica (Daudin, 1803)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Colubridae,Coronella,,girondica,,Aceptado/válido
 11365,"Bucanetes githagineus (Lichtenstein, MHK, 1823)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Fringillidae,Bucanetes,,githagineus,,Aceptado/válido
 11366,"Ochthebius glaber Montes & Soler, 1988",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Ochthebius,glaber,,Aceptado/válido
-11367,"Helophorus glacialis Villa, 1883",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,glacialis,,Aceptado/válido
 11368,"Garrulus glandarius (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Corvidae,Garrulus,,glandarius,,Aceptado/válido
 11369,"Clamator glandarius (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Cuculiformes,Cuculidae,Clamator,,glandarius,,Aceptado/válido
 11370,"Tringa glareola Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Scolopacidae,Tringa,,glareola,,Aceptado/válido
 11371,"Myodes glareolus (Schreber, 1780)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Rodentia,Cricetidae,Myodes,,glareolus,,Aceptado/válido
 11372,"Glis glis Linnaeus, 1766",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Rodentia,Gliridae,Glis,,glis,,Aceptado/válido
-11374,"Anacaena globulus (Paykull, 1798)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Anacaena,,globulus,,Aceptado/válido
-11376,"Laccobius gloriana Gentili & Ribera, 1998",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,Dimorpholaccobius,gloriana,,Aceptado/válido
 11471,Cottus gobio L.,Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Scorpaeniformes,Cottidae,Cottus,,gobio,,Sinónimo
 11378,"Polyommatus golgus (Hübner, 1813)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Lepidoptera,Lycaenidae,Polyommatus,,golgus,,Aceptado/válido
 11379,"Tarentola gomerensis Joger & Bischoff, 1983",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Phyllodactylidae,Tarentola,,gomerensis,,Aceptado/válido
-11380,"Bidessus goudotii (Laporte de Castelnau, 1835)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Bidessus,,goudotii,,Aceptado/válido
 11381,"Hydraena gracilidelphis Trizzino, Valladares, Garrido & Audisio, 2012",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,gracilidelphis,,Aceptado/válido
-11382,"Dryops gracilis (Karsch, 1881)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dryopidae,Dryops,,gracilis,,Aceptado/válido
 11383,"Laccobius gracilis gracilis Motschulsky, 1855",Subspecies,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,Microlaccobius,gracilis,gracilis,Aceptado/válido
 11384,"Pyrrhocorax graculus (Linnaeus, 1766)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Corvidae,Pyrrhocorax,,graculus,,Aceptado/válido
 11385,"Testudo graeca Linnaeus, 1758",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Testudines,Testudinidae,Testudo,,graeca,,Aceptado/válido
@@ -1463,12 +1383,10 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11396,"Helophorus granularis (Linnaeus, 1761)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,granularis,,Aceptado/válido
 11397,"Pimelia granulicollis Wollaston, 1864",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Tenebrionidae,Pimelia,,granulicollis,,Aceptado/válido
 11398,"Gomphus graslinii Rambur, 1842",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Odonata,Gomphidae,Gomphus,,graslinii,,Aceptado/válido
-11400,"Helophorus gratus Orchymont, 1934",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,gratus,,Aceptado/válido
 11405,Tortula guepinii (Bruch & Schimp.) Broth.,Species,Especie nativa,Plantas no vasculares,Plantae,Bryophyta,Bryopsida,Pottiales,Pottiaceae,Tortula,,guepinii,,Aceptado/válido
 11408,"Luciobarbus guiraonis (Steindachner, 1866)",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Luciobarbus,,guiraonis,,Aceptado/válido
 11408,Barbus guiraonis Steindachner 1866,Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Barbus,,guiraonis,,Sinónimo
 11410,"Berosus guttalis Rey, 1883",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Berosus,Enoplurus,guttalis,,Aceptado/válido
-11411,"Haliplus guttatus Aubé, 1836",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,Liaphlus,guttatus,,Aceptado/válido
 11412,"Agabus guttatus (Paykull, 1798)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Agabus,Gaurodytes,guttatus,,Aceptado/válido
 11413,"Hydroporus gyllenhalii Schiödte, 1841",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,gyllenhalii,,Aceptado/válido
 11009,"Gasterosteus gymnurus Cuvier, 1829",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Gasterosteiformes,Gasterosteidae,Gasterosteus,,gymnurus,,Sinónimo
@@ -1482,16 +1400,13 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11430,"Lycaena helle ([Denis & Schiffermüller], 1775)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Lepidoptera,Lycaenidae,Lycaena,,helle,,Aceptado/válido
 11431,"Lissotriton helveticus (Razoumowsky, 1789)",Species,Especie nativa,Anfibios,Animalia,Chordata,Amphibia,Caudata,Salamandridae,Lissotriton,,helveticus,,Aceptado/válido
 11434,"Testudo hermanni (Gmelin, 1789)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Testudines,Testudinidae,Testudo,,hermanni,,Aceptado/válido
-11435,"Hygrobia hermanni (Fabricius, 1775)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hygrobiidae,Hygrobia,,hermanni,,Aceptado/válido
 11436,"Hydraena hernandoi Fresneda & Lagar, 1990",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Phothydraena,hernandoi,,Aceptado/válido
 11437,"Nacerdes hesperica (Magistretti, 1941)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Oedemeridae,Nacerdes,Xanthochroa,hesperica,,Aceptado/válido
 79377,"Plebejus hespericus (Rambur, 1840)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Lepidoptera,Lycaenidae,Plebejus,,hespericus,,Sinónimo
 11439,"Agabus heydeni Wehncke, 1872",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Agabus,Gaurodytes,heydeni,,Aceptado/válido
-11440,"Haliplus heydeni Wehncke, 1875",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,Haliplus,heydeni,,Aceptado/válido
 11441,"Ochthebius heydeni Kuwert, 1887",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Asiobates,heydeni,,Aceptado/válido
 11442,"Charadrius hiaticula Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Charadriidae,Charadrius,,hiaticula,,Aceptado/válido
 11444,"Pisidium hibernicum Westerlund, 1894",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Bivalvia,Sphaeriida,Sphaeriidae,Pisidium,,hibernicum,,Aceptado/válido
-11445,"Limnebius hilaris Balfour-Browne, 1976",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,hilaris,,Aceptado/válido
 11446,"Himantopus himantopus (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Recurvirostridae,Himantopus,,himantopus,,Aceptado/válido
 11448,"Hemorrhois hippocrepis (Linnaeus, 1758)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Colubridae,Hemorrhois,,hippocrepis,,Aceptado/válido
 11451,"Rhinolophus hipposideros (Bechstein, 1800)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Chiroptera,Rhinolophidae,Rhinolophus,,hipposideros,,Aceptado/válido
@@ -1503,10 +1418,7 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11458,"Suboestophora hispanica (Gude, 1910)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Trissexodontidae,Suboestophora,,hispanica,,Aceptado/válido
 11460,"Coelostoma hispanicum Kuster, 1842",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Coelostoma,,hispanicum,,Aceptado/válido
 11461,"Psammodromus hispanicus Fitzinger, 1826",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Psammodromus,,hispanicus,,Aceptado/válido
-11462,"Laccobius hispanicus Gentili, 1974",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,Dimorpholaccobius,hispanicus,,Aceptado/válido
-11464,Sphaerius hispanicus Matthews 1899,Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Sphaeriusidae,Sphaerius,,hispanicus,,Aceptado/válido
 11465,"Berosus hispanicus Küster, 1847",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Berosus,Berosus,hispanicus,,Aceptado/válido
-11466,"Limnebius hispanicus Orchymont, 1941",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,hispanicus,,Aceptado/válido
 11467,"Deronectes hispanicus (Rosenhauer, 1856)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Deronectes,,hispanicus,,Aceptado/válido
 11468,"Rhantus hispanicus Sharp, 1882",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Rhantus,Rhantus,hispanicus,,Aceptado/válido
 11469,"Deroceras hispaniensis Castillejo & Wiktor, 1983",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Agriolimacidae,Deroceras,Deroceras,hispaniensis,,Aceptado/válido
@@ -1524,20 +1436,16 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11489,"Phylloscopus ibericus Ticehurst, 1937",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Phylloscopidae,Phylloscopus,,ibericus,,Aceptado/válido
 11490,"Pelodytes ibericus Sánchez-Herráiz, Barbadillo, Machordom & Sanchiz, 2000",Species,Especie nativa,Anfibios,Animalia,Chordata,Amphibia,Anura,Pelodytidae,Pelodytes,,ibericus,,Aceptado/válido
 11491,"Hydrochus ibericus Valladares, Díaz-Pazos & Delgado, 1999",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrochidae,Hydrochus,,ibericus,,Aceptado/válido
-11493,"Limnebius ibericus Balfour-Browne, 1978",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,ibericus,,Aceptado/válido
 11494,"Boreonectes ibericus Dutton & Angus, 2007",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Boreonectes,,ibericus,,Aceptado/válido
 11495,"Aphanius iberus (Valenciennes, 1846)",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cyprinodontiformes,Cyprinodontidae,Aphanius,,iberus,,Aceptado/válido
 11496,"Bubulcus ibis (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Pelecaniformes,Ardeidae,Bubulcus,,ibis,,Aceptado/válido
 11497,"Herpestes ichneumon (Linnaeus, 1758)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Carnivora,Herpestidae,Herpestes,,ichneumon,,Aceptado/válido
-11498,"Limnebius ignarus Balfour-Browne, 1978",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,ignarus,,Aceptado/válido
 11499,"Regulus ignicapilla (Temminck, 1820)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Regulidae,Regulus,,ignicapilla,,Aceptado/válido
 11500,"Zygaena ignifera Korb, 1897",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Lepidoptera,Zygaenidae,Zygaena,,ignifera,,Aceptado/válido
-11501,"Graptodytes ignotus (Mulsant & Rey, 1861)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Graptodytes,,ignotus,,Aceptado/válido
 11504,"Riolus illiesi Steffan, 1958",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Riolus,,illiesi,,Aceptado/válido
 11505,"Eretmochelys imbricata (Linnaeus, 1766)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Testudines,Cheloniidae,Eretmochelys,,imbricata,,Aceptado/válido
 11507,"Ochthebius immaculatus Breit, 1908",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Asiobates,immaculatus,,Aceptado/válido
 11509,Agama impalearis Duméril & Bibron 1851,Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Agamidae,Agama,,impalearis,,Aceptado/válido
-11510,"Hygrotus impressopunctatus (Schaller, 1783)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hygrotus,Coelambus,impressopunctatus,,Aceptado/válido
 11511,"Hygrotus inaequalis (Fabricius, 1777)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hygrotus,Hygrotus,inaequalis,,Aceptado/válido
 11512,"Hydraena inapicipalpis Pic, 1918",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,inapicipalpis,,Aceptado/válido
 11513,"Hydroporus incognitus Sharp, 1869",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,incognitus,,Aceptado/válido
@@ -1546,7 +1454,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11516,"Gallotia intermedia Hernández, Nogales & Martín, 2000",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Gallotia,,intermedia,,Aceptado/válido
 11517,"Limnius intermedius Fairmaire, 1881",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Limnius,,intermedius,,Aceptado/válido
 11519,"Arenaria interpres (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Scolopacidae,Arenaria,,interpres,,Aceptado/válido
-11520,"Hydrochus interruptus Heyden, 1870",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrochidae,Hydrochus,,interruptus,,Aceptado/válido
 11523,"Arion iratii Garrido, Castillejo e Iglesias, 1995",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Arionidae,Arion,Mesarion,iratii,,Aceptado/válido
 11524,"Ochthebius irenae Ribera & Millán, 1998",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Asiobates,irenae,,Aceptado/válido
 11526,"Hydraena isabelae Castro & Herrera, 2001",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Phothydraena,isabelae,,Aceptado/válido
@@ -1570,16 +1477,12 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11558,"Clepsis laetitiae Soria, 1997",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Lepidoptera,Tortricidae,Clepsis,,laetitiae,,Aceptado/válido
 11559,Brachythecium laetum (Brid.) Schimp.,Species,Especie nativa,Plantas no vasculares,Plantae,Bryophyta,Bryopsida,Hypnales,Brachytheciaceae,Brachythecium,,laetum,,Aceptado/válido
 11560,"Noterus laevis Sturm, 1834",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Noteridae,Noterus,,laevis,,Aceptado/válido
-11561,"Hygrotus lagari (Fery, 1992)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hygrotus,Coelambus,lagari,,Aceptado/válido
 11562,"Islamia lagari (Altimira, 1960)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Littorinimorpha,Hydrobiidae,Islamia,,lagari,,Aceptado/válido
 11563,"Squalius laietanus Doadrio, Kottelat & Sostoa, 2007",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Squalius,,laietanus,,Aceptado/válido
 11564,"Limosa lapponica (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Scolopacidae,Limosa,,lapponica,,Aceptado/válido
-11565,"Agabus lapponicus (C.G. Thomson, 1867)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Agabus,,lapponicus,,Aceptado/válido
 11566,"Nyctalus lasiopterus (Schreber, 1780)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Chiroptera,Vespertilionidae,Nyctalus,,lasiopterus,,Aceptado/válido
 11567,"Vipera latastei Boscá, 1878",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Viperidae,Vipera,,latastei,,Aceptado/válido
 11569,"Artimelia latreillei (Godart, [1823] 1822)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Lepidoptera,Arctiidae,Artimelia,,latreillei,,Aceptado/válido
-11570,"Elmis latreillei (Bedel, 1878)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Elmis,,latreillei,,Aceptado/válido
-11571,"Hydaticus leander (Rossi, 1790)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydaticus,Prodaticus,leander,,Aceptado/válido
 11572,"Ochthebius legionensis Hebauer & Valladares, 1985",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Enicocerus,legionensis,,Aceptado/válido
 11573,"Nyctalus leisleri (Kuhl, 1817)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Chiroptera,Vespertilionidae,Nyctalus,,leisleri,,Aceptado/válido
 11574,"Ochthebius lejolisii Mulsant & Rey, 1861",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Cobalius,lejolisii,,Aceptado/válido
@@ -1606,7 +1509,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11605,"Quaestus littoralis Salgado, 1999",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Leiodidae,Quaestus,Speogeus,littoralis,,Aceptado/válido
 11606,"Potomida littoralis (Cuvier, 1798)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Bivalvia,Unionida,Unionidae,Potomida,,littoralis,,Aceptado/válido
 11608,"Columba livia Gmelin, JF, 1789",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Columbiformes,Columbidae,Columba,,livia,,Aceptado/válido
-11611,"Chasmogenus livornicus (Kuwert, 1890)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Chasmogenus,,livornicus,,Aceptado/válido
 11613,"Hydroporus lluci Fery, 1999",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,Hydroporus,lluci,,Aceptado/válido
 11614,"Amaladera longipennis (Verdú, Micó y Galante, 1997)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Melolonthidae,Amaladera,,longipennis,,Aceptado/válido
 24363,Polytrichastrum longisetum (Sw. ex Brid.) G.L. Sm,Species,Especie nativa,Plantas no vasculares,Plantae,Bryophyta,Bryopsida,Polytrichales,Polytrichaceae,Polytrichastrum,,longisetum,,Sinónimo
@@ -1615,7 +1517,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11618,"Gobio lozanoi Doadrio & Madeira, 2004",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Gobio,,lozanoi,,Aceptado/válido
 11619,"Hydraena lucasi Lagar, 1984",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,lucasi,,Aceptado/válido
 11620,"Hydroporus lucasi Reiche, 1866",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,lucasi,,Aceptado/válido
-11622,"Nebrioporus luctuosus (Aubé, 1836)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Nebrioporus,,luctuosus,,Aceptado/válido
 11627,"Canis lupus Linnaeus, 1758",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Carnivora,Canidae,Canis,,lupus,,Aceptado/válido
 11628,"Cantabrogeus luquei (Salgado, 1993)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Leiodidae,Cantabrogeus,,luquei,,Aceptado/válido
 11629,"Dryops luridus (Erichson, 1847)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dryopidae,Dryops,,luridus,,Aceptado/válido
@@ -1623,7 +1524,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11631,"Hydraena lusitana Berthélemy, 1977",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,lusitana,,Aceptado/válido
 11632,"Chioglossa lusitanica Bocage, 1864",Species,Especie nativa,Anfibios,Animalia,Chordata,Amphibia,Caudata,Salamandridae,Chioglossa,,lusitanica,,Aceptado/válido
 11633,"Microtus lusitanicus (Gerbe, 1879)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Rodentia,Cricetidae,Microtus,,lusitanicus,,Aceptado/válido
-11635,"Limnebius lusitanus Balfour-Browne, 1978",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,lusitanus,,Aceptado/válido
 11636,"Anacaena lutescens (Stephens, 1829)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Anacaena,,lutescens,,Aceptado/válido
 11637,"Lutra lutra (Linnaeus, 1758)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Carnivora,Mustelidae,Lutra,,lutra,,Aceptado/válido
 11638,"Mustela lutreola (Linnaeus, 1761)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Carnivora,Mustelidae,Mustela,,lutreola,,Aceptado/válido
@@ -1655,21 +1555,17 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11682,"Iberolacerta martinezricai (Arribas, 1996)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Iberolacerta,,martinezricai,,Aceptado/válido
 11684,"Dryocopus martius (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Piciformes,Picidae,Dryocopus,,martius,,Aceptado/válido
 11685,"Montserratina martorelli (Bourguignat, 1870)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Canariellidae,Montserratina,,martorelli,,Aceptado/válido
-11687,"Elmis maugetii maugetii Latreille, 1798",Subspecies,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Elmis,,maugetii,maugetii,Aceptado/válido
 11688,"Natrix maura (Linnaeus, 1758)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Natricidae,Natrix,,maura,,Aceptado/válido
 11690,"Tudorella mauretanica (Pallary, 1899)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Littorinimorpha,Pomatiidae,Tudorella,,mauretanica,,Aceptado/válido
 11691,"Puffinus mauretanicus Lowe, 1921",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Procellariiformes,Procellariidae,Puffinus,,mauretanicus,,Aceptado/válido
 11692,"Tarentola mauritanica (Linnaeus, 1758)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Phyllodactylidae,Tarentola,,mauritanica,,Aceptado/válido
-11694,"Saurodactylus mauritanicus (Duméril & Bibron, 1836)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Sphaerodactylidae,Saurodactylus,,mauritanicus,,Aceptado/válido
 11695,"Chalcides mauritanicus (Duméril & Bibron, 1839)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Scincidae,Chalcides,,mauritanicus,,Aceptado/válido
 11697,"Limnebius maurus Balfour-Browne, 1978",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,maurus,,Aceptado/válido
-11698,"Hydraena mecai Millán & Aguilera, 2000",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,mecai,,Aceptado/válido
 11699,"Ochthebius mediterraneus Ienistea, 1988",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Ochthebius,mediterraneus,,Aceptado/válido
 79181,"Dendrocopos medius Linnaeus, 1758",Species,,Aves,Animalia,Chordata,Aves,Piciformes,Picidae,Dendrocopos,,medius,,Sinónimo
 11701,"Luscinia megarhynchos Brehm, CL, 1831",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Muscicapidae,Luscinia,,megarhynchos,,Aceptado/válido
 11702,"Rhinolophus mehelyi Matschie, 1901",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Chiroptera,Rhinolophidae,Rhinolophus,,mehelyi,,Aceptado/válido
 80929,"Sylvia melanocephala (Gmelin, JF, 1789)",Species,Desconocido,Aves,Animalia,Chordata,Aves,Passeriformes,Sylviidae,Sylvia,,melanocephala,,Sinónimo
-11705,"Enochrus melanocephalus (Olivier, 1792)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Enochrus,Enochrus,melanocephalus,,Aceptado/válido
 11706,"Acrocephalus melanopogon (Temminck, 1823)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Acrocephalidae,Acrocephalus,,melanopogon,,Aceptado/válido
 24459,"Apus melba (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Apodiformes,Apodidae,Apus,,melba,,Sinónimo
 11709,"Meles meles (Linnaeus, 1758)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Carnivora,Mustelidae,Meles,,meles,,Aceptado/válido
@@ -1693,7 +1589,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11733,"Parachondrostoma miegii (Steindachner, 1866)",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Parachondrostoma,,miegii,,Aceptado/válido
 11733,"Chondrostoma miegii Steindachner, 1866",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Chondrostoma,,miegii,,Sinónimo
 11735,"Milvus migrans (Boddaert, 1783)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Accipitriformes,Accipitridae,Milvus,,migrans,,Aceptado/válido
-11736,"Limnebius millani Ribera & Hernando, 1998",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,millani,,Aceptado/válido
 11737,"Milvus milvus (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Accipitriformes,Accipitridae,Milvus,,milvus,,Aceptado/válido
 11738,"Lymnocryptes minimus (Brünnich, 1764)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Scolopacidae,Lymnocryptes,,minimus,,Aceptado/válido
 11739,"Ochthebius minimus (Fabricius, 1792)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Asiobates,minimus,,Aceptado/válido
@@ -1702,12 +1597,9 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11744,"Rossomyrmex minuchae Tinaut, 1981",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Hymenoptera,Formicidae,Rossomyrmex,,minuchae,,Aceptado/válido
 11745,"Calidris minuta (Leisler, 1812)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Scolopacidae,Calidris,,minuta,,Aceptado/válido
 11746,"Hydraena minutissima Stephens, 1829",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,minutissima,,Aceptado/válido
-11747,"Bidessus minutissimus (Germar, 1824)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Bidessus,,minutissimus,,Aceptado/válido
 11748,"Micromys minutus (Pallas, 1771)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Rodentia,Muridae,Micromys,,minutus,,Aceptado/válido
 11749,"Sorex minutus Linnaeus, 1766",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Soricomorpha,Soricidae,Sorex,,minutus,,Aceptado/válido
 11750,"Ixobrychus minutus (Linnaeus, 1766)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Pelecaniformes,Ardeidae,Ixobrychus,,minutus,,Aceptado/válido
-11751,"Chalcides minutus Caputo, 1993",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Scincidae,Chalcides,,minutus,,Aceptado/válido
-11754,"Gyrinus minutus Fabricius, 1798",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Gyrinidae,Gyrinus,Gyrinulus,minutus,,Aceptado/válido
 11756,"Typhlatya miravetensis Sanz y Platvoet, 1995",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Malacostraca,Decapoda,Atyidae,Typhlatya,,miravetensis,,Aceptado/válido
 11757,"Eupotosia mirifica (Mulsant, 1842)",Species,,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Cetoniidae,Eupotosia,,mirifica,,Aceptado/válido
 11761,"Prunella modularis (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Prunellidae,Prunella,,modularis,,Aceptado/válido
@@ -1716,22 +1608,17 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11767,"Monachus monachus (Hermann, 1779)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Carnivora,Phocidae,Monachus,,monachus,,Aceptado/válido
 11768,"Aegypius monachus (Linnaeus, 1766)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Accipitriformes,Accipitridae,Aegypius,,monachus,,Aceptado/válido
 11769,"Corvus monedula Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Corvidae,Corvus,,monedula,,Aceptado/válido
-11770,"Limnebius monfortei Fresneda & Ribera, 1998",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,monfortei,,Aceptado/válido
 11772,"Malpolon monspessulanus (Hermann, 1804)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lamprophiidae,Malpolon,,monspessulanus,,Aceptado/válido
 11773,"Hydraena monstruosipes Ferro, 1986",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,monstruosipes,,Aceptado/válido
 11774,"Alzoniella montana Rolán, 1993",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Littorinimorpha,Hydrobiidae,Alzoniella,Alzoniella,montana,,Aceptado/válido
 11775,"Passer montanus (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Passeridae,Passer,,montanus,,Aceptado/válido
-11776,"Ilybius montanus (Stephens, 1828)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Ilybius,,montanus,,Aceptado/válido
-11777,"Limnebius montanus Balfour-Browne, 1978",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,montanus,,Aceptado/válido
 11778,"Ochthebius montesi Ferro, 1984",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Ochthebius,montesi,,Aceptado/válido
 11779,"Iberolacerta monticola (Boulenger, 1905)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Iberolacerta,,monticola,,Aceptado/válido
 11780,"Xerocrassa montserratensis (Hidalgo, 1870)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Geoplanidae,Xerocrassa,,montserratensis,,Aceptado/válido
 11781,"Xerocrassa moraguesi (Kobelt, 1883)",Species,,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Geoplanidae,Xerocrassa,,moraguesi,,Aceptado/válido
-11783,"Laccobius moraguesi Régimbart, 1898",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,Dimorpholaccobius,moraguesi,,Aceptado/válido
 11785,"Enochrus morenae (Heyden, 1870)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Enochrus,Methydrus,morenae,,Aceptado/válido
 11787,"Charadrius morinellus Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Charadriidae,Charadrius,,morinellus,,Aceptado/válido
 11788,"Vertigo moulinsiana (Dupuy, 1849)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Vertiginidae,Vertigo,Vertigo,moulinsiana,,Aceptado/válido
-11789,"Haliplus mucronatus Stephens, 1832",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,Liaphlus,mucronatus,,Aceptado/válido
 11790,"Alytes muletensis (Sanchiz & Adrover, 1977)",Species,Especie nativa,Anfibios,Animalia,Chordata,Amphibia,Anura,Alytidae,Alytes,,muletensis,,Aceptado/válido
 11791,"Boreonectes multilineatus (Falkenström, 1922)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Boreonectes,,multilineatus,,Aceptado/válido
 11792,"Eliomys munbyanus (Pomel, 1856)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Rodentia,Gliridae,Eliomys,,munbyanus,,Aceptado/válido
@@ -1749,18 +1636,14 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11807,"Locustella naevia (Boddaert, 1783)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Locustellidae,Locustella,,naevia,,Aceptado/válido
 11808,"Apoduvalius naloni Salgado, 1993",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Carabidae,Apoduvalius,Apoduvalius,naloni,,Aceptado/válido
 11810,"Ochthebius nanus Stephens, 1829",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Ochthebius,nanus,,Aceptado/válido
-11811,"Limnebius nanus Jäch, 1993",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,nanus,,Aceptado/válido
 11812,"Enochrus natalensis (Gemminger & Harold, 1868)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Enochrus,Methydrus,natalensis,,Aceptado/válido
 11814,"Pipistrellus nathusii (Keyserling & Blasius, 1839)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Chiroptera,Vespertilionidae,Pipistrellus,,nathusii,,Aceptado/válido
 11815,"Natrix natrix (Linnaeus, 1758)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Natricidae,Natrix,,natrix,,Aceptado/válido
 11816,"Myotis nattereri (Kuhl, 1817)",Species,Desconocido,Mamíferos,Animalia,Chordata,Mammalia,Chiroptera,Vespertilionidae,Myotis,,nattereri,,Sinónimo ambiguo
 11817,"Falco naumanni Fleischer, JG, 1818",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Falconiformes,Falconidae,Falco,,naumanni,,Aceptado/válido
 11820,"Pyrenaearia navasi (Fagot, 1907)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Hygromiidae,Pyrenaearia,,navasi,,Aceptado/válido
-11822,Torleya nazarita Alba-Tercedor y Derka 1993,Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Ephemeroptera,Ephemerellidae,Torleya,,nazarita,,Aceptado/válido
-11823,"Laccobius neapolitanus Rottenberg, 1874",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,Dimorpholaccobius,neapolitanus,,Aceptado/válido
 11824,"Ildobates neboti Español, 1966",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Carabidae,Ildobates,,neboti,,Aceptado/válido
 11825,"Tringa nebularia (Gunnerus, 1767)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Scolopacidae,Tringa,,nebularia,,Aceptado/válido
-11828,"Hydroporus necopinatus necopinatus Fery, 1999",Subspecies,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,necopinatus,necopinatus,Aceptado/válido
 11832,"Parahypsitylus nevadensis E. Wagner, 1957.",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Hemiptera,Miridae,Parahypsitylus,,nevadensis,,Aceptado/válido
 11834,"Mylabris nevadensis (Escalera, 1915)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Meloidae,Mylabris,Micrabris,nevadensis,,Aceptado/válido
 11835,"Agabus nevadensis Lindberg, 1939",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Agabus,Gaurodytes,nevadensis,,Aceptado/válido
@@ -1769,34 +1652,26 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11841,"Ciconia nigra (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Ciconiiformes,Ciconiidae,Ciconia,,nigra,,Aceptado/válido
 11844,"Hydraena nigrita Germar, 1824",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,nigrita,,Aceptado/válido
 11845,"Hydroporus nigrita (Fabricius, 1792)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,nigrita,,Aceptado/válido
-11846,"Enochrus nigritus (Sharp, 1872)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Enochrus,Methydrus,nigritus,,Aceptado/válido
 14072,"Sterna nilotica Gmelin,1789",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Laridae,Sterna,,nilotica,,Sinónimo
 11849,"Accipiter nisus (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Accipitriformes,Accipitridae,Accipiter,,nisus,,Aceptado/válido
 11850,"Normandia nitens (Müller, 1817)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Normandia,,nitens,,Aceptado/válido
-11851,"Hydrochus nitidicollis Mulsant, 1844",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrochidae,Hydrochus,,nitidicollis,,Aceptado/válido
 11852,"Orthetrum nitidinerve (Selys, 1841)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Odonata,Libellulidae,Orthetrum,,nitidinerve,,Aceptado/válido
 11853,"Dryops nitidulus (Heer, 1841)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dryopidae,Dryops,,nitidulus,,Aceptado/válido
-11855,"Limnebius nitidus (Marsham, 1802)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,nitidus,,Aceptado/válido
 11856,"Chionomys nivalis (Martins, 1842)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Rodentia,Cricetidae,Chionomys,,nivalis,,Aceptado/válido
 11857,"Mustela nivalis Linnaeus, 1766",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Carnivora,Mustelidae,Mustela,,nivalis,,Aceptado/válido
 11858,"Montifringilla nivalis (Linnaeus, 1766)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Passeridae,Montifringilla,,nivalis,,Aceptado/válido
 11861,"Athene noctua (Scopoli, 1769)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Strigiformes,Strigidae,Athene,,noctua,,Aceptado/válido
 11862,"Nyctalus noctula (Schreber, 1774)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Chiroptera,Vespertilionidae,Nyctalus,,noctula,,Aceptado/válido
-11863,"Hydrochus nooreinus Henegouven & Sáinz-Cantero, 1992",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrochidae,Hydrochus,,nooreinus,,Aceptado/válido
 11864,"Hydroporus normandi alhambrae Fery, 1999",Subspecies,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,normandi,alhambrae,Aceptado/válido
 11865,"Hydroporus normandi normandi Régimbart, 1903",Subspecies,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,normandi,normandi,Aceptado/válido
 11868,"Ochthebius notabilis Rosenhauer, 1856",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Ochthebius,notabilis,,Aceptado/válido
 11869,Discelium nudum (Dicks.) Brid.,Species,Especie nativa,Plantas no vasculares,Plantae,Bryophyta,Bryopsida,Funariales,Disceliaceae,Discelium,,nudum,,Aceptado/válido
 11870,"Nycticorax nycticorax (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Pelecaniformes,Ardeidae,Nycticorax,,nycticorax,,Aceptado/válido
 11871,"Aythya nyroca (Güldenstädt, 1770)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Anseriformes,Anatidae,Aythya,,nyroca,,Aceptado/válido
-11873,"Haliplus obliquus (Fabricius, 1787)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,Haliplidius,obliquus,,Aceptado/válido
-11874,"Limnebius oblongus Rey, 1883",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,oblongus,,Aceptado/válido
-11876,"Laccobius obscuratus Rottenberg, 1874",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,Dimorpholaccobius,obscuratus,,Aceptado/válido
 11877,"Hydroporus obsoletus Aubé, 1838",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,obsoletus,,Aceptado/válido
 11878,"Alytes obstetricans (Laurenti, 1768)",Species,Especie nativa,Anfibios,Animalia,Chordata,Amphibia,Anura,Alytidae,Alytes,,obstetricans,,Aceptado/válido
 11880,Pohlia obtusifolia (Vill. ex Brid.) L.F. Koch,Species,Especie nativa,Plantas no vasculares,Plantae,Bryophyta,Bryopsida,Bryales,Bryaceae,Pohlia,,obtusifolia,,Aceptado/válido
 11882,"Talpa occidentalis Cabrera, 1907",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Soricomorpha,Talpidae,Talpa,,occidentalis,,Aceptado/válido
-11883,"Stictonectes occidentalis Fresneda & Fery, 1990",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Stictonectes,,occidentalis,,Aceptado/válido
 11885,"Tringa ochropus Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Scolopacidae,Tringa,,ochropus,,Aceptado/válido
 11886,"Phoenicurus ochruros (Gmelin, SG, 1774)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Muscicapidae,Phoenicurus,,ochruros,,Aceptado/válido
 11887,"Burhinus oedicnemus (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Burhinidae,Burhinus,,oedicnemus,,Aceptado/válido
@@ -1809,10 +1684,8 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11898,"Deronectes opatrinus (Germar, 1824)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Deronectes,,opatrinus,,Aceptado/válido
 11899,"Stictonectes optatus (Seidlitz, 1887)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Stictonectes,,optatus,,Aceptado/válido
 11901,"Eremopola orana (H. Lucas, 1894)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Lepidoptera,Noctuidae,Eremopola,Eremochlaena,orana,,Aceptado/válido
-11902,"Coelostoma orbiculare (Fabricius, 1775)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Coelostoma,,orbiculare,,Aceptado/válido
 11903,"Emys orbicularis (Linnaeus, 1758)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Testudines,Emydidae,Emys,,orbicularis,,Aceptado/válido
 11904,Anastrepta orcadensis (Hook.) Schiffn.,Species,Especie nativa,Plantas no vasculares,Plantae,Marchantiophyta,Jungermanniopsida,Jungermanniales,Scapaniaceae,Anastrepta,,orcadensis,,Aceptado/válido
-11905,"Limnebius ordunyai Fresneda & Ribera, 1998",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,ordunyai,,Aceptado/válido
 11906,"Iberochondrostoma oretanum (Doadrio & Carmona, 2003)",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Iberochondrostoma,,oretanum,,Aceptado/válido
 11906,"Chondrostoma oretanum (Doadrio & Carmona, 2003)",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Chondrostoma,,oretanum,,Sinónimo
 11908,"Pyrenaearia organiaca Fagot, 1905",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Hygromiidae,Pyrenaearia,,organiaca,,Aceptado/válido
@@ -1821,7 +1694,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11915,"Cochlostoma oscitans Gofas, 1989",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Architaenioglossa,Megalomastomatidae,Cochlostoma,Obscurella,oscitans,,Aceptado/válido
 11917,"Haematopus ostralegus Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Haematopodidae,Haematopus,,ostralegus,,Aceptado/válido
 11918,"Stenosis oteroi Español, 1981",Species,,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Tenebrionidae,Stenosis,,oteroi,,Aceptado/válido
-11919,"Trichonectes otini (Guignot, 1941)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Trichonectes,,otini,,Aceptado/válido
 11921,"Asio otus (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Strigiformes,Strigidae,Asio,,otus,,Aceptado/válido
 11923,"Hemicycla paeteliana (Shuttleworth, in Pfeiffer, 1859)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Helicidae,Hemicycla,,paeteliana,,Aceptado/válido
 11924,"Hydroporus paganettianus Scholz, 1923",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,paganettianus,,Aceptado/válido
@@ -1835,10 +1707,8 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11934,"Columba palumbus Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Columbiformes,Columbidae,Columba,,palumbus,,Aceptado/válido
 16420,"Parus palustris Linnaeus,1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Paridae,Parus,,palustris,,Sinónimo
 11936,"Hydroporus palustris (Linnaeus, 1761)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,palustris,,Aceptado/válido
-11937,"Limnebius papposus Mulsant, 1844",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Limnebius,,papposus,,Aceptado/válido
 11938,"Sterna paradisaea Pontoppidan, 1763",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Laridae,Sterna,,paradisaea,,Aceptado/válido
 11939,"Esolus parallelepipedus (Müller, 1806)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Esolus,,parallelepipedus,,Aceptado/válido
-11941,"Chalcides parallelus (Doumergue, 1901)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Scincidae,Chalcides,,parallelus,,Aceptado/válido
 11943,"Lynx pardinus (Temminck, 1827)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Carnivora,Felidae,Lynx,,pardinus,,Aceptado/válido
 33069,"Porzana parva (Scopoli, 1769)",Species,,Aves,Animalia,Chordata,Aves,Gruiformes,Rallidae,Porzana,,parva,,Sinónimo
 11945,"Pyrenaearia parva Ortiz de Zárate, 1956",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Hygromiidae,Pyrenaearia,,parva,,Aceptado/válido
@@ -1854,8 +1724,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11963,"Falco peregrinus Tunstall, 1771",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Falconiformes,Falconidae,Falco,,peregrinus,,Aceptado/válido
 11964,"Pelophylax perezi (Seoane, 1885)",Species,Especie nativa,Anfibios,Animalia,Chordata,Amphibia,Anura,Ranidae,Pelophylax,,perezi,,Aceptado/válido
 11964,"Rana perezi Seoane, 1885",Species,Especie nativa,Anfibios,Animalia,Chordata,Amphibia,Anura,Ranidae,Rana,,perezi,,Sinónimo
-11966,"Elmis perezi Heyden, 1870",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Elmis,,perezi,,Aceptado/válido
-11967,"Limnius perrisi carinatus Perez-Arcas, 1865",Subspecies,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Limnius,,perrisi,carinatus,Aceptado/válido
 11968,"Limnius perrisi perrisi Dufour, 1843",Subspecies,,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Limnius,,perrisi,perrisi,Aceptado/válido
 11971,"Lacerta perspicillata Duméril y Bibron, 1839",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Lacerta,,perspicillata,,Sinónimo
 11971,"Scelarcis perspicillata (Duméril & Bibron, 1839)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Scelarcis,,perspicillata,,Aceptado/válido
@@ -1867,7 +1735,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 10849,"Phoxinus phoxinus (Linnaeus, 1758)",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Phoxinus,,phoxinus,,Sinónimo
 37095,Ulota phyllantha Brid.,Species,Especie nativa,Plantas no vasculares,Plantae,Bryophyta,Bryopsida,Orthotrichales,Orthotrichaceae,Ulota,,phyllantha,,Sinónimo
 11981,"Pica pica (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Corvidae,Pica,,pica,,Aceptado/válido
-11983,"Agabus picotae Foster & Bilton, 1997",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Agabus,Gaurodytes,picotae,,Aceptado/válido
 11985,"Discoglossus pictus (Otth, 1837)",Species,Especie nativa,Anfibios,Animalia,Chordata,Amphibia,Anura,Alytidae,Discoglossus,,pictus,,Aceptado/válido
 11986,"Leptopterna pilosa Reuter, 1880",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Hemiptera,Miridae,Leptopterna,,pilosa,,Aceptado/válido
 11987,"Ochthebius pilosus Waltl, 1835",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Ochthebius,pilosus,,Aceptado/válido
@@ -1885,7 +1752,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 12003,"Laccophilus poecilus Klug, 1834",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Laccophilus,,poecilus,,Aceptado/válido
 12004,"Hydraena polita Kiesenwetter, 1849",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,polita,,Aceptado/válido
 12006,"Steropleurus politus (Bolívar, 1901)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Orthoptera,Tettigoniidae,Steropleurus,,politus,,Aceptado/válido
-12007,"Enochrus politus Küster, 1849",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Enochrus,Lumetus,politus,,Aceptado/válido
 12009,"Hippolais polyglotta (Vieillot, 1817)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Acrocephalidae,Hippolais,,polyglotta,,Aceptado/válido
 12010,"Pseudochondrostoma polylepis (Steindachner, 1864)",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Pseudochondrostoma,,polylepis,,Aceptado/válido
 12010,"Chondrostoma polylepis Steindachner, 1864",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Chondrostoma,,polylepis,,Sinónimo
@@ -1896,10 +1762,8 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 12019,"Anthus pratensis (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Motacillidae,Anthus,,pratensis,,Aceptado/válido
 12021,"Glareola pratincola (Linnaeus, 1766)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Glareolidae,Glareola,,pratincola,,Aceptado/válido
 12022,"Chazara prieuri (Pierret, 1837)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Lepidoptera,Nymphalidae,Chazara,,prieuri,,Aceptado/válido
-12025,"Chalcides pseudostriatus Caputo, 1993",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Scincidae,Chalcides,,pseudostriatus,,Aceptado/válido
 12029,"Puffinus puffinus (Brünnich, 1764)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Procellariiformes,Procellariidae,Puffinus,,puffinus,,Aceptado/válido
 33046,"Philomachus pugnax (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Scolopacidae,Philomachus,,pugnax,,Sinónimo
-12034,"Bidessus pumilus (Aubé, 1838)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Bidessus,,pumilus,,Aceptado/válido
 12035,"Silphotrupes punctatissimus (Chevrolat, 1840)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Geotrupidae,Silphotrupes,,punctatissimus,,Aceptado/válido
 12036,"Jekelius punctatolineatus (Francois, 1904)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Geotrupidae,Jekelius,,punctatolineatus,,Aceptado/válido
 12037,"Pelodytes punctatus (Daudin, 1802)",Species,Especie nativa,Anfibios,Animalia,Chordata,Amphibia,Anura,Pelodytidae,Pelodytes,,punctatus,,Aceptado/válido
@@ -1914,7 +1778,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 12049,"Hydraena pygmaea Waterhouse, 1833",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,pygmaea,,Aceptado/válido
 12050,"Pipistrellus pygmaeus (Leach, 1825)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Chiroptera,Vespertilionidae,Pipistrellus,,pygmaeus,,Aceptado/válido
 12051,"Triturus pygmaeus (Wolterstorff, 1905)",Species,Especie nativa,Anfibios,Animalia,Chordata,Amphibia,Caudata,Salamandridae,Triturus,,pygmaeus,,Aceptado/válido
-12052,"Esolus pygmaeus (Müller, 1806)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Esolus,,pygmaeus,,Aceptado/válido
 12053,"Carabus pyrenaeus Audinet-Serville, 1821",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Carabidae,Carabus,Iniopachus,pyrenaeus,,Aceptado/válido
 12054,"Rupicapra pyrenaica Bonaparte, 1845",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Artiodactyla,Bovidae,Rupicapra,,pyrenaica,,Aceptado/válido
 12055,"Capra pyrenaica Schinz, 1838",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Artiodactyla,Bovidae,Capra,,pyrenaica,,Aceptado/válido
@@ -1927,37 +1790,30 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 12069,"Ochthebius quadricollis Ferro, 1985",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Calobius,quadricollis,,Aceptado/válido
 12070,"Ochthebius quadrifossulatus Waltl, 1835",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Ochthebius,quadrifossulatus,,Aceptado/válido
 12071,"Ochthebius quadrifoveolatus Wollaston, 1854",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Ochthebius,quadrifoveolatus,,Aceptado/válido
-12072,"Ilybius quadriguttatus (Boisduval & Lacordaire, 1835)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Ilybius,,quadriguttatus,,Aceptado/válido
 12074,"Eliomys quercinus (Linnaeus, 1766)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Rodentia,Gliridae,Eliomys,,quercinus,,Aceptado/válido
 33012,"Anas querquedula Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Anseriformes,Anatidae,Anas,,querquedula,,Sinónimo
 12076,"Hydraena quetiae Castro, 2000",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,quetiae,,Aceptado/válido
 94521,"Barbatula quignardi (Bâcescu-Mester, 1967)",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Nemacheilidae,Barbatula,,quignardi,,Sinónimo
-12078,"Hydraena quilisi Lagar, Fresneda & Hernando, 1987",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,quilisi,,Aceptado/válido
 12080,"Troglobisium racovitzai (Ellingsen, 1912)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Arachnida,Pseudoscorpiones,Bochicidae,Troglobisium,,racovitzai,,Aceptado/válido
 12081,"Ardeola ralloides (Scopoli, 1769)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Pelecaniformes,Ardeidae,Ardeola,,ralloides,,Aceptado/válido
 12083,"Agabus ramblae Millán & Ribera, 2001",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Agabus,Gaurodytes,ramblae,,Aceptado/válido
 12085,"Maiorerus randoi Rambla, 1993",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Arachnida,Opiliones,Phalangodidae,Maiorerus,,randoi,,Aceptado/válido
 12086,"Mastigophallus rangianus (Férussac in Deshayes, 1830)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Trissexodontidae,Mastigophallus,,rangianus,,Aceptado/válido
-12087,"Stictonectes rebeccae Bilton, 2012",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Stictonectes,,rebeccae,,Aceptado/válido
 12088,"Regulus regulus (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Regulidae,Regulus,,regulus,,Aceptado/válido
 12089,"Bombus reinigiellus (Rasmont, 1983)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Hymenoptera,Apidae,Bombus,Megabombus,reinigiellus,,Aceptado/válido
 32297,"Plutonia reticulata (Mousson, 1872)",Species,,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Vitrinidae,Plutonia,,reticulata,,Sinónimo
 12092,"Laccobius revelieri Perris, 1864",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,Hydroxenus,revelieri,,Aceptado/válido
 12093,"Hydraena reyi Kuwert, 1888",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,reyi,,Aceptado/válido
-12095,"Nemoura rifensis Aubert, 1961",Species,,Invertebrados,Animalia,Arthropoda,Insecta,Plecoptera,Nemouridae,Nemoura,,rifensis,,Aceptado/válido
-12096,"Elmis rioloides (Kuwert, 1890)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Elmis,,rioloides,,Aceptado/válido
 12097,"Riparia riparia (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Hirundinidae,Riparia,,riparia,,Aceptado/válido
 12100,"Oulimnius rivularis (Rosenhauer, 1856)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Oulimnius,,rivularis,,Aceptado/válido
 12101,"Xerocrassa roblesi (Martínez-Ortí, 2000)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Geoplanidae,Xerocrassa,,roblesi,,Aceptado/válido
 12103,"Tarraconia rolani Ramos, Arconada y Moreno, 2000",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Littorinimorpha,Hydrobiidae,Tarraconia,,rolani,,Aceptado/válido
 12106,"Coscinia romeii Sagarra, 1924",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Lepidoptera,Arctiidae,Coscinia,,romeii,,Aceptado/válido
 12107,"Phoenicopterus roseus Pallas, 1811",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Phoenicopteriformes,Phoenicopteridae,Phoenicopterus,,roseus,,Aceptado/válido
-12108,"Peltodytes rotundatus (Aubé, 1836)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Haliplidae,Peltodytes,,rotundatus,,Aceptado/válido
 12109,"Oscadytes rovirai Lagar, 1975",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Carabidae,Oscadytes,,rovirai,,Aceptado/válido
 12110,"Elephantulus rozeti (Duvernoy, 1833)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Macroscelidea,Macroscelididae,Elephantulus,,rozeti,,Aceptado/válido
 12111,"Erithacus rubecula (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Muscicapidae,Erithacus,,rubecula,,Aceptado/válido
 12112,"Saxicola rubetra (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Muscicapidae,Saxicola,,rubetra,,Aceptado/válido
-12113,"Haliplus rubidus Perris, 1857",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,Liaphlus,rubidus,,Aceptado/válido
 12114,"Alectoris rufa (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Galliformes,Phasianidae,Alectoris,,rufa,,Aceptado/válido
 33007,"Calandrella rufescens Vieillot, 1820",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Alaudidae,Calandrella,,rufescens,,Sinónimo
 12121,"Tachybaptus ruficollis (Pallas, 1764)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Podicipediformes,Podicipedidae,Tachybaptus,,ruficollis,,Aceptado/válido
@@ -1976,12 +1832,10 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 12141,"Salamandra salamandra (Linnaeus, 1758)",Species,Especie nativa,Anfibios,Animalia,Chordata,Amphibia,Caudata,Salamandridae,Salamandra,,salamandra,,Aceptado/válido
 12142,"Salmo salar Linnaeus, 1758",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Salmoniformes,Salmonidae,Salmo,,salar,,Aceptado/válido
 12143,"Achondrostoma salmantinum Doadrio & Elvira, 2007",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Achondrostoma,,salmantinum,,Aceptado/válido
-12144,"Enochrus salomonis (Sahlberg, 1900)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Enochrus,Lumetus,salomonis,,Aceptado/válido
 12145,"Ochthebius sanabrensis Valladares & Jäch, 2008",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Asiobates,sanabrensis,,Aceptado/válido
 12147,"Sterna sandvicensis Latham, 1787",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Laridae,Sterna,,sandvicensis,,Sinónimo
 12147,"Thalasseus sandvicensis (Latham, 1787)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Laridae,Thalasseus,,sandvicensis,,Aceptado/válido
 12148,"Buprestis sanguinea (Fabricius, 1798)",Species,,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Buprestidae,Buprestis,Yamina,sanguinea,,Aceptado/válido
-12150,"Nebrioporus sansii (Aubé, 1836)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Nebrioporus,,sansii,,Aceptado/válido
 12151,"Arvicola sapidus Miller, 1908",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Rodentia,Cricetidae,Arvicola,,sapidus,,Aceptado/válido
 80945,"Sylvia sarda Temminck, 1820",Species,Desconocido,Aves,Animalia,Chordata,Aves,Passeriformes,Sylviidae,Sylvia,,sarda,,Sinónimo
 12153,"Hemicycla saulcyi saulcyi (D'Orbigny, 1839)",Subspecies,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Helicidae,Hemicycla,,saulcyi,saulcyi,Aceptado/válido
@@ -2002,9 +1856,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 12175,"Otus scops (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Strigiformes,Strigidae,Otus,,scops,,Aceptado/válido
 12177,"Trachemys scripta Schoepff, 1792",Species,Especie no nativa,Reptiles,Animalia,Chordata,Reptilia,Testudines,Emydidae,Trachemys,,scripta,,Aceptado/válido
 12178,"Sus scrofa Linnaeus, 1758",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Artiodactyla,Suidae,Sus,,scrofa,,Aceptado/válido
-12179,"Paracymus scutellaris (Rosenhauer, 1856)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Paracymus,,scutellaris,,Aceptado/válido
-12181,"Enochrus segmentinotatus (Kuwert, 1888)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Enochrus,Lumetus,segmentinotatus,,Aceptado/válido
-12182,"Helophorus seidlitzii Kuwert, 1885",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,seidlitzii,,Aceptado/válido
 12186,"Scarabaeus semipunctatus Fabricius, 1792",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Scarabaeidae,Scarabaeus,,semipunctatus,,Aceptado/válido
 12187,"Ochthebius semisericeus Saint-Claire Deville, 1908",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Ochthebius,semisericeus,,Aceptado/válido
 12188,"Dytiscus semisulcatus Müller, 1776",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Dytiscus,,semisulcatus,,Aceptado/válido
@@ -2012,7 +1863,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 12190,"Lanius senator Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Laniidae,Lanius,,senator,,Aceptado/válido
 12192,"Tchagra senegalus (Linnaeus, 1766)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Malaconotidae,Tchagra,,senegalus,,Aceptado/válido
 12193,"Vipera seoanei Lataste, 1879",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Viperidae,Vipera,,seoanei,,Aceptado/válido
-12194,"Oreodytes septentrionalis (Gyllenhal, 1827)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Oreodytes,,septentrionalis,,Aceptado/válido
 12196,"Serinus serinus (Linnaeus, 1766)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Fringillidae,Serinus,,serinus,,Aceptado/válido
 12197,"Eptesicus serotinus (Schreber, 1774)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Chiroptera,Vespertilionidae,Eptesicus,,serotinus,,Aceptado/válido
 12198,"Mergus serrator Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Anseriformes,Anatidae,Mergus,,serrator,,Aceptado/válido
@@ -2026,18 +1876,12 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 12209,"Polytoxus siculus (A. Costa, 1842)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Hemiptera,Reduviidae,Polytoxus,,siculus,,Aceptado/válido
 12210,"Pyrgus sidae (Esper, 1784)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Lepidoptera,Hesperiidae,Pyrgus,,sidae,,Aceptado/válido
 12211,"Ochthebius sidanus Orchymont, 1942",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Ochthebius,sidanus,,Aceptado/válido
-12212,"Hydroglyphus signatellus (Klug, 1834)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroglyphus,,signatellus,,Aceptado/válido
-12213,"Berosus signaticollis (Charpentier, 1825)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Berosus,Berosus,signaticollis,,Aceptado/válido
 12214,"Felis silvestris Schreber, 1777",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Carnivora,Felidae,Felis,,silvestris,,Aceptado/válido
-12215,"Dryops similaris Bollow, 1936",Species,,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dryopidae,Dryops,,similaris,,Aceptado/válido
-12216,"Chaetarthria similis Wollaston, 1864",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Chaetarthria,,similis,,Aceptado/válido
 12217,"Gomphus simillimus simillimus Sélys, 1840",Subspecies,,Invertebrados,Animalia,Arthropoda,Insecta,Odonata,Gomphidae,Gomphus,,simillimus,simillimus,Aceptado/válido
 12218,"Chalcides simonyi Steindachner, 1891",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Scincidae,Chalcides,,simonyi,,Aceptado/válido
 12219,"Gallotia simonyi (Steindachner, 1889)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Gallotia,,simonyi,,Aceptado/válido
-12222,"Laccobius sinuatus Motschulsky, 1849",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,Dimorpholaccobius,sinuatus,,Aceptado/válido
 12223,"Orthotylus siuranus Wagner, 1964",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Hemiptera,Miridae,Orthotylus,Orthotylus,siuranus,,Aceptado/válido
 12224,"Hydrochus smaragdineus Fairmaire, 1879",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrochidae,Hydrochus,,smaragdineus,,Aceptado/válido
-12225,"Normandia sodalis (Erichson, 1847)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Normandia,,sodalis,,Aceptado/válido
 12226,"Monticola solitarius (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Muscicapidae,Monticola,,solitarius,,Aceptado/válido
 12228,"Caliprobola speciosa (Rossi, 1790)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Diptera,Syrphidae,Caliprobola,,speciosa,,Aceptado/válido
 12231,"Anthus spinoletta (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Motacillidae,Anthus,,spinoletta,,Aceptado/válido
@@ -2056,7 +1900,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 33018,"Anas strepera Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Anseriformes,Anatidae,Anas,,strepera,,Sinónimo
 12250,"Muscicapa striata (Pallas, 1764)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Muscicapidae,Muscicapa,,striata,,Aceptado/válido
 12251,"Dryops striatellus (Fairmaire & Brisout, 1859)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dryopidae,Dryops,,striatellus,,Aceptado/válido
-12253,"Laccobius striatulus (Fabricius, 1801)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,Dimorpholaccobius,striatulus,,Aceptado/válido
 12254,"Chalcides striatus (Cuvier, 1829)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Scincidae,Chalcides,,striatus,,Aceptado/válido
 12255,"Aulonogyrus striatus (Fabricius, 1792)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Gyrinidae,Aulonogyrus,,striatus,,Aceptado/válido
 12257,"Boetersiella sturmi (Rosenhauer, 1856)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Littorinimorpha,Hydrobiidae,Boetersiella,,sturmi,,Aceptado/válido
@@ -2069,12 +1912,9 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 12268,"Ochthebius subpictus Wollaston, 1857",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Ochthebius,subpictus,,Aceptado/válido
 12269,"Pseudamnicola subproducta (Paladilhe, 1869)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Littorinimorpha,Hydrobiidae,Pseudamnicola,Pseudamnicola,subproducta,,Aceptado/válido
 12271,"Pomatinus substriatus (Müller, 1806)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dryopidae,Pomatinus,,substriatus,,Aceptado/válido
-12272,"Gyrinus substriatus Stephens, 1829",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Gyrinidae,Gyrinus,Gyrinus,substriatus,,Aceptado/válido
 12273,"Loboptera subterranea Martín & Oromí, 1987",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Blattodea,Ectobiidae,Loboptera,,subterranea,,Aceptado/válido
 12274,"Riolus subviolaceus (Müller, 1817)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Riolus,,subviolaceus,,Aceptado/válido
-12275,"Gyrinus suffriani Scriba, 1855",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Gyrinidae,Gyrinus,,suffriani,,Aceptado/válido
 12276,"Kurtharzia sulcata (Bolivar, 1912)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Orthoptera,Pamphagidae,Kurtharzia,,sulcata,,Aceptado/válido
-12278,"Dryops sulcipennis (Costa, 1883)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dryopidae,Dryops,,sulcipennis,,Aceptado/válido
 12279,"Cryptella susannae Hutterer, 1990",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Parmacellidae,Cryptella,,susannae,,Aceptado/válido
 12280,"Rhantus suturalis (McLeay, 1825)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Rhantus,Rhantus,suturalis,,Aceptado/válido
 12282,"Luscinia svecica (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Muscicapidae,Luscinia,,svecica,,Aceptado/válido
@@ -2084,8 +1924,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 12286,"Tadorna tadorna (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Anseriformes,Anatidae,Tadorna,,tadorna,,Aceptado/válido
 12289,"Collartida tanausu Ribes, Oromí & Ribes, 1998",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Hemiptera,Reduviidae,Collartida,,tanausu,,Aceptado/válido
 12292,"Otis tarda Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Otidiformes,Otididae,Otis,,tarda,,Aceptado/válido
-12293,"Hydrochus tariqi Ribera, Hernando & Aguilera, 1999",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrochidae,Hydrochus,,tariqi,,Aceptado/válido
-12295,"Deroceras tarracense van Regteren Altena, 1969",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Agriolimacidae,Deroceras,Deroceras,tarracense,,Aceptado/válido
 12296,"Suboestophora tarraconensis (Aguilar-Amat, 1935)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Trissexodontidae,Suboestophora,,tarraconensis,,Aceptado/válido
 12297,"Hydraena tatii Sainz-Cantero & Alba-Tercedor, 1989",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,tatii,,Aceptado/válido
 12298,"Rana temporaria Linnaeus, 1758",Species,Especie nativa,Anfibios,Animalia,Chordata,Amphibia,Anura,Ranidae,Rana,,temporaria,,Aceptado/válido
@@ -2097,7 +1935,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 16232,"Arvicola terrestris (Linnaeus, 1758)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Rodentia,Cricetidae,Arvicola,,terrestris,,Sinónimo
 12308,"Hydroporus tessellatus (Drapiez, 1819)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,tessellatus,,Aceptado/válido
 12309,"Hydraena testacea Curtis, 1830",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Phothydraena,testacea,,Aceptado/válido
-12310,"Enochrus testaceus (Fabricius, 1801)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Enochrus,Lumetus,testaceus,,Aceptado/válido
 12311,"Lindenia tetraphylla (Vander Linden, 1825)",Species,,Invertebrados,Animalia,Arthropoda,Insecta,Odonata,Gomphidae,Lindenia,,tetraphylla,,Aceptado/válido
 12312,"Tetrax tetrax (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Otidiformes,Otididae,Tetrax,,tetrax,,Aceptado/válido
 33011,Fringilla teydea subsp. polatzeki,Subspecies,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Fringillidae,Fringilla,,teydea,polatzeki,Sinónimo
@@ -2146,11 +1983,8 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 12376,Squalius valentinus Doadrio & Carmona 2006,Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Squalius,,valentinus,,Aceptado/válido
 12377,"Theodoxus valentinus (Graells, 1846)",Species,,Invertebrados,Animalia,Mollusca,Gastropoda,Cycloneritida,Neritidae,Theodoxus,,valentinus,,Aceptado/válido
 12378,"Vanellus vanellus (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Charadriiformes,Charadriidae,Vanellus,,vanellus,,Aceptado/válido
-12381,"Haliplus variegatus Sturm, 1834",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,Liaphlus,variegatus,,Aceptado/válido
-12382,"Graptodytes varius (Aubé, 1836)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Graptodytes,,varius,,Aceptado/válido
 12384,"Xeroleuca vatonniana (Bourguignat, 1867)",Species,,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Hygromiidae,Xeroleuca,,vatonniana,,Aceptado/válido
 12385,"Podarcis vaucheri (Boulenger, 1905)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Podarcis,,vaucheri,,Aceptado/válido
-77005,"Theodoxus velascoi (Graells, 1846)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Cycloneritida,Neritidae,Theodoxus,,velascoi,,Sinónimo
 12387,"Pyrenaearia velascoi Hidalgo, 1867",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Hygromiidae,Pyrenaearia,,velascoi,,Aceptado/válido
 12388,"Plentuisa vendia Puente & Prieto, 1992",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Geoplanidae,Plentuisa,,vendia,,Aceptado/válido
 12392,"Hydroporus vespertinus Fery & Heindrich, 1988",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Hydroporus,,vespertinus,,Aceptado/válido
@@ -2171,10 +2005,8 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 12413,"Limnius volckmari (Panzer, 1793)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Limnius,,volckmari,,Aceptado/válido
 12414,"Sciurus vulgaris Linnaeus, 1758",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Rodentia,Sciuridae,Sciurus,,vulgaris,,Aceptado/válido
 12415,"Sturnus vulgaris Linnaeus, 1758",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Sturnidae,Sturnus,,vulgaris,,Aceptado/válido
-12418,"Cybister vulneratus Klug, 1834",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Cybister,Melanectes,vulneratus,,Aceptado/válido
 12419,"Vulpes vulpes (Linnaeus, 1758)",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Carnivora,Canidae,Vulpes,,vulpes,,Aceptado/válido
 12420,"Pleurodeles waltl Michahelles, 1830",Species,Especie nativa,Anfibios,Animalia,Chordata,Amphibia,Caudata,Salamandridae,Pleurodeles,,waltl,,Aceptado/válido
-12422,"Deronectes wewalkai Fery & Fresneda, 1988",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Deronectes,,wewalkai,,Aceptado/válido
 12423,"Crocidura whitakeri de Winton, 1898",Species,Especie nativa,Mamíferos,Animalia,Chordata,Mammalia,Soricomorpha,Soricidae,Crocidura,,whitakeri,,Aceptado/válido
 12424,"Hadjina wichti (Hirschke, 1904)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Lepidoptera,Noctuidae,Hadjina,,wichti,,Aceptado/válido
 12429,"Pseudochondrostoma willkommii (Steindachner, 1866)",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Pseudochondrostoma,,willkommii,,Aceptado/válido
@@ -2182,7 +2014,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 12431,"Arianta xatarti (Farines, 1834)",Species,,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Helicidae,Arianta,,xatarti,,Aceptado/válido
 12432,"Agrotis yelai Fibiger, 1990",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Lepidoptera,Noctuidae,Agrotis,,yelai,,Aceptado/válido
 12433,"Puffinus yelkouan (Acerbi, 1827)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Procellariiformes,Procellariidae,Puffinus,,yelkouan,,Aceptado/válido
-12434,"Laccobius ytenensis Sharp, 1910",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Laccobius,Dimorpholaccobius,ytenensis,,Aceptado/válido
 12436,"Helicella zaratei Gittenberger & Manga, 1977",Species,,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Geoplanidae,Helicella,,zaratei,,Aceptado/válido
 12439,"Agriades zullichi Hemming, 1933",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Lepidoptera,Lycaenidae,Agriades,,zullichi,,Aceptado/válido
 12472,"Caulerpa racemosa (Forsskål) J. Agardh, 1873",Species,Especie no nativa,Algas,Plantae,Chlorophyta,Ulvophyceae,Bryopsidales,Caulerpaceae,Caulerpa,,racemosa,,Aceptado/válido
@@ -2536,7 +2367,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 3319,Centaurea boissieri subsp. spachii,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Centaurea,,boissieri,spachii,Sinónimo
 80935,Cyanopica cyanus,Species,,Aves,Animalia,Chordata,Aves,Passeriformes,Corvidae,Cyanopica,,cyanus,,Sinónimo
 24238,Festuca summilusitana Franco & Rocha Afonso,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Poales,Poaceae,Festuca,,summilusitana,,Sinónimo
-10875,Gallotia gomerana,Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Gallotia,,gomerana,,Sinónimo
 6500,Narcissus humilis (Cav.) Traub,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Asparagales,Amaryllidaceae,Narcissus,,humilis,,Sinónimo
 6452,Odontites granatensis Boiss,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Orobanchaceae,Odontites,,granatensis,,Sinónimo
 24271,Puccinellia pungens (Pau) Paunero,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Poales,Poaceae,Puccinellia,,pungens,,Aceptado/válido
@@ -2611,7 +2441,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 1843,Anagallis arvensis subsp. parviflora (Hoffmanns. & Link) Arcang.,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Ericales,Primulaceae,Anagallis,,arvensis,parviflora,Sinónimo
 9920,Artemisia gabriellae Br.-Bl.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Artemisia,,gabriellae,,Sinónimo
 3333,Centaurea ornata subsp. saxicola (Lag.) Dostál,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Centaurea,,ornata,saxicola,Sinónimo
-3351,Centaurium erythraea subsp. grandiflorum (Biv.) Melderis,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Gentianaceae,Centaurium,,erythraea,grandiflorum,Sinónimo
 3366,Centaurium tenuiflorum subsp. acutiflorum (Schott) Zeltner,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Gentianaceae,Centaurium,,tenuiflorum,acutiflorum,Sinónimo
 3358,Centaurium triphyllum (W. L. E. Schmidt) Melderis,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Gentianaceae,Centaurium,,triphyllum,,Sinónimo
 2899,Lamottea diania (Webb) G. López,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Lamottea,,diania,,Sinónimo
@@ -2810,7 +2639,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 853,Odontospermum schultzii Bolle,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Odontospermum,,schultzii,,Sinónimo
 208,Omalocline granatensis (Willk.) Willk,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Omalocline,,granatensis,,Sinónimo
 6836,Orchis palustris var. robusta T. Stephenson,Variety,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Asparagales,Orchidaceae,Orchis,,palustris,robusta,Sinónimo
-2705,Osmunda lunaria var. matricariifolia Retz,Variety,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Polypodiopsida,Osmundales,Osmundaceae,Osmunda,,lunaria,matricariifolia,Sinónimo
 7389,Padus lusitanica (L.) Mill,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Rosales,Rosaceae,Padus,,lusitanica,,Sinónimo
 906,Pappophorum persicum (Boiss.) Steudel,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Poales,Poaceae,Pappophorum,,persicum,,Sinónimo
 959,Pedrosia campylocladus var. spartioides (Webb) Brand,Variety,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Pedrosia,,campylocladus,spartioides,Sinónimo
@@ -2918,29 +2746,14 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 10852,Lacerta viridis,Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Lacerta,,viridis,,Sinónimo
 27466,"Dendrocygna bicolor (Vieillot, 1816)",Species,Desconocido,Aves,Animalia,Chordata,Aves,Anseriformes,Anatidae,Dendrocygna,,bicolor,,Aceptado/válido
 27467,"Glaucidium passerinum (Linnaeus, 1758)",Species,,Aves,Animalia,Chordata,Aves,Strigiformes,Strigidae,Glaucidium,,passerinum,,Aceptado/válido
-27500,"Deronectes moestus (Fairmaire, 1858)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Deronectes,,moestus,,Aceptado/válido
 27501,"Eretes griseus (Fabricius, 1781)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Eretes,,griseus,,Aceptado/válido
-27502,"Haliplus sibiricus MOTSCHULSKY, 1860",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Haliplidae,Haliplus,Haliplus,sibiricus,,Aceptado/válido
-27503,"Helophorus cincticollis Guilleveau, 1893",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,cincticollis,,Aceptado/válido
-27504,"Helophorus illustris Sharp, 1916",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,illustris,,Aceptado/válido
-27505,"Helophorus jocoteroi Angus y Díaz-Pazos, 1991",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,jocoteroi,,Aceptado/válido
-27506,"Helophorus korotyaevi Angus, 1985",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,korotyaevi,,Aceptado/válido
-27507,"Helophorus lapponicus Thomson, 1853",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,lapponicus,,Aceptado/válido
-27508,"Helophorus leontis Angus, 1985",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,leontis,,Aceptado/válido
 27509,"Helophorus longitarsis Wollaston, 1864",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,longitarsis,,Aceptado/válido
-27510,"Helophorus maritimus Rey, 1885",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Helophorus,maritimus,,Aceptado/válido
-27511,"Helophorus minutus Fabricius, 1775",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,minutus,,Aceptado/válido
-27512,"Helophorus nevadensis Sharp, 1916",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,nevadensis,,Aceptado/válido
 27513,"Helophorus nubilus Fabricius, 1777",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Empleurus,nubilus,,Aceptado/válido
-27514,"Helophorus obscurus Mulsant, 1844",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Rhopalohelophorus,obscurus,,Aceptado/válido
-27515,"Helophorus occidentalis Angus, 1983",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Helophoridae,Helophorus,Helophorus,occidentalis,,Aceptado/válido
-27516,"Hemisphaera guignoti Schaefer, 1975",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Hemisphaera,,guignoti,,Aceptado/válido
 27517,"Hemisphaera seriatopunctata (Perris, 1874)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Hemisphaera,,seriatopunctata,,Aceptado/válido
 27518,"Hydraena angulosa Mulsant, 1844",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,,angulosa,,Aceptado/válido
 27519,"Hydroscapha crotchi Sharp, 1874",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydroscaphidae,Hydroscapha,,crotchi,,Aceptado/válido
 27520,"Macronychus quadrituberculatus Müller, 1806",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Macronychus,,quadrituberculatus,,Aceptado/válido
 27521,"Ochthebius impressipennis Rey, 1866",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Asiobates,impressipennis,,Aceptado/válido
-27523,"Oreodytes sanmarkii alienus (Shalberg, 1826)",Subspecies,,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Oreodytes,,sanmarkii,alienus,Aceptado/válido
 27524,"Oulimnius perezi (Sharp, 1872)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Elmidae,Oulimnius,,perezi,,Aceptado/válido
 27525,"Chaetarthria simillima Vorst & Cuppen, 2003",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydrophilidae,Chaetarthria,,simillima,,Aceptado/válido
 10752,Rutilus arcasii,Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Rutilus,,arcasii,,Sinónimo
@@ -2949,7 +2762,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 11576,Rutilus lemmingii,Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Rutilus,,lemmingii,,Sinónimo
 10659,Rutilus alburnoides,Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Cypriniformes,Cyprinidae,Rutilus,,alburnoides,,Sinónimo
 28005,"Acanthis flammea (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Passeriformes,Fringillidae,Acanthis,,flammea,,Aceptado/válido
-28080,"Aix sponsa (Linnaeus, 1758)",Species,Desconocido,Aves,Animalia,Chordata,Aves,Anseriformes,Anatidae,Aix,,sponsa,,Aceptado/válido
 28205,"Anser caerulescens (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Anseriformes,Anatidae,Anser,,caerulescens,,Aceptado/válido
 11014,"Aquila heliaca adalberti C. L. Brehm, 1861",Subspecies,Especie nativa,Aves,Animalia,Chordata,Aves,Accipitriformes,Accipitridae,Aquila,,heliaca,adalberti,Sinónimo
 10732,"Atherina mochon Cuvier, 1829",Species,Especie nativa,Peces,Animalia,Chordata,Actinopterygii,Atheriniformes,Atherinidae,Atherina,,mochon,,Sinónimo
@@ -3126,7 +2938,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 36571,"Diegus gasulli (Boeters, 1981)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Littorinimorpha,Hydrobiidae,Diegus,,gasulli,,Aceptado/válido
 36626,"Timon nevadensis (Buchholz, 1963)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Timon,,nevandensis,,Aceptado/válido
 36635,"Indotyphlops braminus (Daudin, 1803)",Species,Especie no nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Typhlopidae,Indotyphlops,,braminus,,Aceptado/válido
-36636,"Lampropeltis californiae (Blainville, 1855)",Species,Especie no nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Colubridae,Lampropeltis,,californiae,,Aceptado/válido
 36637,"Natrix astreptophora (López-Seoane, 1884)",Species,Especie nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Natricidae,Natrix,,astreptophora,,Aceptado/válido
 36638,"Teira dugesii (Milne-Edwards, 1829)",Species,Especie no nativa,Reptiles,Animalia,Chordata,Reptilia,Squamata,Lacertidae,Teira,,dugesii,,Aceptado/válido
 36639,"Antigone canadensis (Linnaeus, 1758)",Species,Especie nativa,Aves,Animalia,Chordata,Aves,Gruiformes,Gruidae,Antigone,,canadensis,,Aceptado/válido
@@ -3599,12 +3410,10 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 53532,"Deganta azarum (Boeters y Rolán, 1988)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Littorinimorpha,Hydrobiidae,Deganta,,azarum,,Aceptado/válido
 12257,Horatia sturmi,Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Littorinimorpha,Hydrobiidae,Horatia,,sturmi,,Sinónimo
 54569,"Hydraena servilia Orchymont, 1936",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Hydraena,Hydraena,servilia,,Aceptado/válido
-57032,"Iberonectes bertrandi Legros, 1956",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Dytiscidae,Iberonectes,,bertrandi,,Aceptado/válido
 60729,"Ochthebius exaratus Mulsant, 1844",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Hydraenidae,Ochthebius,Aulacochthebius,exaratus,,Aceptado/válido
 68623,"Rhyncomyia italica Bezzi, 1911",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Diptera,Rhiniidae,Rhyncomyia,,italica,,Aceptado/válido
 10964,"Pyrenaearia esserana (Bourguignat in Fagot, 1888)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Stylommatophora,Hygromiidae,Pyrenaearia,,esserana,,Sinónimo
 11583,"Solenoxyphus minor Wagner, 1969",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Hemiptera,Miridae,Solenoxyphus,,minor,,Sinónimo
-77005,"Theodoxus meridionalis (Philippi, 1836)",Species,Especie nativa,Invertebrados,Animalia,Mollusca,Gastropoda,Cycloneritida,Neritidae,Theodoxus,,meridionalis,,Aceptado/válido
 12035,"Thorectes punctatissimus (Chevrolat, 1840)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Geotrupidae,Thorectes,,punctatissimus,,Sinónimo
 12036,"Thorectes punctatolineatus (François, 1904)",Species,Especie nativa,Invertebrados,Animalia,Arthropoda,Insecta,Coleoptera,Geotrupidae,Thorectes,,punctatolineatus,,Sinónimo
 78634,Solenostoma handelii (Schiffn.) Müll.Frib.,Species,Especie nativa,Plantas no vasculares,Plantae,Marchantiophyta,Jungermanniopsida,Jungermanniales,Solenostomataceae,Solenostoma,,handelii,,Aceptado/válido
@@ -3837,7 +3646,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 3758,Cheilanthes catanensis (Cosent.) H.P. Fuchs,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Polypodiopsida,Polypodiales,Pteridaceae,Cheilanthes,,catanensis,,Sinónimo
 3941,Genista balansae (Boiss.) Rouy,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Genista,,balansae,,Sinónimo
 3942,Sarothamnus vulgaris Wimm.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Sarothamnus,,vulgaris,,Sinónimo
-4046,Digitalis dubia J.J. Rodr.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Plantaginaceae,Digitalis,,dubia,,Sinónimo
 4359,Equisetum tenue J. & C.C.Presl,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Polypodiopsida,Equisetales,Equisetaceae,Equisetum,,tenue,,Sinónimo
 4401,Eryngium juresianum (M. Laínz) M. Laínz,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Apiales,Apiaceae,Eryngium,,juresianum,,Sinónimo
 5102,Helianthemum lavandulifolium Mill.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Malvales,Cistaceae,Helianthemum,,lavandulifolium,,Sinónimo
@@ -3847,7 +3655,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 6574,Nigella hispanica L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Ranunculales,Ranunculaceae,Nigella,,hispanica,,Sinónimo
 6635,Oenothera erythrosepala Borbás,Species,Especie no nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Myrtales,Onagraceae,Oenothera,,erythrosepala,,Sinónimo
 82594,Oryzopsis miliacea (L.) Asch. & Schweinf.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Poales,Poaceae,Oryzopsis,,miliacea,,Sinónimo
-10104,Oryzopsis coerulescens (Desf.) Hack.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Poales,Poaceae,Oryzopsis,,coerulescens,,Sinónimo
 7182,Platanus hybrida Brot.,Species,Especie no nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Proteales,Platanaceae,Platanus,,hybrida,,Sinónimo
 7480,Quercus clementei C.Vicioso,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fagales,Fagaceae,Quercus,,clementei,,Sinónimo
 7595,"Rubus bifrons auct., non Vest.",Nombre mal aplicado,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Rosales,Rosaceae,Rubus,,bifrons,,Sinónimo
@@ -3864,19 +3671,15 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 9149,Umbilicus horizontalis (Guss.) DC.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Saxifragales,Crassulaceae,Umbilicus,,horizontalis,,Sinónimo
 82594,Oloptum miliaceum (L.) Röser & Hamasha,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Poales,Poaceae,Oloptum,,miliaceum,,Aceptado/válido
 2024,Allium schoenoprasum subsp. orosiae P. Monts.,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Asparagales,Amaryllidaceae,Allium,,schoenoprasum,orosiae,Sinónimo
-1847,Anagallis monelli subsp. collina (Schousb.) Maire,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Ericales,Primulaceae,Anagallis,,monelli,collina,Sinónimo
-1847,Anagallis monelli subsp. monelli sensu O. Bolòs & al.,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Ericales,Primulaceae,Anagallis,,monelli,monelli,Sinónimo
 2506,Arum italicum subsp. neglectum (Towns.) Prime,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Alismatales,Araceae,Arum,,italicum,neglectum,Sinónimo
 2802,Bryonia cretica subsp. dioica (Jacq.) Tutin,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Cucurbitales,Cucurbitaceae,Bryonia,,cretica,dioica,Sinónimo
 3115,"Carex muricata subsp. lamprocarpa auct., non ?elak.",Nombre mal aplicado,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Poales,Cyperaceae,Carex,,muricata,lamprocarpa,Sinónimo
 3180,"Carthamus lanatus subsp. lanatus Linnaeus, 1753",Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Carthamus,,lanatus,lanatus,Sinónimo
 3857,Crataegus monogyna subsp. azarella (Griseb.) Franco,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Rosales,Rosaceae,Crataegus,,monogyna,azarella,Sinónimo
 4043,Digitalis purpurea subsp. mariana (Boiss.) Rivas Goday,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Plantaginaceae,Digitalis,,purpurea,mariana,Sinónimo
-4046,Digitalis dubia subsp. palaui Garcias Font & Marcos,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Plantaginaceae,Digitalis,,dubia,palaui,Sinónimo
 4384,Eruca vesicaria subsp. sativa (Mill.) Thell. in Hegi,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Brassicales,Brassicaceae,Eruca,,vesicaria,sativa,Sinónimo
 4879,Genista cinerea subsp. ausetana O. Bolòs & Vigo,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Genista,,cinerea,ausetana,Sinónimo
 4883,Genista cinerea subsp. rosmarinetorum O. Bolòs & Vigo,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Genista,,cinerea,rosmarinetorum,Sinónimo
-4898,Genista hystrix subsp. legionensis (Pau) P.E. Gibbs,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Genista,,hystrix,legionensis,Sinónimo
 4958,Helianthemum almeriense subsp. scopulorum (Rouy) Alcaraz & al.,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Malvales,Cistaceae,Helianthemum,,almeriense,scopulorum,Sinónimo
 5089,Helianthemum nummularium subsp. pyrenaicum (Janch.) Hegi,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Malvales,Cistaceae,Helianthemum,,nummularium,pyrenaicum,Sinónimo
 5156,Herniaria hirsuta subsp. cinerea (DC.) Arcang.,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Herniaria,,hirsuta,cinerea,Sinónimo
@@ -3897,7 +3700,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 8490,Solanum luteum subsp. alatum (Moench) Dostál,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Solanales,Solanaceae,Solanum,,luteum,alatum,Sinónimo
 8641,Stellaria media subsp. media,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Stellaria,,media,media,Sinónimo
 8932,Thymus longiflorus subsp. ciliatus (Sandwith ex Lacaita) Rivas Mart.,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Lamiaceae,Thymus,,longiflorus,ciliatus,Sinónimo
-9281,Verbascum thapsus subsp. giganteum (Willk.) Nyman,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Scrophulariaceae,Verbascum,,thapsus,giganteum,Sinónimo
 2029,Allium paniculatum subsp. pallens (L.) K.Richt.,Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Asparagales,Amaryllidaceae,Allium,,paniculatum,pallens,Sinónimo
 3366,Centaurium tenuiflorum var. tenuiflorum (Hoffmanns. & Link) Fritsch,Variety,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Gentianaceae,Centaurium,,tenuiflorum,tenuiflorum,Sinónimo
 159,"Chamaemelum nobile var. aureum (L.) Ladero, C.J.Valle, M.T.Santos, T.Ruíz & Fern.-Arias",Variety,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Chamaemelum,,nobile,aureum,Sinónimo
@@ -3969,7 +3771,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 3741,Lepidium navasii (Pau) Al-Shehbaz,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Brassicales,Brassicaceae,Lepidium,,navasii,,Aceptado/válido
 1843,Lysimachia minima (L.) U. Manns & Anderb.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Ericales,Primulaceae,Lysimachia,,minima,,Aceptado/válido
 1845,Lysimachia foemina (Mill.) U. Manns & Anderb.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Ericales,Primulaceae,Lysimachia,,foemina,,Aceptado/válido
-1847,Lysimachia monelli (L.) U. Manns & Anderb.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Ericales,Primulaceae,Lysimachia,,monelli,,Aceptado/válido
 3265,Centaurea genesiilopezii Fern. Casas & Susanna,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Centaurea,,genesiilopezii,,Variación ortográfica/Chresónimo
 1016,Digitalis canariensis L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Lamiales,Plantaginaceae,Digitalis,,canariensis,,Aceptado/válido
 24401,"Fritillaria pyrenaica subsp. falcata (E. Rico) R. Alonso, de Paz & M.E. García",Subspecies,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Liliales,Liliaceae,Fritillaria,,pyrenaica,falcata,Aceptado/válido
@@ -3984,7 +3785,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 8689,Noccaea occitanica (Jord.) F.K. Mey.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Brassicales,Brassicaceae,Noccaea,,occitanica,,Aceptado/válido
 24404,"Pentanema bifrons (L.) D. Gut. Larr., Santos-Vicente, Anderb., E. Rico & M.M. Mart. Ort.",Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Pentanema,,bifrons,,Aceptado/válido
 674,Jacobaea auricula (Coss.) Pelser,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Asterales,Asteraceae,Jacobaea,,auricula,,Aceptado/válido
-4136,Lotus hirsutus L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Lotus,,hirsutus,,Aceptado/válido
 4139,Lotus rectus L.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Lotus,,rectus,,Aceptado/válido
 895,Lotus broussonetii Ser.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Lotus,,broussonetii,,Aceptado/válido
 80569,Festuca donyanae Devesa & Martínez-Sagarra,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Poales,Poaceae,Festuca,,donyanae,,Aceptado/válido
@@ -3998,9 +3798,7 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 6797,Cathissa reverchonii (Willk.) Speta,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Asparagales,Asparagaceae,Cathissa,,reverchonii,,Aceptado/válido
 8557,Aria edulis (Willd.) M. Roem.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Rosales,Rosaceae,Aria,,edulis,,Aceptado/válido
 3511,Blitum bonus-henricus (L.) Rchb.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Amaranthaceae,Blitum,,bonus-henricus,,Aceptado/válido
-8564,Karpatiosorbus latifolia (Lam.) Sennikov & Kurtto,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Rosales,Rosaceae,Karpatiosorbus,,latifolia,,Aceptado/válido
 622,Polygaloides balansae (Coss.) O. Schwarz,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Fabales,Polygalaceae,Polygaloides,,balansae,,Aceptado/válido
-8566,Torminalis glaberrima (Gand.) Sennikov & Kurtto,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Rosales,Rosaceae,Torminalis,,glaberrima,,Aceptado/válido
 6377,Arenaria tejedensis (Willk.) Fior & P.O. Karis,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Caryophyllales,Caryophyllaceae,Arenaria,,tejedensis,,Aceptado/válido
 9153,Squilla maritima (L.) Steinh.,Species,Especie nativa,Plantas vasculares,Plantae,Tracheophyta,Liliopsida,Asparagales,Asparagaceae,Erythrostemon,,maritima,,Aceptado/válido
 7182,Platanus acerifolia,Species,Especie no nativa,Plantas vasculares,Plantae,Tracheophyta,Magnoliopsida,Proteales,Platanaceae,Platanus,,acerifolia,,Sinónimo
@@ -4070,7 +3868,6 @@ taxonid,name,taxonrank,origen,taxonomicgroup,kingdom,phylum,class,order,family,g
 2506,"Arum italicum subsp. majoricense (Chodat) O.Bolòs, Masalles & Vigo",Subspecies,Especie nativa,,Plantae,Tracheophyta,Liliopsida,Alismatales,Araceae,Arum,,italicum,majoricense,Sinónimo
 2866,Caralluma europaea subsp. europaea,Subspecies,Especie nativa,,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Apocynaceae,Caralluma,,europaea,europaea,Sinónimo
 33120,Quercus humilis subsp. humilis,Subspecies,Especie nativa,,Plantae,Tracheophyta,Magnoliopsida,Fagales,Fagaceae,Quercus,,humilis,humilis,Sinónimo
-3357,Centaurium pulchellum subsp. pulchellum,Subspecies,Especie nativa,,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Gentianaceae,Centaurium,,pulchellum,pulchellum,Sinónimo
 3812,Cytisus arboreus subsp. arboreus,Subspecies,Especie nativa,,Plantae,Tracheophyta,Magnoliopsida,Fabales,Fabaceae,Cytisus,,arboreus,arboreus,Sinónimo
 4933,Gentiana acaulis subsp. acaulis,Subspecies,Especie nativa,,Plantae,Tracheophyta,Magnoliopsida,Gentianales,Gentianaceae,Gentiana,,acaulis,acaulis,Sinónimo
 5078,Helianthemum hirtum subsp. hirtum,Subspecies,Especie nativa,,Plantae,Tracheophyta,Magnoliopsida,Malvales,Cistaceae,Helianthemum,,hirtum,hirtum,Sinónimo
