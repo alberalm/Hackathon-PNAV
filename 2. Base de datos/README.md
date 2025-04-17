@@ -4,4 +4,8 @@ Esta carpeta contiene las tablas con las que se ha poblado la base de datos. Est
 - Se filtraron las especies para las que existían ubicaciones y buenas descripciones de todas las tablas.
 - Se eliminaron columnas innecesarias.
 
+Para el segundo punto, véanse el archivo ``consistency_checker.ipynb`` y la carpeta ``Filtrado descripciones``.
+
 Otros datos, como los archivos ``.shp`` que describían el recorrido de las rutas y los puntos de interés turísticos, no se tienen en cuenta para la base de datos.
+
+Finalmente, se ingestaron todas las tablas en una base de datos SQL, tal y como se muestra en el archivo ``ingesta_datos.ipynb``.
