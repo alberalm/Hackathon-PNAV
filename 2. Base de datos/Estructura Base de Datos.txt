@@ -1,0 +1,61 @@
+CREATE TABLE [dbo].[Cuadriculas](
+	[CUADRICULA] [nchar](7) NOT NULL,
+	[CCAA] [text] NULL,
+	[Provincia] [text] NULL
+)
+
+CREATE TABLE [dbo].[CuadriculasEspecies](
+	[idtaxon] [int] NOT NULL,
+	[cuadricula] [nchar](7) NOT NULL
+)
+
+CREATE TABLE [dbo].[CuadriculasRutas](
+	[ID_Ruta] [int] NULL,
+	[CUADRICULA] [nchar](7) NULL
+)
+
+CREATE TABLE [dbo].[DescripcionesEspecies](
+	[idtaxon] [int] NOT NULL,
+	[Fuente] [text] NOT NULL,
+	[Descripcion] [text] NOT NULL,
+	[Gemini1] [text] NOT NULL,
+	[Gemini2] [text] NOT NULL,
+	[Gemini3] [text] NOT NULL
+)
+
+CREATE TABLE [dbo].[NombresEspecies](
+	[idtaxon] [int] NULL,
+	[nombre_aceptado] [text] NULL,
+	[nombre_comun] [text] NULL,
+	[idioma] [text] NULL,
+	[espreferente] [int] NULL
+)
+
+CREATE TABLE [dbo].[Rutas](
+	[ID_Ruta] [int] NOT NULL,
+	[Nombre_Ruta] [text] NULL,
+	[Nombre_Etapa] [text] NULL,
+	[Longitud] [float] NULL,
+	[Descripcion] [text] NULL,
+	[Nombre_Ingles] [text] NULL,
+	[CCAA] [text] NULL,
+	[Provincia] [text] NULL,
+)
+
+CREATE TABLE [dbo].[Taxonomia](
+	[taxonid] [int] NOT NULL,
+	[name] [text] NULL,
+	[taxonrank] [text] NULL,
+	[origen] [text] NULL,
+	[taxonomicgroup] [text] NULL,
+	[kingdom] [text] NULL,
+	[phylum] [text] NULL,
+	[class] [text] NULL,
+	[taxonorder] [text] NULL,
+	[family] [text] NULL,
+	[genus] [text] NULL,
+	[subgenus] [text] NULL,
+	[specificepithet] [text] NULL,
+	[infraspecificepithet] [text] NULL,
+	[nametype] [text] NULL
+)
