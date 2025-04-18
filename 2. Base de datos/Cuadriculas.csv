@@ -1149,8 +1149,6 @@ CUADRICULA,CCAA,Provincia
 29TPJ54,,
 29TPJ53,,
 29TPJ52,Galicia,Lugo
-29TPJ52,Galicia,Asturias
-29TPJ52,Principado de Asturias,Lugo
 29TPJ52,Principado de Asturias,Asturias
 29TPJ66,,
 29TPJ65,,
@@ -1298,8 +1296,6 @@ CUADRICULA,CCAA,Provincia
 29TPJ21,Galicia,Lugo
 29TPJ31,Galicia,Lugo
 29TPJ41,Galicia,Lugo
-29TPJ41,Galicia,Asturias
-29TPJ41,Principado de Asturias,Lugo
 29TPJ41,Principado de Asturias,Asturias
 29TLM22,,
 29TLM32,,
@@ -1499,8 +1495,6 @@ CUADRICULA,CCAA,Provincia
 29TNJ10,,
 29TNJ20,,
 29TPJ51,Galicia,Lugo
-29TPJ51,Galicia,Asturias
-29TPJ51,Principado de Asturias,Lugo
 29TPJ51,Principado de Asturias,Asturias
 29TPJ61,Principado de Asturias,Asturias
 29TPJ71,Principado de Asturias,Asturias
@@ -1875,13 +1869,9 @@ CUADRICULA,CCAA,Provincia
 29TMH99,,
 29TNH09,Galicia,A Coruña
 29TPJ40,Galicia,Lugo
-29TPJ40,Galicia,Asturias
-29TPJ40,Principado de Asturias,Lugo
 29TPJ40,Principado de Asturias,Asturias
 29TNH19,Galicia,A Coruña
 29TPJ50,Galicia,Lugo
-29TPJ50,Galicia,Asturias
-29TPJ50,Principado de Asturias,Lugo
 29TPJ50,Principado de Asturias,Asturias
 29TNH29,Galicia,A Coruña
 29TPJ60,Principado de Asturias,Asturias
@@ -1918,8 +1908,6 @@ CUADRICULA,CCAA,Provincia
 30TUP72,,
 30TUP71,,
 30TUP70,Cantabria,Cantabria
-30TUP70,Cantabria,Asturias
-30TUP70,Principado de Asturias,Cantabria
 30TUP70,Principado de Asturias,Asturias
 30TUP84,,
 30TUP83,,
@@ -1939,10 +1927,8 @@ CUADRICULA,CCAA,Provincia
 30TVP70,Cantabria,Cantabria
 30TVP82,,
 30TVP81,,
-30TVP80,País Vasco/Euskadi,Cantabria
-30TVP80,País Vasco/Euskadi,Bizkaia
 30TVP80,Cantabria,Cantabria
-30TVP80,Cantabria,Bizkaia
+30TVP80,País Vasco/Euskadi,Bizkaia
 30TVP90,País Vasco/Euskadi,Bizkaia
 30TWP00,País Vasco/Euskadi,Bizkaia
 30TWP10,País Vasco/Euskadi,Bizkaia
@@ -2223,8 +2209,6 @@ CUADRICULA,CCAA,Provincia
 29TPH49,Galicia,Lugo
 29TNH18,Galicia,A Coruña
 29TPH59,Galicia,Lugo
-29TPH59,Galicia,Asturias
-29TPH59,Principado de Asturias,Lugo
 29TPH59,Principado de Asturias,Asturias
 29TNH28,Galicia,A Coruña
 29TPH69,Principado de Asturias,Asturias
@@ -2256,16 +2240,10 @@ CUADRICULA,CCAA,Provincia
 30TUN39,Principado de Asturias,Asturias
 30TUN49,Principado de Asturias,Asturias
 30TUN59,Cantabria,Cantabria
-30TUN59,Cantabria,Asturias
-30TUN59,Principado de Asturias,Cantabria
 30TUN59,Principado de Asturias,Asturias
 30TUN69,Cantabria,Cantabria
-30TUN69,Cantabria,Asturias
-30TUN69,Principado de Asturias,Cantabria
 30TUN69,Principado de Asturias,Asturias
 30TUN79,Cantabria,Cantabria
-30TUN79,Cantabria,Asturias
-30TUN79,Principado de Asturias,Cantabria
 30TUN79,Principado de Asturias,Asturias
 30TUN89,Cantabria,Cantabria
 30TUN99,Cantabria,Cantabria
@@ -2275,18 +2253,12 @@ CUADRICULA,CCAA,Provincia
 30TVN39,Cantabria,Cantabria
 30TVN49,Cantabria,Cantabria
 30TVN59,Cantabria,Cantabria
-30TVN69,País Vasco/Euskadi,Cantabria
-30TVN69,País Vasco/Euskadi,Bizkaia
 30TVN69,Cantabria,Cantabria
-30TVN69,Cantabria,Bizkaia
-30TVN79,País Vasco/Euskadi,Cantabria
-30TVN79,País Vasco/Euskadi,Bizkaia
+30TVN69,País Vasco/Euskadi,Bizkaia
 30TVN79,Cantabria,Cantabria
-30TVN79,Cantabria,Bizkaia
-30TVN89,País Vasco/Euskadi,Cantabria
-30TVN89,País Vasco/Euskadi,Bizkaia
+30TVN79,País Vasco/Euskadi,Bizkaia
 30TVN89,Cantabria,Cantabria
-30TVN89,Cantabria,Bizkaia
+30TVN89,País Vasco/Euskadi,Bizkaia
 30TVN99,País Vasco/Euskadi,Bizkaia
 30TWN09,País Vasco/Euskadi,Bizkaia
 30TWN19,País Vasco/Euskadi,Bizkaia
@@ -2301,12 +2273,8 @@ CUADRICULA,CCAA,Provincia
 30TWN79,País Vasco/Euskadi,Gipuzkoa
 30TWN89,País Vasco/Euskadi,Gipuzkoa
 30TWN99,Comunidad Foral de Navarra,Navarra
-30TWN99,Comunidad Foral de Navarra,Gipuzkoa
-30TWN99,País Vasco/Euskadi,Navarra
 30TWN99,País Vasco/Euskadi,Gipuzkoa
 30TXN09,Comunidad Foral de Navarra,Navarra
-30TXN09,Comunidad Foral de Navarra,Gipuzkoa
-30TXN09,País Vasco/Euskadi,Navarra
 30TXN09,País Vasco/Euskadi,Gipuzkoa
 30TXN19,Comunidad Foral de Navarra,Navarra
 30TXN29,Comunidad Foral de Navarra,Navarra
@@ -2929,18 +2897,12 @@ CUADRICULA,CCAA,Provincia
 29TPH48,Galicia,Lugo
 29TNH17,Galicia,A Coruña
 29TPH58,Galicia,Lugo
-29TPH58,Galicia,Asturias
-29TPH58,Principado de Asturias,Lugo
 29TPH58,Principado de Asturias,Asturias
 29TNH27,Galicia,A Coruña
 29TPH68,Galicia,Lugo
-29TPH68,Galicia,Asturias
-29TPH68,Principado de Asturias,Lugo
 29TPH68,Principado de Asturias,Asturias
 29TNH37,Galicia,A Coruña
 29TPH78,Galicia,Lugo
-29TPH78,Galicia,Asturias
-29TPH78,Principado de Asturias,Lugo
 29TPH78,Principado de Asturias,Asturias
 29TNH47,Galicia,A Coruña
 29TPH88,Principado de Asturias,Asturias
@@ -2966,26 +2928,12 @@ CUADRICULA,CCAA,Provincia
 30TUN18,Principado de Asturias,Asturias
 30TUN28,Principado de Asturias,Asturias
 30TUN38,Castilla y León,León
-30TUN38,Castilla y León,Asturias
-30TUN38,Principado de Asturias,León
 30TUN38,Principado de Asturias,Asturias
-30TUN48,Castilla y León,Cantabria
-30TUN48,Castilla y León,León
-30TUN48,Castilla y León,Asturias
 30TUN48,Cantabria,Cantabria
-30TUN48,Cantabria,León
-30TUN48,Cantabria,Asturias
-30TUN48,Principado de Asturias,Cantabria
-30TUN48,Principado de Asturias,León
+30TUN48,Castilla y León,León
 30TUN48,Principado de Asturias,Asturias
-30TUN58,Castilla y León,Cantabria
-30TUN58,Castilla y León,León
-30TUN58,Castilla y León,Asturias
 30TUN58,Cantabria,Cantabria
-30TUN58,Cantabria,León
-30TUN58,Cantabria,Asturias
-30TUN58,Principado de Asturias,Cantabria
-30TUN58,Principado de Asturias,León
+30TUN58,Castilla y León,León
 30TUN58,Principado de Asturias,Asturias
 30TUN68,Cantabria,Cantabria
 30TUN78,Cantabria,Cantabria
@@ -2996,22 +2944,14 @@ CUADRICULA,CCAA,Provincia
 30TVN28,Cantabria,Cantabria
 30TVN38,Cantabria,Cantabria
 30TVN48,Castilla y León,Burgos
-30TVN48,Castilla y León,Cantabria
-30TVN48,Cantabria,Burgos
 30TVN48,Cantabria,Cantabria
 30TVN58,Cantabria,Cantabria
-30TVN68,País Vasco/Euskadi,Cantabria
-30TVN68,País Vasco/Euskadi,Bizkaia
 30TVN68,Cantabria,Cantabria
-30TVN68,Cantabria,Bizkaia
-30TVN78,País Vasco/Euskadi,Burgos
-30TVN78,País Vasco/Euskadi,Bizkaia
+30TVN68,País Vasco/Euskadi,Bizkaia
 30TVN78,Castilla y León,Burgos
-30TVN78,Castilla y León,Bizkaia
-30TVN88,País Vasco/Euskadi,Burgos
-30TVN88,País Vasco/Euskadi,Bizkaia
+30TVN78,País Vasco/Euskadi,Bizkaia
 30TVN88,Castilla y León,Burgos
-30TVN88,Castilla y León,Bizkaia
+30TVN88,País Vasco/Euskadi,Bizkaia
 30TVN98,País Vasco/Euskadi,Araba/Álava
 30TVN98,País Vasco/Euskadi,Bizkaia
 30TWN08,País Vasco/Euskadi,Araba/Álava
@@ -3026,8 +2966,6 @@ CUADRICULA,CCAA,Provincia
 30TWN78,País Vasco/Euskadi,Gipuzkoa
 30TWN88,País Vasco/Euskadi,Gipuzkoa
 30TWN98,Comunidad Foral de Navarra,Navarra
-30TWN98,Comunidad Foral de Navarra,Gipuzkoa
-30TWN98,País Vasco/Euskadi,Navarra
 30TWN98,País Vasco/Euskadi,Gipuzkoa
 30TXN08,Comunidad Foral de Navarra,Navarra
 30TXN18,Comunidad Foral de Navarra,Navarra
@@ -3083,13 +3021,9 @@ CUADRICULA,CCAA,Provincia
 29TPH57,Galicia,Lugo
 29TNH26,Galicia,A Coruña
 29TPH67,Galicia,Lugo
-29TPH67,Galicia,Asturias
-29TPH67,Principado de Asturias,Lugo
 29TPH67,Principado de Asturias,Asturias
 29TNH36,Galicia,A Coruña
 29TPH77,Galicia,Lugo
-29TPH77,Galicia,Asturias
-29TPH77,Principado de Asturias,Lugo
 29TPH77,Principado de Asturias,Asturias
 29TNH46,Galicia,A Coruña
 29TPH87,Principado de Asturias,Asturias
@@ -3099,60 +3033,36 @@ CUADRICULA,CCAA,Provincia
 29TQH07,Principado de Asturias,Asturias
 29TNH76,Galicia,A Coruña
 29TQH17,Castilla y León,León
-29TQH17,Castilla y León,Asturias
-29TQH17,Principado de Asturias,León
 29TQH17,Principado de Asturias,Asturias
 29TNH86,Galicia,Lugo
 29TNH86,Galicia,A Coruña
 29TQH27,Principado de Asturias,Asturias
 29TNH96,Galicia,Lugo
 29TQH37,Castilla y León,León
-29TQH37,Castilla y León,Asturias
-29TQH37,Principado de Asturias,León
 29TQH37,Principado de Asturias,Asturias
 29TPH06,Galicia,Lugo
 29TQH47,Castilla y León,León
-29TQH47,Castilla y León,Asturias
-29TQH47,Principado de Asturias,León
 29TQH47,Principado de Asturias,Asturias
 30TTN57,Castilla y León,León
-30TTN57,Castilla y León,Asturias
-30TTN57,Principado de Asturias,León
 30TTN57,Principado de Asturias,Asturias
 30TTN67,Principado de Asturias,Asturias
 30TTN77,Castilla y León,León
-30TTN77,Castilla y León,Asturias
-30TTN77,Principado de Asturias,León
 30TTN77,Principado de Asturias,Asturias
 30TTN87,Castilla y León,León
-30TTN87,Castilla y León,Asturias
-30TTN87,Principado de Asturias,León
 30TTN87,Principado de Asturias,Asturias
 30TTN97,Principado de Asturias,Asturias
 30TUN07,Castilla y León,León
-30TUN07,Castilla y León,Asturias
-30TUN07,Principado de Asturias,León
 30TUN07,Principado de Asturias,Asturias
 30TUN17,Castilla y León,León
-30TUN17,Castilla y León,Asturias
-30TUN17,Principado de Asturias,León
 30TUN17,Principado de Asturias,Asturias
 30TUN27,Castilla y León,León
-30TUN27,Castilla y León,Asturias
-30TUN27,Principado de Asturias,León
 30TUN27,Principado de Asturias,Asturias
 30TUN37,Castilla y León,León
-30TUN37,Castilla y León,Asturias
-30TUN37,Principado de Asturias,León
 30TUN37,Principado de Asturias,Asturias
-30TUN47,Castilla y León,Cantabria
-30TUN47,Castilla y León,León
 30TUN47,Cantabria,Cantabria
-30TUN47,Cantabria,León
-30TUN57,Castilla y León,Cantabria
-30TUN57,Castilla y León,León
+30TUN47,Castilla y León,León
 30TUN57,Cantabria,Cantabria
-30TUN57,Cantabria,León
+30TUN57,Castilla y León,León
 30TUN67,Cantabria,Cantabria
 30TUN77,Cantabria,Cantabria
 30TUN87,Cantabria,Cantabria
@@ -3161,36 +3071,19 @@ CUADRICULA,CCAA,Provincia
 30TVN17,Cantabria,Cantabria
 30TVN27,Cantabria,Cantabria
 30TVN37,Castilla y León,Burgos
-30TVN37,Castilla y León,Cantabria
-30TVN37,Cantabria,Burgos
 30TVN37,Cantabria,Cantabria
 30TVN47,Castilla y León,Burgos
-30TVN47,Castilla y León,Cantabria
-30TVN47,Cantabria,Burgos
 30TVN47,Cantabria,Cantabria
 30TVN57,Castilla y León,Burgos
-30TVN57,Castilla y León,Cantabria
-30TVN57,Cantabria,Burgos
 30TVN57,Cantabria,Cantabria
-30TVN67,País Vasco/Euskadi,Burgos
-30TVN67,País Vasco/Euskadi,Cantabria
-30TVN67,País Vasco/Euskadi,Bizkaia
 30TVN67,Castilla y León,Burgos
-30TVN67,Castilla y León,Cantabria
-30TVN67,Castilla y León,Bizkaia
-30TVN67,Cantabria,Burgos
 30TVN67,Cantabria,Cantabria
-30TVN67,Cantabria,Bizkaia
-30TVN77,País Vasco/Euskadi,Burgos
-30TVN77,País Vasco/Euskadi,Bizkaia
+30TVN67,País Vasco/Euskadi,Bizkaia
 30TVN77,Castilla y León,Burgos
-30TVN77,Castilla y León,Bizkaia
-30TVN87,País Vasco/Euskadi,Burgos
+30TVN77,País Vasco/Euskadi,Bizkaia
+30TVN87,Castilla y León,Burgos
 30TVN87,País Vasco/Euskadi,Araba/Álava
 30TVN87,País Vasco/Euskadi,Bizkaia
-30TVN87,Castilla y León,Burgos
-30TVN87,Castilla y León,Araba/Álava
-30TVN87,Castilla y León,Bizkaia
 30TVN97,País Vasco/Euskadi,Araba/Álava
 30TVN97,País Vasco/Euskadi,Bizkaia
 30TWN07,País Vasco/Euskadi,Araba/Álava
@@ -3206,12 +3099,8 @@ CUADRICULA,CCAA,Provincia
 30TWN67,País Vasco/Euskadi,Gipuzkoa
 30TWN77,País Vasco/Euskadi,Gipuzkoa
 30TWN87,Comunidad Foral de Navarra,Navarra
-30TWN87,Comunidad Foral de Navarra,Gipuzkoa
-30TWN87,País Vasco/Euskadi,Navarra
 30TWN87,País Vasco/Euskadi,Gipuzkoa
 30TWN97,Comunidad Foral de Navarra,Navarra
-30TWN97,Comunidad Foral de Navarra,Gipuzkoa
-30TWN97,País Vasco/Euskadi,Navarra
 30TWN97,País Vasco/Euskadi,Gipuzkoa
 30TXN07,Comunidad Foral de Navarra,Navarra
 30TXN17,Comunidad Foral de Navarra,Navarra
@@ -3268,13 +3157,9 @@ CUADRICULA,CCAA,Provincia
 29TPH56,Galicia,Lugo
 29TNH25,Galicia,A Coruña
 29TPH66,Galicia,Lugo
-29TPH66,Galicia,Asturias
-29TPH66,Principado de Asturias,Lugo
 29TPH66,Principado de Asturias,Asturias
 29TNH35,Galicia,A Coruña
 29TPH76,Galicia,Lugo
-29TPH76,Galicia,Asturias
-29TPH76,Principado de Asturias,Lugo
 29TPH76,Principado de Asturias,Asturias
 29TNH45,Galicia,A Coruña
 29TPH86,Principado de Asturias,Asturias
@@ -3282,96 +3167,59 @@ CUADRICULA,CCAA,Provincia
 29TPH96,Principado de Asturias,Asturias
 29TNH65,Galicia,A Coruña
 29TQH06,Castilla y León,León
-29TQH06,Castilla y León,Asturias
-29TQH06,Principado de Asturias,León
 29TQH06,Principado de Asturias,Asturias
 29TNH75,Galicia,A Coruña
 29TQH16,Castilla y León,León
-29TQH16,Castilla y León,Asturias
-29TQH16,Principado de Asturias,León
 29TQH16,Principado de Asturias,Asturias
 29TNH85,Galicia,Lugo
 29TNH85,Galicia,A Coruña
 29TQH26,Castilla y León,León
-29TQH26,Castilla y León,Asturias
-29TQH26,Principado de Asturias,León
 29TQH26,Principado de Asturias,Asturias
 29TNH95,Galicia,Lugo
 29TQH36,Castilla y León,León
-29TQH36,Castilla y León,Asturias
-29TQH36,Principado de Asturias,León
 29TQH36,Principado de Asturias,Asturias
 29TPH05,Galicia,Lugo
 29TQH46,Castilla y León,León
 30TTN56,Castilla y León,León
-30TTN56,Castilla y León,Asturias
-30TTN56,Principado de Asturias,León
 30TTN56,Principado de Asturias,Asturias
 30TTN66,Castilla y León,León
-30TTN66,Castilla y León,Asturias
-30TTN66,Principado de Asturias,León
 30TTN66,Principado de Asturias,Asturias
 30TTN76,Castilla y León,León
-30TTN76,Castilla y León,Asturias
-30TTN76,Principado de Asturias,León
 30TTN76,Principado de Asturias,Asturias
 30TTN86,Castilla y León,León
-30TTN86,Castilla y León,Asturias
-30TTN86,Principado de Asturias,León
 30TTN86,Principado de Asturias,Asturias
 30TTN96,Castilla y León,León
-30TTN96,Castilla y León,Asturias
-30TTN96,Principado de Asturias,León
 30TTN96,Principado de Asturias,Asturias
 30TUN06,Castilla y León,León
-30TUN06,Castilla y León,Asturias
-30TUN06,Principado de Asturias,León
 30TUN06,Principado de Asturias,Asturias
 30TUN16,Castilla y León,León
 30TUN26,Castilla y León,León
 30TUN36,Castilla y León,León
 30TUN46,Castilla y León,León
 30TUN56,Castilla y León,Palencia
-30TUN56,Castilla y León,Cantabria
-30TUN56,Castilla y León,León
-30TUN56,Cantabria,Palencia
 30TUN56,Cantabria,Cantabria
-30TUN56,Cantabria,León
+30TUN56,Castilla y León,León
 30TUN66,Castilla y León,Palencia
-30TUN66,Castilla y León,Cantabria
-30TUN66,Cantabria,Palencia
 30TUN66,Cantabria,Cantabria
 30TUN76,Castilla y León,Palencia
-30TUN76,Castilla y León,Cantabria
-30TUN76,Cantabria,Palencia
 30TUN76,Cantabria,Cantabria
 30TUN86,Castilla y León,Palencia
-30TUN86,Castilla y León,Cantabria
-30TUN86,Cantabria,Palencia
 30TUN86,Cantabria,Cantabria
 30TUN96,Cantabria,Cantabria
 30TVN06,Cantabria,Cantabria
 30TVN16,Cantabria,Cantabria
 30TVN26,Castilla y León,Burgos
-30TVN26,Castilla y León,Cantabria
-30TVN26,Cantabria,Burgos
 30TVN26,Cantabria,Cantabria
 30TVN36,Castilla y León,Burgos
-30TVN36,Castilla y León,Cantabria
-30TVN36,Cantabria,Burgos
 30TVN36,Cantabria,Cantabria
 30TVN46,Castilla y León,Burgos
 30TVN56,Castilla y León,Burgos
 30TVN66,Castilla y León,Burgos
 30TVN76,Castilla y León,Burgos
-30TVN86,País Vasco/Euskadi,Burgos
-30TVN86,País Vasco/Euskadi,Araba/Álava
 30TVN86,Castilla y León,Burgos
-30TVN86,Castilla y León,Araba/Álava
-30TVN96,País Vasco/Euskadi,Burgos
-30TVN96,País Vasco/Euskadi,Araba/Álava
+30TVN86,País Vasco/Euskadi,Araba/Álava
 30TVN96,Castilla y León,Burgos
-30TVN96,Castilla y León,Araba/Álava
+30TVN96,País Vasco/Euskadi,Araba/Álava
 30TWN06,País Vasco/Euskadi,Araba/Álava
 30TWN06,País Vasco/Euskadi,Bizkaia
 30TWN16,País Vasco/Euskadi,Araba/Álava
@@ -3385,12 +3233,8 @@ CUADRICULA,CCAA,Provincia
 30TWN56,País Vasco/Euskadi,Gipuzkoa
 30TWN66,País Vasco/Euskadi,Gipuzkoa
 30TWN76,Comunidad Foral de Navarra,Navarra
-30TWN76,Comunidad Foral de Navarra,Gipuzkoa
-30TWN76,País Vasco/Euskadi,Navarra
 30TWN76,País Vasco/Euskadi,Gipuzkoa
 30TWN86,Comunidad Foral de Navarra,Navarra
-30TWN86,Comunidad Foral de Navarra,Gipuzkoa
-30TWN86,País Vasco/Euskadi,Navarra
 30TWN86,País Vasco/Euskadi,Gipuzkoa
 30TWN96,Comunidad Foral de Navarra,Navarra
 30TXN06,Comunidad Foral de Navarra,Navarra
@@ -3514,30 +3358,18 @@ CUADRICULA,CCAA,Provincia
 29TPH65,Galicia,Lugo
 29TNH34,Galicia,A Coruña
 29TPH75,Castilla y León,León
-29TPH75,Castilla y León,Lugo
-29TPH75,Castilla y León,Asturias
-29TPH75,Galicia,León
 29TPH75,Galicia,Lugo
-29TPH75,Galicia,Asturias
-29TPH75,Principado de Asturias,León
-29TPH75,Principado de Asturias,Lugo
 29TPH75,Principado de Asturias,Asturias
 29TNH44,Galicia,A Coruña
 29TPH85,Castilla y León,León
-29TPH85,Castilla y León,Asturias
-29TPH85,Principado de Asturias,León
 29TPH85,Principado de Asturias,Asturias
 29TNH54,Galicia,Pontevedra
 29TNH54,Galicia,A Coruña
 29TPH95,Castilla y León,León
-29TPH95,Castilla y León,Asturias
-29TPH95,Principado de Asturias,León
 29TPH95,Principado de Asturias,Asturias
 29TNH64,Galicia,Pontevedra
 29TNH64,Galicia,A Coruña
 29TQH05,Castilla y León,León
-29TQH05,Castilla y León,Asturias
-29TQH05,Principado de Asturias,León
 29TQH05,Principado de Asturias,Asturias
 29TNH74,Galicia,Pontevedra
 29TNH74,Galicia,A Coruña
@@ -3566,45 +3398,27 @@ CUADRICULA,CCAA,Provincia
 30TUN65,Castilla y León,Palencia
 30TUN75,Castilla y León,Palencia
 30TUN85,Castilla y León,Palencia
-30TUN85,Castilla y León,Cantabria
-30TUN85,Cantabria,Palencia
 30TUN85,Cantabria,Cantabria
 30TUN95,Castilla y León,Palencia
-30TUN95,Castilla y León,Cantabria
-30TUN95,Cantabria,Palencia
 30TUN95,Cantabria,Cantabria
 30TVN05,Cantabria,Cantabria
 30TVN15,Castilla y León,Burgos
-30TVN15,Castilla y León,Cantabria
-30TVN15,Cantabria,Burgos
 30TVN15,Cantabria,Cantabria
 30TVN25,Castilla y León,Burgos
-30TVN25,Castilla y León,Cantabria
-30TVN25,Cantabria,Burgos
 30TVN25,Cantabria,Cantabria
 30TVN35,Castilla y León,Burgos
-30TVN35,Castilla y León,Cantabria
-30TVN35,Cantabria,Burgos
 30TVN35,Cantabria,Cantabria
 30TVN45,Castilla y León,Burgos
 30TVN55,Castilla y León,Burgos
 30TVN65,Castilla y León,Burgos
-30TVN75,País Vasco/Euskadi,Burgos
-30TVN75,País Vasco/Euskadi,Araba/Álava
 30TVN75,Castilla y León,Burgos
-30TVN75,Castilla y León,Araba/Álava
-30TVN85,País Vasco/Euskadi,Burgos
-30TVN85,País Vasco/Euskadi,Araba/Álava
+30TVN75,País Vasco/Euskadi,Araba/Álava
 30TVN85,Castilla y León,Burgos
-30TVN85,Castilla y León,Araba/Álava
-30TVN95,País Vasco/Euskadi,Burgos
-30TVN95,País Vasco/Euskadi,Araba/Álava
+30TVN85,País Vasco/Euskadi,Araba/Álava
 30TVN95,Castilla y León,Burgos
-30TVN95,Castilla y León,Araba/Álava
-30TWN05,País Vasco/Euskadi,Burgos
-30TWN05,País Vasco/Euskadi,Araba/Álava
+30TVN95,País Vasco/Euskadi,Araba/Álava
 30TWN05,Castilla y León,Burgos
-30TWN05,Castilla y León,Araba/Álava
+30TWN05,País Vasco/Euskadi,Araba/Álava
 30TWN15,País Vasco/Euskadi,Araba/Álava
 30TWN25,País Vasco/Euskadi,Araba/Álava
 30TWN35,País Vasco/Euskadi,Gipuzkoa
@@ -3614,14 +3428,9 @@ CUADRICULA,CCAA,Provincia
 30TWN55,País Vasco/Euskadi,Gipuzkoa
 30TWN55,País Vasco/Euskadi,Araba/Álava
 30TWN65,Comunidad Foral de Navarra,Navarra
-30TWN65,Comunidad Foral de Navarra,Gipuzkoa
-30TWN65,Comunidad Foral de Navarra,Araba/Álava
-30TWN65,País Vasco/Euskadi,Navarra
 30TWN65,País Vasco/Euskadi,Gipuzkoa
 30TWN65,País Vasco/Euskadi,Araba/Álava
 30TWN75,Comunidad Foral de Navarra,Navarra
-30TWN75,Comunidad Foral de Navarra,Gipuzkoa
-30TWN75,País Vasco/Euskadi,Navarra
 30TWN75,País Vasco/Euskadi,Gipuzkoa
 30TWN85,Comunidad Foral de Navarra,Navarra
 30TWN95,Comunidad Foral de Navarra,Navarra
@@ -3633,12 +3442,8 @@ CUADRICULA,CCAA,Provincia
 30TXN55,Comunidad Foral de Navarra,Navarra
 30TXN65,Comunidad Foral de Navarra,Navarra
 30TXN75,Aragón,Huesca
-30TXN75,Aragón,Navarra
-30TXN75,Comunidad Foral de Navarra,Huesca
 30TXN75,Comunidad Foral de Navarra,Navarra
 30TXN85,Aragón,Huesca
-30TXN85,Aragón,Navarra
-30TXN85,Comunidad Foral de Navarra,Huesca
 30TXN85,Comunidad Foral de Navarra,Navarra
 30TXN95,,
 31TEH63,,
@@ -3855,8 +3660,6 @@ CUADRICULA,CCAA,Provincia
 29TNH23,Galicia,Pontevedra
 29TNH23,Galicia,A Coruña
 29TPH74,Castilla y León,León
-29TPH74,Castilla y León,Lugo
-29TPH74,Galicia,León
 29TPH74,Galicia,Lugo
 31TCH24,Cataluña/Catalunya,Lleida
 29TNH33,Galicia,Pontevedra
@@ -3897,53 +3700,32 @@ CUADRICULA,CCAA,Provincia
 30TUN74,Castilla y León,Palencia
 30TUN84,Castilla y León,Palencia
 30TUN94,Castilla y León,Palencia
-30TUN94,Castilla y León,Cantabria
-30TUN94,Cantabria,Palencia
 30TUN94,Cantabria,Cantabria
 30TVN04,Castilla y León,Palencia
-30TVN04,Castilla y León,Cantabria
-30TVN04,Cantabria,Palencia
 30TVN04,Cantabria,Cantabria
 30TVN14,Castilla y León,Palencia
-30TVN14,Castilla y León,Cantabria
-30TVN14,Cantabria,Palencia
 30TVN14,Cantabria,Cantabria
 30TVN24,Castilla y León,Burgos
-30TVN24,Castilla y León,Cantabria
-30TVN24,Cantabria,Burgos
 30TVN24,Cantabria,Cantabria
 30TVN34,Castilla y León,Burgos
-30TVN34,Castilla y León,Cantabria
-30TVN34,Cantabria,Burgos
 30TVN34,Cantabria,Cantabria
 30TVN44,Castilla y León,Burgos
 30TVN54,Castilla y León,Burgos
 30TVN64,Castilla y León,Burgos
-30TVN74,País Vasco/Euskadi,Burgos
-30TVN74,País Vasco/Euskadi,Araba/Álava
 30TVN74,Castilla y León,Burgos
-30TVN74,Castilla y León,Araba/Álava
-30TVN84,País Vasco/Euskadi,Burgos
-30TVN84,País Vasco/Euskadi,Araba/Álava
+30TVN74,País Vasco/Euskadi,Araba/Álava
 30TVN84,Castilla y León,Burgos
-30TVN84,Castilla y León,Araba/Álava
-30TVN94,País Vasco/Euskadi,Burgos
-30TVN94,País Vasco/Euskadi,Araba/Álava
+30TVN84,País Vasco/Euskadi,Araba/Álava
 30TVN94,Castilla y León,Burgos
-30TVN94,Castilla y León,Araba/Álava
+30TVN94,País Vasco/Euskadi,Araba/Álava
 30TWN04,País Vasco/Euskadi,Araba/Álava
 30TWN14,País Vasco/Euskadi,Araba/Álava
 30TWN24,País Vasco/Euskadi,Araba/Álava
 30TWN34,País Vasco/Euskadi,Araba/Álava
 30TWN44,País Vasco/Euskadi,Araba/Álava
 30TWN54,Comunidad Foral de Navarra,Navarra
-30TWN54,Comunidad Foral de Navarra,Araba/Álava
-30TWN54,País Vasco/Euskadi,Navarra
 30TWN54,País Vasco/Euskadi,Araba/Álava
 30TWN64,Comunidad Foral de Navarra,Navarra
-30TWN64,Comunidad Foral de Navarra,Gipuzkoa
-30TWN64,Comunidad Foral de Navarra,Araba/Álava
-30TWN64,País Vasco/Euskadi,Navarra
 30TWN64,País Vasco/Euskadi,Gipuzkoa
 30TWN64,País Vasco/Euskadi,Araba/Álava
 30TWN74,Comunidad Foral de Navarra,Navarra
@@ -3957,8 +3739,6 @@ CUADRICULA,CCAA,Provincia
 30TXN54,Comunidad Foral de Navarra,Navarra
 30TXN64,Comunidad Foral de Navarra,Navarra
 30TXN74,Aragón,Huesca
-30TXN74,Aragón,Navarra
-30TXN74,Comunidad Foral de Navarra,Huesca
 30TXN74,Comunidad Foral de Navarra,Navarra
 30TXN84,Aragón,Huesca
 30TXN94,Aragón,Huesca
@@ -3978,15 +3758,11 @@ CUADRICULA,CCAA,Provincia
 31TCH43,Cataluña/Catalunya,Lleida
 29TNH12,Galicia,A Coruña
 29TPH63,Castilla y León,León
-29TPH63,Castilla y León,Lugo
-29TPH63,Galicia,León
 29TPH63,Galicia,Lugo
 31TCH33,Cataluña/Catalunya,Lleida
 29TNH22,Galicia,Pontevedra
 29TNH22,Galicia,A Coruña
 29TPH73,Castilla y León,León
-29TPH73,Castilla y León,Lugo
-29TPH73,Galicia,León
 29TPH73,Galicia,Lugo
 31TCH23,Cataluña/Catalunya,Lleida
 29TNH32,Galicia,Pontevedra
@@ -3994,10 +3770,8 @@ CUADRICULA,CCAA,Provincia
 31TCH13,Cataluña/Catalunya,Lleida
 29TNH42,Galicia,Pontevedra
 29TPH93,Castilla y León,León
-31TCH03,Aragón,Lleida
-31TCH03,Aragón,Huesca
 31TCH03,Cataluña/Catalunya,Lleida
-31TCH03,Cataluña/Catalunya,Huesca
+31TCH03,Aragón,Huesca
 29TNH52,Galicia,Pontevedra
 29TQH03,Castilla y León,León
 31TBH93,Aragón,Huesca
@@ -4034,56 +3808,32 @@ CUADRICULA,CCAA,Provincia
 30TUN93,Castilla y León,Palencia
 30TVN03,Castilla y León,Burgos
 30TVN03,Castilla y León,Palencia
-30TVN03,Castilla y León,Cantabria
-30TVN03,Cantabria,Burgos
-30TVN03,Cantabria,Palencia
 30TVN03,Cantabria,Cantabria
 30TVN13,Castilla y León,Burgos
 30TVN13,Castilla y León,Palencia
-30TVN13,Castilla y León,Cantabria
-30TVN13,Cantabria,Burgos
-30TVN13,Cantabria,Palencia
 30TVN13,Cantabria,Cantabria
 30TVN23,Castilla y León,Burgos
-30TVN23,Castilla y León,Cantabria
-30TVN23,Cantabria,Burgos
 30TVN23,Cantabria,Cantabria
 30TVN33,Castilla y León,Burgos
-30TVN33,Castilla y León,Cantabria
-30TVN33,Cantabria,Burgos
 30TVN33,Cantabria,Cantabria
 30TVN43,Castilla y León,Burgos
 30TVN53,Castilla y León,Burgos
 30TVN63,Castilla y León,Burgos
 30TVN73,Castilla y León,Burgos
-30TVN83,País Vasco/Euskadi,Burgos
-30TVN83,País Vasco/Euskadi,Araba/Álava
 30TVN83,Castilla y León,Burgos
-30TVN83,Castilla y León,Araba/Álava
-30TVN93,País Vasco/Euskadi,Burgos
-30TVN93,País Vasco/Euskadi,Araba/Álava
+30TVN83,País Vasco/Euskadi,Araba/Álava
 30TVN93,Castilla y León,Burgos
-30TVN93,Castilla y León,Araba/Álava
-30TWN03,País Vasco/Euskadi,Burgos
-30TWN03,País Vasco/Euskadi,Araba/Álava
+30TVN93,País Vasco/Euskadi,Araba/Álava
 30TWN03,Castilla y León,Burgos
-30TWN03,Castilla y León,Araba/Álava
-30TWN13,País Vasco/Euskadi,Burgos
-30TWN13,País Vasco/Euskadi,Araba/Álava
+30TWN03,País Vasco/Euskadi,Araba/Álava
 30TWN13,Castilla y León,Burgos
-30TWN13,Castilla y León,Araba/Álava
-30TWN23,País Vasco/Euskadi,Burgos
-30TWN23,País Vasco/Euskadi,Araba/Álava
+30TWN13,País Vasco/Euskadi,Araba/Álava
 30TWN23,Castilla y León,Burgos
-30TWN23,Castilla y León,Araba/Álava
-30TWN33,País Vasco/Euskadi,Burgos
-30TWN33,País Vasco/Euskadi,Araba/Álava
+30TWN23,País Vasco/Euskadi,Araba/Álava
 30TWN33,Castilla y León,Burgos
-30TWN33,Castilla y León,Araba/Álava
+30TWN33,País Vasco/Euskadi,Araba/Álava
 30TWN43,País Vasco/Euskadi,Araba/Álava
 30TWN53,Comunidad Foral de Navarra,Navarra
-30TWN53,Comunidad Foral de Navarra,Araba/Álava
-30TWN53,País Vasco/Euskadi,Navarra
 30TWN53,País Vasco/Euskadi,Araba/Álava
 30TWN63,Comunidad Foral de Navarra,Navarra
 30TWN73,Comunidad Foral de Navarra,Navarra
@@ -4096,14 +3846,9 @@ CUADRICULA,CCAA,Provincia
 30TXN43,Comunidad Foral de Navarra,Navarra
 30TXN53,Comunidad Foral de Navarra,Navarra
 30TXN63,Aragón,Zaragoza
-30TXN63,Aragón,Navarra
-30TXN63,Comunidad Foral de Navarra,Zaragoza
 30TXN63,Comunidad Foral de Navarra,Navarra
 30TXN73,Aragón,Zaragoza
 30TXN73,Aragón,Huesca
-30TXN73,Aragón,Navarra
-30TXN73,Comunidad Foral de Navarra,Zaragoza
-30TXN73,Comunidad Foral de Navarra,Huesca
 30TXN73,Comunidad Foral de Navarra,Navarra
 30TXN83,Aragón,Huesca
 30TXN93,Aragón,Huesca
@@ -4128,8 +3873,6 @@ CUADRICULA,CCAA,Provincia
 31TCH42,Cataluña/Catalunya,Lleida
 29TNH11,Galicia,Pontevedra
 29TPH62,Castilla y León,León
-29TPH62,Castilla y León,Lugo
-29TPH62,Galicia,León
 29TPH62,Galicia,Lugo
 31TCH32,Cataluña/Catalunya,Lleida
 29TNH21,Galicia,Pontevedra
@@ -4137,16 +3880,12 @@ CUADRICULA,CCAA,Provincia
 31TCH22,Cataluña/Catalunya,Lleida
 29TNH31,Galicia,Pontevedra
 29TPH82,Castilla y León,León
-31TCH12,Aragón,Lleida
-31TCH12,Aragón,Huesca
 31TCH12,Cataluña/Catalunya,Lleida
-31TCH12,Cataluña/Catalunya,Huesca
+31TCH12,Aragón,Huesca
 29TNH41,Galicia,Pontevedra
 29TPH92,Castilla y León,León
-31TCH02,Aragón,Lleida
-31TCH02,Aragón,Huesca
 31TCH02,Cataluña/Catalunya,Lleida
-31TCH02,Cataluña/Catalunya,Huesca
+31TCH02,Aragón,Huesca
 29TNH51,Galicia,Pontevedra
 29TQH02,Castilla y León,León
 31TBH92,Aragón,Huesca
@@ -4196,42 +3935,20 @@ CUADRICULA,CCAA,Provincia
 30TVN72,Castilla y León,Burgos
 30TVN82,Castilla y León,Burgos
 30TVN92,La Rioja,La Rioja
-30TVN92,La Rioja,Burgos
-30TVN92,Castilla y León,La Rioja
 30TVN92,Castilla y León,Burgos
 30TWN02,La Rioja,La Rioja
-30TWN02,La Rioja,Burgos
-30TWN02,La Rioja,Araba/Álava
-30TWN02,País Vasco/Euskadi,La Rioja
-30TWN02,País Vasco/Euskadi,Burgos
-30TWN02,País Vasco/Euskadi,Araba/Álava
-30TWN02,Castilla y León,La Rioja
 30TWN02,Castilla y León,Burgos
-30TWN02,Castilla y León,Araba/Álava
+30TWN02,País Vasco/Euskadi,Araba/Álava
 30TWN12,La Rioja,La Rioja
-30TWN12,La Rioja,Burgos
-30TWN12,La Rioja,Araba/Álava
-30TWN12,País Vasco/Euskadi,La Rioja
-30TWN12,País Vasco/Euskadi,Burgos
-30TWN12,País Vasco/Euskadi,Araba/Álava
-30TWN12,Castilla y León,La Rioja
 30TWN12,Castilla y León,Burgos
-30TWN12,Castilla y León,Araba/Álava
-30TWN22,País Vasco/Euskadi,Burgos
-30TWN22,País Vasco/Euskadi,Araba/Álava
+30TWN12,País Vasco/Euskadi,Araba/Álava
 30TWN22,Castilla y León,Burgos
-30TWN22,Castilla y León,Araba/Álava
-30TWN32,País Vasco/Euskadi,Burgos
-30TWN32,País Vasco/Euskadi,Araba/Álava
+30TWN22,País Vasco/Euskadi,Araba/Álava
 30TWN32,Castilla y León,Burgos
-30TWN32,Castilla y León,Araba/Álava
+30TWN32,País Vasco/Euskadi,Araba/Álava
 30TWN42,Comunidad Foral de Navarra,Navarra
-30TWN42,Comunidad Foral de Navarra,Araba/Álava
-30TWN42,País Vasco/Euskadi,Navarra
 30TWN42,País Vasco/Euskadi,Araba/Álava
 30TWN52,Comunidad Foral de Navarra,Navarra
-30TWN52,Comunidad Foral de Navarra,Araba/Álava
-30TWN52,País Vasco/Euskadi,Navarra
 30TWN52,País Vasco/Euskadi,Araba/Álava
 30TWN62,Comunidad Foral de Navarra,Navarra
 30TWN72,Comunidad Foral de Navarra,Navarra
@@ -4243,12 +3960,8 @@ CUADRICULA,CCAA,Provincia
 30TXN32,Comunidad Foral de Navarra,Navarra
 30TXN42,Comunidad Foral de Navarra,Navarra
 30TXN52,Aragón,Zaragoza
-30TXN52,Aragón,Navarra
-30TXN52,Comunidad Foral de Navarra,Zaragoza
 30TXN52,Comunidad Foral de Navarra,Navarra
 30TXN62,Aragón,Zaragoza
-30TXN62,Aragón,Navarra
-30TXN62,Comunidad Foral de Navarra,Zaragoza
 30TXN62,Comunidad Foral de Navarra,Navarra
 30TXN72,Aragón,Zaragoza
 30TXN72,Aragón,Huesca
@@ -4296,15 +4009,11 @@ CUADRICULA,CCAA,Provincia
 29TNH00,Galicia,A Coruña
 31TDH90,Cataluña/Catalunya,Girona
 29TPH51,Castilla y León,León
-29TPH51,Castilla y León,Lugo
-29TPH51,Galicia,León
 29TPH51,Galicia,Lugo
 31TCH41,Cataluña/Catalunya,Lleida
 29TNH10,Galicia,Pontevedra
 31TDH80,Cataluña/Catalunya,Girona
 29TPH61,Castilla y León,León
-29TPH61,Castilla y León,Lugo
-29TPH61,Galicia,León
 29TPH61,Galicia,Lugo
 31TCH31,Cataluña/Catalunya,Lleida
 29TNH20,Galicia,Pontevedra
@@ -4312,10 +4021,8 @@ CUADRICULA,CCAA,Provincia
 31TCH21,Cataluña/Catalunya,Lleida
 29TNH30,Galicia,Pontevedra
 29TPH81,Castilla y León,León
-31TCH11,Aragón,Lleida
-31TCH11,Aragón,Huesca
 31TCH11,Cataluña/Catalunya,Lleida
-31TCH11,Cataluña/Catalunya,Huesca
+31TCH11,Aragón,Huesca
 29TNH40,Galicia,Pontevedra
 29TPH91,Castilla y León,León
 31TCH01,Aragón,Huesca
@@ -4370,34 +4077,18 @@ CUADRICULA,CCAA,Provincia
 30TVN71,Castilla y León,Burgos
 30TVN81,Castilla y León,Burgos
 30TVN91,La Rioja,La Rioja
-30TVN91,La Rioja,Burgos
-30TVN91,Castilla y León,La Rioja
 30TVN91,Castilla y León,Burgos
 30TWN01,La Rioja,La Rioja
-30TWN01,La Rioja,Burgos
-30TWN01,Castilla y León,La Rioja
 30TWN01,Castilla y León,Burgos
 30TWN11,La Rioja,La Rioja
-30TWN11,La Rioja,Burgos
-30TWN11,La Rioja,Araba/Álava
-30TWN11,País Vasco/Euskadi,La Rioja
-30TWN11,País Vasco/Euskadi,Burgos
-30TWN11,País Vasco/Euskadi,Araba/Álava
-30TWN11,Castilla y León,La Rioja
 30TWN11,Castilla y León,Burgos
-30TWN11,Castilla y León,Araba/Álava
+30TWN11,País Vasco/Euskadi,Araba/Álava
 30TWN21,La Rioja,La Rioja
-30TWN21,La Rioja,Araba/Álava
-30TWN21,País Vasco/Euskadi,La Rioja
 30TWN21,País Vasco/Euskadi,Araba/Álava
 30TWN31,País Vasco/Euskadi,Araba/Álava
 30TWN41,Comunidad Foral de Navarra,Navarra
-30TWN41,Comunidad Foral de Navarra,Araba/Álava
-30TWN41,País Vasco/Euskadi,Navarra
 30TWN41,País Vasco/Euskadi,Araba/Álava
 30TWN51,Comunidad Foral de Navarra,Navarra
-30TWN51,Comunidad Foral de Navarra,Araba/Álava
-30TWN51,País Vasco/Euskadi,Navarra
 30TWN51,País Vasco/Euskadi,Araba/Álava
 30TWN61,Comunidad Foral de Navarra,Navarra
 30TWN71,Comunidad Foral de Navarra,Navarra
@@ -4408,12 +4099,8 @@ CUADRICULA,CCAA,Provincia
 30TXN21,Comunidad Foral de Navarra,Navarra
 30TXN31,Comunidad Foral de Navarra,Navarra
 30TXN41,Aragón,Zaragoza
-30TXN41,Aragón,Navarra
-30TXN41,Comunidad Foral de Navarra,Zaragoza
 30TXN41,Comunidad Foral de Navarra,Navarra
 30TXN51,Aragón,Zaragoza
-30TXN51,Aragón,Navarra
-30TXN51,Comunidad Foral de Navarra,Zaragoza
 30TXN51,Comunidad Foral de Navarra,Navarra
 30TXN61,Aragón,Zaragoza
 30TXN71,Aragón,Zaragoza
@@ -4443,36 +4130,25 @@ CUADRICULA,CCAA,Provincia
 31TCH50,Cataluña/Catalunya,Lleida
 29TNG09,Galicia,Pontevedra
 31TDG99,Cataluña/Catalunya,Girona
-29TPH50,Castilla y León,Ourense
-29TPH50,Castilla y León,León
-29TPH50,Castilla y León,Lugo
 29TPH50,Galicia,Ourense
-29TPH50,Galicia,León
+29TPH50,Castilla y León,León
 29TPH50,Galicia,Lugo
 31TCH40,Cataluña/Catalunya,Lleida
 29TNG19,Galicia,Pontevedra
 31TDG89,Cataluña/Catalunya,Girona
-29TPH60,Castilla y León,Ourense
-29TPH60,Castilla y León,León
 29TPH60,Galicia,Ourense
-29TPH60,Galicia,León
+29TPH60,Castilla y León,León
 31TCH30,Cataluña/Catalunya,Lleida
 29TNG29,Galicia,Pontevedra
 31TDG79,Cataluña/Catalunya,Girona
-29TPH70,Castilla y León,Ourense
-29TPH70,Castilla y León,León
 29TPH70,Galicia,Ourense
-29TPH70,Galicia,León
+29TPH70,Castilla y León,León
 31TCH20,Cataluña/Catalunya,Lleida
 29TNG39,Galicia,Pontevedra
-29TPH80,Castilla y León,Ourense
-29TPH80,Castilla y León,León
 29TPH80,Galicia,Ourense
-29TPH80,Galicia,León
-31TCH10,Aragón,Lleida
-31TCH10,Aragón,Huesca
+29TPH80,Castilla y León,León
 31TCH10,Cataluña/Catalunya,Lleida
-31TCH10,Cataluña/Catalunya,Huesca
+31TCH10,Aragón,Huesca
 29TNG49,Galicia,Pontevedra
 31TDG59,Cataluña/Catalunya,Girona
 29TPH90,Castilla y León,León
@@ -4530,36 +4206,20 @@ CUADRICULA,CCAA,Provincia
 30TVN70,Castilla y León,Burgos
 30TVN80,Castilla y León,Burgos
 30TVN90,La Rioja,La Rioja
-30TVN90,La Rioja,Burgos
-30TVN90,Castilla y León,La Rioja
 30TVN90,Castilla y León,Burgos
 30TWN00,La Rioja,La Rioja
 30TWN10,La Rioja,La Rioja
 30TWN20,La Rioja,La Rioja
-30TWN20,La Rioja,Araba/Álava
-30TWN20,País Vasco/Euskadi,La Rioja
 30TWN20,País Vasco/Euskadi,Araba/Álava
 30TWN30,La Rioja,La Rioja
-30TWN30,La Rioja,Araba/Álava
-30TWN30,País Vasco/Euskadi,La Rioja
 30TWN30,País Vasco/Euskadi,Araba/Álava
-30TWN40,La Rioja,Navarra
-30TWN40,La Rioja,La Rioja
-30TWN40,La Rioja,Araba/Álava
 30TWN40,Comunidad Foral de Navarra,Navarra
-30TWN40,Comunidad Foral de Navarra,La Rioja
-30TWN40,Comunidad Foral de Navarra,Araba/Álava
-30TWN40,País Vasco/Euskadi,Navarra
-30TWN40,País Vasco/Euskadi,La Rioja
+30TWN40,La Rioja,La Rioja
 30TWN40,País Vasco/Euskadi,Araba/Álava
-30TWN50,La Rioja,Navarra
-30TWN50,La Rioja,La Rioja
 30TWN50,Comunidad Foral de Navarra,Navarra
-30TWN50,Comunidad Foral de Navarra,La Rioja
-30TWN60,La Rioja,Navarra
-30TWN60,La Rioja,La Rioja
+30TWN50,La Rioja,La Rioja
 30TWN60,Comunidad Foral de Navarra,Navarra
-30TWN60,Comunidad Foral de Navarra,La Rioja
+30TWN60,La Rioja,La Rioja
 30TWN70,Comunidad Foral de Navarra,Navarra
 30TWN80,Comunidad Foral de Navarra,Navarra
 30TWN90,Comunidad Foral de Navarra,Navarra
@@ -4567,16 +4227,10 @@ CUADRICULA,CCAA,Provincia
 30TXN10,Comunidad Foral de Navarra,Navarra
 30TXN20,Comunidad Foral de Navarra,Navarra
 30TXN30,Aragón,Zaragoza
-30TXN30,Aragón,Navarra
-30TXN30,Comunidad Foral de Navarra,Zaragoza
 30TXN30,Comunidad Foral de Navarra,Navarra
 30TXN40,Aragón,Zaragoza
-30TXN40,Aragón,Navarra
-30TXN40,Comunidad Foral de Navarra,Zaragoza
 30TXN40,Comunidad Foral de Navarra,Navarra
 30TXN50,Aragón,Zaragoza
-30TXN50,Aragón,Navarra
-30TXN50,Comunidad Foral de Navarra,Zaragoza
 30TXN50,Comunidad Foral de Navarra,Navarra
 30TXN60,Aragón,Zaragoza
 30TXN70,Aragón,Zaragoza
@@ -4659,21 +4313,15 @@ CUADRICULA,CCAA,Provincia
 31TCG39,Cataluña/Catalunya,Lleida
 29TNG28,Galicia,Pontevedra
 31TDG78,Cataluña/Catalunya,Girona
-29TPG79,Castilla y León,Ourense
-29TPG79,Castilla y León,León
 29TPG79,Galicia,Ourense
-29TPG79,Galicia,León
+29TPG79,Castilla y León,León
 31TCG29,Cataluña/Catalunya,Lleida
 29TNG38,Galicia,Pontevedra
 31TDG68,Cataluña/Catalunya,Girona
-29TPG89,Castilla y León,Ourense
-29TPG89,Castilla y León,León
 29TPG89,Galicia,Ourense
-29TPG89,Galicia,León
-31TCG19,Aragón,Lleida
-31TCG19,Aragón,Huesca
+29TPG89,Castilla y León,León
 31TCG19,Cataluña/Catalunya,Lleida
-31TCG19,Cataluña/Catalunya,Huesca
+31TCG19,Aragón,Huesca
 29TNG48,Galicia,Pontevedra
 31TDG58,Cataluña/Catalunya,Girona
 29TPG99,Castilla y León,León
@@ -4843,8 +4491,6 @@ CUADRICULA,CCAA,Provincia
 30TVM79,Castilla y León,Burgos
 30TVM89,Castilla y León,Burgos
 30TVM99,La Rioja,La Rioja
-30TVM99,La Rioja,Burgos
-30TVM99,Castilla y León,La Rioja
 30TVM99,Castilla y León,Burgos
 30TWM09,La Rioja,La Rioja
 30TWM19,La Rioja,La Rioja
@@ -4852,33 +4498,21 @@ CUADRICULA,CCAA,Provincia
 30TWM39,La Rioja,La Rioja
 30TWM49,La Rioja,La Rioja
 30TWM59,La Rioja,La Rioja
-30TWM69,La Rioja,Navarra
-30TWM69,La Rioja,La Rioja
 30TWM69,Comunidad Foral de Navarra,Navarra
-30TWM69,Comunidad Foral de Navarra,La Rioja
-30TWM79,La Rioja,Navarra
-30TWM79,La Rioja,La Rioja
+30TWM69,La Rioja,La Rioja
 30TWM79,Comunidad Foral de Navarra,Navarra
-30TWM79,Comunidad Foral de Navarra,La Rioja
-30TWM89,La Rioja,Navarra
-30TWM89,La Rioja,La Rioja
+30TWM79,La Rioja,La Rioja
 30TWM89,Comunidad Foral de Navarra,Navarra
-30TWM89,Comunidad Foral de Navarra,La Rioja
+30TWM89,La Rioja,La Rioja
 30TWM99,Comunidad Foral de Navarra,Navarra
 30TXM09,Comunidad Foral de Navarra,Navarra
 30TXM19,Comunidad Foral de Navarra,Navarra
 30TXM29,Comunidad Foral de Navarra,Navarra
 30TXM39,Aragón,Zaragoza
-30TXM39,Aragón,Navarra
-30TXM39,Comunidad Foral de Navarra,Zaragoza
 30TXM39,Comunidad Foral de Navarra,Navarra
 30TXM49,Aragón,Zaragoza
-30TXM49,Aragón,Navarra
-30TXM49,Comunidad Foral de Navarra,Zaragoza
 30TXM49,Comunidad Foral de Navarra,Navarra
 30TXM59,Aragón,Zaragoza
-30TXM59,Aragón,Navarra
-30TXM59,Comunidad Foral de Navarra,Zaragoza
 30TXM59,Comunidad Foral de Navarra,Navarra
 30TXM69,Aragón,Zaragoza
 30TXM79,Aragón,Zaragoza
@@ -4977,15 +4611,10 @@ CUADRICULA,CCAA,Provincia
 29TNG37,Galicia,Pontevedra
 31TDG67,Cataluña/Catalunya,Girona
 29TPG88,Castilla y León,Zamora
-29TPG88,Castilla y León,Ourense
-29TPG88,Castilla y León,León
-29TPG88,Galicia,Zamora
 29TPG88,Galicia,Ourense
-29TPG88,Galicia,León
-31TCG18,Aragón,Lleida
-31TCG18,Aragón,Huesca
+29TPG88,Castilla y León,León
 31TCG18,Cataluña/Catalunya,Lleida
-31TCG18,Cataluña/Catalunya,Huesca
+31TCG18,Aragón,Huesca
 29TNG47,Galicia,Pontevedra
 31TDG57,Cataluña/Catalunya,Girona
 29TPG98,Castilla y León,León
@@ -5047,8 +4676,6 @@ CUADRICULA,CCAA,Provincia
 30TVM78,Castilla y León,Burgos
 30TVM88,Castilla y León,Burgos
 30TVM98,La Rioja,La Rioja
-30TVM98,La Rioja,Burgos
-30TVM98,Castilla y León,La Rioja
 30TVM98,Castilla y León,Burgos
 30TWM08,La Rioja,La Rioja
 30TWM18,La Rioja,La Rioja
@@ -5057,24 +4684,16 @@ CUADRICULA,CCAA,Provincia
 30TWM48,La Rioja,La Rioja
 30TWM58,La Rioja,La Rioja
 30TWM68,La Rioja,La Rioja
-30TWM78,La Rioja,Navarra
-30TWM78,La Rioja,La Rioja
 30TWM78,Comunidad Foral de Navarra,Navarra
-30TWM78,Comunidad Foral de Navarra,La Rioja
-30TWM88,La Rioja,Navarra
-30TWM88,La Rioja,La Rioja
+30TWM78,La Rioja,La Rioja
 30TWM88,Comunidad Foral de Navarra,Navarra
-30TWM88,Comunidad Foral de Navarra,La Rioja
-30TWM98,La Rioja,Navarra
-30TWM98,La Rioja,La Rioja
+30TWM88,La Rioja,La Rioja
 30TWM98,Comunidad Foral de Navarra,Navarra
-30TWM98,Comunidad Foral de Navarra,La Rioja
+30TWM98,La Rioja,La Rioja
 30TXM08,Comunidad Foral de Navarra,Navarra
 30TXM18,Comunidad Foral de Navarra,Navarra
 30TXM28,Comunidad Foral de Navarra,Navarra
 30TXM38,Aragón,Zaragoza
-30TXM38,Aragón,Navarra
-30TXM38,Comunidad Foral de Navarra,Zaragoza
 30TXM38,Comunidad Foral de Navarra,Navarra
 30TXM48,Aragón,Zaragoza
 30TXM58,Aragón,Zaragoza
@@ -5113,38 +4732,27 @@ CUADRICULA,CCAA,Provincia
 29TNG16,Galicia,Pontevedra
 31TDG86,Cataluña/Catalunya,Girona
 29TPG67,Castilla y León,Zamora
-29TPG67,Castilla y León,Ourense
-29TPG67,Galicia,Zamora
 29TPG67,Galicia,Ourense
 31TCG37,Cataluña/Catalunya,Lleida
 29TNG26,Galicia,Pontevedra
 31TDG76,Cataluña/Catalunya,Girona
 29TPG77,Castilla y León,Zamora
-29TPG77,Castilla y León,Ourense
-29TPG77,Galicia,Zamora
 29TPG77,Galicia,Ourense
 31TCG27,Cataluña/Catalunya,Lleida
 29TNG36,Galicia,Pontevedra
 31TDG66,Cataluña/Catalunya,Girona
 29TPG87,Castilla y León,Zamora
-29TPG87,Castilla y León,Ourense
-29TPG87,Castilla y León,León
-29TPG87,Galicia,Zamora
 29TPG87,Galicia,Ourense
-29TPG87,Galicia,León
-31TCG17,Aragón,Lleida
-31TCG17,Aragón,Huesca
+29TPG87,Castilla y León,León
 31TCG17,Cataluña/Catalunya,Lleida
-31TCG17,Cataluña/Catalunya,Huesca
+31TCG17,Aragón,Huesca
 29TNG46,Galicia,Pontevedra
 31TDG56,Cataluña/Catalunya,Barcelona
 31TDG56,Cataluña/Catalunya,Girona
 29TPG97,Castilla y León,Zamora
 29TPG97,Castilla y León,León
-31TCG07,Aragón,Lleida
-31TCG07,Aragón,Huesca
 31TCG07,Cataluña/Catalunya,Lleida
-31TCG07,Cataluña/Catalunya,Huesca
+31TCG07,Aragón,Huesca
 29TNG56,Galicia,Pontevedra
 31TDG46,Cataluña/Catalunya,Barcelona
 31TDG46,Cataluña/Catalunya,Girona
@@ -5208,12 +4816,8 @@ CUADRICULA,CCAA,Provincia
 30TVM67,Castilla y León,Burgos
 30TVM77,Castilla y León,Burgos
 30TVM87,La Rioja,La Rioja
-30TVM87,La Rioja,Burgos
-30TVM87,Castilla y León,La Rioja
 30TVM87,Castilla y León,Burgos
 30TVM97,La Rioja,La Rioja
-30TVM97,La Rioja,Burgos
-30TVM97,Castilla y León,La Rioja
 30TVM97,Castilla y León,Burgos
 30TWM07,La Rioja,La Rioja
 30TWM17,La Rioja,La Rioja
@@ -5224,19 +4828,13 @@ CUADRICULA,CCAA,Provincia
 30TWM67,La Rioja,La Rioja
 30TWM77,La Rioja,La Rioja
 30TWM87,La Rioja,La Rioja
-30TWM97,La Rioja,Navarra
-30TWM97,La Rioja,La Rioja
 30TWM97,Comunidad Foral de Navarra,Navarra
-30TWM97,Comunidad Foral de Navarra,La Rioja
-30TXM07,La Rioja,Navarra
-30TXM07,La Rioja,La Rioja
+30TWM97,La Rioja,La Rioja
 30TXM07,Comunidad Foral de Navarra,Navarra
-30TXM07,Comunidad Foral de Navarra,La Rioja
+30TXM07,La Rioja,La Rioja
 30TXM17,Comunidad Foral de Navarra,Navarra
 30TXM27,Comunidad Foral de Navarra,Navarra
 30TXM37,Aragón,Zaragoza
-30TXM37,Aragón,Navarra
-30TXM37,Comunidad Foral de Navarra,Zaragoza
 30TXM37,Comunidad Foral de Navarra,Navarra
 30TXM47,Aragón,Zaragoza
 30TXM57,Aragón,Zaragoza
@@ -5281,8 +4879,6 @@ CUADRICULA,CCAA,Provincia
 29TNG15,Galicia,Pontevedra
 31TDG85,Cataluña/Catalunya,Girona
 29TPG66,Castilla y León,Zamora
-29TPG66,Castilla y León,Ourense
-29TPG66,Galicia,Zamora
 29TPG66,Galicia,Ourense
 31TCG36,Cataluña/Catalunya,Lleida
 29TNG25,Galicia,Pontevedra
@@ -5297,10 +4893,8 @@ CUADRICULA,CCAA,Provincia
 31TDG55,Cataluña/Catalunya,Barcelona
 31TDG55,Cataluña/Catalunya,Girona
 29TPG96,Castilla y León,Zamora
-31TCG06,Aragón,Lleida
-31TCG06,Aragón,Huesca
 31TCG06,Cataluña/Catalunya,Lleida
-31TCG06,Cataluña/Catalunya,Huesca
+31TCG06,Aragón,Huesca
 29TNG55,Galicia,Pontevedra
 31TDG45,Cataluña/Catalunya,Barcelona
 29TQG06,Castilla y León,Zamora
@@ -5361,52 +4955,30 @@ CUADRICULA,CCAA,Provincia
 30TVM76,Castilla y León,Burgos
 30TVM86,Castilla y León,Burgos
 30TVM96,La Rioja,La Rioja
-30TVM96,La Rioja,Burgos
-30TVM96,Castilla y León,La Rioja
 30TVM96,Castilla y León,Burgos
 30TWM06,La Rioja,La Rioja
-30TWM16,La Rioja,Soria
-30TWM16,La Rioja,La Rioja
 30TWM16,Castilla y León,Soria
-30TWM16,Castilla y León,La Rioja
-30TWM26,La Rioja,Soria
-30TWM26,La Rioja,La Rioja
+30TWM16,La Rioja,La Rioja
 30TWM26,Castilla y León,Soria
-30TWM26,Castilla y León,La Rioja
-30TWM36,La Rioja,Soria
-30TWM36,La Rioja,La Rioja
+30TWM26,La Rioja,La Rioja
 30TWM36,Castilla y León,Soria
-30TWM36,Castilla y León,La Rioja
-30TWM46,La Rioja,Soria
-30TWM46,La Rioja,La Rioja
+30TWM36,La Rioja,La Rioja
 30TWM46,Castilla y León,Soria
-30TWM46,Castilla y León,La Rioja
-30TWM56,La Rioja,Soria
-30TWM56,La Rioja,La Rioja
+30TWM46,La Rioja,La Rioja
 30TWM56,Castilla y León,Soria
-30TWM56,Castilla y León,La Rioja
-30TWM66,La Rioja,Soria
-30TWM66,La Rioja,La Rioja
+30TWM56,La Rioja,La Rioja
 30TWM66,Castilla y León,Soria
-30TWM66,Castilla y León,La Rioja
-30TWM76,La Rioja,Soria
-30TWM76,La Rioja,La Rioja
+30TWM66,La Rioja,La Rioja
 30TWM76,Castilla y León,Soria
-30TWM76,Castilla y León,La Rioja
+30TWM76,La Rioja,La Rioja
 30TWM86,La Rioja,La Rioja
-30TWM96,La Rioja,Navarra
-30TWM96,La Rioja,La Rioja
 30TWM96,Comunidad Foral de Navarra,Navarra
-30TWM96,Comunidad Foral de Navarra,La Rioja
-30TXM06,La Rioja,Navarra
-30TXM06,La Rioja,La Rioja
+30TWM96,La Rioja,La Rioja
 30TXM06,Comunidad Foral de Navarra,Navarra
-30TXM06,Comunidad Foral de Navarra,La Rioja
+30TXM06,La Rioja,La Rioja
 30TXM16,Comunidad Foral de Navarra,Navarra
 30TXM26,Comunidad Foral de Navarra,Navarra
 30TXM36,Aragón,Zaragoza
-30TXM36,Aragón,Navarra
-30TXM36,Comunidad Foral de Navarra,Zaragoza
 30TXM36,Comunidad Foral de Navarra,Navarra
 30TXM46,Aragón,Zaragoza
 30TXM56,Aragón,Zaragoza
@@ -5459,8 +5031,6 @@ CUADRICULA,CCAA,Provincia
 29TNG14,Galicia,Pontevedra
 31TDG84,Cataluña/Catalunya,Girona
 29TPG65,Castilla y León,Zamora
-29TPG65,Castilla y León,Ourense
-29TPG65,Galicia,Zamora
 29TPG65,Galicia,Ourense
 31TCG35,Cataluña/Catalunya,Lleida
 29TNG24,Galicia,Pontevedra
@@ -5473,10 +5043,8 @@ CUADRICULA,CCAA,Provincia
 31TDG54,Cataluña/Catalunya,Barcelona
 31TDG54,Cataluña/Catalunya,Girona
 29TPG95,Castilla y León,Zamora
-31TCG05,Aragón,Lleida
-31TCG05,Aragón,Huesca
 31TCG05,Cataluña/Catalunya,Lleida
-31TCG05,Cataluña/Catalunya,Huesca
+31TCG05,Aragón,Huesca
 31TDG44,Cataluña/Catalunya,Barcelona
 29TQG05,Castilla y León,Zamora
 31TBG95,Aragón,Huesca
@@ -5533,50 +5101,29 @@ CUADRICULA,CCAA,Provincia
 30TVM75,Castilla y León,Burgos
 30TVM85,Castilla y León,Burgos
 30TVM95,La Rioja,La Rioja
-30TVM95,La Rioja,Burgos
-30TVM95,Castilla y León,La Rioja
 30TVM95,Castilla y León,Burgos
-30TWM05,La Rioja,Soria
-30TWM05,La Rioja,La Rioja
-30TWM05,La Rioja,Burgos
 30TWM05,Castilla y León,Soria
-30TWM05,Castilla y León,La Rioja
+30TWM05,La Rioja,La Rioja
 30TWM05,Castilla y León,Burgos
-30TWM15,La Rioja,Soria
-30TWM15,La Rioja,La Rioja
 30TWM15,Castilla y León,Soria
-30TWM15,Castilla y León,La Rioja
-30TWM25,La Rioja,Soria
-30TWM25,La Rioja,La Rioja
+30TWM15,La Rioja,La Rioja
 30TWM25,Castilla y León,Soria
-30TWM25,Castilla y León,La Rioja
-30TWM35,La Rioja,Soria
-30TWM35,La Rioja,La Rioja
+30TWM25,La Rioja,La Rioja
 30TWM35,Castilla y León,Soria
-30TWM35,Castilla y León,La Rioja
+30TWM35,La Rioja,La Rioja
 30TWM45,Castilla y León,Soria
 30TWM55,Castilla y León,Soria
 30TWM65,Castilla y León,Soria
-30TWM75,La Rioja,Soria
-30TWM75,La Rioja,La Rioja
 30TWM75,Castilla y León,Soria
-30TWM75,Castilla y León,La Rioja
+30TWM75,La Rioja,La Rioja
 30TWM85,La Rioja,La Rioja
 30TWM95,Aragón,Zaragoza
-30TWM95,Aragón,Navarra
-30TWM95,Aragón,La Rioja
-30TWM95,La Rioja,Zaragoza
-30TWM95,La Rioja,Navarra
-30TWM95,La Rioja,La Rioja
-30TWM95,Comunidad Foral de Navarra,Zaragoza
 30TWM95,Comunidad Foral de Navarra,Navarra
-30TWM95,Comunidad Foral de Navarra,La Rioja
+30TWM95,La Rioja,La Rioja
 30TXM05,Comunidad Foral de Navarra,Navarra
 30TXM15,Comunidad Foral de Navarra,Navarra
 30TXM25,Comunidad Foral de Navarra,Navarra
 30TXM35,Aragón,Zaragoza
-30TXM35,Aragón,Navarra
-30TXM35,Comunidad Foral de Navarra,Zaragoza
 30TXM35,Comunidad Foral de Navarra,Navarra
 30TXM45,Aragón,Zaragoza
 30TXM55,Aragón,Zaragoza
@@ -5663,8 +5210,6 @@ CUADRICULA,CCAA,Provincia
 29TNG13,Galicia,Pontevedra
 31TDG83,Cataluña/Catalunya,Girona
 29TPG64,Castilla y León,Zamora
-29TPG64,Castilla y León,Ourense
-29TPG64,Galicia,Zamora
 29TPG64,Galicia,Ourense
 31TCG34,Cataluña/Catalunya,Lleida
 31TDG73,Cataluña/Catalunya,Girona
@@ -5676,17 +5221,13 @@ CUADRICULA,CCAA,Provincia
 31TDG53,Cataluña/Catalunya,Barcelona
 31TDG53,Cataluña/Catalunya,Girona
 29TPG94,Castilla y León,Zamora
-31TCG04,Aragón,Lleida
-31TCG04,Aragón,Huesca
 31TCG04,Cataluña/Catalunya,Lleida
-31TCG04,Cataluña/Catalunya,Huesca
+31TCG04,Aragón,Huesca
 31TDG43,Cataluña/Catalunya,Barcelona
 31TDG43,Cataluña/Catalunya,Girona
 29TQG04,Castilla y León,Zamora
-31TBG94,Aragón,Lleida
-31TBG94,Aragón,Huesca
 31TBG94,Cataluña/Catalunya,Lleida
-31TBG94,Cataluña/Catalunya,Huesca
+31TBG94,Aragón,Huesca
 29TNG63,Galicia,Ourense
 31TDG33,Cataluña/Catalunya,Barcelona
 31TBG84,Aragón,Huesca
@@ -5827,56 +5368,28 @@ CUADRICULA,CCAA,Provincia
 30TWM04,Castilla y León,Soria
 30TWM04,Castilla y León,Burgos
 30TWM14,Castilla y León,Soria
-30TWM24,La Rioja,Soria
-30TWM24,La Rioja,La Rioja
 30TWM24,Castilla y León,Soria
-30TWM24,Castilla y León,La Rioja
-30TWM34,La Rioja,Soria
-30TWM34,La Rioja,La Rioja
+30TWM24,La Rioja,La Rioja
 30TWM34,Castilla y León,Soria
-30TWM34,Castilla y León,La Rioja
+30TWM34,La Rioja,La Rioja
 30TWM44,Castilla y León,Soria
 30TWM54,Castilla y León,Soria
 30TWM64,Castilla y León,Soria
-30TWM74,La Rioja,Soria
-30TWM74,La Rioja,La Rioja
 30TWM74,Castilla y León,Soria
-30TWM74,Castilla y León,La Rioja
-30TWM84,La Rioja,Soria
-30TWM84,La Rioja,La Rioja
+30TWM74,La Rioja,La Rioja
 30TWM84,Castilla y León,Soria
-30TWM84,Castilla y León,La Rioja
+30TWM84,La Rioja,La Rioja
 30TWM94,Aragón,Zaragoza
-30TWM94,Aragón,Navarra
-30TWM94,Aragón,Soria
-30TWM94,Aragón,La Rioja
-30TWM94,La Rioja,Zaragoza
-30TWM94,La Rioja,Navarra
-30TWM94,La Rioja,Soria
-30TWM94,La Rioja,La Rioja
-30TWM94,Comunidad Foral de Navarra,Zaragoza
 30TWM94,Comunidad Foral de Navarra,Navarra
-30TWM94,Comunidad Foral de Navarra,Soria
-30TWM94,Comunidad Foral de Navarra,La Rioja
-30TWM94,Castilla y León,Zaragoza
-30TWM94,Castilla y León,Navarra
 30TWM94,Castilla y León,Soria
-30TWM94,Castilla y León,La Rioja
+30TWM94,La Rioja,La Rioja
 30TXM04,Aragón,Zaragoza
-30TXM04,Aragón,Navarra
-30TXM04,Comunidad Foral de Navarra,Zaragoza
 30TXM04,Comunidad Foral de Navarra,Navarra
 30TXM14,Aragón,Zaragoza
-30TXM14,Aragón,Navarra
-30TXM14,Comunidad Foral de Navarra,Zaragoza
 30TXM14,Comunidad Foral de Navarra,Navarra
 30TXM24,Aragón,Zaragoza
-30TXM24,Aragón,Navarra
-30TXM24,Comunidad Foral de Navarra,Zaragoza
 30TXM24,Comunidad Foral de Navarra,Navarra
 30TXM34,Aragón,Zaragoza
-30TXM34,Aragón,Navarra
-30TXM34,Comunidad Foral de Navarra,Zaragoza
 30TXM34,Comunidad Foral de Navarra,Navarra
 30TXM44,Aragón,Zaragoza
 30TXM54,Aragón,Zaragoza
@@ -5927,23 +5440,17 @@ CUADRICULA,CCAA,Provincia
 31TCG13,Cataluña/Catalunya,Lleida
 31TDG52,Cataluña/Catalunya,Barcelona
 31TDG52,Cataluña/Catalunya,Girona
-31TCG03,Aragón,Lleida
-31TCG03,Aragón,Huesca
 31TCG03,Cataluña/Catalunya,Lleida
-31TCG03,Cataluña/Catalunya,Huesca
+31TCG03,Aragón,Huesca
 31TDG42,Cataluña/Catalunya,Barcelona
 31TDG42,Cataluña/Catalunya,Girona
 29TQG03,Castilla y León,Zamora
-31TBG93,Aragón,Lleida
-31TBG93,Aragón,Huesca
 31TBG93,Cataluña/Catalunya,Lleida
-31TBG93,Cataluña/Catalunya,Huesca
+31TBG93,Aragón,Huesca
 31TDG32,Cataluña/Catalunya,Barcelona
 29TQG13,Castilla y León,Zamora
-31TBG83,Aragón,Lleida
-31TBG83,Aragón,Huesca
 31TBG83,Cataluña/Catalunya,Lleida
-31TBG83,Cataluña/Catalunya,Huesca
+31TBG83,Aragón,Huesca
 29TNG72,Galicia,Ourense
 31TDG22,Cataluña/Catalunya,Barcelona
 29TQG23,Castilla y León,Zamora
@@ -6002,8 +5509,6 @@ CUADRICULA,CCAA,Provincia
 30TWM73,Castilla y León,Soria
 30TWM83,Castilla y León,Soria
 30TWM93,Aragón,Zaragoza
-30TWM93,Aragón,Soria
-30TWM93,Castilla y León,Zaragoza
 30TWM93,Castilla y León,Soria
 30TXM03,Aragón,Zaragoza
 30TXM13,Aragón,Zaragoza
@@ -6061,16 +5566,12 @@ CUADRICULA,CCAA,Provincia
 31TBG92,Cataluña/Catalunya,Lleida
 31TDG31,Cataluña/Catalunya,Barcelona
 29TQG12,Castilla y León,Zamora
-31TBG82,Aragón,Lleida
-31TBG82,Aragón,Huesca
 31TBG82,Cataluña/Catalunya,Lleida
-31TBG82,Cataluña/Catalunya,Huesca
+31TBG82,Aragón,Huesca
 31TDG21,Cataluña/Catalunya,Barcelona
 29TQG22,Castilla y León,Zamora
-31TBG72,Aragón,Lleida
-31TBG72,Aragón,Huesca
 31TBG72,Cataluña/Catalunya,Lleida
-31TBG72,Cataluña/Catalunya,Huesca
+31TBG72,Aragón,Huesca
 31TDG11,Cataluña/Catalunya,Barcelona
 29TQG32,Castilla y León,Zamora
 31TBG62,Aragón,Huesca
@@ -6122,12 +5623,8 @@ CUADRICULA,CCAA,Provincia
 30TWM72,Castilla y León,Soria
 30TWM82,Castilla y León,Soria
 30TWM92,Aragón,Zaragoza
-30TWM92,Aragón,Soria
-30TWM92,Castilla y León,Zaragoza
 30TWM92,Castilla y León,Soria
 30TXM02,Aragón,Zaragoza
-30TXM02,Aragón,Soria
-30TXM02,Castilla y León,Zaragoza
 30TXM02,Castilla y León,Soria
 30TXM12,Aragón,Zaragoza
 30TXM22,Aragón,Zaragoza
@@ -6174,10 +5671,8 @@ CUADRICULA,CCAA,Provincia
 31TBG81,Cataluña/Catalunya,Lleida
 31TDG20,Cataluña/Catalunya,Barcelona
 29TQG21,Castilla y León,Zamora
-31TBG71,Aragón,Lleida
-31TBG71,Aragón,Huesca
 31TBG71,Cataluña/Catalunya,Lleida
-31TBG71,Cataluña/Catalunya,Huesca
+31TBG71,Aragón,Huesca
 31TDG10,Cataluña/Catalunya,Barcelona
 29TQG31,Castilla y León,Zamora
 31TBG61,Aragón,Huesca
@@ -6224,12 +5719,8 @@ CUADRICULA,CCAA,Provincia
 30TWM71,Castilla y León,Soria
 30TWM81,Castilla y León,Soria
 30TWM91,Aragón,Zaragoza
-30TWM91,Aragón,Soria
-30TWM91,Castilla y León,Zaragoza
 30TWM91,Castilla y León,Soria
 30TXM01,Aragón,Zaragoza
-30TXM01,Aragón,Soria
-30TXM01,Castilla y León,Zaragoza
 30TXM01,Castilla y León,Soria
 30TXM11,Aragón,Zaragoza
 30TXM21,Aragón,Zaragoza
@@ -6271,15 +5762,11 @@ CUADRICULA,CCAA,Provincia
 31TDF48,,
 31TBG90,Cataluña/Catalunya,Lleida
 31TDF39,Cataluña/Catalunya,Barcelona
-31TBG80,Aragón,Lleida
-31TBG80,Aragón,Huesca
 31TBG80,Cataluña/Catalunya,Lleida
-31TBG80,Cataluña/Catalunya,Huesca
+31TBG80,Aragón,Huesca
 31TDF29,Cataluña/Catalunya,Barcelona
-31TBG70,Aragón,Lleida
-31TBG70,Aragón,Huesca
 31TBG70,Cataluña/Catalunya,Lleida
-31TBG70,Cataluña/Catalunya,Huesca
+31TBG70,Aragón,Huesca
 31TDF19,Cataluña/Catalunya,Barcelona
 29TQG30,Castilla y León,Zamora
 31TBG60,Aragón,Huesca
@@ -6333,12 +5820,8 @@ CUADRICULA,CCAA,Provincia
 30TWM60,Castilla y León,Soria
 30TWM70,Castilla y León,Soria
 30TWM80,Aragón,Zaragoza
-30TWM80,Aragón,Soria
-30TWM80,Castilla y León,Zaragoza
 30TWM80,Castilla y León,Soria
 30TWM90,Aragón,Zaragoza
-30TWM90,Aragón,Soria
-30TWM90,Castilla y León,Zaragoza
 30TWM90,Castilla y León,Soria
 30TXM00,Aragón,Zaragoza
 30TXM10,Aragón,Zaragoza
@@ -6373,16 +5856,12 @@ CUADRICULA,CCAA,Provincia
 31TCF09,Cataluña/Catalunya,Lleida
 31TBF99,Cataluña/Catalunya,Lleida
 31TDF38,Cataluña/Catalunya,Barcelona
-31TBF89,Aragón,Lleida
-31TBF89,Aragón,Huesca
 31TBF89,Cataluña/Catalunya,Lleida
-31TBF89,Cataluña/Catalunya,Huesca
+31TBF89,Aragón,Huesca
 31TDF28,Cataluña/Catalunya,Barcelona
 29TQF29,Castilla y León,Zamora
-31TBF79,Aragón,Lleida
-31TBF79,Aragón,Huesca
 31TBF79,Cataluña/Catalunya,Lleida
-31TBF79,Cataluña/Catalunya,Huesca
+31TBF79,Aragón,Huesca
 31TDF18,Cataluña/Catalunya,Barcelona
 29TQF39,Castilla y León,Zamora
 31TBF69,Aragón,Zaragoza
@@ -6439,8 +5918,6 @@ CUADRICULA,CCAA,Provincia
 30TWL69,Castilla y León,Soria
 30TWL79,Castilla y León,Soria
 30TWL89,Aragón,Zaragoza
-30TWL89,Aragón,Soria
-30TWL89,Castilla y León,Zaragoza
 30TWL89,Castilla y León,Soria
 30TWL99,Aragón,Zaragoza
 30TXL09,Aragón,Zaragoza
@@ -6478,17 +5955,12 @@ CUADRICULA,CCAA,Provincia
 31TDF37,Cataluña/Catalunya,Barcelona
 29TQF18,Castilla y León,Zamora
 31TBF88,Aragón,Zaragoza
-31TBF88,Aragón,Lleida
-31TBF88,Cataluña/Catalunya,Zaragoza
 31TBF88,Cataluña/Catalunya,Lleida
 31TDF27,Cataluña/Catalunya,Barcelona
 29TQF28,Castilla y León,Zamora
 31TBF78,Aragón,Zaragoza
-31TBF78,Aragón,Lleida
-31TBF78,Aragón,Huesca
-31TBF78,Cataluña/Catalunya,Zaragoza
 31TBF78,Cataluña/Catalunya,Lleida
-31TBF78,Cataluña/Catalunya,Huesca
+31TBF78,Aragón,Huesca
 31TDF17,Cataluña/Catalunya,Barcelona
 29TQF38,Castilla y León,Zamora
 31TBF68,Aragón,Zaragoza
@@ -6636,12 +6108,8 @@ CUADRICULA,CCAA,Provincia
 30TWL58,Castilla y León,Soria
 30TWL68,Castilla y León,Soria
 30TWL78,Aragón,Zaragoza
-30TWL78,Aragón,Soria
-30TWL78,Castilla y León,Zaragoza
 30TWL78,Castilla y León,Soria
 30TWL88,Aragón,Zaragoza
-30TWL88,Aragón,Soria
-30TWL88,Castilla y León,Zaragoza
 30TWL88,Castilla y León,Soria
 30TWL98,Aragón,Zaragoza
 30TXL08,Aragón,Zaragoza
@@ -6682,11 +6150,8 @@ CUADRICULA,CCAA,Provincia
 31TBF97,Cataluña/Catalunya,Lleida
 29TQF17,Castilla y León,Salamanca
 29TQF17,Castilla y León,Zamora
-31TBF87,Aragón,Tarragona
-31TBF87,Aragón,Zaragoza
-31TBF87,Aragón,Lleida
 31TBF87,Cataluña/Catalunya,Tarragona
-31TBF87,Cataluña/Catalunya,Zaragoza
+31TBF87,Aragón,Zaragoza
 31TBF87,Cataluña/Catalunya,Lleida
 31TDF26,Cataluña/Catalunya,Barcelona
 31TDF35,,
@@ -6711,11 +6176,8 @@ CUADRICULA,CCAA,Provincia
 31TDF21,,
 29TQF27,Castilla y León,Salamanca
 29TQF27,Castilla y León,Zamora
-31TBF77,Aragón,Tarragona
-31TBF77,Aragón,Zaragoza
-31TBF77,Aragón,Lleida
 31TBF77,Cataluña/Catalunya,Tarragona
-31TBF77,Cataluña/Catalunya,Zaragoza
+31TBF77,Aragón,Zaragoza
 31TBF77,Cataluña/Catalunya,Lleida
 31TDF16,Cataluña/Catalunya,Barcelona
 31TDF15,,
@@ -6764,40 +6226,24 @@ CUADRICULA,CCAA,Provincia
 30TVL57,Castilla y León,Segovia
 30TVL67,Castilla y León,Segovia
 30TVL77,Castilla-La Mancha,Guadalajara
-30TVL77,Castilla-La Mancha,Segovia
-30TVL77,Castilla-La Mancha,Soria
-30TVL77,Castilla y León,Guadalajara
 30TVL77,Castilla y León,Segovia
 30TVL77,Castilla y León,Soria
 30TVL87,Castilla-La Mancha,Guadalajara
-30TVL87,Castilla-La Mancha,Segovia
-30TVL87,Castilla-La Mancha,Soria
-30TVL87,Castilla y León,Guadalajara
 30TVL87,Castilla y León,Segovia
 30TVL87,Castilla y León,Soria
 30TVL97,Castilla-La Mancha,Guadalajara
-30TVL97,Castilla-La Mancha,Soria
-30TVL97,Castilla y León,Guadalajara
 30TVL97,Castilla y León,Soria
 30TWL07,Castilla-La Mancha,Guadalajara
-30TWL07,Castilla-La Mancha,Soria
-30TWL07,Castilla y León,Guadalajara
 30TWL07,Castilla y León,Soria
 30TWL17,Castilla-La Mancha,Guadalajara
-30TWL17,Castilla-La Mancha,Soria
-30TWL17,Castilla y León,Guadalajara
 30TWL17,Castilla y León,Soria
 30TWL27,Castilla y León,Soria
 30TWL37,Castilla y León,Soria
 30TWL47,Castilla y León,Soria
 30TWL57,Castilla y León,Soria
 30TWL67,Aragón,Zaragoza
-30TWL67,Aragón,Soria
-30TWL67,Castilla y León,Zaragoza
 30TWL67,Castilla y León,Soria
 30TWL77,Aragón,Zaragoza
-30TWL77,Aragón,Soria
-30TWL77,Castilla y León,Zaragoza
 30TWL77,Castilla y León,Soria
 30TWL87,Aragón,Zaragoza
 30TWL97,Aragón,Zaragoza
@@ -6839,10 +6285,8 @@ CUADRICULA,CCAA,Provincia
 31TBF86,Cataluña/Catalunya,Tarragona
 29TQF26,Castilla y León,Salamanca
 29TQF26,Castilla y León,Zamora
-31TBF76,Aragón,Tarragona
-31TBF76,Aragón,Zaragoza
 31TBF76,Cataluña/Catalunya,Tarragona
-31TBF76,Cataluña/Catalunya,Zaragoza
+31TBF76,Aragón,Zaragoza
 29TQF36,Castilla y León,Salamanca
 29TQF36,Castilla y León,Zamora
 31TBF66,Aragón,Zaragoza
@@ -6885,40 +6329,24 @@ CUADRICULA,CCAA,Provincia
 30TVL46,Castilla y León,Segovia
 30TVL56,Castilla y León,Segovia
 30TVL66,Castilla-La Mancha,Guadalajara
-30TVL66,Castilla-La Mancha,Segovia
-30TVL66,Castilla y León,Guadalajara
 30TVL66,Castilla y León,Segovia
 30TVL76,Castilla-La Mancha,Guadalajara
-30TVL76,Castilla-La Mancha,Segovia
-30TVL76,Castilla y León,Guadalajara
 30TVL76,Castilla y León,Segovia
 30TVL86,Castilla-La Mancha,Guadalajara
 30TVL96,Castilla-La Mancha,Guadalajara
-30TVL96,Castilla-La Mancha,Soria
-30TVL96,Castilla y León,Guadalajara
 30TVL96,Castilla y León,Soria
 30TWL06,Castilla-La Mancha,Guadalajara
 30TWL16,Castilla-La Mancha,Guadalajara
-30TWL16,Castilla-La Mancha,Soria
-30TWL16,Castilla y León,Guadalajara
 30TWL16,Castilla y León,Soria
 30TWL26,Castilla-La Mancha,Guadalajara
-30TWL26,Castilla-La Mancha,Soria
-30TWL26,Castilla y León,Guadalajara
 30TWL26,Castilla y León,Soria
 30TWL36,Castilla-La Mancha,Guadalajara
-30TWL36,Castilla-La Mancha,Soria
-30TWL36,Castilla y León,Guadalajara
 30TWL36,Castilla y León,Soria
 30TWL46,Castilla y León,Soria
 30TWL56,Castilla y León,Soria
 30TWL66,Aragón,Zaragoza
-30TWL66,Aragón,Soria
-30TWL66,Castilla y León,Zaragoza
 30TWL66,Castilla y León,Soria
 30TWL76,Aragón,Zaragoza
-30TWL76,Aragón,Soria
-30TWL76,Castilla y León,Zaragoza
 30TWL76,Castilla y León,Soria
 30TWL86,Aragón,Zaragoza
 30TWL96,Aragón,Zaragoza
@@ -6972,17 +6400,12 @@ CUADRICULA,CCAA,Provincia
 29TQF15,Castilla y León,Salamanca
 31TBF85,Cataluña/Catalunya,Tarragona
 29TQF25,Castilla y León,Salamanca
-31TBF75,Aragón,Tarragona
-31TBF75,Aragón,Zaragoza
 31TBF75,Cataluña/Catalunya,Tarragona
-31TBF75,Cataluña/Catalunya,Zaragoza
+31TBF75,Aragón,Zaragoza
 29TQF35,Castilla y León,Salamanca
 31TBF65,Aragón,Teruel
-31TBF65,Aragón,Tarragona
-31TBF65,Aragón,Zaragoza
-31TBF65,Cataluña/Catalunya,Teruel
 31TBF65,Cataluña/Catalunya,Tarragona
-31TBF65,Cataluña/Catalunya,Zaragoza
+31TBF65,Aragón,Zaragoza
 29TQF45,Castilla y León,Salamanca
 31TBF55,Aragón,Teruel
 31TBF55,Aragón,Zaragoza
@@ -7024,21 +6447,11 @@ CUADRICULA,CCAA,Provincia
 30TVL25,Castilla y León,Segovia
 30TVL35,Castilla y León,Segovia
 30TVL45,Comunidad de Madrid,Madrid
-30TVL45,Comunidad de Madrid,Segovia
-30TVL45,Castilla y León,Madrid
 30TVL45,Castilla y León,Segovia
-30TVL55,Castilla-La Mancha,Madrid
-30TVL55,Castilla-La Mancha,Guadalajara
-30TVL55,Castilla-La Mancha,Segovia
 30TVL55,Comunidad de Madrid,Madrid
-30TVL55,Comunidad de Madrid,Guadalajara
-30TVL55,Comunidad de Madrid,Segovia
-30TVL55,Castilla y León,Madrid
-30TVL55,Castilla y León,Guadalajara
+30TVL55,Castilla-La Mancha,Guadalajara
 30TVL55,Castilla y León,Segovia
 30TVL65,Castilla-La Mancha,Guadalajara
-30TVL65,Castilla-La Mancha,Segovia
-30TVL65,Castilla y León,Guadalajara
 30TVL65,Castilla y León,Segovia
 30TVL75,Castilla-La Mancha,Guadalajara
 30TVL85,Castilla-La Mancha,Guadalajara
@@ -7047,35 +6460,19 @@ CUADRICULA,CCAA,Provincia
 30TWL15,Castilla-La Mancha,Guadalajara
 30TWL25,Castilla-La Mancha,Guadalajara
 30TWL35,Castilla-La Mancha,Guadalajara
-30TWL35,Castilla-La Mancha,Soria
-30TWL35,Castilla y León,Guadalajara
 30TWL35,Castilla y León,Soria
 30TWL45,Castilla-La Mancha,Guadalajara
-30TWL45,Castilla-La Mancha,Soria
-30TWL45,Castilla y León,Guadalajara
 30TWL45,Castilla y León,Soria
 30TWL55,Castilla y León,Soria
 30TWL65,Castilla-La Mancha,Guadalajara
-30TWL65,Castilla-La Mancha,Soria
-30TWL65,Castilla y León,Guadalajara
 30TWL65,Castilla y León,Soria
-30TWL75,Aragón,Guadalajara
-30TWL75,Aragón,Zaragoza
-30TWL75,Aragón,Soria
 30TWL75,Castilla-La Mancha,Guadalajara
-30TWL75,Castilla-La Mancha,Zaragoza
-30TWL75,Castilla-La Mancha,Soria
-30TWL75,Castilla y León,Guadalajara
-30TWL75,Castilla y León,Zaragoza
+30TWL75,Aragón,Zaragoza
 30TWL75,Castilla y León,Soria
-30TWL85,Aragón,Guadalajara
-30TWL85,Aragón,Zaragoza
 30TWL85,Castilla-La Mancha,Guadalajara
-30TWL85,Castilla-La Mancha,Zaragoza
-30TWL95,Aragón,Guadalajara
-30TWL95,Aragón,Zaragoza
+30TWL85,Aragón,Zaragoza
 30TWL95,Castilla-La Mancha,Guadalajara
-30TWL95,Castilla-La Mancha,Zaragoza
+30TWL95,Aragón,Zaragoza
 30TXL05,Aragón,Zaragoza
 30TXL15,Aragón,Zaragoza
 30TXL25,Aragón,Zaragoza
@@ -7120,16 +6517,11 @@ CUADRICULA,CCAA,Provincia
 31TBF84,Cataluña/Catalunya,Tarragona
 29TQF24,Castilla y León,Salamanca
 31TBF74,Aragón,Teruel
-31TBF74,Aragón,Tarragona
-31TBF74,Cataluña/Catalunya,Teruel
 31TBF74,Cataluña/Catalunya,Tarragona
 29TQF34,Castilla y León,Salamanca
 31TBF64,Aragón,Teruel
-31TBF64,Aragón,Tarragona
-31TBF64,Aragón,Zaragoza
-31TBF64,Cataluña/Catalunya,Teruel
 31TBF64,Cataluña/Catalunya,Tarragona
-31TBF64,Cataluña/Catalunya,Zaragoza
+31TBF64,Aragón,Zaragoza
 29TQF44,Castilla y León,Salamanca
 31TBF54,Aragón,Teruel
 31TBF54,Aragón,Zaragoza
@@ -7159,21 +6551,13 @@ CUADRICULA,CCAA,Provincia
 30TVL14,Castilla y León,Segovia
 30TVL24,Castilla y León,Segovia
 30TVL34,Comunidad de Madrid,Madrid
-30TVL34,Comunidad de Madrid,Segovia
-30TVL34,Castilla y León,Madrid
 30TVL34,Castilla y León,Segovia
 30TVL44,Comunidad de Madrid,Madrid
-30TVL44,Comunidad de Madrid,Segovia
-30TVL44,Castilla y León,Madrid
 30TVL44,Castilla y León,Segovia
-30TVL54,Castilla-La Mancha,Madrid
-30TVL54,Castilla-La Mancha,Guadalajara
 30TVL54,Comunidad de Madrid,Madrid
-30TVL54,Comunidad de Madrid,Guadalajara
-30TVL64,Castilla-La Mancha,Madrid
-30TVL64,Castilla-La Mancha,Guadalajara
+30TVL54,Castilla-La Mancha,Guadalajara
 30TVL64,Comunidad de Madrid,Madrid
-30TVL64,Comunidad de Madrid,Guadalajara
+30TVL64,Castilla-La Mancha,Guadalajara
 30TVL74,Castilla-La Mancha,Guadalajara
 30TVL84,Castilla-La Mancha,Guadalajara
 30TVL94,Castilla-La Mancha,Guadalajara
@@ -7182,30 +6566,18 @@ CUADRICULA,CCAA,Provincia
 30TWL24,Castilla-La Mancha,Guadalajara
 30TWL34,Castilla-La Mancha,Guadalajara
 30TWL44,Castilla-La Mancha,Guadalajara
-30TWL44,Castilla-La Mancha,Soria
-30TWL44,Castilla y León,Guadalajara
 30TWL44,Castilla y León,Soria
 30TWL54,Castilla-La Mancha,Guadalajara
-30TWL54,Castilla-La Mancha,Soria
-30TWL54,Castilla y León,Guadalajara
 30TWL54,Castilla y León,Soria
 30TWL64,Castilla-La Mancha,Guadalajara
-30TWL64,Castilla-La Mancha,Soria
-30TWL64,Castilla y León,Guadalajara
 30TWL64,Castilla y León,Soria
 30TWL74,Castilla-La Mancha,Guadalajara
-30TWL74,Castilla-La Mancha,Soria
-30TWL74,Castilla y León,Guadalajara
 30TWL74,Castilla y León,Soria
 30TWL84,Castilla-La Mancha,Guadalajara
-30TWL94,Aragón,Guadalajara
-30TWL94,Aragón,Zaragoza
 30TWL94,Castilla-La Mancha,Guadalajara
-30TWL94,Castilla-La Mancha,Zaragoza
-30TXL04,Aragón,Guadalajara
-30TXL04,Aragón,Zaragoza
+30TWL94,Aragón,Zaragoza
 30TXL04,Castilla-La Mancha,Guadalajara
-30TXL04,Castilla-La Mancha,Zaragoza
+30TXL04,Aragón,Zaragoza
 30TXL14,Aragón,Zaragoza
 30TXL24,Aragón,Zaragoza
 30TXL34,Aragón,Teruel
@@ -7238,13 +6610,9 @@ CUADRICULA,CCAA,Provincia
 31TBF83,Cataluña/Catalunya,Tarragona
 29TQF23,Castilla y León,Salamanca
 31TBF73,Aragón,Teruel
-31TBF73,Aragón,Tarragona
-31TBF73,Cataluña/Catalunya,Teruel
 31TBF73,Cataluña/Catalunya,Tarragona
 29TQF33,Castilla y León,Salamanca
 31TBF63,Aragón,Teruel
-31TBF63,Aragón,Tarragona
-31TBF63,Cataluña/Catalunya,Teruel
 31TBF63,Cataluña/Catalunya,Tarragona
 29TQF43,Castilla y León,Salamanca
 31TBF53,Aragón,Teruel
@@ -7271,19 +6639,13 @@ CUADRICULA,CCAA,Provincia
 30TVL03,Castilla y León,Segovia
 30TVL13,Castilla y León,Segovia
 30TVL23,Comunidad de Madrid,Madrid
-30TVL23,Comunidad de Madrid,Segovia
-30TVL23,Castilla y León,Madrid
 30TVL23,Castilla y León,Segovia
 30TVL33,Comunidad de Madrid,Madrid
-30TVL33,Comunidad de Madrid,Segovia
-30TVL33,Castilla y León,Madrid
 30TVL33,Castilla y León,Segovia
 30TVL43,Comunidad de Madrid,Madrid
 30TVL53,Comunidad de Madrid,Madrid
-30TVL63,Castilla-La Mancha,Madrid
-30TVL63,Castilla-La Mancha,Guadalajara
 30TVL63,Comunidad de Madrid,Madrid
-30TVL63,Comunidad de Madrid,Guadalajara
+30TVL63,Castilla-La Mancha,Guadalajara
 30TVL73,Castilla-La Mancha,Guadalajara
 30TVL83,Castilla-La Mancha,Guadalajara
 30TVL93,Castilla-La Mancha,Guadalajara
@@ -7297,16 +6659,11 @@ CUADRICULA,CCAA,Provincia
 30TWL73,Castilla-La Mancha,Guadalajara
 30TWL83,Castilla-La Mancha,Guadalajara
 30TWL93,Castilla-La Mancha,Guadalajara
-30TXL03,Aragón,Guadalajara
-30TXL03,Aragón,Zaragoza
 30TXL03,Castilla-La Mancha,Guadalajara
-30TXL03,Castilla-La Mancha,Zaragoza
-30TXL13,Aragón,Guadalajara
+30TXL03,Aragón,Zaragoza
+30TXL13,Castilla-La Mancha,Guadalajara
 30TXL13,Aragón,Teruel
 30TXL13,Aragón,Zaragoza
-30TXL13,Castilla-La Mancha,Guadalajara
-30TXL13,Castilla-La Mancha,Teruel
-30TXL13,Castilla-La Mancha,Zaragoza
 30TXL23,Aragón,Teruel
 30TXL23,Aragón,Zaragoza
 30TXL33,Aragón,Teruel
@@ -7333,13 +6690,9 @@ CUADRICULA,CCAA,Provincia
 31TBF82,Cataluña/Catalunya,Tarragona
 29TQF22,Castilla y León,Salamanca
 31TBF72,Aragón,Teruel
-31TBF72,Aragón,Tarragona
-31TBF72,Cataluña/Catalunya,Teruel
 31TBF72,Cataluña/Catalunya,Tarragona
 29TQF32,Castilla y León,Salamanca
 31TBF62,Aragón,Teruel
-31TBF62,Aragón,Tarragona
-31TBF62,Cataluña/Catalunya,Teruel
 31TBF62,Cataluña/Catalunya,Tarragona
 29TQF42,Castilla y León,Salamanca
 31TBF52,Aragón,Teruel
@@ -7366,23 +6719,15 @@ CUADRICULA,CCAA,Provincia
 30TUL92,Castilla y León,Segovia
 30TVL02,Castilla y León,Segovia
 30TVL12,Comunidad de Madrid,Madrid
-30TVL12,Comunidad de Madrid,Segovia
-30TVL12,Castilla y León,Madrid
 30TVL12,Castilla y León,Segovia
 30TVL22,Comunidad de Madrid,Madrid
-30TVL22,Comunidad de Madrid,Segovia
-30TVL22,Castilla y León,Madrid
 30TVL22,Castilla y León,Segovia
 30TVL32,Comunidad de Madrid,Madrid
 30TVL42,Comunidad de Madrid,Madrid
-30TVL52,Castilla-La Mancha,Madrid
-30TVL52,Castilla-La Mancha,Guadalajara
 30TVL52,Comunidad de Madrid,Madrid
-30TVL52,Comunidad de Madrid,Guadalajara
-30TVL62,Castilla-La Mancha,Madrid
-30TVL62,Castilla-La Mancha,Guadalajara
+30TVL52,Castilla-La Mancha,Guadalajara
 30TVL62,Comunidad de Madrid,Madrid
-30TVL62,Comunidad de Madrid,Guadalajara
+30TVL62,Castilla-La Mancha,Guadalajara
 30TVL72,Castilla-La Mancha,Guadalajara
 30TVL92,Castilla-La Mancha,Guadalajara
 30TWL02,Castilla-La Mancha,Guadalajara
@@ -7395,14 +6740,10 @@ CUADRICULA,CCAA,Provincia
 30TWL82,Castilla-La Mancha,Guadalajara
 30TWL92,Castilla-La Mancha,Guadalajara
 30TXL02,Castilla-La Mancha,Guadalajara
-30TXL12,Aragón,Guadalajara
-30TXL12,Aragón,Teruel
 30TXL12,Castilla-La Mancha,Guadalajara
-30TXL12,Castilla-La Mancha,Teruel
-30TXL22,Aragón,Guadalajara
-30TXL22,Aragón,Teruel
+30TXL12,Aragón,Teruel
 30TXL22,Castilla-La Mancha,Guadalajara
-30TXL22,Castilla-La Mancha,Teruel
+30TXL22,Aragón,Teruel
 30TXL32,Aragón,Teruel
 30TXL42,Aragón,Teruel
 30TXL52,Aragón,Teruel
@@ -7600,23 +6941,13 @@ CUADRICULA,CCAA,Provincia
 31TBF71,Cataluña/Catalunya,Tarragona
 29TQF31,Castilla y León,Salamanca
 31TBF61,Comunitat Valenciana,Castelló/Castellón
-31TBF61,Comunitat Valenciana,Teruel
-31TBF61,Comunitat Valenciana,Tarragona
-31TBF61,Aragón,Castelló/Castellón
 31TBF61,Aragón,Teruel
-31TBF61,Aragón,Tarragona
-31TBF61,Cataluña/Catalunya,Castelló/Castellón
-31TBF61,Cataluña/Catalunya,Teruel
 31TBF61,Cataluña/Catalunya,Tarragona
 29TQF41,Castilla y León,Salamanca
 31TBF51,Comunitat Valenciana,Castelló/Castellón
-31TBF51,Comunitat Valenciana,Teruel
-31TBF51,Aragón,Castelló/Castellón
 31TBF51,Aragón,Teruel
 29TQF51,Castilla y León,Salamanca
 31TBF41,Comunitat Valenciana,Castelló/Castellón
-31TBF41,Comunitat Valenciana,Teruel
-31TBF41,Aragón,Castelló/Castellón
 31TBF41,Aragón,Teruel
 30TTL41,Castilla y León,Salamanca
 30TTL51,Castilla y León,Salamanca
@@ -7638,24 +6969,16 @@ CUADRICULA,CCAA,Provincia
 30TUL81,Castilla y León,Segovia
 30TUL91,Castilla y León,Segovia
 30TVL01,Comunidad de Madrid,Madrid
-30TVL01,Comunidad de Madrid,Segovia
-30TVL01,Castilla y León,Madrid
 30TVL01,Castilla y León,Segovia
 30TVL11,Comunidad de Madrid,Madrid
-30TVL11,Comunidad de Madrid,Segovia
-30TVL11,Castilla y León,Madrid
 30TVL11,Castilla y León,Segovia
 30TVL21,Comunidad de Madrid,Madrid
 30TVL31,Comunidad de Madrid,Madrid
 30TVL41,Comunidad de Madrid,Madrid
-30TVL51,Castilla-La Mancha,Madrid
-30TVL51,Castilla-La Mancha,Guadalajara
 30TVL51,Comunidad de Madrid,Madrid
-30TVL51,Comunidad de Madrid,Guadalajara
-30TVL61,Castilla-La Mancha,Madrid
-30TVL61,Castilla-La Mancha,Guadalajara
+30TVL51,Castilla-La Mancha,Guadalajara
 30TVL61,Comunidad de Madrid,Madrid
-30TVL61,Comunidad de Madrid,Guadalajara
+30TVL61,Castilla-La Mancha,Guadalajara
 30TVL71,Castilla-La Mancha,Guadalajara
 30TVL81,Castilla-La Mancha,Guadalajara
 30TVL91,Castilla-La Mancha,Guadalajara
@@ -7671,10 +6994,8 @@ CUADRICULA,CCAA,Provincia
 30TWL91,Castilla-La Mancha,Guadalajara
 30TXL01,Castilla-La Mancha,Guadalajara
 30TXL11,Castilla-La Mancha,Guadalajara
-30TXL21,Aragón,Guadalajara
-30TXL21,Aragón,Teruel
 30TXL21,Castilla-La Mancha,Guadalajara
-30TXL21,Castilla-La Mancha,Teruel
+30TXL21,Aragón,Teruel
 30TXL31,Aragón,Teruel
 30TXL41,Aragón,Teruel
 30TXL51,Aragón,Teruel
@@ -7686,16 +7007,10 @@ CUADRICULA,CCAA,Provincia
 30TYL11,Aragón,Teruel
 30TYL21,Aragón,Teruel
 30TYL31,Comunitat Valenciana,Castelló/Castellón
-30TYL31,Comunitat Valenciana,Teruel
-30TYL31,Aragón,Castelló/Castellón
 30TYL31,Aragón,Teruel
 30TYL41,Comunitat Valenciana,Castelló/Castellón
-30TYL41,Comunitat Valenciana,Teruel
-30TYL41,Aragón,Castelló/Castellón
 30TYL41,Aragón,Teruel
 30TYL51,Comunitat Valenciana,Castelló/Castellón
-30TYL51,Comunitat Valenciana,Teruel
-30TYL51,Aragón,Castelló/Castellón
 30TYL51,Aragón,Teruel
 31TCF60,,
 31TCF50,,
@@ -7746,13 +7061,9 @@ CUADRICULA,CCAA,Provincia
 31TBF80,Cataluña/Catalunya,Tarragona
 29TQF20,Castilla y León,Salamanca
 31TBF70,Comunitat Valenciana,Castelló/Castellón
-31TBF70,Comunitat Valenciana,Tarragona
-31TBF70,Cataluña/Catalunya,Castelló/Castellón
 31TBF70,Cataluña/Catalunya,Tarragona
 29TQF30,Castilla y León,Salamanca
 31TBF60,Comunitat Valenciana,Castelló/Castellón
-31TBF60,Comunitat Valenciana,Tarragona
-31TBF60,Cataluña/Catalunya,Castelló/Castellón
 31TBF60,Cataluña/Catalunya,Tarragona
 29TQF40,Castilla y León,Salamanca
 31TBF50,Comunitat Valenciana,Castelló/Castellón
@@ -7780,9 +7091,6 @@ CUADRICULA,CCAA,Provincia
 30TUL90,Castilla y León,Segovia
 30TUL90,Castilla y León,Ávila
 30TVL00,Comunidad de Madrid,Madrid
-30TVL00,Comunidad de Madrid,Segovia
-30TVL00,Comunidad de Madrid,Ávila
-30TVL00,Castilla y León,Madrid
 30TVL00,Castilla y León,Segovia
 30TVL00,Castilla y León,Ávila
 30TVL10,Comunidad de Madrid,Madrid
@@ -7790,14 +7098,10 @@ CUADRICULA,CCAA,Provincia
 30TVL30,Comunidad de Madrid,Madrid
 30TVL40,Comunidad de Madrid,Madrid
 30TVL50,Comunidad de Madrid,Madrid
-30TVL60,Castilla-La Mancha,Madrid
-30TVL60,Castilla-La Mancha,Guadalajara
 30TVL60,Comunidad de Madrid,Madrid
-30TVL60,Comunidad de Madrid,Guadalajara
-30TVL70,Castilla-La Mancha,Madrid
-30TVL70,Castilla-La Mancha,Guadalajara
+30TVL60,Castilla-La Mancha,Guadalajara
 30TVL70,Comunidad de Madrid,Madrid
-30TVL70,Comunidad de Madrid,Guadalajara
+30TVL70,Castilla-La Mancha,Guadalajara
 30TVL80,Castilla-La Mancha,Guadalajara
 30TVL90,Castilla-La Mancha,Guadalajara
 30TWL00,Castilla-La Mancha,Guadalajara
@@ -7813,10 +7117,8 @@ CUADRICULA,CCAA,Provincia
 30TWL90,Castilla-La Mancha,Guadalajara
 30TXL00,Castilla-La Mancha,Guadalajara
 30TXL10,Castilla-La Mancha,Guadalajara
-30TXL20,Aragón,Guadalajara
-30TXL20,Aragón,Teruel
 30TXL20,Castilla-La Mancha,Guadalajara
-30TXL20,Castilla-La Mancha,Teruel
+30TXL20,Aragón,Teruel
 30TXL30,Aragón,Teruel
 30TXL40,Aragón,Teruel
 30TXL50,Aragón,Teruel
@@ -7827,12 +7129,8 @@ CUADRICULA,CCAA,Provincia
 30TYL00,Aragón,Teruel
 30TYL10,Aragón,Teruel
 30TYL20,Comunitat Valenciana,Castelló/Castellón
-30TYL20,Comunitat Valenciana,Teruel
-30TYL20,Aragón,Castelló/Castellón
 30TYL20,Aragón,Teruel
 30TYL30,Comunitat Valenciana,Castelló/Castellón
-30TYL30,Comunitat Valenciana,Teruel
-30TYL30,Aragón,Castelló/Castellón
 30TYL30,Aragón,Teruel
 30TYL40,Comunitat Valenciana,Castelló/Castellón
 30TYL50,Comunitat Valenciana,Castelló/Castellón
@@ -7853,13 +7151,9 @@ CUADRICULA,CCAA,Provincia
 31TBE98,,
 29TQE19,Castilla y León,Salamanca
 31TBE89,Comunitat Valenciana,Castelló/Castellón
-31TBE89,Comunitat Valenciana,Tarragona
-31TBE89,Cataluña/Catalunya,Castelló/Castellón
 31TBE89,Cataluña/Catalunya,Tarragona
 29TQE29,Castilla y León,Salamanca
 31TBE79,Comunitat Valenciana,Castelló/Castellón
-31TBE79,Comunitat Valenciana,Tarragona
-31TBE79,Cataluña/Catalunya,Castelló/Castellón
 31TBE79,Cataluña/Catalunya,Tarragona
 29TQE39,Castilla y León,Salamanca
 31TBE69,Comunitat Valenciana,Castelló/Castellón
@@ -7885,18 +7179,11 @@ CUADRICULA,CCAA,Provincia
 30TUK79,Castilla y León,Segovia
 30TUK79,Castilla y León,Ávila
 30TUK89,Comunidad de Madrid,Madrid
-30TUK89,Comunidad de Madrid,Segovia
-30TUK89,Comunidad de Madrid,Ávila
-30TUK89,Castilla y León,Madrid
 30TUK89,Castilla y León,Segovia
 30TUK89,Castilla y León,Ávila
 30TUK99,Comunidad de Madrid,Madrid
-30TUK99,Comunidad de Madrid,Ávila
-30TUK99,Castilla y León,Madrid
 30TUK99,Castilla y León,Ávila
 30TVK09,Comunidad de Madrid,Madrid
-30TVK09,Comunidad de Madrid,Ávila
-30TVK09,Castilla y León,Madrid
 30TVK09,Castilla y León,Ávila
 30TVK19,Comunidad de Madrid,Madrid
 30TVK29,Comunidad de Madrid,Madrid
@@ -7904,10 +7191,8 @@ CUADRICULA,CCAA,Provincia
 30TVK49,Comunidad de Madrid,Madrid
 30TVK59,Comunidad de Madrid,Madrid
 30TVK69,Comunidad de Madrid,Madrid
-30TVK79,Castilla-La Mancha,Madrid
-30TVK79,Castilla-La Mancha,Guadalajara
 30TVK79,Comunidad de Madrid,Madrid
-30TVK79,Comunidad de Madrid,Guadalajara
+30TVK79,Castilla-La Mancha,Guadalajara
 30TVK89,Castilla-La Mancha,Guadalajara
 30TVK99,Castilla-La Mancha,Guadalajara
 30TWK09,Castilla-La Mancha,Guadalajara
@@ -7927,14 +7212,10 @@ CUADRICULA,CCAA,Provincia
 30TWK99,Castilla-La Mancha,Guadalajara
 30TWK99,Castilla-La Mancha,Cuenca
 30TXK09,Castilla-La Mancha,Guadalajara
-30TXK19,Aragón,Guadalajara
-30TXK19,Aragón,Teruel
 30TXK19,Castilla-La Mancha,Guadalajara
-30TXK19,Castilla-La Mancha,Teruel
-30TXK29,Aragón,Guadalajara
-30TXK29,Aragón,Teruel
+30TXK19,Aragón,Teruel
 30TXK29,Castilla-La Mancha,Guadalajara
-30TXK29,Castilla-La Mancha,Teruel
+30TXK29,Aragón,Teruel
 30TXK39,Aragón,Teruel
 30TXK49,Aragón,Teruel
 30TXK59,Aragón,Teruel
@@ -7945,12 +7226,8 @@ CUADRICULA,CCAA,Provincia
 30TYK09,Aragón,Teruel
 30TYK19,Aragón,Teruel
 30TYK29,Comunitat Valenciana,Castelló/Castellón
-30TYK29,Comunitat Valenciana,Teruel
-30TYK29,Aragón,Castelló/Castellón
 30TYK29,Aragón,Teruel
 30TYK39,Comunitat Valenciana,Castelló/Castellón
-30TYK39,Comunitat Valenciana,Teruel
-30TYK39,Aragón,Castelló/Castellón
 30TYK39,Aragón,Teruel
 30TYK49,Comunitat Valenciana,Castelló/Castellón
 30TYK59,Comunitat Valenciana,Castelló/Castellón
@@ -7959,22 +7236,14 @@ CUADRICULA,CCAA,Provincia
 29TQE08,Castilla y León,Salamanca
 29TQE18,Castilla y León,Salamanca
 31TBE88,Comunitat Valenciana,Castelló/Castellón
-31TBE88,Comunitat Valenciana,Tarragona
-31TBE88,Cataluña/Catalunya,Castelló/Castellón
 31TBE88,Cataluña/Catalunya,Tarragona
 29TQE28,Extremadura,Cáceres
-29TQE28,Extremadura,Salamanca
-29TQE28,Castilla y León,Cáceres
 29TQE28,Castilla y León,Salamanca
 31TBE78,Comunitat Valenciana,Castelló/Castellón
 29TQE38,Extremadura,Cáceres
-29TQE38,Extremadura,Salamanca
-29TQE38,Castilla y León,Cáceres
 29TQE38,Castilla y León,Salamanca
 31TBE68,Comunitat Valenciana,Castelló/Castellón
 29TQE48,Extremadura,Cáceres
-29TQE48,Extremadura,Salamanca
-29TQE48,Castilla y León,Cáceres
 29TQE48,Castilla y León,Salamanca
 31TBE58,Comunitat Valenciana,Castelló/Castellón
 29TQE58,Castilla y León,Salamanca
@@ -7997,8 +7266,6 @@ CUADRICULA,CCAA,Provincia
 30TUK68,Castilla y León,Ávila
 30TUK78,Castilla y León,Ávila
 30TUK88,Comunidad de Madrid,Madrid
-30TUK88,Comunidad de Madrid,Ávila
-30TUK88,Castilla y León,Madrid
 30TUK88,Castilla y León,Ávila
 30TUK98,Comunidad de Madrid,Madrid
 30TVK08,Comunidad de Madrid,Madrid
@@ -8008,14 +7275,10 @@ CUADRICULA,CCAA,Provincia
 30TVK48,Comunidad de Madrid,Madrid
 30TVK58,Comunidad de Madrid,Madrid
 30TVK68,Comunidad de Madrid,Madrid
-30TVK78,Castilla-La Mancha,Madrid
-30TVK78,Castilla-La Mancha,Guadalajara
 30TVK78,Comunidad de Madrid,Madrid
-30TVK78,Comunidad de Madrid,Guadalajara
-30TVK88,Castilla-La Mancha,Madrid
-30TVK88,Castilla-La Mancha,Guadalajara
+30TVK78,Castilla-La Mancha,Guadalajara
 30TVK88,Comunidad de Madrid,Madrid
-30TVK88,Comunidad de Madrid,Guadalajara
+30TVK88,Castilla-La Mancha,Guadalajara
 30TVK98,Castilla-La Mancha,Guadalajara
 30TWK08,Castilla-La Mancha,Guadalajara
 30TWK18,Castilla-La Mancha,Guadalajara
@@ -8030,14 +7293,10 @@ CUADRICULA,CCAA,Provincia
 30TWK88,Castilla-La Mancha,Cuenca
 30TWK98,Castilla-La Mancha,Guadalajara
 30TWK98,Castilla-La Mancha,Cuenca
-30TXK08,Aragón,Guadalajara
-30TXK08,Aragón,Teruel
 30TXK08,Castilla-La Mancha,Guadalajara
-30TXK08,Castilla-La Mancha,Teruel
-30TXK18,Aragón,Guadalajara
-30TXK18,Aragón,Teruel
+30TXK08,Aragón,Teruel
 30TXK18,Castilla-La Mancha,Guadalajara
-30TXK18,Castilla-La Mancha,Teruel
+30TXK18,Aragón,Teruel
 30TXK28,Aragón,Teruel
 30TXK38,Aragón,Teruel
 30TXK48,Aragón,Teruel
@@ -8049,12 +7308,8 @@ CUADRICULA,CCAA,Provincia
 30TYK08,Aragón,Teruel
 30TYK18,Aragón,Teruel
 30TYK28,Comunitat Valenciana,Castelló/Castellón
-30TYK28,Comunitat Valenciana,Teruel
-30TYK28,Aragón,Castelló/Castellón
 30TYK28,Aragón,Teruel
 30TYK38,Comunitat Valenciana,Castelló/Castellón
-30TYK38,Comunitat Valenciana,Teruel
-30TYK38,Aragón,Castelló/Castellón
 30TYK38,Aragón,Teruel
 30TYK48,Comunitat Valenciana,Castelló/Castellón
 30TYK58,Comunitat Valenciana,Castelló/Castellón
@@ -8062,8 +7317,6 @@ CUADRICULA,CCAA,Provincia
 29TPE97,Castilla y León,Salamanca
 29TQE07,Castilla y León,Salamanca
 29TQE17,Extremadura,Cáceres
-29TQE17,Extremadura,Salamanca
-29TQE17,Castilla y León,Cáceres
 29TQE17,Castilla y León,Salamanca
 31TBE97,,
 31TBE87,Comunitat Valenciana,Castelló/Castellón
@@ -8073,27 +7326,19 @@ CUADRICULA,CCAA,Provincia
 31TCE15,,
 31TCE05,,
 29TQE27,Extremadura,Cáceres
-29TQE27,Extremadura,Salamanca
-29TQE27,Castilla y León,Cáceres
 29TQE27,Castilla y León,Salamanca
 31TBE77,Comunitat Valenciana,Castelló/Castellón
 29TQE37,Extremadura,Cáceres
 31TBE67,Comunitat Valenciana,Castelló/Castellón
 29TQE47,Extremadura,Cáceres
-29TQE47,Extremadura,Salamanca
-29TQE47,Castilla y León,Cáceres
 29TQE47,Castilla y León,Salamanca
 31TBE57,Comunitat Valenciana,Castelló/Castellón
 29TQE57,Castilla y León,Salamanca
 31TBE47,Comunitat Valenciana,Castelló/Castellón
 30TTK47,Castilla y León,Salamanca
 30TTK57,Extremadura,Cáceres
-30TTK57,Extremadura,Salamanca
-30TTK57,Castilla y León,Cáceres
 30TTK57,Castilla y León,Salamanca
 30TTK67,Extremadura,Cáceres
-30TTK67,Extremadura,Salamanca
-30TTK67,Castilla y León,Cáceres
 30TTK67,Castilla y León,Salamanca
 30TTK77,Castilla y León,Ávila
 30TTK77,Castilla y León,Salamanca
@@ -8108,12 +7353,8 @@ CUADRICULA,CCAA,Provincia
 30TUK57,Castilla y León,Ávila
 30TUK67,Castilla y León,Ávila
 30TUK77,Comunidad de Madrid,Madrid
-30TUK77,Comunidad de Madrid,Ávila
-30TUK77,Castilla y León,Madrid
 30TUK77,Castilla y León,Ávila
 30TUK87,Comunidad de Madrid,Madrid
-30TUK87,Comunidad de Madrid,Ávila
-30TUK87,Castilla y León,Madrid
 30TUK87,Castilla y León,Ávila
 30TUK97,Comunidad de Madrid,Madrid
 30TVK07,Comunidad de Madrid,Madrid
@@ -8124,10 +7365,8 @@ CUADRICULA,CCAA,Provincia
 30TVK57,Comunidad de Madrid,Madrid
 30TVK67,Comunidad de Madrid,Madrid
 30TVK77,Comunidad de Madrid,Madrid
-30TVK87,Castilla-La Mancha,Madrid
-30TVK87,Castilla-La Mancha,Guadalajara
 30TVK87,Comunidad de Madrid,Madrid
-30TVK87,Comunidad de Madrid,Guadalajara
+30TVK87,Castilla-La Mancha,Guadalajara
 30TVK97,Castilla-La Mancha,Guadalajara
 30TWK07,Castilla-La Mancha,Guadalajara
 30TWK17,Castilla-La Mancha,Guadalajara
@@ -8143,12 +7382,9 @@ CUADRICULA,CCAA,Provincia
 30TWK87,Castilla-La Mancha,Cuenca
 30TWK97,Castilla-La Mancha,Guadalajara
 30TWK97,Castilla-La Mancha,Cuenca
-30TXK07,Aragón,Guadalajara
-30TXK07,Aragón,Cuenca
-30TXK07,Aragón,Teruel
 30TXK07,Castilla-La Mancha,Guadalajara
 30TXK07,Castilla-La Mancha,Cuenca
-30TXK07,Castilla-La Mancha,Teruel
+30TXK07,Aragón,Teruel
 30TXK17,Aragón,Teruel
 30TXK27,Aragón,Teruel
 30TXK37,Aragón,Teruel
@@ -8161,8 +7397,6 @@ CUADRICULA,CCAA,Provincia
 30TYK07,Aragón,Teruel
 30TYK17,Aragón,Teruel
 30TYK27,Comunitat Valenciana,Castelló/Castellón
-30TYK27,Comunitat Valenciana,Teruel
-30TYK27,Aragón,Castelló/Castellón
 30TYK27,Aragón,Teruel
 30TYK37,Comunitat Valenciana,Castelló/Castellón
 30TYK47,Comunitat Valenciana,Castelló/Castellón
@@ -8170,45 +7404,27 @@ CUADRICULA,CCAA,Provincia
 29TPE86,Castilla y León,Salamanca
 29TPE96,Castilla y León,Salamanca
 29TQE06,Extremadura,Cáceres
-29TQE06,Extremadura,Salamanca
-29TQE06,Castilla y León,Cáceres
 29TQE06,Castilla y León,Salamanca
 29TQE16,Extremadura,Cáceres
-29TQE16,Extremadura,Salamanca
-29TQE16,Castilla y León,Cáceres
 29TQE16,Castilla y León,Salamanca
 29TQE26,Extremadura,Cáceres
 31TBE76,Comunitat Valenciana,Castelló/Castellón
 29TQE36,Extremadura,Cáceres
 31TBE66,Comunitat Valenciana,Castelló/Castellón
 29TQE46,Extremadura,Cáceres
-29TQE46,Extremadura,Salamanca
-29TQE46,Castilla y León,Cáceres
 29TQE46,Castilla y León,Salamanca
 31TBE56,Comunitat Valenciana,Castelló/Castellón
 29TQE56,Extremadura,Cáceres
-29TQE56,Extremadura,Salamanca
-29TQE56,Castilla y León,Cáceres
 29TQE56,Castilla y León,Salamanca
 31TBE46,Comunitat Valenciana,Castelló/Castellón
 30TTK46,Extremadura,Cáceres
-30TTK46,Extremadura,Salamanca
-30TTK46,Castilla y León,Cáceres
 30TTK46,Castilla y León,Salamanca
 30TTK56,Extremadura,Cáceres
-30TTK56,Extremadura,Salamanca
-30TTK56,Castilla y León,Cáceres
 30TTK56,Castilla y León,Salamanca
 30TTK66,Extremadura,Cáceres
-30TTK66,Extremadura,Ávila
-30TTK66,Extremadura,Salamanca
-30TTK66,Castilla y León,Cáceres
 30TTK66,Castilla y León,Ávila
 30TTK66,Castilla y León,Salamanca
 30TTK76,Extremadura,Cáceres
-30TTK76,Extremadura,Ávila
-30TTK76,Extremadura,Salamanca
-30TTK76,Castilla y León,Cáceres
 30TTK76,Castilla y León,Ávila
 30TTK76,Castilla y León,Salamanca
 30TTK86,Castilla y León,Ávila
@@ -8221,16 +7437,10 @@ CUADRICULA,CCAA,Provincia
 30TUK56,Castilla y León,Ávila
 30TUK66,Castilla y León,Ávila
 30TUK76,Comunidad de Madrid,Madrid
-30TUK76,Comunidad de Madrid,Ávila
-30TUK76,Castilla y León,Madrid
 30TUK76,Castilla y León,Ávila
 30TUK86,Castilla-La Mancha,Toledo
-30TUK86,Castilla-La Mancha,Madrid
-30TUK86,Comunidad de Madrid,Toledo
 30TUK86,Comunidad de Madrid,Madrid
 30TUK96,Castilla-La Mancha,Toledo
-30TUK96,Castilla-La Mancha,Madrid
-30TUK96,Comunidad de Madrid,Toledo
 30TUK96,Comunidad de Madrid,Madrid
 30TVK06,Comunidad de Madrid,Madrid
 30TVK16,Comunidad de Madrid,Madrid
@@ -8240,10 +7450,8 @@ CUADRICULA,CCAA,Provincia
 30TVK56,Comunidad de Madrid,Madrid
 30TVK66,Comunidad de Madrid,Madrid
 30TVK76,Comunidad de Madrid,Madrid
-30TVK86,Castilla-La Mancha,Madrid
-30TVK86,Castilla-La Mancha,Guadalajara
 30TVK86,Comunidad de Madrid,Madrid
-30TVK86,Comunidad de Madrid,Guadalajara
+30TVK86,Castilla-La Mancha,Guadalajara
 30TVK96,Castilla-La Mancha,Guadalajara
 30TWK06,Castilla-La Mancha,Guadalajara
 30TWK16,Castilla-La Mancha,Guadalajara
@@ -8256,14 +7464,10 @@ CUADRICULA,CCAA,Provincia
 30TWK76,Castilla-La Mancha,Cuenca
 30TWK86,Castilla-La Mancha,Cuenca
 30TWK96,Castilla-La Mancha,Cuenca
-30TXK06,Aragón,Cuenca
-30TXK06,Aragón,Teruel
 30TXK06,Castilla-La Mancha,Cuenca
-30TXK06,Castilla-La Mancha,Teruel
-30TXK16,Aragón,Cuenca
-30TXK16,Aragón,Teruel
+30TXK06,Aragón,Teruel
 30TXK16,Castilla-La Mancha,Cuenca
-30TXK16,Castilla-La Mancha,Teruel
+30TXK16,Aragón,Teruel
 30TXK26,Aragón,Teruel
 30TXK36,Aragón,Teruel
 30TXK46,Aragón,Teruel
@@ -8275,8 +7479,6 @@ CUADRICULA,CCAA,Provincia
 30TYK06,Aragón,Teruel
 30TYK16,Aragón,Teruel
 30TYK26,Comunitat Valenciana,Castelló/Castellón
-30TYK26,Comunitat Valenciana,Teruel
-30TYK26,Aragón,Castelló/Castellón
 30TYK26,Aragón,Teruel
 30TYK36,Comunitat Valenciana,Castelló/Castellón
 30TYK46,Comunitat Valenciana,Castelló/Castellón
@@ -8284,8 +7486,6 @@ CUADRICULA,CCAA,Provincia
 29TPE65,Extremadura,Cáceres
 29TPE75,Extremadura,Cáceres
 29TPE85,Extremadura,Cáceres
-29TPE85,Extremadura,Salamanca
-29TPE85,Castilla y León,Cáceres
 29TPE85,Castilla y León,Salamanca
 31TFE69,,
 31TFE59,,
@@ -8318,8 +7518,6 @@ CUADRICULA,CCAA,Provincia
 31TFE13,,
 31TFE03,Illes Balears,Illes Balears
 29TPE95,Extremadura,Cáceres
-29TPE95,Extremadura,Salamanca
-29TPE95,Castilla y León,Cáceres
 29TPE95,Castilla y León,Salamanca
 31TEE99,,
 31TEE98,,
@@ -8329,8 +7527,6 @@ CUADRICULA,CCAA,Provincia
 31TEE94,,
 31TEE93,Illes Balears,Illes Balears
 29TQE05,Extremadura,Cáceres
-29TQE05,Extremadura,Salamanca
-29TQE05,Castilla y León,Cáceres
 29TQE05,Castilla y León,Salamanca
 31TEE89,,
 31TEE88,,
@@ -8391,68 +7587,34 @@ CUADRICULA,CCAA,Provincia
 30TTK55,Extremadura,Cáceres
 30TTK65,Extremadura,Cáceres
 30TTK75,Extremadura,Cáceres
-30TTK75,Extremadura,Ávila
-30TTK75,Castilla y León,Cáceres
 30TTK75,Castilla y León,Ávila
 30TTK85,Extremadura,Cáceres
-30TTK85,Extremadura,Ávila
-30TTK85,Castilla y León,Cáceres
 30TTK85,Castilla y León,Ávila
 30TTK95,Extremadura,Cáceres
-30TTK95,Extremadura,Ávila
-30TTK95,Castilla y León,Cáceres
 30TTK95,Castilla y León,Ávila
 30TUK05,Extremadura,Cáceres
-30TUK05,Extremadura,Ávila
-30TUK05,Castilla y León,Cáceres
 30TUK05,Castilla y León,Ávila
 30TUK15,Castilla y León,Ávila
 30TUK25,Castilla y León,Ávila
 30TUK35,Castilla-La Mancha,Toledo
-30TUK35,Castilla-La Mancha,Ávila
-30TUK35,Castilla y León,Toledo
 30TUK35,Castilla y León,Ávila
 30TUK45,Castilla-La Mancha,Toledo
-30TUK45,Castilla-La Mancha,Ávila
-30TUK45,Castilla y León,Toledo
 30TUK45,Castilla y León,Ávila
 30TUK55,Castilla-La Mancha,Toledo
-30TUK55,Castilla-La Mancha,Ávila
-30TUK55,Castilla y León,Toledo
 30TUK55,Castilla y León,Ávila
 30TUK65,Castilla-La Mancha,Toledo
-30TUK65,Castilla-La Mancha,Madrid
-30TUK65,Castilla-La Mancha,Ávila
-30TUK65,Comunidad de Madrid,Toledo
 30TUK65,Comunidad de Madrid,Madrid
-30TUK65,Comunidad de Madrid,Ávila
-30TUK65,Castilla y León,Toledo
-30TUK65,Castilla y León,Madrid
 30TUK65,Castilla y León,Ávila
 30TUK75,Castilla-La Mancha,Toledo
-30TUK75,Castilla-La Mancha,Madrid
-30TUK75,Castilla-La Mancha,Ávila
-30TUK75,Comunidad de Madrid,Toledo
 30TUK75,Comunidad de Madrid,Madrid
-30TUK75,Comunidad de Madrid,Ávila
-30TUK75,Castilla y León,Toledo
-30TUK75,Castilla y León,Madrid
 30TUK75,Castilla y León,Ávila
 30TUK85,Castilla-La Mancha,Toledo
-30TUK85,Castilla-La Mancha,Madrid
-30TUK85,Comunidad de Madrid,Toledo
 30TUK85,Comunidad de Madrid,Madrid
 30TUK95,Castilla-La Mancha,Toledo
-30TUK95,Castilla-La Mancha,Madrid
-30TUK95,Comunidad de Madrid,Toledo
 30TUK95,Comunidad de Madrid,Madrid
 30TVK05,Castilla-La Mancha,Toledo
-30TVK05,Castilla-La Mancha,Madrid
-30TVK05,Comunidad de Madrid,Toledo
 30TVK05,Comunidad de Madrid,Madrid
 30TVK15,Castilla-La Mancha,Toledo
-30TVK15,Castilla-La Mancha,Madrid
-30TVK15,Comunidad de Madrid,Toledo
 30TVK15,Comunidad de Madrid,Madrid
 30TVK25,Comunidad de Madrid,Madrid
 30TVK35,Comunidad de Madrid,Madrid
@@ -8460,16 +7622,11 @@ CUADRICULA,CCAA,Provincia
 30TVK55,Comunidad de Madrid,Madrid
 30TVK65,Comunidad de Madrid,Madrid
 30TVK75,Comunidad de Madrid,Madrid
-30TVK85,Castilla-La Mancha,Madrid
-30TVK85,Castilla-La Mancha,Guadalajara
 30TVK85,Comunidad de Madrid,Madrid
-30TVK85,Comunidad de Madrid,Guadalajara
-30TVK95,Castilla-La Mancha,Madrid
+30TVK85,Castilla-La Mancha,Guadalajara
+30TVK95,Comunidad de Madrid,Madrid
 30TVK95,Castilla-La Mancha,Guadalajara
 30TVK95,Castilla-La Mancha,Cuenca
-30TVK95,Comunidad de Madrid,Madrid
-30TVK95,Comunidad de Madrid,Guadalajara
-30TVK95,Comunidad de Madrid,Cuenca
 30TWK05,Castilla-La Mancha,Guadalajara
 30TWK05,Castilla-La Mancha,Cuenca
 30TWK15,Castilla-La Mancha,Guadalajara
@@ -8483,21 +7640,13 @@ CUADRICULA,CCAA,Provincia
 30TWK85,Castilla-La Mancha,Cuenca
 30TWK95,Castilla-La Mancha,Cuenca
 30TXK05,Castilla-La Mancha,Cuenca
-30TXK15,Aragón,Cuenca
-30TXK15,Aragón,Teruel
 30TXK15,Castilla-La Mancha,Cuenca
-30TXK15,Castilla-La Mancha,Teruel
-30TXK25,Aragón,Cuenca
-30TXK25,Aragón,Teruel
+30TXK15,Aragón,Teruel
 30TXK25,Castilla-La Mancha,Cuenca
-30TXK25,Castilla-La Mancha,Teruel
-30TXK35,Aragón,Cuenca
-30TXK35,Aragón,Teruel
+30TXK25,Aragón,Teruel
 30TXK35,Castilla-La Mancha,Cuenca
-30TXK35,Castilla-La Mancha,Teruel
+30TXK35,Aragón,Teruel
 30TXK45,Comunitat Valenciana,València/Valencia
-30TXK45,Comunitat Valenciana,Teruel
-30TXK45,Aragón,València/Valencia
 30TXK45,Aragón,Teruel
 30TXK55,Aragón,Teruel
 30TXK65,Aragón,Teruel
@@ -8505,16 +7654,10 @@ CUADRICULA,CCAA,Provincia
 30TXK85,Aragón,Teruel
 30TXK95,Aragón,Teruel
 30TYK05,Comunitat Valenciana,Castelló/Castellón
-30TYK05,Comunitat Valenciana,Teruel
-30TYK05,Aragón,Castelló/Castellón
 30TYK05,Aragón,Teruel
 30TYK15,Comunitat Valenciana,Castelló/Castellón
-30TYK15,Comunitat Valenciana,Teruel
-30TYK15,Aragón,Castelló/Castellón
 30TYK15,Aragón,Teruel
 30TYK25,Comunitat Valenciana,Castelló/Castellón
-30TYK25,Comunitat Valenciana,Teruel
-30TYK25,Aragón,Castelló/Castellón
 30TYK25,Aragón,Teruel
 30TYK35,Comunitat Valenciana,Castelló/Castellón
 30TYK45,Comunitat Valenciana,Castelló/Castellón
@@ -8761,35 +7904,17 @@ CUADRICULA,CCAA,Provincia
 30TTK64,Extremadura,Cáceres
 30TTK74,Extremadura,Cáceres
 30TTK84,Extremadura,Cáceres
-30TTK94,Extremadura,Toledo
-30TTK94,Extremadura,Cáceres
-30TTK94,Extremadura,Ávila
 30TTK94,Castilla-La Mancha,Toledo
-30TTK94,Castilla-La Mancha,Cáceres
-30TTK94,Castilla-La Mancha,Ávila
-30TTK94,Castilla y León,Toledo
-30TTK94,Castilla y León,Cáceres
+30TTK94,Extremadura,Cáceres
 30TTK94,Castilla y León,Ávila
-30TUK04,Extremadura,Toledo
-30TUK04,Extremadura,Cáceres
-30TUK04,Extremadura,Ávila
 30TUK04,Castilla-La Mancha,Toledo
-30TUK04,Castilla-La Mancha,Cáceres
-30TUK04,Castilla-La Mancha,Ávila
-30TUK04,Castilla y León,Toledo
-30TUK04,Castilla y León,Cáceres
+30TUK04,Extremadura,Cáceres
 30TUK04,Castilla y León,Ávila
 30TUK14,Castilla-La Mancha,Toledo
-30TUK14,Castilla-La Mancha,Ávila
-30TUK14,Castilla y León,Toledo
 30TUK14,Castilla y León,Ávila
 30TUK24,Castilla-La Mancha,Toledo
-30TUK24,Castilla-La Mancha,Ávila
-30TUK24,Castilla y León,Toledo
 30TUK24,Castilla y León,Ávila
 30TUK34,Castilla-La Mancha,Toledo
-30TUK34,Castilla-La Mancha,Ávila
-30TUK34,Castilla y León,Toledo
 30TUK34,Castilla y León,Ávila
 30TUK44,Castilla-La Mancha,Toledo
 30TUK54,Castilla-La Mancha,Toledo
@@ -8799,31 +7924,20 @@ CUADRICULA,CCAA,Provincia
 30TUK94,Castilla-La Mancha,Toledo
 30TVK04,Castilla-La Mancha,Toledo
 30TVK14,Castilla-La Mancha,Toledo
-30TVK14,Castilla-La Mancha,Madrid
-30TVK14,Comunidad de Madrid,Toledo
 30TVK14,Comunidad de Madrid,Madrid
 30TVK24,Castilla-La Mancha,Toledo
-30TVK24,Castilla-La Mancha,Madrid
-30TVK24,Comunidad de Madrid,Toledo
 30TVK24,Comunidad de Madrid,Madrid
 30TVK34,Castilla-La Mancha,Toledo
-30TVK34,Castilla-La Mancha,Madrid
-30TVK34,Comunidad de Madrid,Toledo
 30TVK34,Comunidad de Madrid,Madrid
 30TVK44,Castilla-La Mancha,Toledo
-30TVK44,Castilla-La Mancha,Madrid
-30TVK44,Comunidad de Madrid,Toledo
 30TVK44,Comunidad de Madrid,Madrid
 30TVK54,Comunidad de Madrid,Madrid
 30TVK64,Comunidad de Madrid,Madrid
 30TVK74,Comunidad de Madrid,Madrid
 30TVK84,Comunidad de Madrid,Madrid
-30TVK94,Castilla-La Mancha,Madrid
+30TVK94,Comunidad de Madrid,Madrid
 30TVK94,Castilla-La Mancha,Guadalajara
 30TVK94,Castilla-La Mancha,Cuenca
-30TVK94,Comunidad de Madrid,Madrid
-30TVK94,Comunidad de Madrid,Guadalajara
-30TVK94,Comunidad de Madrid,Cuenca
 30TWK04,Castilla-La Mancha,Guadalajara
 30TWK04,Castilla-La Mancha,Cuenca
 30TWK14,Castilla-La Mancha,Guadalajara
@@ -8838,37 +7952,21 @@ CUADRICULA,CCAA,Provincia
 30TWK94,Castilla-La Mancha,Cuenca
 30TXK04,Castilla-La Mancha,Cuenca
 30TXK14,Castilla-La Mancha,Cuenca
-30TXK24,Aragón,Cuenca
-30TXK24,Aragón,Teruel
 30TXK24,Castilla-La Mancha,Cuenca
-30TXK24,Castilla-La Mancha,Teruel
+30TXK24,Aragón,Teruel
 30TXK34,Comunitat Valenciana,València/Valencia
-30TXK34,Comunitat Valenciana,Cuenca
-30TXK34,Comunitat Valenciana,Teruel
-30TXK34,Aragón,València/Valencia
-30TXK34,Aragón,Cuenca
-30TXK34,Aragón,Teruel
-30TXK34,Castilla-La Mancha,València/Valencia
 30TXK34,Castilla-La Mancha,Cuenca
-30TXK34,Castilla-La Mancha,Teruel
+30TXK34,Aragón,Teruel
 30TXK44,Comunitat Valenciana,València/Valencia
-30TXK44,Comunitat Valenciana,Teruel
-30TXK44,Aragón,València/Valencia
 30TXK44,Aragón,Teruel
 30TXK54,Comunitat Valenciana,València/Valencia
-30TXK54,Comunitat Valenciana,Teruel
-30TXK54,Aragón,València/Valencia
 30TXK54,Aragón,Teruel
 30TXK64,Comunitat Valenciana,València/Valencia
-30TXK64,Comunitat Valenciana,Teruel
-30TXK64,Aragón,València/Valencia
 30TXK64,Aragón,Teruel
 30TXK74,Aragón,Teruel
 30TXK84,Aragón,Teruel
 30TXK94,Aragón,Teruel
 30TYK04,Comunitat Valenciana,Castelló/Castellón
-30TYK04,Comunitat Valenciana,Teruel
-30TYK04,Aragón,Castelló/Castellón
 30TYK04,Aragón,Teruel
 30TYK14,Comunitat Valenciana,Castelló/Castellón
 30TYK24,Comunitat Valenciana,Castelló/Castellón
@@ -8923,14 +8021,10 @@ CUADRICULA,CCAA,Provincia
 30TTK63,Extremadura,Cáceres
 30TTK73,Extremadura,Cáceres
 30TTK83,Extremadura,Cáceres
-30TTK93,Extremadura,Toledo
-30TTK93,Extremadura,Cáceres
 30TTK93,Castilla-La Mancha,Toledo
-30TTK93,Castilla-La Mancha,Cáceres
+30TTK93,Extremadura,Cáceres
 30TUK03,Castilla-La Mancha,Toledo
 30TUK13,Castilla-La Mancha,Toledo
-30TUK13,Castilla-La Mancha,Ávila
-30TUK13,Castilla y León,Toledo
 30TUK13,Castilla y León,Ávila
 30TUK23,Castilla-La Mancha,Toledo
 30TUK33,Castilla-La Mancha,Toledo
@@ -8945,31 +8039,18 @@ CUADRICULA,CCAA,Provincia
 30TVK23,Castilla-La Mancha,Toledo
 30TVK33,Castilla-La Mancha,Toledo
 30TVK43,Castilla-La Mancha,Toledo
-30TVK43,Castilla-La Mancha,Madrid
-30TVK43,Comunidad de Madrid,Toledo
 30TVK43,Comunidad de Madrid,Madrid
 30TVK53,Castilla-La Mancha,Toledo
-30TVK53,Castilla-La Mancha,Madrid
-30TVK53,Comunidad de Madrid,Toledo
 30TVK53,Comunidad de Madrid,Madrid
 30TVK63,Castilla-La Mancha,Toledo
-30TVK63,Castilla-La Mancha,Madrid
-30TVK63,Comunidad de Madrid,Toledo
 30TVK63,Comunidad de Madrid,Madrid
 30TVK73,Castilla-La Mancha,Toledo
-30TVK73,Castilla-La Mancha,Madrid
-30TVK73,Comunidad de Madrid,Toledo
 30TVK73,Comunidad de Madrid,Madrid
 30TVK83,Castilla-La Mancha,Toledo
-30TVK83,Castilla-La Mancha,Madrid
-30TVK83,Castilla-La Mancha,Cuenca
-30TVK83,Comunidad de Madrid,Toledo
 30TVK83,Comunidad de Madrid,Madrid
-30TVK83,Comunidad de Madrid,Cuenca
-30TVK93,Castilla-La Mancha,Madrid
-30TVK93,Castilla-La Mancha,Cuenca
+30TVK83,Castilla-La Mancha,Cuenca
 30TVK93,Comunidad de Madrid,Madrid
-30TVK93,Comunidad de Madrid,Cuenca
+30TVK93,Castilla-La Mancha,Cuenca
 30TWK03,Castilla-La Mancha,Cuenca
 30TWK13,Castilla-La Mancha,Cuenca
 30TWK23,Castilla-La Mancha,Cuenca
@@ -8984,38 +8065,20 @@ CUADRICULA,CCAA,Provincia
 30TXK13,Castilla-La Mancha,Cuenca
 30TXK23,Castilla-La Mancha,Cuenca
 30TXK33,Comunitat Valenciana,València/Valencia
-30TXK33,Comunitat Valenciana,Cuenca
-30TXK33,Castilla-La Mancha,València/Valencia
 30TXK33,Castilla-La Mancha,Cuenca
 30TXK43,Comunitat Valenciana,València/Valencia
-30TXK43,Comunitat Valenciana,Cuenca
-30TXK43,Castilla-La Mancha,València/Valencia
 30TXK43,Castilla-La Mancha,Cuenca
 30TXK53,Comunitat Valenciana,València/Valencia
-30TXK53,Comunitat Valenciana,Cuenca
-30TXK53,Comunitat Valenciana,Teruel
-30TXK53,Aragón,València/Valencia
-30TXK53,Aragón,Cuenca
-30TXK53,Aragón,Teruel
-30TXK53,Castilla-La Mancha,València/Valencia
 30TXK53,Castilla-La Mancha,Cuenca
-30TXK53,Castilla-La Mancha,Teruel
+30TXK53,Aragón,Teruel
 30TXK63,Comunitat Valenciana,València/Valencia
-30TXK63,Comunitat Valenciana,Teruel
-30TXK63,Aragón,València/Valencia
 30TXK63,Aragón,Teruel
 30TXK73,Aragón,Teruel
 30TXK83,Comunitat Valenciana,Castelló/Castellón
-30TXK83,Comunitat Valenciana,Teruel
-30TXK83,Aragón,Castelló/Castellón
 30TXK83,Aragón,Teruel
 30TXK93,Comunitat Valenciana,Castelló/Castellón
-30TXK93,Comunitat Valenciana,Teruel
-30TXK93,Aragón,Castelló/Castellón
 30TXK93,Aragón,Teruel
 30TYK03,Comunitat Valenciana,Castelló/Castellón
-30TYK03,Comunitat Valenciana,Teruel
-30TYK03,Aragón,Castelló/Castellón
 30TYK03,Aragón,Teruel
 30TYK13,Comunitat Valenciana,Castelló/Castellón
 30TYK23,Comunitat Valenciana,Castelló/Castellón
@@ -9168,10 +8231,8 @@ CUADRICULA,CCAA,Provincia
 30STK62,Extremadura,Cáceres
 30STK72,Extremadura,Cáceres
 30STK82,Extremadura,Cáceres
-30STK92,Extremadura,Toledo
-30STK92,Extremadura,Cáceres
 30STK92,Castilla-La Mancha,Toledo
-30STK92,Castilla-La Mancha,Cáceres
+30STK92,Extremadura,Cáceres
 30SUK02,Castilla-La Mancha,Toledo
 30SUK12,Castilla-La Mancha,Toledo
 30SUK22,Castilla-La Mancha,Toledo
@@ -9185,20 +8246,12 @@ CUADRICULA,CCAA,Provincia
 30SVK02,Castilla-La Mancha,Toledo
 30SVK12,Castilla-La Mancha,Toledo
 30SVK22,Castilla-La Mancha,Toledo
-30SVK22,Castilla-La Mancha,Madrid
-30SVK22,Comunidad de Madrid,Toledo
 30SVK22,Comunidad de Madrid,Madrid
 30SVK32,Castilla-La Mancha,Toledo
-30SVK32,Castilla-La Mancha,Madrid
-30SVK32,Comunidad de Madrid,Toledo
 30SVK32,Comunidad de Madrid,Madrid
 30SVK42,Castilla-La Mancha,Toledo
-30SVK42,Castilla-La Mancha,Madrid
-30SVK42,Comunidad de Madrid,Toledo
 30SVK42,Comunidad de Madrid,Madrid
 30SVK52,Castilla-La Mancha,Toledo
-30SVK52,Castilla-La Mancha,Madrid
-30SVK52,Comunidad de Madrid,Toledo
 30SVK52,Comunidad de Madrid,Madrid
 30SVK62,Castilla-La Mancha,Toledo
 30SVK72,Castilla-La Mancha,Toledo
@@ -9221,29 +8274,15 @@ CUADRICULA,CCAA,Provincia
 30SXK22,Castilla-La Mancha,Cuenca
 30SXK32,Castilla-La Mancha,Cuenca
 30SXK42,Comunitat Valenciana,València/Valencia
-30SXK42,Comunitat Valenciana,Cuenca
-30SXK42,Castilla-La Mancha,València/Valencia
 30SXK42,Castilla-La Mancha,Cuenca
 30SXK52,Comunitat Valenciana,València/Valencia
-30SXK52,Comunitat Valenciana,Cuenca
-30SXK52,Comunitat Valenciana,Teruel
-30SXK52,Aragón,València/Valencia
-30SXK52,Aragón,Cuenca
-30SXK52,Aragón,Teruel
-30SXK52,Castilla-La Mancha,València/Valencia
 30SXK52,Castilla-La Mancha,Cuenca
-30SXK52,Castilla-La Mancha,Teruel
+30SXK52,Aragón,Teruel
 30SXK62,Comunitat Valenciana,València/Valencia
-30SXK62,Comunitat Valenciana,Teruel
-30SXK62,Aragón,València/Valencia
 30SXK62,Aragón,Teruel
 30SXK72,Comunitat Valenciana,València/Valencia
-30SXK72,Comunitat Valenciana,Teruel
-30SXK72,Aragón,València/Valencia
 30SXK72,Aragón,Teruel
 30SXK82,Comunitat Valenciana,Castelló/Castellón
-30SXK82,Comunitat Valenciana,Teruel
-30SXK82,Aragón,Castelló/Castellón
 30SXK82,Aragón,Teruel
 30SXK92,Comunitat Valenciana,Castelló/Castellón
 30SYK02,Comunitat Valenciana,Castelló/Castellón
@@ -9349,14 +8388,10 @@ CUADRICULA,CCAA,Provincia
 30STK61,Extremadura,Cáceres
 30STK71,Extremadura,Cáceres
 30STK81,Extremadura,Cáceres
-30STK91,Extremadura,Toledo
-30STK91,Extremadura,Cáceres
 30STK91,Castilla-La Mancha,Toledo
-30STK91,Castilla-La Mancha,Cáceres
-30SUK01,Extremadura,Toledo
-30SUK01,Extremadura,Cáceres
+30STK91,Extremadura,Cáceres
 30SUK01,Castilla-La Mancha,Toledo
-30SUK01,Castilla-La Mancha,Cáceres
+30SUK01,Extremadura,Cáceres
 30SUK11,Castilla-La Mancha,Toledo
 30SUK21,Castilla-La Mancha,Toledo
 30SUK31,Castilla-La Mancha,Toledo
@@ -9369,12 +8404,8 @@ CUADRICULA,CCAA,Provincia
 30SVK01,Castilla-La Mancha,Toledo
 30SVK11,Castilla-La Mancha,Toledo
 30SVK21,Castilla-La Mancha,Toledo
-30SVK21,Castilla-La Mancha,Madrid
-30SVK21,Comunidad de Madrid,Toledo
 30SVK21,Comunidad de Madrid,Madrid
 30SVK31,Castilla-La Mancha,Toledo
-30SVK31,Castilla-La Mancha,Madrid
-30SVK31,Comunidad de Madrid,Toledo
 30SVK31,Comunidad de Madrid,Madrid
 30SVK41,Castilla-La Mancha,Toledo
 30SVK51,Castilla-La Mancha,Toledo
@@ -9399,19 +8430,12 @@ CUADRICULA,CCAA,Provincia
 30SXK31,Castilla-La Mancha,Cuenca
 30SXK41,Castilla-La Mancha,Cuenca
 30SXK51,Comunitat Valenciana,València/Valencia
-30SXK51,Comunitat Valenciana,Cuenca
-30SXK51,Castilla-La Mancha,València/Valencia
 30SXK51,Castilla-La Mancha,Cuenca
 30SXK61,Comunitat Valenciana,València/Valencia
 30SXK71,Comunitat Valenciana,València/Valencia
-30SXK71,Comunitat Valenciana,Teruel
-30SXK71,Aragón,València/Valencia
 30SXK71,Aragón,Teruel
 30SXK81,Comunitat Valenciana,València/Valencia
 30SXK81,Comunitat Valenciana,Castelló/Castellón
-30SXK81,Comunitat Valenciana,Teruel
-30SXK81,Aragón,València/Valencia
-30SXK81,Aragón,Castelló/Castellón
 30SXK81,Aragón,Teruel
 30SXK91,Comunitat Valenciana,València/Valencia
 30SXK91,Comunitat Valenciana,Castelló/Castellón
@@ -9461,14 +8485,10 @@ CUADRICULA,CCAA,Provincia
 30STK70,Extremadura,Cáceres
 30STK80,Extremadura,Cáceres
 30STK90,Extremadura,Cáceres
-30SUK00,Extremadura,Toledo
-30SUK00,Extremadura,Cáceres
 30SUK00,Castilla-La Mancha,Toledo
-30SUK00,Castilla-La Mancha,Cáceres
-30SUK10,Extremadura,Toledo
-30SUK10,Extremadura,Cáceres
+30SUK00,Extremadura,Cáceres
 30SUK10,Castilla-La Mancha,Toledo
-30SUK10,Castilla-La Mancha,Cáceres
+30SUK10,Extremadura,Cáceres
 30SUK20,Castilla-La Mancha,Toledo
 30SUK30,Castilla-La Mancha,Toledo
 30SUK40,Castilla-La Mancha,Toledo
@@ -9503,12 +8523,8 @@ CUADRICULA,CCAA,Provincia
 30SXK20,Castilla-La Mancha,Cuenca
 30SXK30,Castilla-La Mancha,Cuenca
 30SXK40,Comunitat Valenciana,València/Valencia
-30SXK40,Comunitat Valenciana,Cuenca
-30SXK40,Castilla-La Mancha,València/Valencia
 30SXK40,Castilla-La Mancha,Cuenca
 30SXK50,Comunitat Valenciana,València/Valencia
-30SXK50,Comunitat Valenciana,Cuenca
-30SXK50,Castilla-La Mancha,València/Valencia
 30SXK50,Castilla-La Mancha,Cuenca
 30SXK60,Comunitat Valenciana,València/Valencia
 30SXK70,Comunitat Valenciana,València/Valencia
@@ -9580,10 +8596,8 @@ CUADRICULA,CCAA,Provincia
 30STJ89,Extremadura,Cáceres
 30STJ99,Extremadura,Cáceres
 30SUJ09,Extremadura,Cáceres
-30SUJ19,Extremadura,Toledo
-30SUJ19,Extremadura,Cáceres
 30SUJ19,Castilla-La Mancha,Toledo
-30SUJ19,Castilla-La Mancha,Cáceres
+30SUJ19,Extremadura,Cáceres
 30SUJ29,Castilla-La Mancha,Toledo
 30SUJ39,Castilla-La Mancha,Toledo
 30SUJ49,Castilla-La Mancha,Toledo
@@ -9618,12 +8632,8 @@ CUADRICULA,CCAA,Provincia
 30SXJ19,Castilla-La Mancha,Cuenca
 30SXJ29,Castilla-La Mancha,Cuenca
 30SXJ39,Comunitat Valenciana,València/Valencia
-30SXJ39,Comunitat Valenciana,Cuenca
-30SXJ39,Castilla-La Mancha,València/Valencia
 30SXJ39,Castilla-La Mancha,Cuenca
 30SXJ49,Comunitat Valenciana,València/Valencia
-30SXJ49,Comunitat Valenciana,Cuenca
-30SXJ49,Castilla-La Mancha,València/Valencia
 30SXJ49,Castilla-La Mancha,Cuenca
 30SXJ59,Comunitat Valenciana,València/Valencia
 30SXJ69,Comunitat Valenciana,València/Valencia
@@ -9684,10 +8694,8 @@ CUADRICULA,CCAA,Provincia
 30STJ88,Extremadura,Cáceres
 30STJ98,Extremadura,Cáceres
 30SUJ08,Extremadura,Cáceres
-30SUJ18,Extremadura,Toledo
-30SUJ18,Extremadura,Cáceres
 30SUJ18,Castilla-La Mancha,Toledo
-30SUJ18,Castilla-La Mancha,Cáceres
+30SUJ18,Extremadura,Cáceres
 30SUJ28,Castilla-La Mancha,Toledo
 30SUJ38,Castilla-La Mancha,Ciudad Real
 30SUJ38,Castilla-La Mancha,Toledo
@@ -9725,12 +8733,8 @@ CUADRICULA,CCAA,Provincia
 30SXJ08,Castilla-La Mancha,Cuenca
 30SXJ18,Castilla-La Mancha,Cuenca
 30SXJ28,Comunitat Valenciana,València/Valencia
-30SXJ28,Comunitat Valenciana,Cuenca
-30SXJ28,Castilla-La Mancha,València/Valencia
 30SXJ28,Castilla-La Mancha,Cuenca
 30SXJ38,Comunitat Valenciana,València/Valencia
-30SXJ38,Comunitat Valenciana,Cuenca
-30SXJ38,Castilla-La Mancha,València/Valencia
 30SXJ38,Castilla-La Mancha,Cuenca
 30SXJ48,Comunitat Valenciana,València/Valencia
 30SXJ58,Comunitat Valenciana,València/Valencia
@@ -9956,14 +8960,10 @@ CUADRICULA,CCAA,Provincia
 30STJ87,Extremadura,Cáceres
 30STJ97,Extremadura,Cáceres
 30SUJ07,Extremadura,Cáceres
-30SUJ17,Extremadura,Toledo
-30SUJ17,Extremadura,Cáceres
 30SUJ17,Castilla-La Mancha,Toledo
-30SUJ17,Castilla-La Mancha,Cáceres
-30SUJ27,Extremadura,Toledo
-30SUJ27,Extremadura,Cáceres
+30SUJ17,Extremadura,Cáceres
 30SUJ27,Castilla-La Mancha,Toledo
-30SUJ27,Castilla-La Mancha,Cáceres
+30SUJ27,Extremadura,Cáceres
 30SUJ37,Castilla-La Mancha,Ciudad Real
 30SUJ37,Castilla-La Mancha,Toledo
 30SUJ47,Castilla-La Mancha,Ciudad Real
@@ -10007,8 +9007,6 @@ CUADRICULA,CCAA,Provincia
 30SXJ07,Castilla-La Mancha,Cuenca
 30SXJ17,Castilla-La Mancha,Cuenca
 30SXJ27,Comunitat Valenciana,València/Valencia
-30SXJ27,Comunitat Valenciana,Cuenca
-30SXJ27,Castilla-La Mancha,València/Valencia
 30SXJ27,Castilla-La Mancha,Cuenca
 30SXJ37,Comunitat Valenciana,València/Valencia
 30SXJ47,Comunitat Valenciana,València/Valencia
@@ -10118,32 +9116,19 @@ CUADRICULA,CCAA,Provincia
 30SUJ06,Extremadura,Cáceres
 30SUJ16,Extremadura,Badajoz
 30SUJ16,Extremadura,Cáceres
-30SUJ26,Extremadura,Toledo
+30SUJ26,Castilla-La Mancha,Toledo
 30SUJ26,Extremadura,Badajoz
 30SUJ26,Extremadura,Cáceres
-30SUJ26,Castilla-La Mancha,Toledo
-30SUJ26,Castilla-La Mancha,Badajoz
-30SUJ26,Castilla-La Mancha,Cáceres
-30SUJ36,Extremadura,Ciudad Real
-30SUJ36,Extremadura,Toledo
-30SUJ36,Extremadura,Badajoz
-30SUJ36,Extremadura,Cáceres
 30SUJ36,Castilla-La Mancha,Ciudad Real
 30SUJ36,Castilla-La Mancha,Toledo
-30SUJ36,Castilla-La Mancha,Badajoz
-30SUJ36,Castilla-La Mancha,Cáceres
-30SUJ46,Extremadura,Ciudad Real
-30SUJ46,Extremadura,Toledo
-30SUJ46,Extremadura,Badajoz
+30SUJ36,Extremadura,Badajoz
+30SUJ36,Extremadura,Cáceres
 30SUJ46,Castilla-La Mancha,Ciudad Real
 30SUJ46,Castilla-La Mancha,Toledo
-30SUJ46,Castilla-La Mancha,Badajoz
-30SUJ56,Extremadura,Ciudad Real
-30SUJ56,Extremadura,Toledo
-30SUJ56,Extremadura,Badajoz
+30SUJ46,Extremadura,Badajoz
 30SUJ56,Castilla-La Mancha,Ciudad Real
 30SUJ56,Castilla-La Mancha,Toledo
-30SUJ56,Castilla-La Mancha,Badajoz
+30SUJ56,Extremadura,Badajoz
 30SUJ66,Castilla-La Mancha,Ciudad Real
 30SUJ76,Castilla-La Mancha,Ciudad Real
 30SUJ86,Castilla-La Mancha,Ciudad Real
@@ -10176,16 +9161,11 @@ CUADRICULA,CCAA,Provincia
 30SWJ96,Castilla-La Mancha,Cuenca
 30SXJ06,Castilla-La Mancha,Cuenca
 30SXJ16,Castilla-La Mancha,Cuenca
-30SXJ26,Comunitat Valenciana,Albacete
-30SXJ26,Comunitat Valenciana,València/Valencia
-30SXJ26,Comunitat Valenciana,Cuenca
 30SXJ26,Castilla-La Mancha,Albacete
-30SXJ26,Castilla-La Mancha,València/Valencia
+30SXJ26,Comunitat Valenciana,València/Valencia
 30SXJ26,Castilla-La Mancha,Cuenca
-30SXJ36,Comunitat Valenciana,Albacete
-30SXJ36,Comunitat Valenciana,València/Valencia
 30SXJ36,Castilla-La Mancha,Albacete
-30SXJ36,Castilla-La Mancha,València/Valencia
+30SXJ36,Comunitat Valenciana,València/Valencia
 30SXJ46,Comunitat Valenciana,València/Valencia
 30SXJ56,Comunitat Valenciana,València/Valencia
 30SXJ66,Comunitat Valenciana,València/Valencia
@@ -10234,18 +9214,12 @@ CUADRICULA,CCAA,Provincia
 30SUJ15,Extremadura,Cáceres
 30SUJ25,Extremadura,Badajoz
 30SUJ25,Extremadura,Cáceres
-30SUJ35,Extremadura,Ciudad Real
-30SUJ35,Extremadura,Badajoz
 30SUJ35,Castilla-La Mancha,Ciudad Real
-30SUJ35,Castilla-La Mancha,Badajoz
-30SUJ45,Extremadura,Ciudad Real
-30SUJ45,Extremadura,Badajoz
+30SUJ35,Extremadura,Badajoz
 30SUJ45,Castilla-La Mancha,Ciudad Real
-30SUJ45,Castilla-La Mancha,Badajoz
-30SUJ55,Extremadura,Ciudad Real
-30SUJ55,Extremadura,Badajoz
+30SUJ45,Extremadura,Badajoz
 30SUJ55,Castilla-La Mancha,Ciudad Real
-30SUJ55,Castilla-La Mancha,Badajoz
+30SUJ55,Extremadura,Badajoz
 30SUJ65,Castilla-La Mancha,Ciudad Real
 30SUJ75,Castilla-La Mancha,Ciudad Real
 30SUJ85,Castilla-La Mancha,Ciudad Real
@@ -10289,18 +9263,12 @@ CUADRICULA,CCAA,Provincia
 30SXJ15,Castilla-La Mancha,Cuenca
 30SXJ25,Castilla-La Mancha,Albacete
 30SXJ25,Castilla-La Mancha,Cuenca
-30SXJ35,Comunitat Valenciana,Albacete
-30SXJ35,Comunitat Valenciana,València/Valencia
 30SXJ35,Castilla-La Mancha,Albacete
-30SXJ35,Castilla-La Mancha,València/Valencia
-30SXJ45,Comunitat Valenciana,Albacete
-30SXJ45,Comunitat Valenciana,València/Valencia
+30SXJ35,Comunitat Valenciana,València/Valencia
 30SXJ45,Castilla-La Mancha,Albacete
-30SXJ45,Castilla-La Mancha,València/Valencia
-30SXJ55,Comunitat Valenciana,Albacete
-30SXJ55,Comunitat Valenciana,València/Valencia
+30SXJ45,Comunitat Valenciana,València/Valencia
 30SXJ55,Castilla-La Mancha,Albacete
-30SXJ55,Castilla-La Mancha,València/Valencia
+30SXJ55,Comunitat Valenciana,València/Valencia
 30SXJ65,Comunitat Valenciana,València/Valencia
 30SXJ75,Comunitat Valenciana,València/Valencia
 30SXJ85,Comunitat Valenciana,València/Valencia
@@ -10368,14 +9336,10 @@ CUADRICULA,CCAA,Provincia
 30SUJ14,Extremadura,Badajoz
 30SUJ24,Extremadura,Badajoz
 30SUJ34,Extremadura,Badajoz
-30SUJ44,Extremadura,Ciudad Real
-30SUJ44,Extremadura,Badajoz
 30SUJ44,Castilla-La Mancha,Ciudad Real
-30SUJ44,Castilla-La Mancha,Badajoz
-30SUJ54,Extremadura,Ciudad Real
-30SUJ54,Extremadura,Badajoz
+30SUJ44,Extremadura,Badajoz
 30SUJ54,Castilla-La Mancha,Ciudad Real
-30SUJ54,Castilla-La Mancha,Badajoz
+30SUJ54,Extremadura,Badajoz
 30SUJ64,Castilla-La Mancha,Ciudad Real
 30SUJ74,Castilla-La Mancha,Ciudad Real
 30SUJ84,Castilla-La Mancha,Ciudad Real
@@ -10418,10 +9382,8 @@ CUADRICULA,CCAA,Provincia
 30SXJ24,Castilla-La Mancha,Albacete
 30SXJ34,Castilla-La Mancha,Albacete
 30SXJ44,Castilla-La Mancha,Albacete
-30SXJ54,Comunitat Valenciana,Albacete
-30SXJ54,Comunitat Valenciana,València/Valencia
 30SXJ54,Castilla-La Mancha,Albacete
-30SXJ54,Castilla-La Mancha,València/Valencia
+30SXJ54,Comunitat Valenciana,València/Valencia
 30SXJ64,Comunitat Valenciana,València/Valencia
 30SXJ74,Comunitat Valenciana,València/Valencia
 30SXJ84,Comunitat Valenciana,València/Valencia
@@ -10502,18 +9464,12 @@ CUADRICULA,CCAA,Provincia
 30SUJ03,Extremadura,Badajoz
 30SUJ13,Extremadura,Badajoz
 30SUJ23,Extremadura,Badajoz
-30SUJ33,Extremadura,Ciudad Real
-30SUJ33,Extremadura,Badajoz
 30SUJ33,Castilla-La Mancha,Ciudad Real
-30SUJ33,Castilla-La Mancha,Badajoz
-30SUJ43,Extremadura,Ciudad Real
-30SUJ43,Extremadura,Badajoz
+30SUJ33,Extremadura,Badajoz
 30SUJ43,Castilla-La Mancha,Ciudad Real
-30SUJ43,Castilla-La Mancha,Badajoz
-30SUJ53,Extremadura,Ciudad Real
-30SUJ53,Extremadura,Badajoz
+30SUJ43,Extremadura,Badajoz
 30SUJ53,Castilla-La Mancha,Ciudad Real
-30SUJ53,Castilla-La Mancha,Badajoz
+30SUJ53,Extremadura,Badajoz
 30SUJ63,Castilla-La Mancha,Ciudad Real
 30SUJ73,Castilla-La Mancha,Ciudad Real
 30SUJ83,Castilla-La Mancha,Ciudad Real
@@ -10544,10 +9500,8 @@ CUADRICULA,CCAA,Provincia
 30SXJ23,Castilla-La Mancha,Albacete
 30SXJ33,Castilla-La Mancha,Albacete
 30SXJ43,Castilla-La Mancha,Albacete
-30SXJ53,Comunitat Valenciana,Albacete
-30SXJ53,Comunitat Valenciana,València/Valencia
 30SXJ53,Castilla-La Mancha,Albacete
-30SXJ53,Castilla-La Mancha,València/Valencia
+30SXJ53,Comunitat Valenciana,València/Valencia
 30SXJ63,Comunitat Valenciana,València/Valencia
 30SXJ73,Comunitat Valenciana,València/Valencia
 30SXJ83,Comunitat Valenciana,València/Valencia
@@ -10618,14 +9572,10 @@ CUADRICULA,CCAA,Provincia
 30SUJ02,Extremadura,Badajoz
 30SUJ12,Extremadura,Badajoz
 30SUJ22,Extremadura,Badajoz
-30SUJ32,Extremadura,Ciudad Real
-30SUJ32,Extremadura,Badajoz
 30SUJ32,Castilla-La Mancha,Ciudad Real
-30SUJ32,Castilla-La Mancha,Badajoz
-30SUJ42,Extremadura,Ciudad Real
-30SUJ42,Extremadura,Badajoz
+30SUJ32,Extremadura,Badajoz
 30SUJ42,Castilla-La Mancha,Ciudad Real
-30SUJ42,Castilla-La Mancha,Badajoz
+30SUJ42,Extremadura,Badajoz
 30SUJ52,Castilla-La Mancha,Ciudad Real
 30SUJ62,Castilla-La Mancha,Ciudad Real
 30SUJ72,Castilla-La Mancha,Ciudad Real
@@ -10656,14 +9606,10 @@ CUADRICULA,CCAA,Provincia
 30SXJ12,Castilla-La Mancha,Albacete
 30SXJ22,Castilla-La Mancha,Albacete
 30SXJ32,Castilla-La Mancha,Albacete
-30SXJ42,Comunitat Valenciana,Albacete
-30SXJ42,Comunitat Valenciana,València/Valencia
 30SXJ42,Castilla-La Mancha,Albacete
-30SXJ42,Castilla-La Mancha,València/Valencia
-30SXJ52,Comunitat Valenciana,Albacete
-30SXJ52,Comunitat Valenciana,València/Valencia
+30SXJ42,Comunitat Valenciana,València/Valencia
 30SXJ52,Castilla-La Mancha,Albacete
-30SXJ52,Castilla-La Mancha,València/Valencia
+30SXJ52,Comunitat Valenciana,València/Valencia
 30SXJ62,Comunitat Valenciana,València/Valencia
 30SXJ72,Comunitat Valenciana,València/Valencia
 30SXJ82,Comunitat Valenciana,València/Valencia
@@ -10712,14 +9658,10 @@ CUADRICULA,CCAA,Provincia
 30SUJ01,Extremadura,Badajoz
 30SUJ11,Extremadura,Badajoz
 30SUJ21,Extremadura,Badajoz
-30SUJ31,Extremadura,Ciudad Real
-30SUJ31,Extremadura,Badajoz
 30SUJ31,Castilla-La Mancha,Ciudad Real
-30SUJ31,Castilla-La Mancha,Badajoz
-30SUJ41,Extremadura,Ciudad Real
-30SUJ41,Extremadura,Badajoz
+30SUJ31,Extremadura,Badajoz
 30SUJ41,Castilla-La Mancha,Ciudad Real
-30SUJ41,Castilla-La Mancha,Badajoz
+30SUJ41,Extremadura,Badajoz
 30SUJ51,Castilla-La Mancha,Ciudad Real
 30SUJ61,Castilla-La Mancha,Ciudad Real
 30SUJ71,Castilla-La Mancha,Ciudad Real
@@ -10751,18 +9693,12 @@ CUADRICULA,CCAA,Provincia
 30SXJ21,Castilla-La Mancha,Albacete
 30SXJ31,Castilla-La Mancha,Albacete
 30SXJ41,Castilla-La Mancha,Albacete
-30SXJ51,Comunitat Valenciana,Albacete
-30SXJ51,Comunitat Valenciana,València/Valencia
 30SXJ51,Castilla-La Mancha,Albacete
-30SXJ51,Castilla-La Mancha,València/Valencia
-30SXJ61,Comunitat Valenciana,Albacete
-30SXJ61,Comunitat Valenciana,València/Valencia
+30SXJ51,Comunitat Valenciana,València/Valencia
 30SXJ61,Castilla-La Mancha,Albacete
-30SXJ61,Castilla-La Mancha,València/Valencia
-30SXJ71,Comunitat Valenciana,Albacete
-30SXJ71,Comunitat Valenciana,València/Valencia
+30SXJ61,Comunitat Valenciana,València/Valencia
 30SXJ71,Castilla-La Mancha,Albacete
-30SXJ71,Castilla-La Mancha,València/Valencia
+30SXJ71,Comunitat Valenciana,València/Valencia
 30SXJ81,Comunitat Valenciana,València/Valencia
 30SXJ91,Comunitat Valenciana,València/Valencia
 30SYJ01,Comunitat Valenciana,València/Valencia
@@ -10825,10 +9761,8 @@ CUADRICULA,CCAA,Provincia
 30SUJ00,Extremadura,Badajoz
 30SUJ10,Extremadura,Badajoz
 30SUJ20,Extremadura,Badajoz
-30SUJ30,Extremadura,Ciudad Real
-30SUJ30,Extremadura,Badajoz
 30SUJ30,Castilla-La Mancha,Ciudad Real
-30SUJ30,Castilla-La Mancha,Badajoz
+30SUJ30,Extremadura,Badajoz
 30SUJ70,Castilla-La Mancha,Ciudad Real
 30SUJ80,Castilla-La Mancha,Ciudad Real
 30SUJ90,Castilla-La Mancha,Ciudad Real
@@ -11004,10 +9938,8 @@ CUADRICULA,CCAA,Provincia
 30STJ70,Extremadura,Badajoz
 30STJ80,Extremadura,Badajoz
 30STJ90,Extremadura,Badajoz
-30SUJ40,Extremadura,Ciudad Real
-30SUJ40,Extremadura,Badajoz
 30SUJ40,Castilla-La Mancha,Ciudad Real
-30SUJ40,Castilla-La Mancha,Badajoz
+30SUJ40,Extremadura,Badajoz
 30SUJ50,Castilla-La Mancha,Ciudad Real
 30SUJ60,Castilla-La Mancha,Ciudad Real
 30SVJ00,Castilla-La Mancha,Ciudad Real
@@ -11025,10 +9957,8 @@ CUADRICULA,CCAA,Provincia
 30SWJ80,Castilla-La Mancha,Albacete
 30SWJ90,Castilla-La Mancha,Albacete
 30SXJ60,Castilla-La Mancha,Albacete
-30SXJ70,Comunitat Valenciana,Albacete
-30SXJ70,Comunitat Valenciana,València/Valencia
 30SXJ70,Castilla-La Mancha,Albacete
-30SXJ70,Castilla-La Mancha,València/Valencia
+30SXJ70,Comunitat Valenciana,València/Valencia
 30SXJ90,Comunitat Valenciana,València/Valencia
 30SYJ00,Comunitat Valenciana,València/Valencia
 30SYJ10,Comunitat Valenciana,València/Valencia
@@ -11072,14 +10002,10 @@ CUADRICULA,CCAA,Provincia
 30STH99,Extremadura,Badajoz
 30SUH09,Extremadura,Badajoz
 30SUH19,Extremadura,Badajoz
-30SUH29,Extremadura,Ciudad Real
-30SUH29,Extremadura,Badajoz
 30SUH29,Castilla-La Mancha,Ciudad Real
-30SUH29,Castilla-La Mancha,Badajoz
-30SUH39,Extremadura,Ciudad Real
-30SUH39,Extremadura,Badajoz
+30SUH29,Extremadura,Badajoz
 30SUH39,Castilla-La Mancha,Ciudad Real
-30SUH39,Castilla-La Mancha,Badajoz
+30SUH39,Extremadura,Badajoz
 30SUH49,Castilla-La Mancha,Ciudad Real
 30SUH59,Castilla-La Mancha,Ciudad Real
 30SUH69,Castilla-La Mancha,Ciudad Real
@@ -11113,19 +10039,12 @@ CUADRICULA,CCAA,Provincia
 30SXH39,Castilla-La Mancha,Albacete
 30SXH49,Castilla-La Mancha,Albacete
 30SXH59,Región de Murcia,Murcia
-30SXH59,Región de Murcia,Albacete
-30SXH59,Castilla-La Mancha,Murcia
 30SXH59,Castilla-La Mancha,Albacete
 30SXH69,Región de Murcia,Murcia
-30SXH69,Región de Murcia,Albacete
-30SXH69,Castilla-La Mancha,Murcia
 30SXH69,Castilla-La Mancha,Albacete
 30SXH79,Comunitat Valenciana,Alacant/Alicante
-30SXH79,Comunitat Valenciana,Albacete
-30SXH79,Comunitat Valenciana,València/Valencia
-30SXH79,Castilla-La Mancha,Alacant/Alicante
 30SXH79,Castilla-La Mancha,Albacete
-30SXH79,Castilla-La Mancha,València/Valencia
+30SXH79,Comunitat Valenciana,València/Valencia
 30SXH89,Comunitat Valenciana,Alacant/Alicante
 30SXH89,Comunitat Valenciana,València/Valencia
 30SXH99,Comunitat Valenciana,Alacant/Alicante
@@ -11194,26 +10113,14 @@ CUADRICULA,CCAA,Provincia
 30STH88,Extremadura,Badajoz
 30STH98,Extremadura,Badajoz
 30SUH08,Andalucía,Córdoba
-30SUH08,Andalucía,Badajoz
-30SUH08,Extremadura,Córdoba
 30SUH08,Extremadura,Badajoz
 30SUH18,Andalucía,Córdoba
-30SUH18,Andalucía,Badajoz
-30SUH18,Extremadura,Córdoba
 30SUH18,Extremadura,Badajoz
-30SUH28,Andalucía,Ciudad Real
-30SUH28,Andalucía,Córdoba
-30SUH28,Andalucía,Badajoz
-30SUH28,Extremadura,Ciudad Real
-30SUH28,Extremadura,Córdoba
-30SUH28,Extremadura,Badajoz
 30SUH28,Castilla-La Mancha,Ciudad Real
-30SUH28,Castilla-La Mancha,Córdoba
-30SUH28,Castilla-La Mancha,Badajoz
-30SUH38,Andalucía,Ciudad Real
-30SUH38,Andalucía,Córdoba
+30SUH28,Andalucía,Córdoba
+30SUH28,Extremadura,Badajoz
 30SUH38,Castilla-La Mancha,Ciudad Real
-30SUH38,Castilla-La Mancha,Córdoba
+30SUH38,Andalucía,Córdoba
 30SUH48,Castilla-La Mancha,Ciudad Real
 30SUH58,Castilla-La Mancha,Ciudad Real
 30SUH68,Castilla-La Mancha,Ciudad Real
@@ -11246,33 +10153,17 @@ CUADRICULA,CCAA,Provincia
 30SXH18,Castilla-La Mancha,Albacete
 30SXH28,Castilla-La Mancha,Albacete
 30SXH38,Región de Murcia,Murcia
-30SXH38,Región de Murcia,Albacete
-30SXH38,Castilla-La Mancha,Murcia
 30SXH38,Castilla-La Mancha,Albacete
 30SXH48,Región de Murcia,Murcia
-30SXH48,Región de Murcia,Albacete
-30SXH48,Castilla-La Mancha,Murcia
 30SXH48,Castilla-La Mancha,Albacete
 30SXH58,Región de Murcia,Murcia
-30SXH58,Región de Murcia,Albacete
-30SXH58,Castilla-La Mancha,Murcia
 30SXH58,Castilla-La Mancha,Albacete
 30SXH68,Región de Murcia,Murcia
-30SXH68,Región de Murcia,Albacete
-30SXH68,Castilla-La Mancha,Murcia
 30SXH68,Castilla-La Mancha,Albacete
 30SXH78,Región de Murcia,Murcia
-30SXH78,Región de Murcia,Alacant/Alicante
-30SXH78,Región de Murcia,Albacete
-30SXH78,Comunitat Valenciana,Murcia
 30SXH78,Comunitat Valenciana,Alacant/Alicante
-30SXH78,Comunitat Valenciana,Albacete
-30SXH78,Castilla-La Mancha,Murcia
-30SXH78,Castilla-La Mancha,Alacant/Alicante
 30SXH78,Castilla-La Mancha,Albacete
 30SXH88,Comunitat Valenciana,Alacant/Alicante
-30SXH88,Comunitat Valenciana,Albacete
-30SXH88,Castilla-La Mancha,Alacant/Alicante
 30SXH88,Castilla-La Mancha,Albacete
 30SXH98,Comunitat Valenciana,Alacant/Alicante
 30SYH08,Comunitat Valenciana,Alacant/Alicante
@@ -11403,27 +10294,17 @@ CUADRICULA,CCAA,Provincia
 30STH77,Extremadura,Badajoz
 30STH87,Extremadura,Badajoz
 30STH97,Andalucía,Córdoba
-30STH97,Andalucía,Badajoz
-30STH97,Extremadura,Córdoba
 30STH97,Extremadura,Badajoz
 30SUH07,Andalucía,Córdoba
-30SUH07,Andalucía,Badajoz
-30SUH07,Extremadura,Córdoba
 30SUH07,Extremadura,Badajoz
 30SUH17,Andalucía,Córdoba
 30SUH27,Andalucía,Córdoba
-30SUH37,Andalucía,Ciudad Real
-30SUH37,Andalucía,Córdoba
 30SUH37,Castilla-La Mancha,Ciudad Real
-30SUH37,Castilla-La Mancha,Córdoba
-30SUH47,Andalucía,Ciudad Real
-30SUH47,Andalucía,Córdoba
+30SUH37,Andalucía,Córdoba
 30SUH47,Castilla-La Mancha,Ciudad Real
-30SUH47,Castilla-La Mancha,Córdoba
-30SUH57,Andalucía,Ciudad Real
-30SUH57,Andalucía,Córdoba
+30SUH47,Andalucía,Córdoba
 30SUH57,Castilla-La Mancha,Ciudad Real
-30SUH57,Castilla-La Mancha,Córdoba
+30SUH57,Andalucía,Córdoba
 30SUH67,Castilla-La Mancha,Ciudad Real
 30SUH77,Castilla-La Mancha,Ciudad Real
 30SUH87,Castilla-La Mancha,Ciudad Real
@@ -11453,15 +10334,11 @@ CUADRICULA,CCAA,Provincia
 30SXH17,Castilla-La Mancha,Albacete
 30SXH27,Castilla-La Mancha,Albacete
 30SXH37,Región de Murcia,Murcia
-30SXH37,Región de Murcia,Albacete
-30SXH37,Castilla-La Mancha,Murcia
 30SXH37,Castilla-La Mancha,Albacete
 30SXH47,Región de Murcia,Murcia
 30SXH57,Región de Murcia,Murcia
 30SXH67,Región de Murcia,Murcia
 30SXH77,Región de Murcia,Murcia
-30SXH77,Región de Murcia,Alacant/Alicante
-30SXH77,Comunitat Valenciana,Murcia
 30SXH77,Comunitat Valenciana,Alacant/Alicante
 30SXH87,Comunitat Valenciana,Alacant/Alicante
 30SXH97,Comunitat Valenciana,Alacant/Alicante
@@ -11491,30 +10368,20 @@ CUADRICULA,CCAA,Provincia
 30STH56,Extremadura,Badajoz
 30STH66,Extremadura,Badajoz
 30STH76,Andalucía,Córdoba
-30STH76,Andalucía,Badajoz
-30STH76,Extremadura,Córdoba
 30STH76,Extremadura,Badajoz
 30STH86,Andalucía,Córdoba
-30STH86,Andalucía,Badajoz
-30STH86,Extremadura,Córdoba
 30STH86,Extremadura,Badajoz
 30STH96,Andalucía,Córdoba
-30STH96,Andalucía,Badajoz
-30STH96,Extremadura,Córdoba
 30STH96,Extremadura,Badajoz
 30SUH06,Andalucía,Córdoba
 30SUH16,Andalucía,Córdoba
 30SUH26,Andalucía,Córdoba
 30SUH36,Andalucía,Córdoba
 30SUH46,Andalucía,Córdoba
-30SUH56,Andalucía,Ciudad Real
-30SUH56,Andalucía,Córdoba
 30SUH56,Castilla-La Mancha,Ciudad Real
-30SUH56,Castilla-La Mancha,Córdoba
-30SUH66,Andalucía,Ciudad Real
-30SUH66,Andalucía,Córdoba
+30SUH56,Andalucía,Córdoba
 30SUH66,Castilla-La Mancha,Ciudad Real
-30SUH66,Castilla-La Mancha,Córdoba
+30SUH66,Andalucía,Córdoba
 30SUH76,Castilla-La Mancha,Ciudad Real
 30SUH86,Castilla-La Mancha,Ciudad Real
 30SUH96,Castilla-La Mancha,Ciudad Real
@@ -11530,18 +10397,11 @@ CUADRICULA,CCAA,Provincia
 30SVH96,Castilla-La Mancha,Ciudad Real
 30SWH06,Castilla-La Mancha,Ciudad Real
 30SWH16,Andalucía,Jaén
-30SWH16,Andalucía,Ciudad Real
-30SWH16,Castilla-La Mancha,Jaén
 30SWH16,Castilla-La Mancha,Ciudad Real
 30SWH26,Andalucía,Jaén
-30SWH26,Andalucía,Ciudad Real
-30SWH26,Andalucía,Albacete
-30SWH26,Castilla-La Mancha,Jaén
 30SWH26,Castilla-La Mancha,Ciudad Real
 30SWH26,Castilla-La Mancha,Albacete
 30SWH36,Andalucía,Jaén
-30SWH36,Andalucía,Albacete
-30SWH36,Castilla-La Mancha,Jaén
 30SWH36,Castilla-La Mancha,Albacete
 30SWH46,Castilla-La Mancha,Albacete
 30SWH56,Castilla-La Mancha,Albacete
@@ -11553,15 +10413,11 @@ CUADRICULA,CCAA,Provincia
 30SXH16,Castilla-La Mancha,Albacete
 30SXH26,Castilla-La Mancha,Albacete
 30SXH36,Región de Murcia,Murcia
-30SXH36,Región de Murcia,Albacete
-30SXH36,Castilla-La Mancha,Murcia
 30SXH36,Castilla-La Mancha,Albacete
 30SXH46,Región de Murcia,Murcia
 30SXH56,Región de Murcia,Murcia
 30SXH66,Región de Murcia,Murcia
 30SXH76,Región de Murcia,Murcia
-30SXH76,Región de Murcia,Alacant/Alicante
-30SXH76,Comunitat Valenciana,Murcia
 30SXH76,Comunitat Valenciana,Alacant/Alicante
 30SXH86,Comunitat Valenciana,Alacant/Alicante
 30SXH96,Comunitat Valenciana,Alacant/Alicante
@@ -11603,8 +10459,6 @@ CUADRICULA,CCAA,Provincia
 30STH55,Extremadura,Badajoz
 30STH65,Extremadura,Badajoz
 30STH75,Andalucía,Córdoba
-30STH75,Andalucía,Badajoz
-30STH75,Extremadura,Córdoba
 30STH75,Extremadura,Badajoz
 30STH85,Andalucía,Córdoba
 30STH95,Andalucía,Córdoba
@@ -11614,72 +10468,40 @@ CUADRICULA,CCAA,Provincia
 30SUH35,Andalucía,Córdoba
 30SUH45,Andalucía,Córdoba
 30SUH55,Andalucía,Córdoba
-30SUH65,Andalucía,Ciudad Real
-30SUH65,Andalucía,Córdoba
 30SUH65,Castilla-La Mancha,Ciudad Real
-30SUH65,Castilla-La Mancha,Córdoba
-30SUH75,Andalucía,Ciudad Real
-30SUH75,Andalucía,Córdoba
+30SUH65,Andalucía,Córdoba
 30SUH75,Castilla-La Mancha,Ciudad Real
-30SUH75,Castilla-La Mancha,Córdoba
+30SUH75,Andalucía,Córdoba
 30SUH85,Andalucía,Jaén
-30SUH85,Andalucía,Ciudad Real
-30SUH85,Castilla-La Mancha,Jaén
 30SUH85,Castilla-La Mancha,Ciudad Real
 30SUH95,Andalucía,Jaén
-30SUH95,Andalucía,Ciudad Real
-30SUH95,Castilla-La Mancha,Jaén
 30SUH95,Castilla-La Mancha,Ciudad Real
 30SVH05,Castilla-La Mancha,Ciudad Real
 30SVH15,Castilla-La Mancha,Ciudad Real
 30SVH25,Andalucía,Jaén
-30SVH25,Andalucía,Ciudad Real
-30SVH25,Castilla-La Mancha,Jaén
 30SVH25,Castilla-La Mancha,Ciudad Real
 30SVH35,Andalucía,Jaén
-30SVH35,Andalucía,Ciudad Real
-30SVH35,Castilla-La Mancha,Jaén
 30SVH35,Castilla-La Mancha,Ciudad Real
 30SVH45,Andalucía,Jaén
-30SVH45,Andalucía,Ciudad Real
-30SVH45,Castilla-La Mancha,Jaén
 30SVH45,Castilla-La Mancha,Ciudad Real
 30SVH55,Andalucía,Jaén
-30SVH55,Andalucía,Ciudad Real
-30SVH55,Castilla-La Mancha,Jaén
 30SVH55,Castilla-La Mancha,Ciudad Real
 30SVH65,Andalucía,Jaén
-30SVH65,Andalucía,Ciudad Real
-30SVH65,Castilla-La Mancha,Jaén
 30SVH65,Castilla-La Mancha,Ciudad Real
 30SVH75,Andalucía,Jaén
-30SVH75,Andalucía,Ciudad Real
-30SVH75,Castilla-La Mancha,Jaén
 30SVH75,Castilla-La Mancha,Ciudad Real
 30SVH85,Andalucía,Jaén
-30SVH85,Andalucía,Ciudad Real
-30SVH85,Castilla-La Mancha,Jaén
 30SVH85,Castilla-La Mancha,Ciudad Real
 30SVH95,Andalucía,Jaén
-30SVH95,Andalucía,Ciudad Real
-30SVH95,Castilla-La Mancha,Jaén
 30SVH95,Castilla-La Mancha,Ciudad Real
 30SWH05,Andalucía,Jaén
-30SWH05,Andalucía,Ciudad Real
-30SWH05,Castilla-La Mancha,Jaén
 30SWH05,Castilla-La Mancha,Ciudad Real
 30SWH15,Andalucía,Jaén
-30SWH15,Andalucía,Ciudad Real
-30SWH15,Castilla-La Mancha,Jaén
 30SWH15,Castilla-La Mancha,Ciudad Real
 30SWH25,Andalucía,Jaén
 30SWH35,Andalucía,Jaén
-30SWH35,Andalucía,Albacete
-30SWH35,Castilla-La Mancha,Jaén
 30SWH35,Castilla-La Mancha,Albacete
 30SWH45,Andalucía,Jaén
-30SWH45,Andalucía,Albacete
-30SWH45,Castilla-La Mancha,Jaén
 30SWH45,Castilla-La Mancha,Albacete
 30SWH55,Castilla-La Mancha,Albacete
 30SWH65,Castilla-La Mancha,Albacete
@@ -11690,18 +10512,12 @@ CUADRICULA,CCAA,Provincia
 30SXH15,Castilla-La Mancha,Albacete
 30SXH25,Castilla-La Mancha,Albacete
 30SXH35,Región de Murcia,Murcia
-30SXH35,Región de Murcia,Albacete
-30SXH35,Castilla-La Mancha,Murcia
 30SXH35,Castilla-La Mancha,Albacete
 30SXH45,Región de Murcia,Murcia
 30SXH55,Región de Murcia,Murcia
 30SXH65,Región de Murcia,Murcia
-30SXH65,Región de Murcia,Alacant/Alicante
-30SXH65,Comunitat Valenciana,Murcia
 30SXH65,Comunitat Valenciana,Alacant/Alicante
 30SXH75,Región de Murcia,Murcia
-30SXH75,Región de Murcia,Alacant/Alicante
-30SXH75,Comunitat Valenciana,Murcia
 30SXH75,Comunitat Valenciana,Alacant/Alicante
 30SXH85,Comunitat Valenciana,Alacant/Alicante
 30SXH95,Comunitat Valenciana,Alacant/Alicante
@@ -11730,8 +10546,6 @@ CUADRICULA,CCAA,Provincia
 30STH54,Extremadura,Badajoz
 30STH64,Extremadura,Badajoz
 30STH74,Andalucía,Córdoba
-30STH74,Andalucía,Badajoz
-30STH74,Extremadura,Córdoba
 30STH74,Extremadura,Badajoz
 30STH84,Andalucía,Córdoba
 30STH94,Andalucía,Córdoba
@@ -11742,38 +10556,22 @@ CUADRICULA,CCAA,Provincia
 30SUH44,Andalucía,Córdoba
 30SUH54,Andalucía,Córdoba
 30SUH64,Andalucía,Córdoba
-30SUH74,Andalucía,Ciudad Real
-30SUH74,Andalucía,Córdoba
 30SUH74,Castilla-La Mancha,Ciudad Real
-30SUH74,Castilla-La Mancha,Córdoba
+30SUH74,Andalucía,Córdoba
 30SUH84,Andalucía,Jaén
-30SUH84,Andalucía,Ciudad Real
-30SUH84,Andalucía,Córdoba
-30SUH84,Castilla-La Mancha,Jaén
 30SUH84,Castilla-La Mancha,Ciudad Real
-30SUH84,Castilla-La Mancha,Córdoba
+30SUH84,Andalucía,Córdoba
 30SUH94,Andalucía,Jaén
-30SUH94,Andalucía,Ciudad Real
-30SUH94,Andalucía,Córdoba
-30SUH94,Castilla-La Mancha,Jaén
 30SUH94,Castilla-La Mancha,Ciudad Real
-30SUH94,Castilla-La Mancha,Córdoba
+30SUH94,Andalucía,Córdoba
 30SVH04,Andalucía,Jaén
-30SVH04,Andalucía,Ciudad Real
-30SVH04,Castilla-La Mancha,Jaén
 30SVH04,Castilla-La Mancha,Ciudad Real
 30SVH14,Andalucía,Jaén
-30SVH14,Andalucía,Ciudad Real
-30SVH14,Castilla-La Mancha,Jaén
 30SVH14,Castilla-La Mancha,Ciudad Real
 30SVH24,Andalucía,Jaén
-30SVH24,Andalucía,Ciudad Real
-30SVH24,Castilla-La Mancha,Jaén
 30SVH24,Castilla-La Mancha,Ciudad Real
 30SVH34,Andalucía,Jaén
 30SVH44,Andalucía,Jaén
-30SVH44,Andalucía,Ciudad Real
-30SVH44,Castilla-La Mancha,Jaén
 30SVH44,Castilla-La Mancha,Ciudad Real
 30SVH54,Andalucía,Jaén
 30SVH64,Andalucía,Jaén
@@ -11785,45 +10583,27 @@ CUADRICULA,CCAA,Provincia
 30SWH24,Andalucía,Jaén
 30SWH34,Andalucía,Jaén
 30SWH44,Andalucía,Jaén
-30SWH44,Andalucía,Albacete
-30SWH44,Castilla-La Mancha,Jaén
 30SWH44,Castilla-La Mancha,Albacete
 30SWH54,Castilla-La Mancha,Albacete
 30SWH64,Castilla-La Mancha,Albacete
 30SWH74,Castilla-La Mancha,Albacete
 30SWH84,Región de Murcia,Murcia
-30SWH84,Región de Murcia,Albacete
-30SWH84,Castilla-La Mancha,Murcia
 30SWH84,Castilla-La Mancha,Albacete
 30SWH94,Región de Murcia,Murcia
-30SWH94,Región de Murcia,Albacete
-30SWH94,Castilla-La Mancha,Murcia
 30SWH94,Castilla-La Mancha,Albacete
 30SXH04,Región de Murcia,Murcia
-30SXH04,Región de Murcia,Albacete
-30SXH04,Castilla-La Mancha,Murcia
 30SXH04,Castilla-La Mancha,Albacete
 30SXH14,Región de Murcia,Murcia
-30SXH14,Región de Murcia,Albacete
-30SXH14,Castilla-La Mancha,Murcia
 30SXH14,Castilla-La Mancha,Albacete
 30SXH24,Región de Murcia,Murcia
-30SXH24,Región de Murcia,Albacete
-30SXH24,Castilla-La Mancha,Murcia
 30SXH24,Castilla-La Mancha,Albacete
 30SXH34,Región de Murcia,Murcia
-30SXH34,Región de Murcia,Albacete
-30SXH34,Castilla-La Mancha,Murcia
 30SXH34,Castilla-La Mancha,Albacete
 30SXH44,Región de Murcia,Murcia
 30SXH54,Región de Murcia,Murcia
 30SXH64,Región de Murcia,Murcia
-30SXH64,Región de Murcia,Alacant/Alicante
-30SXH64,Comunitat Valenciana,Murcia
 30SXH64,Comunitat Valenciana,Alacant/Alicante
 30SXH74,Región de Murcia,Murcia
-30SXH74,Región de Murcia,Alacant/Alicante
-30SXH74,Comunitat Valenciana,Murcia
 30SXH74,Comunitat Valenciana,Alacant/Alicante
 30SXH84,Comunitat Valenciana,Alacant/Alicante
 30SXH94,Comunitat Valenciana,Alacant/Alicante
@@ -11836,8 +10616,6 @@ CUADRICULA,CCAA,Provincia
 29SPC63,Extremadura,Badajoz
 29SPC73,Extremadura,Badajoz
 29SPC83,Andalucía,Huelva
-29SPC83,Andalucía,Badajoz
-29SPC83,Extremadura,Huelva
 29SPC83,Extremadura,Badajoz
 29SPC93,Extremadura,Badajoz
 29SQC03,Extremadura,Badajoz
@@ -11850,16 +10628,10 @@ CUADRICULA,CCAA,Provincia
 30STH33,Extremadura,Badajoz
 30STH43,Extremadura,Badajoz
 30STH53,Andalucía,Sevilla
-30STH53,Andalucía,Badajoz
-30STH53,Extremadura,Sevilla
 30STH53,Extremadura,Badajoz
 30STH63,Andalucía,Sevilla
-30STH63,Andalucía,Badajoz
-30STH63,Extremadura,Sevilla
 30STH63,Extremadura,Badajoz
 30STH73,Andalucía,Córdoba
-30STH73,Andalucía,Badajoz
-30STH73,Extremadura,Córdoba
 30STH73,Extremadura,Badajoz
 30STH93,Andalucía,Córdoba
 30SUH03,Andalucía,Córdoba
@@ -11887,17 +10659,11 @@ CUADRICULA,CCAA,Provincia
 30SWH23,Andalucía,Jaén
 30SWH33,Andalucía,Jaén
 30SWH43,Andalucía,Jaén
-30SWH43,Andalucía,Albacete
-30SWH43,Castilla-La Mancha,Jaén
 30SWH43,Castilla-La Mancha,Albacete
 30SWH53,Castilla-La Mancha,Albacete
 30SWH73,Región de Murcia,Murcia
-30SWH73,Región de Murcia,Albacete
-30SWH73,Castilla-La Mancha,Murcia
 30SWH73,Castilla-La Mancha,Albacete
 30SWH93,Región de Murcia,Murcia
-30SWH93,Región de Murcia,Albacete
-30SWH93,Castilla-La Mancha,Murcia
 30SWH93,Castilla-La Mancha,Albacete
 30SXH03,Región de Murcia,Murcia
 30SXH13,Región de Murcia,Murcia
@@ -11907,8 +10673,6 @@ CUADRICULA,CCAA,Provincia
 30SXH53,Región de Murcia,Murcia
 30SXH63,Región de Murcia,Murcia
 30SXH73,Región de Murcia,Murcia
-30SXH73,Región de Murcia,Alacant/Alicante
-30SXH73,Comunitat Valenciana,Murcia
 30SXH73,Comunitat Valenciana,Alacant/Alicante
 30SXH83,Comunitat Valenciana,Alacant/Alicante
 30SXH93,Comunitat Valenciana,Alacant/Alicante
@@ -12056,21 +10820,13 @@ CUADRICULA,CCAA,Provincia
 30SVH03,Andalucía,Jaén
 30SWH63,Castilla-La Mancha,Albacete
 30SWH83,Región de Murcia,Murcia
-30SWH83,Región de Murcia,Albacete
-30SWH83,Castilla-La Mancha,Murcia
 30SWH83,Castilla-La Mancha,Albacete
 29SPC62,Extremadura,Badajoz
 29SPC72,Andalucía,Huelva
-29SPC72,Andalucía,Badajoz
-29SPC72,Extremadura,Huelva
 29SPC72,Extremadura,Badajoz
 29SPC82,Andalucía,Huelva
-29SPC82,Andalucía,Badajoz
-29SPC82,Extremadura,Huelva
 29SPC82,Extremadura,Badajoz
 29SPC92,Andalucía,Huelva
-29SPC92,Andalucía,Badajoz
-29SPC92,Extremadura,Huelva
 29SPC92,Extremadura,Badajoz
 29SQC02,Extremadura,Badajoz
 29SQC12,Extremadura,Badajoz
@@ -12081,22 +10837,13 @@ CUADRICULA,CCAA,Provincia
 29SQC62,Extremadura,Badajoz
 30STH32,Extremadura,Badajoz
 30STH42,Andalucía,Sevilla
-30STH42,Andalucía,Badajoz
-30STH42,Extremadura,Sevilla
 30STH42,Extremadura,Badajoz
 30STH52,Andalucía,Sevilla
-30STH52,Andalucía,Badajoz
-30STH52,Extremadura,Sevilla
 30STH52,Extremadura,Badajoz
 30STH62,Andalucía,Sevilla
-30STH62,Andalucía,Badajoz
-30STH62,Extremadura,Sevilla
 30STH62,Extremadura,Badajoz
 30STH72,Andalucía,Sevilla
 30STH72,Andalucía,Córdoba
-30STH72,Andalucía,Badajoz
-30STH72,Extremadura,Sevilla
-30STH72,Extremadura,Córdoba
 30STH72,Extremadura,Badajoz
 30STH82,Andalucía,Córdoba
 30STH92,Andalucía,Córdoba
@@ -12126,17 +10873,11 @@ CUADRICULA,CCAA,Provincia
 30SWH22,Andalucía,Jaén
 30SWH32,Andalucía,Jaén
 30SWH42,Andalucía,Jaén
-30SWH42,Andalucía,Albacete
-30SWH42,Castilla-La Mancha,Jaén
 30SWH42,Castilla-La Mancha,Albacete
 30SWH52,Castilla-La Mancha,Albacete
 30SWH62,Región de Murcia,Murcia
-30SWH62,Región de Murcia,Albacete
-30SWH62,Castilla-La Mancha,Murcia
 30SWH62,Castilla-La Mancha,Albacete
 30SWH72,Región de Murcia,Murcia
-30SWH72,Región de Murcia,Albacete
-30SWH72,Castilla-La Mancha,Murcia
 30SWH72,Castilla-La Mancha,Albacete
 30SWH82,Región de Murcia,Murcia
 30SWH92,Región de Murcia,Murcia
@@ -12148,8 +10889,6 @@ CUADRICULA,CCAA,Provincia
 30SXH52,Región de Murcia,Murcia
 30SXH62,Región de Murcia,Murcia
 30SXH72,Región de Murcia,Murcia
-30SXH72,Región de Murcia,Alacant/Alicante
-30SXH72,Comunitat Valenciana,Murcia
 30SXH72,Comunitat Valenciana,Alacant/Alicante
 30SXH82,Comunitat Valenciana,Alacant/Alicante
 30SXH92,Comunitat Valenciana,Alacant/Alicante
@@ -12206,37 +10945,23 @@ CUADRICULA,CCAA,Provincia
 29SPC71,Andalucía,Huelva
 29SPC81,Andalucía,Huelva
 29SPC91,Andalucía,Huelva
-29SPC91,Andalucía,Badajoz
-29SPC91,Extremadura,Huelva
 29SPC91,Extremadura,Badajoz
 29SQC01,Andalucía,Huelva
-29SQC01,Andalucía,Badajoz
-29SQC01,Extremadura,Huelva
 29SQC01,Extremadura,Badajoz
 29SQC11,Andalucía,Huelva
-29SQC11,Andalucía,Badajoz
-29SQC11,Extremadura,Huelva
 29SQC11,Extremadura,Badajoz
 29SQC21,Andalucía,Huelva
-29SQC21,Andalucía,Badajoz
-29SQC21,Extremadura,Huelva
 29SQC21,Extremadura,Badajoz
 29SQC31,Andalucía,Huelva
-29SQC31,Andalucía,Badajoz
-29SQC31,Extremadura,Huelva
 29SQC31,Extremadura,Badajoz
 29SQC41,Extremadura,Badajoz
 29SQC51,Extremadura,Badajoz
 29SQC61,Extremadura,Badajoz
 30STH31,Extremadura,Badajoz
 30STH41,Andalucía,Sevilla
-30STH41,Andalucía,Badajoz
-30STH41,Extremadura,Sevilla
 30STH41,Extremadura,Badajoz
 30STH51,Andalucía,Sevilla
 30STH61,Andalucía,Sevilla
-30STH61,Andalucía,Badajoz
-30STH61,Extremadura,Sevilla
 30STH61,Extremadura,Badajoz
 30STH71,Andalucía,Sevilla
 30STH71,Andalucía,Córdoba
@@ -12270,28 +10995,14 @@ CUADRICULA,CCAA,Provincia
 30SWH21,Andalucía,Jaén
 30SWH31,Andalucía,Granada
 30SWH31,Andalucía,Jaén
-30SWH31,Andalucía,Albacete
-30SWH31,Castilla-La Mancha,Granada
-30SWH31,Castilla-La Mancha,Jaén
 30SWH31,Castilla-La Mancha,Albacete
 30SWH41,Andalucía,Granada
 30SWH41,Andalucía,Jaén
-30SWH41,Andalucía,Albacete
-30SWH41,Castilla-La Mancha,Granada
-30SWH41,Castilla-La Mancha,Jaén
 30SWH41,Castilla-La Mancha,Albacete
-30SWH51,Región de Murcia,Granada
-30SWH51,Región de Murcia,Murcia
-30SWH51,Región de Murcia,Albacete
 30SWH51,Andalucía,Granada
-30SWH51,Andalucía,Murcia
-30SWH51,Andalucía,Albacete
-30SWH51,Castilla-La Mancha,Granada
-30SWH51,Castilla-La Mancha,Murcia
+30SWH51,Región de Murcia,Murcia
 30SWH51,Castilla-La Mancha,Albacete
 30SWH61,Región de Murcia,Murcia
-30SWH61,Región de Murcia,Albacete
-30SWH61,Castilla-La Mancha,Murcia
 30SWH61,Castilla-La Mancha,Albacete
 30SWH71,Región de Murcia,Murcia
 30SWH81,Región de Murcia,Murcia
@@ -12304,8 +11015,6 @@ CUADRICULA,CCAA,Provincia
 30SXH51,Región de Murcia,Murcia
 30SXH61,Región de Murcia,Murcia
 30SXH71,Región de Murcia,Murcia
-30SXH71,Región de Murcia,Alacant/Alicante
-30SXH71,Comunitat Valenciana,Murcia
 30SXH71,Comunitat Valenciana,Alacant/Alicante
 30SXH81,Comunitat Valenciana,Alacant/Alicante
 30SXH91,Comunitat Valenciana,Alacant/Alicante
@@ -12319,32 +11028,18 @@ CUADRICULA,CCAA,Provincia
 29SQC10,Andalucía,Huelva
 29SQC20,Andalucía,Huelva
 29SQC30,Andalucía,Huelva
-29SQC30,Andalucía,Badajoz
-29SQC30,Extremadura,Huelva
 29SQC30,Extremadura,Badajoz
 29SQC40,Andalucía,Huelva
 29SQC40,Andalucía,Sevilla
-29SQC40,Andalucía,Badajoz
-29SQC40,Extremadura,Huelva
-29SQC40,Extremadura,Sevilla
 29SQC40,Extremadura,Badajoz
 29SQC50,Andalucía,Huelva
 29SQC50,Andalucía,Sevilla
-29SQC50,Andalucía,Badajoz
-29SQC50,Extremadura,Huelva
-29SQC50,Extremadura,Sevilla
 29SQC50,Extremadura,Badajoz
 29SQC60,Andalucía,Sevilla
-29SQC60,Andalucía,Badajoz
-29SQC60,Extremadura,Sevilla
 29SQC60,Extremadura,Badajoz
 30STH30,Andalucía,Sevilla
-30STH30,Andalucía,Badajoz
-30STH30,Extremadura,Sevilla
 30STH30,Extremadura,Badajoz
 30STH40,Andalucía,Sevilla
-30STH40,Andalucía,Badajoz
-30STH40,Extremadura,Sevilla
 30STH40,Extremadura,Badajoz
 30STH50,Andalucía,Sevilla
 30STH60,Andalucía,Sevilla
@@ -12380,19 +11075,11 @@ CUADRICULA,CCAA,Provincia
 30SWH30,Andalucía,Granada
 30SWH30,Andalucía,Jaén
 30SWH40,Andalucía,Granada
-30SWH50,Región de Murcia,Granada
-30SWH50,Región de Murcia,Murcia
-30SWH50,Región de Murcia,Albacete
 30SWH50,Andalucía,Granada
-30SWH50,Andalucía,Murcia
-30SWH50,Andalucía,Albacete
-30SWH50,Castilla-La Mancha,Granada
-30SWH50,Castilla-La Mancha,Murcia
+30SWH50,Región de Murcia,Murcia
 30SWH50,Castilla-La Mancha,Albacete
-30SWH60,Región de Murcia,Granada
-30SWH60,Región de Murcia,Murcia
 30SWH60,Andalucía,Granada
-30SWH60,Andalucía,Murcia
+30SWH60,Región de Murcia,Murcia
 30SWH70,Región de Murcia,Murcia
 30SWH80,Región de Murcia,Murcia
 30SWH90,Región de Murcia,Murcia
@@ -12404,12 +11091,8 @@ CUADRICULA,CCAA,Provincia
 30SXH50,Región de Murcia,Murcia
 30SXH60,Región de Murcia,Murcia
 30SXH70,Región de Murcia,Murcia
-30SXH70,Región de Murcia,Alacant/Alicante
-30SXH70,Comunitat Valenciana,Murcia
 30SXH70,Comunitat Valenciana,Alacant/Alicante
 30SXH80,Región de Murcia,Murcia
-30SXH80,Región de Murcia,Alacant/Alicante
-30SXH80,Comunitat Valenciana,Murcia
 30SXH80,Comunitat Valenciana,Alacant/Alicante
 30SXH90,Comunitat Valenciana,Alacant/Alicante
 30SYH00,Comunitat Valenciana,Alacant/Alicante
@@ -12466,20 +11149,13 @@ CUADRICULA,CCAA,Provincia
 30SWG39,Andalucía,Granada
 30SWG49,Andalucía,Granada
 30SWG59,Andalucía,Granada
-30SWG69,Región de Murcia,Almería
-30SWG69,Región de Murcia,Granada
-30SWG69,Región de Murcia,Murcia
 30SWG69,Andalucía,Almería
 30SWG69,Andalucía,Granada
-30SWG69,Andalucía,Murcia
-30SWG79,Región de Murcia,Almería
-30SWG79,Región de Murcia,Murcia
+30SWG69,Región de Murcia,Murcia
 30SWG79,Andalucía,Almería
-30SWG79,Andalucía,Murcia
-30SWG89,Región de Murcia,Almería
-30SWG89,Región de Murcia,Murcia
+30SWG79,Región de Murcia,Murcia
 30SWG89,Andalucía,Almería
-30SWG89,Andalucía,Murcia
+30SWG89,Región de Murcia,Murcia
 30SWG99,Región de Murcia,Murcia
 30SXG09,Región de Murcia,Murcia
 30SXG19,Región de Murcia,Murcia
@@ -12490,12 +11166,8 @@ CUADRICULA,CCAA,Provincia
 30SXG69,Región de Murcia,Murcia
 30SXG79,Región de Murcia,Murcia
 30SXG89,Región de Murcia,Murcia
-30SXG89,Región de Murcia,Alacant/Alicante
-30SXG89,Comunitat Valenciana,Murcia
 30SXG89,Comunitat Valenciana,Alacant/Alicante
 30SXG99,Región de Murcia,Murcia
-30SXG99,Región de Murcia,Alacant/Alicante
-30SXG99,Comunitat Valenciana,Murcia
 30SXG99,Comunitat Valenciana,Alacant/Alicante
 30SYG09,,
 30SYG19,,
@@ -12560,10 +11232,8 @@ CUADRICULA,CCAA,Provincia
 30SWG68,Andalucía,Almería
 30SWG68,Andalucía,Granada
 30SWG78,Andalucía,Almería
-30SWG88,Región de Murcia,Almería
-30SWG88,Región de Murcia,Murcia
 30SWG88,Andalucía,Almería
-30SWG88,Andalucía,Murcia
+30SWG88,Región de Murcia,Murcia
 30SWG98,Región de Murcia,Murcia
 30SXG08,Región de Murcia,Murcia
 30SXG18,Región de Murcia,Murcia
@@ -12640,10 +11310,8 @@ CUADRICULA,CCAA,Provincia
 30SWG67,Andalucía,Almería
 30SWG67,Andalucía,Granada
 30SWG77,Andalucía,Almería
-30SWG87,Región de Murcia,Almería
-30SWG87,Región de Murcia,Murcia
 30SWG87,Andalucía,Almería
-30SWG87,Andalucía,Murcia
+30SWG87,Región de Murcia,Murcia
 30SWG97,Región de Murcia,Murcia
 30SXG07,Región de Murcia,Murcia
 30SXG17,Región de Murcia,Murcia
@@ -12729,14 +11397,10 @@ CUADRICULA,CCAA,Provincia
 30SWG56,Andalucía,Granada
 30SWG66,Andalucía,Almería
 30SWG76,Andalucía,Almería
-30SWG86,Región de Murcia,Almería
-30SWG86,Región de Murcia,Murcia
 30SWG86,Andalucía,Almería
-30SWG86,Andalucía,Murcia
-30SWG96,Región de Murcia,Almería
-30SWG96,Región de Murcia,Murcia
+30SWG86,Región de Murcia,Murcia
 30SWG96,Andalucía,Almería
-30SWG96,Andalucía,Murcia
+30SWG96,Región de Murcia,Murcia
 30SXG06,Región de Murcia,Murcia
 30SXG16,Región de Murcia,Murcia
 30SXG26,Región de Murcia,Murcia
@@ -12831,10 +11495,8 @@ CUADRICULA,CCAA,Provincia
 30SWG65,Andalucía,Almería
 30SWG75,Andalucía,Almería
 30SWG85,Andalucía,Almería
-30SWG95,Región de Murcia,Almería
-30SWG95,Región de Murcia,Murcia
 30SWG95,Andalucía,Almería
-30SWG95,Andalucía,Murcia
+30SWG95,Región de Murcia,Murcia
 30SXG05,Región de Murcia,Murcia
 30SXG15,Región de Murcia,Murcia
 30SXG25,Región de Murcia,Murcia
@@ -13013,18 +11675,12 @@ CUADRICULA,CCAA,Provincia
 30SWG64,Andalucía,Almería
 30SWG74,Andalucía,Almería
 30SWG84,Andalucía,Almería
-30SWG94,Región de Murcia,Almería
-30SWG94,Región de Murcia,Murcia
 30SWG94,Andalucía,Almería
-30SWG94,Andalucía,Murcia
-30SXG04,Región de Murcia,Almería
-30SXG04,Región de Murcia,Murcia
+30SWG94,Región de Murcia,Murcia
 30SXG04,Andalucía,Almería
-30SXG04,Andalucía,Murcia
-30SXG14,Región de Murcia,Almería
-30SXG14,Región de Murcia,Murcia
+30SXG04,Región de Murcia,Murcia
 30SXG14,Andalucía,Almería
-30SXG14,Andalucía,Murcia
+30SXG14,Región de Murcia,Murcia
 30SXG24,Región de Murcia,Murcia
 30SXG34,Región de Murcia,Murcia
 30SXG43,,
@@ -13095,14 +11751,10 @@ CUADRICULA,CCAA,Provincia
 30SWG83,Andalucía,Almería
 30SWG93,Andalucía,Almería
 30SXG03,Andalucía,Almería
-30SXG13,Región de Murcia,Almería
-30SXG13,Región de Murcia,Murcia
 30SXG13,Andalucía,Almería
-30SXG13,Andalucía,Murcia
-30SXG23,Región de Murcia,Almería
-30SXG23,Región de Murcia,Murcia
+30SXG13,Región de Murcia,Murcia
 30SXG23,Andalucía,Almería
-30SXG23,Andalucía,Murcia
+30SXG23,Región de Murcia,Murcia
 30SXG32,,
 30SXG22,,
 30SXG41,,
