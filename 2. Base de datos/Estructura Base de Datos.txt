@@ -27,7 +27,6 @@ CREATE TABLE [dbo].[DescripcionesEspecies]( -- Tabla de descripciones para cada 
 
 CREATE TABLE [dbo].[NombresEspecies]( -- Tabla de nombres para cada taxon
 	[idtaxon] [int] NULL, -- Identificador
-	[nombre_aceptado] [text] NULL, -- Nombre aceptado (cientifico) para el taxon
 	[nombre_comun] [text] NULL, -- Nombre comun para el taxon
 	[idioma] [text] NULL, -- Idioma del nombre comun
 	[espreferente] [int] NULL -- Si es el nombre comun preferente o no
