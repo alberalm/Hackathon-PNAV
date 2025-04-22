@@ -70,8 +70,8 @@
       display: flex;
       gap: 20px;
       padding: 20px;
-      /* Calcula altura disponible tras header + filtros (ajusta 160px si cambian) */
-      min-height: calc(100vh - 160px);
+     
+     height: 750px; /* Ajusta según el tamaño del header */
       align-items: stretch;
     }
     /* Contenedor scrollable para la tabla */
@@ -92,10 +92,40 @@ thead {
   table-layout: fixed;       /* columnas fijas según ancho de celda */
 }
 
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;   /* o el espacio que quieras */
+}
+
+.controls .descripcion-input {
+  flex: 1;            /* ocupa todo el espacio restante */
+  margin-right: 12px; /* separa un poco del botón */
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.controls .descripcion-btn {
+  flex: 0 0 auto;
+  padding: 6px 12px;
+  background-color: #3a7d44;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.controls .descripcion-btn:hover {
+  background-color: #2d5e33;
+}
+
+
 /* Cuerpo scrollable */
 tbody {
   display: block;            /* bloque scrollable */
-  max-height: 800px;         /* altura del scroll */
+  max-height: 700px;         /* altura del scroll */
   overflow-y: auto;          /* scroll vertical */
   width: 100%;
 }
@@ -251,6 +281,7 @@ tr:hover {
     }
   </style>
 </head>
+
 <body>
   <header>🌿 Explorador de Rutas Naturales</header>
 
@@ -273,41 +304,42 @@ tr:hover {
       </div>
     </div>
     
-    <select name="provincia">
+    <select id="provincia-selector" name="provincia">
       <option value="">Provincia</option>
-      <option value="alava">Álava</option>
+      <option value="Araba/Álava">Álava</option>
       <option value="albacete">Albacete</option>
-      <option value="alicante">Alicante</option>
-      <option value="almeria">Almería</option>
+      <option value="Alacant/Alicante">Alicante</option>
+      <option value="almería">Almería</option>
       <option value="asturias">Asturias</option>
-      <option value="avila">Ávila</option>
+      <option value="Ávila">Ávila</option>
       <option value="badajoz">Badajoz</option>
       <option value="barcelona">Barcelona</option>
+      <option value="Bizkaia">Bizkaia</option>
       <option value="burgos">Burgos</option>
-      <option value="caceres">Cáceres</option>
-      <option value="cadiz">Cádiz</option>
+      <option value="cáceres">Cáceres</option>
+      <option value="cádiz">Cádiz</option>
       <option value="cantabria">Cantabria</option>
-      <option value="castellon">Castellón</option>
+      <option value="Castelló/Castellón">Castellón</option>
       <option value="ceuta">Ceuta</option>
-      <option value="ciudadreal">Ciudad Real</option>
-      <option value="cordoba">Córdoba</option>
+      <option value="Ciudad Real">Ciudad Real</option>
+      <option value="Córdoba">Córdoba</option>
       <option value="cuenca">Cuenca</option>
       <option value="girona">Girona</option>
       <option value="granada">Granada</option>
       <option value="guadalajara">Guadalajara</option>
-      <option value="guipuzcoa">Guipúzcoa</option>
+      <option value="Gipuzkoa">Guipúzcoa</option>
       <option value="huelva">Huelva</option>
       <option value="huesca">Huesca</option>
-      <option value="illesbalears">Illes Balears</option>
-      <option value="jaen">Jaén</option>
-      <option value="a coruna">A Coruña</option>
+      <option value="Illes Balears">Illes Balears</option>
+      <option value="jaén">Jaén</option>
+      <option value="a coruña">A Coruña</option>
       <option value="la rioja">La Rioja</option>
       <option value="las palmas">Las Palmas</option>
-      <option value="leon">León</option>
+      <option value="león">León</option>
       <option value="lleida">Lleida</option>
       <option value="lugo">Lugo</option>
       <option value="madrid">Madrid</option>
-      <option value="malaga">Málaga</option>
+      <option value="málaga">Málaga</option>
       <option value="melilla">Melilla</option>
       <option value="murcia">Murcia</option>
       <option value="navarra">Navarra</option>
@@ -315,17 +347,16 @@ tr:hover {
       <option value="palencia">Palencia</option>
       <option value="pontevedra">Pontevedra</option>
       <option value="salamanca">Salamanca</option>
-      <option value="sansebastian">San Sebastián</option>
-      <option value="santacruztf">Santa Cruz de Tenerife</option>
+      <option value="san sebastián">San Sebastián</option>
+      <option value="Santa Cruz de Tenerife">Santa Cruz de Tenerife</option>
       <option value="segovia">Segovia</option>
       <option value="sevilla">Sevilla</option>
       <option value="soria">Soria</option>
       <option value="tarragona">Tarragona</option>
       <option value="teruel">Teruel</option>
       <option value="toledo">Toledo</option>
-      <option value="valencia">Valencia</option>
+      <option value="València/Valencia">Valencia</option>
       <option value="valladolid">Valladolid</option>
-      <option value="vizcaya">Vizcaya</option>
       <option value="zamora">Zamora</option>
       <option value="zaragoza">Zaragoza</option>
     </select>
@@ -334,540 +365,25 @@ tr:hover {
 
     <input type="date" name="fecha">
 
-    <button>Aplicar filtros</button>
+    <button id="btn-aplicar-filtros">Aplicar filtros</button>
   </div>
 
   
 
   <div class="contenido">
-    <table>
+    <table table id="tabla-rutas">
       <thead>
         <tr>
           <th>Ruta</th>
-          <th>Duración</th>
-          <th>Longitud</th>
-          
+          <th>Etapa</th>
+          <th>Longitud (Km)</th>
+          <th>Provincia</th>
+          <th>CCAA</th>
+
         </tr>
       </thead>
       <tbody>
-        
-        <tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-          <td>Ruta de León</td>
-          <td>2h</td>
-          <td>5 km</td>
-        </tr>
-
-          
-        </tr>
-        <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-          <td>Sendero de Gredos</td>
-          <td>3h</td>
-          <td>7 km</td>
-          
-        </tr>
-        <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-          <td>Camino del Ebro</td>
-          <td>4h</td>
-          <td>10 km</td>
-
-          <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-            <td>Ruta de Murcia</td>
-            <td>20h</td>
-            <td>50 km</td>
-          </tr>
-          <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-            <td>Ruta de Galicia</td>
-            <td>10h</td>
-            <td>9 km</td>
-          </tr>
-          <tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-            <td>Ruta de León</td>
-            <td>2h</td>
-            <td>5 km</td>
-          </tr>
-  
-            
-          </tr>
-          <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-            <td>Sendero de Gredos</td>
-            <td>3h</td>
-            <td>7 km</td>
-            
-          </tr>
-          <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-            <td>Camino del Ebro</td>
-            <td>4h</td>
-            <td>10 km</td>
-  
-            <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-              <td>Ruta de Murcia</td>
-              <td>20h</td>
-              <td>50 km</td>
-            </tr>
-            <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-              <td>Ruta de Galicia</td>
-              <td>10h</td>
-              <td>9 km</td>
-            </tr>
-
-            <tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-              <td>Ruta de León</td>
-              <td>2h</td>
-              <td>5 km</td>
-            </tr>
-    
-              
-            </tr>
-            <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-              <td>Sendero de Gredos</td>
-              <td>3h</td>
-              <td>7 km</td>
-              
-            </tr>
-            <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-              <td>Camino del Ebro</td>
-              <td>4h</td>
-              <td>10 km</td>
-    
-              <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-                <td>Ruta de Murcia</td>
-                <td>20h</td>
-                <td>50 km</td>
-              </tr>
-              <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-                <td>Ruta de Galicia</td>
-                <td>10h</td>
-                <td>9 km</td>
-              </tr>
-              <tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-                <td>Ruta de León</td>
-                <td>2h</td>
-                <td>5 km</td>
-              </tr>
-      
-                
-              </tr>
-              <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-                <td>Sendero de Gredos</td>
-                <td>3h</td>
-                <td>7 km</td>
-                
-              </tr>
-              <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-                <td>Camino del Ebro</td>
-                <td>4h</td>
-                <td>10 km</td>
-      
-                <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-                  <td>Ruta de Murcia</td>
-                  <td>20h</td>
-                  <td>50 km</td>
-                </tr>
-                <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-                  <td>Ruta de Galicia</td>
-                  <td>10h</td>
-                  <td>9 km</td>
-                </tr><tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-                  <td>Ruta de León</td>
-                  <td>2h</td>
-                  <td>5 km</td>
-                </tr>
-        
-                  
-                </tr>
-                <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-                  <td>Sendero de Gredos</td>
-                  <td>3h</td>
-                  <td>7 km</td>
-                  
-                </tr>
-                <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-                  <td>Camino del Ebro</td>
-                  <td>4h</td>
-                  <td>10 km</td>
-        
-                  <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-                    <td>Ruta de Murcia</td>
-                    <td>20h</td>
-                    <td>50 km</td>
-                  </tr>
-                  <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-                    <td>Ruta de Galicia</td>
-                    <td>10h</td>
-                    <td>9 km</td>
-                  </tr>
-                  <tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-                    <td>Ruta de León</td>
-                    <td>2h</td>
-                    <td>5 km</td>
-                  </tr>
-          
-                    
-                  </tr>
-                  <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-                    <td>Sendero de Gredos</td>
-                    <td>3h</td>
-                    <td>7 km</td>
-                    
-                  </tr>
-                  <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-                    <td>Camino del Ebro</td>
-                    <td>4h</td>
-                    <td>10 km</td>
-          
-                    <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-                      <td>Ruta de Murcia</td>
-                      <td>20h</td>
-                      <td>50 km</td>
-                    </tr>
-                    <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-                      <td>Ruta de Galicia</td>
-                      <td>10h</td>
-                      <td>9 km</td>
-                    </tr><tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-                      <td>Ruta de León</td>
-                      <td>2h</td>
-                      <td>5 km</td>
-                    </tr>
-            
-                      
-                    </tr>
-                    <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-                      <td>Sendero de Gredos</td>
-                      <td>3h</td>
-                      <td>7 km</td>
-                      
-                    </tr>
-                    <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-                      <td>Camino del Ebro</td>
-                      <td>4h</td>
-                      <td>10 km</td>
-            
-                      <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-                        <td>Ruta de Murcia</td>
-                        <td>20h</td>
-                        <td>50 km</td>
-                      </tr>
-                      <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-                        <td>Ruta de Galicia</td>
-                        <td>10h</td>
-                        <td>9 km</td>
-                      </tr>
-                      <tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-                        <td>Ruta de León</td>
-                        <td>2h</td>
-                        <td>5 km</td>
-                      </tr>
-              
-                        
-                      </tr>
-                      <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-                        <td>Sendero de Gredos</td>
-                        <td>3h</td>
-                        <td>7 km</td>
-                        
-                      </tr>
-                      <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-                        <td>Camino del Ebro</td>
-                        <td>4h</td>
-                        <td>10 km</td>
-              
-                        <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-                          <td>Ruta de Murcia</td>
-                          <td>20h</td>
-                          <td>50 km</td>
-                        </tr>
-                        <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-                          <td>Ruta de Galicia</td>
-                          <td>10h</td>
-                          <td>9 km</td>
-                        </tr><tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-                          <td>Ruta de León</td>
-                          <td>2h</td>
-                          <td>5 km</td>
-                        </tr>
-                
-                          
-                        </tr>
-                        <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-                          <td>Sendero de Gredos</td>
-                          <td>3h</td>
-                          <td>7 km</td>
-                          
-                        </tr>
-                        <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-                          <td>Camino del Ebro</td>
-                          <td>4h</td>
-                          <td>10 km</td>
-                
-                          <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-                            <td>Ruta de Murcia</td>
-                            <td>20h</td>
-                            <td>50 km</td>
-                          </tr>
-                          <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-                            <td>Ruta de Galicia</td>
-                            <td>10h</td>
-                            <td>9 km</td>
-                          </tr>
-                          <tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-                            <td>Ruta de León</td>
-                            <td>2h</td>
-                            <td>5 km</td>
-                          </tr>
-                  
-                            
-                          </tr>
-                          <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-                            <td>Sendero de Gredos</td>
-                            <td>3h</td>
-                            <td>7 km</td>
-                            
-                          </tr>
-                          <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-                            <td>Camino del Ebro</td>
-                            <td>4h</td>
-                            <td>10 km</td>
-                  
-                            <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-                              <td>Ruta de Murcia</td>
-                              <td>20h</td>
-                              <td>50 km</td>
-                            </tr>
-                            <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-                              <td>Ruta de Galicia</td>
-                              <td>10h</td>
-                              <td>9 km</td>
-                            </tr><tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-                              <td>Ruta de León</td>
-                              <td>2h</td>
-                              <td>5 km</td>
-                            </tr>
-                    
-                              
-                            </tr>
-                            <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-                              <td>Sendero de Gredos</td>
-                              <td>3h</td>
-                              <td>7 km</td>
-                              
-                            </tr>
-                            <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-                              <td>Camino del Ebro</td>
-                              <td>4h</td>
-                              <td>10 km</td>
-                    
-                              <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-                                <td>Ruta de Murcia</td>
-                                <td>20h</td>
-                                <td>50 km</td>
-                              </tr>
-                              <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-                                <td>Ruta de Galicia</td>
-                                <td>10h</td>
-                                <td>9 km</td>
-                              </tr>
-                              <tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-                                <td>Ruta de León</td>
-                                <td>2h</td>
-                                <td>5 km</td>
-                              </tr>
-                      
-                                
-                              </tr>
-                              <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-                                <td>Sendero de Gredos</td>
-                                <td>3h</td>
-                                <td>7 km</td>
-                                
-                              </tr>
-                              <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-                                <td>Camino del Ebro</td>
-                                <td>4h</td>
-                                <td>10 km</td>
-                      
-                                <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-                                  <td>Ruta de Murcia</td>
-                                  <td>20h</td>
-                                  <td>50 km</td>
-                                </tr>
-                                <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-                                  <td>Ruta de Galicia</td>
-                                  <td>10h</td>
-                                  <td>9 km</td>
-                                </tr><tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-                                  <td>Ruta de León</td>
-                                  <td>2h</td>
-                                  <td>5 km</td>
-                                </tr>
-                        
-                                  
-                                </tr>
-                                <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-                                  <td>Sendero de Gredos</td>
-                                  <td>3h</td>
-                                  <td>7 km</td>
-                                  
-                                </tr>
-                                <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-                                  <td>Camino del Ebro</td>
-                                  <td>4h</td>
-                                  <td>10 km</td>
-                        
-                                  <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-                                    <td>Ruta de Murcia</td>
-                                    <td>20h</td>
-                                    <td>50 km</td>
-                                  </tr>
-                                  <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-                                    <td>Ruta de Galicia</td>
-                                    <td>10h</td>
-                                    <td>9 km</td>
-                                  </tr>
-                                  <tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-                                    <td>Ruta de León</td>
-                                    <td>2h</td>
-                                    <td>5 km</td>
-                                  </tr>
-                          
-                                    
-                                  </tr>
-                                  <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-                                    <td>Sendero de Gredos</td>
-                                    <td>3h</td>
-                                    <td>7 km</td>
-                                    
-                                  </tr>
-                                  <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-                                    <td>Camino del Ebro</td>
-                                    <td>4h</td>
-                                    <td>10 km</td>
-                          
-                                    <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-                                      <td>Ruta de Murcia</td>
-                                      <td>20h</td>
-                                      <td>50 km</td>
-                                    </tr>
-                                    <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-                                      <td>Ruta de Galicia</td>
-                                      <td>10h</td>
-                                      <td>9 km</td>
-                                    </tr><tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-                                      <td>Ruta de León</td>
-                                      <td>2h</td>
-                                      <td>5 km</td>
-                                    </tr>
-                            
-                                      
-                                    </tr>
-                                    <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-                                      <td>Sendero de Gredos</td>
-                                      <td>3h</td>
-                                      <td>7 km</td>
-                                      
-                                    </tr>
-                                    <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-                                      <td>Camino del Ebro</td>
-                                      <td>4h</td>
-                                      <td>10 km</td>
-                            
-                                      <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-                                        <td>Ruta de Murcia</td>
-                                        <td>20h</td>
-                                        <td>50 km</td>
-                                      </tr>
-                                      <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-                                        <td>Ruta de Galicia</td>
-                                        <td>10h</td>
-                                        <td>9 km</td>
-                                      </tr>
-                                      <tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-                                        <td>Ruta de León</td>
-                                        <td>2h</td>
-                                        <td>5 km</td>
-                                      </tr>
-                              
-                                        
-                                      </tr>
-                                      <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-                                        <td>Sendero de Gredos</td>
-                                        <td>3h</td>
-                                        <td>7 km</td>
-                                        
-                                      </tr>
-                                      <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-                                        <td>Camino del Ebro</td>
-                                        <td>4h</td>
-                                        <td>10 km</td>
-                              
-                                        <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-                                          <td>Ruta de Murcia</td>
-                                          <td>20h</td>
-                                          <td>50 km</td>
-                                        </tr>
-                                        <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-                                          <td>Ruta de Galicia</td>
-                                          <td>10h</td>
-                                          <td>9 km</td>
-                                        </tr><tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-                                          <td>Ruta de León</td>
-                                          <td>2h</td>
-                                          <td>5 km</td>
-                                        </tr>
-                                
-                                          
-                                        </tr>
-                                        <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-                                          <td>Sendero de Gredos</td>
-                                          <td>3h</td>
-                                          <td>7 km</td>
-                                          
-                                        </tr>
-                                        <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-                                          <td>Camino del Ebro</td>
-                                          <td>4h</td>
-                                          <td>10 km</td>
-                                
-                                          <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-                                            <td>Ruta de Murcia</td>
-                                            <td>20h</td>
-                                            <td>50 km</td>
-                                          </tr>
-                                          <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-                                            <td>Ruta de Galicia</td>
-                                            <td>10h</td>
-                                            <td>9 km</td>
-                                          </tr>
-                                          <tr data-id="1" onclick="mostrarPrevisualizacion(this)">
-                                            <td>Ruta de León</td>
-                                            <td>2h</td>
-                                            <td>5 km</td>
-                                          </tr>
-                                  
-                                            
-                                          </tr>
-                                          <tr data-id="2" onclick="mostrarPrevisualizacion(this)">
-                                            <td>Sendero de Gredos</td>
-                                            <td>3h</td>
-                                            <td>7 km</td>
-                                            
-                                          </tr>
-                                          <tr data-id="3" onclick="mostrarPrevisualizacion(this)">
-                                            <td>Camino del Ebro</td>
-                                            <td>4h</td>
-                                            <td>10 km</td>
-                                  
-                                            <tr data-id="4" onclick="mostrarPrevisualizacion(this)">
-                                              <td>Ruta de Murcia</td>
-                                              <td>20h</td>
-                                              <td>50 km</td>
-                                            </tr>
-                                            <tr data-id="5" onclick="mostrarPrevisualizacion(this)">
-                                              <td>Ruta de Galicia</td>
-                                              <td>10h</td>
-                                              <td>9 km</td>
-                                            </tr>
-        </tr>
+        <!-- aquí se inyectan las filas -->
       </tbody>
     </table>
 
@@ -879,82 +395,117 @@ tr:hover {
       <div class="espacio-pdf">
         <iframe id="visor-pdf" width="100%" height="100%" frameborder="0"></iframe>
       </div>
-      <input type="text" placeholder="Introduce un texto..." style="margin-bottom: 10px; padding: 8px; border: 1px solid #ccc; border-radius: 6px;">
-      <div class="botones">
-        <button>Aplicar</button>
-        <button onclick="descargarPDF()">Descargar</button>
+    
+     
+      <div class="controls">
+        <input type="text"
+               placeholder="indique como quiere sus descripciones"
+               class="descripcion-input">
+        <button class="descripcion-btn">Aplicar</button>
       </div>
     </div>
-  </div>
+    
 
-  <script>
-    // 2) Ahora recibimos la fila (tr) y sacamos sus datos
-    async function mostrarPrevisualizacion(tr) {
-  // Oculto mapa / muestro previsualización
-  document.getElementById('mapa').style.display = 'none';
-  document.getElementById('previsualizacion').style.display = 'flex';
-
-  // Extraigo el ID de la ruta de data-id
-  const idRuta   = tr.dataset.id; 
-  const nombre   = tr.cells[0].textContent;
-  const duracion = tr.cells[1].textContent;
-  const longitud = tr.cells[2].textContent;
-
-  // Pido las especies según el id
-  const especies = await cargarEspecies(idRuta);
-
-  // Genero el PDF incluyendo esas especies
-  const resp = await fetch('/generar_pdf', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ id_ruta: idRuta, nombre, duracion, longitud, especies })
-  });
-  const blob = await resp.blob();
-  const url  = URL.createObjectURL(blob);
-  document.getElementById('visor-pdf').src = url;
-}
-
-async function cargarEspecies(idRuta) {
-  // Caché simple
-  if (especiesCache[idRuta]) return especiesCache[idRuta];
-  const res = await fetch('/obtener_especies', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ id_ruta: idRuta })
-  });
-  const lista = await res.json();
-  especiesCache[idRuta] = lista;
-  return lista;
-}
-
-    // 5) Devolver siempre el array para poder usarlo arriba
-    const especiesCache = {};
-    async function cargarEspecies(idRuta) {
-      if (especiesCache[idRuta]) return especiesCache[idRuta];
-      try {
-        const res  = await fetch('/obtener_especies',{
-          method: 'POST',
-          headers:{ 'Content-Type':'application/json' },
-          body: JSON.stringify({ id_ruta: idRuta })
-        });
-        const esp = await res.json();
-        especiesCache[idRuta] = esp;
-        console.log('Especies obtenidas:', esp);
-        return esp;
-      } catch (e) {
-        console.error('Error al obtener especies:', e);
-        return [];
+    <script>
+      // Caché simple para especies por ruta
+      const especiesCache = {};
+    
+      // Función que pide especies y almacena en caché
+      async function cargarEspecies(ID_Ruta) {
+        if (especiesCache[ID_Ruta]) {
+          return especiesCache[ID_Ruta];
+        }
+        try {
+          const res = await fetch('/obtener_especies', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id_ruta: ID_Ruta })
+          });
+          const lista = await res.json();
+          especiesCache[ID_Ruta] = lista;
+          console.log('Especies obtenidas:', lista);
+          return lista;
+        } catch (e) {
+          console.error('Error al obtener especies:', e);
+          return [];
+        }
       }
-    }
+    
+      // Al invocar la previsualización, ocultamos el mapa y mostramos el PDF
+      async function mostrarPrevisualizacion(tr) {
+        document.getElementById('mapa').style.display = 'none';
+        document.getElementById('previsualizacion').style.display = 'flex';
+    
+        const idRuta   = tr.dataset.id;
+        const nombre   = tr.cells[0].textContent;
+        const duracion = tr.cells[1].textContent;
+        const longitud = tr.cells[2].textContent;
+    
+        // Obtenemos el array de especies (lista de objetos)
+        const especies = await cargarEspecies(idRuta);
+    
+        // Generamos el PDF en el servidor con payload correcto
+        const resp = await fetch('/generar_pdf', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ id_ruta: idRuta, nombre, duracion, longitud, especies })
+        });
+        const blob = await resp.blob();
+        const url  = URL.createObjectURL(blob);
+        document.getElementById('visor-pdf').src = url;
+      }
+    
+      // Ejemplo de uso: asignar handler a filas de la tabla
+      document.querySelectorAll('#tabla-rutas tbody tr').forEach(tr => {
+        tr.addEventListener('click', () => mostrarPrevisualizacion(tr));
+      });
+    </script>
   
-    function descargarPDF() {
+    
       
-    }
+    
   </script>
+   <script>
+    async function cargarRutas(provincia = '') {
+      // Construye la URL con query param
+      const url = '/obtener_rutas' + (provincia ? `?provincia=${encodeURIComponent(provincia)}` : '');
+      const resp = await fetch(url);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const rutas = await resp.json();
+    
+      const tbody = document.querySelector('#tabla-rutas tbody');
+      tbody.innerHTML = '';
+    
+      rutas.forEach(r => {
+        const tr = document.createElement('tr');
+        tr.dataset.id = r.ID_Ruta;
+        tr.onclick = () => mostrarPrevisualizacion(tr);
+        tr.innerHTML = `
+          
+          <td>${r.Nombre_Ruta}</td>
+          <td>${r.Nombre_Etapa}</td>
+          <td>${r.Longitud}</td>
+          <td>${r.Provincia}</td>
+          <td>${r.CCAA}</td>
+
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+    
+    document.addEventListener('DOMContentLoaded', () => {
+      // Carga inicial sin filtros
+      cargarRutas();
+    
+      // Aplica filtros al botón
+      document.getElementById('btn-aplicar-filtros').addEventListener('click', () => {
+        const sel = document.getElementById('provincia-selector').value;
+        cargarRutas(sel);
+      });
+    });
+    </script>
+    
+    
   
-
-
-
-
 </body>
 </html>

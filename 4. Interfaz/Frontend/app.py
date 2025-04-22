@@ -5,6 +5,29 @@ import random
 import unicodedata
 import requests
 from flask import request, jsonify
+import pyodbc
+import json
+import pandas as pd
+from sqlalchemy import create_engine
+import urllib
+import numpy as np
+
+
+
+especies_cache = {}
+app = Flask(__name__)
+conn_str = (
+    "DRIVER={ODBC Driver 17 for SQL Server};"
+    "SERVER=tcp:sql-server-mamba.database.windows.net,1433;"
+    "DATABASE=sql-db-mamba;"
+    "UID=sql-admin;"
+    "PWD=serverpwd1!;"
+    "Encrypt=yes;"
+    "TrustServerCertificate=no;"
+    "Connection Timeout=30;"
+)
+conn = pyodbc.connect(conn_str)
+engine = create_engine(f"mssql+pyodbc:///?odbc_connect={conn_str}")
 
 # Definición de especies por ruta
 ESPECIES_POR_RUTA = {
@@ -19,17 +42,15 @@ ESPECIES_POR_RUTA = {
     ],
 }
 
+
 def limpiar_texto(texto):
     return unicodedata.normalize('NFKD', texto).encode('latin-1', 'ignore').decode('latin-1')
 
 
- 
-
-app = Flask(__name__)
-
 @app.route('/')
 def index():
     return render_template('principal.html.html')
+
 
 @app.route('/personalizar_descripciones')
 def personalizar_descripciones(id_ruta: int, lista_especies: list, prompt: str):
@@ -38,42 +59,64 @@ def personalizar_descripciones(id_ruta: int, lista_especies: list, prompt: str):
     """
     return generar_pdf(1, lista_especies)
 
-especies_cache = {}
+
+import numpy as np
 
 @app.route('/obtener_especies', methods=['POST'])
 def obtener_especies():
     """
-    Devuelve una muestra de especies según el ID de ruta.
-    Para rutas con más de 3 especies (el caso de la ruta 1), selecciona 3 aleatorias la primera vez y las cachea.
+    Devuelve todas las especies que aparecen en la ruta seleccionada,
+    buscando en las cuadrículas asociadas a esa ruta.
     """
     data = request.get_json(force=True)
+    # Primero intentamos con el nombre que envía el front (id_ruta),
+    # si no llega, con la versión en mayúsculas (ID_Ruta), y si no, 1.
+    raw_id = data.get('id_ruta', data.get('ID_Ruta', 1))
     try:
-        id_ruta = int(data.get('id_ruta', 1))
+        id_ruta = int(raw_id)
     except (TypeError, ValueError):
         id_ruta = 1
 
-    especies_list = ESPECIES_POR_RUTA.get(id_ruta, [])
-    # Si hay más de 3, muestreamos 3 aleatorias la primera vez
-    if len(especies_list) > 3:
-        if id_ruta not in especies_cache:
-            especies_cache[id_ruta] = random.sample(especies_list, k=3)
-        return jsonify(especies_cache[id_ruta])
-    # Si no, devolvemos todo el listado
-    return jsonify(especies_list)
+    sql = """
+        SELECT DISTINCT
+            ce.idtaxon,
+            COALESCE(ne.nombre_comun, t.name) AS nombre,
+            de.Descripcion AS descripcion
+        FROM dbo.CuadriculasRutas cr
+        JOIN dbo.CuadriculasEspecies ce
+          ON cr.CUADRICULA = ce.cuadricula
+        LEFT JOIN dbo.NombresEspecies ne
+          ON ce.idtaxon = ne.idtaxon
+        LEFT JOIN dbo.DescripcionesEspecies de
+          ON ce.idtaxon = de.idtaxon
+        LEFT JOIN dbo.Taxonomia t
+          ON ce.idtaxon = t.taxonid
+        WHERE cr.ID_Ruta = ? AND ne.espreferente = 1
+        ORDER BY nombre;
+    """
 
-    
-    
-   
+    try:
+        df = pd.read_sql_query(sql, conn, params=[id_ruta])
+        df = df.replace({np.nan: None})
+        especies = df.to_dict(orient='records')
+        return jsonify(especies)
+
+    except Exception as e:
+        app.logger.exception("Error al obtener especies de la ruta %s", id_ruta)
+        return jsonify({'error': 'Error interno al cargar especies'}), 500
+
 
 @app.route('/generar_pdf', methods=['POST'])
 def generar_pdf():
     data = request.get_json(force=True)
-    nombre   = data.get('nombre', 'Sin nombre')
-    duracion = data.get('duracion', 'Sin duración')
-    longitud = data.get('longitud', 'Sin longitud')
+
+    # limpiamos los datos de la ruta
+    nombre   = limpiar_texto(data.get('nombre', 'Sin nombre'))
+    duracion = limpiar_texto(data.get('duracion', 'Sin duración'))
+    longitud = limpiar_texto(data.get('longitud', 'Sin longitud'))
     especies = data.get('especies')
 
-    # Si no se envían desde el front, recuperamos de cache o completo
+    # si no vienen desde el front, las obtenemos de la caché o DB
     if especies is None:
         try:
             id_ruta = int(data.get('id_ruta', 1))
@@ -81,6 +124,7 @@ def generar_pdf():
             id_ruta = 1
         especies = especies_cache.get(id_ruta) or ESPECIES_POR_RUTA.get(id_ruta, [])
 
+    # generación del PDF
     pdf = FPDF()
     pdf.add_page()
     pdf.set_font('Arial', size=12)
@@ -95,9 +139,18 @@ def generar_pdf():
         pdf.cell(0, 10, 'Especies encontradas:', ln=True)
         pdf.set_font('Arial', size=12)
         for esp in especies:
-            nombre_esp = esp.get('nombre') or f"ID {esp.get('idtaxon')}"
+            # Nombre
+            nombre_esp = limpiar_texto(esp.get('nombre') or f"ID {esp.get('idtaxon')}")
             pdf.cell(0, 8, f'- {nombre_esp}', ln=True)
+            # Descripción
+            desc_raw = esp.get('descripcion') or ''
+            descripcion = limpiar_texto(desc_raw)
+            # sangramos un poco la descripción
+            pdf.cell(5)  # margen izquierdo
+            pdf.multi_cell(0, 6, f'{descripcion}')
+            pdf.ln(1)   # pequeño espacio antes de la siguiente especie
 
+    # envío del PDF
     buffer = io.BytesIO(pdf.output(dest='S').encode('latin-1'))
     buffer.seek(0)
     return send_file(
@@ -108,7 +161,6 @@ def generar_pdf():
     )
 
 # Otros endpoints (clima, calidad de aire, rutas) pueden quedar igual
-
 
 
 def obtener_clima():
@@ -165,6 +217,7 @@ def obtener_clima():
     except Exception as e:
         return jsonify({'error': f'Error al obtener el clima: {str(e)}'}), 500
 
+
 def calidad_aire():
     """
     Funcion que se encarga de obtener la calidad del aire en base a las coordenadas 
@@ -191,23 +244,40 @@ def calidad_aire():
     else:
         return jsonify({'error': 'No se pudo obtener calidad del aire'}), 500
 
-@app.route('/obtener_rutas', methods=['POST'])
-def obtener_rutas(filtros=[]):
-    """
-    Funcion que se encarga de obtener las rutas en base a los filtros seleccionados por el usuario  
-    """
-    data = request.get_json()
-    provincia = data.get('provincia')
 
-    # Aquí deberías implementar la lógica para obtener las rutas según la provincia
-    # Por ejemplo, podrías hacer una consulta a una base de datos o un API externo.
-    
-    # Simulación de datos de rutas
-    rutas = [
-        {'ID_Ruta': 1, 'Nombre_Ruta': 'nombre', 'Nombre_Etapa': 'etsapa 1', 'Longitud': '10 km', 'Descripcion': 'Fácil', 'Nombre_Ingles': 'route 1', 'CCAA' : 'murcia', 'Provincia': 'murcia', 'Tiemp': 'sol 12º ,25 aire' },
-    ] * 5
+@app.route('/obtener_rutas', methods=['GET'])
+def obtener_rutas():
+    provincia = request.args.get('provincia', default='', type=str).strip()
 
-    return jsonify(rutas)
+    try:
+        # 1) Lee TODAS las rutas
+        df_rutas = pd.read_sql(
+            "SELECT ID_Ruta, Nombre_Ruta, Nombre_Etapa, ROUND(Longitud, 2) AS Longitud, CCAA, Provincia FROM Rutas",
+            con=engine  # o conn si sigues con pyodbc
+        )
+        # 2) Normaliza NaN a None para el JSON
+        df_rutas = df_rutas.replace({np.nan: "-"})
+
+        # 3) Si hay filtro de provincia, aplica contains (caso insensible)
+        if provincia:
+            # Elimina espacios a ambos lados y busca substring
+            df_rutas = df_rutas[
+                df_rutas['Provincia']
+                  .fillna('')
+                  .str
+                  .contains(provincia, case=False, na=False)
+            ]
+
+        rutas = df_rutas.to_dict(orient='records')
+        return jsonify(rutas)
+
+    except Exception as e:
+        app.logger.exception("Error en obtener_rutas:")
+        return jsonify({'error': str(e)}), 500
+
+
+
+
 
 
 
