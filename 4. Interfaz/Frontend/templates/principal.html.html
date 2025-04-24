@@ -293,13 +293,13 @@ tr:hover {
       <button type="button" class="dropbtn">Grupos Taxonómicos ⮟</button>
       <div class="dropdown-content">
         <label><input type="checkbox" value="peces"> Peces</label>
-        <label><input type="checkbox" value="mamiferos"> Mamíferos</label>
-        <label><input type="checkbox" value="hongos"> Hongos</label>
-        <label><input type="checkbox" value="plantas_vasculares"> Plantas vasculares</label>
-        <label><input type="checkbox" value="plantas_no_vasculares"> Plantas no vasculares</label>
-        <label><input type="checkbox" value="aves"> Aves</label>
+        <label><input type="checkbox" value="Mamíferos"> Mamíferos</label>
+        <label><input type="checkbox" value="Hongos"> Hongos</label>
+        <label><input type="checkbox" value="Plantas vasculares"> Plantas vasculares</label>
+        <label><input type="checkbox" value="Plantas no vasculares"> Plantas no vasculares</label>
+        <label><input type="checkbox" value="Aves"> Aves</label>
+        <label><input type="checkbox" value="Invertebrados"> Invertebrados</label>
         <label><input type="checkbox" value="anfibios"> Anfibios</label>
-        <label><input type="checkbox" value="invertebrados"> Invertebrados</label>
         <label><input type="checkbox" value="reptiles"> Reptiles</label>
       </div>
     </div>
@@ -407,64 +407,82 @@ tr:hover {
     
 
     <script>
-      // Caché simple para especies por ruta
-      const especiesCache = {};
+  // 1) Caché simple para especies por ruta
+  const especiesCache = {};
+
+  // 2) Leer taxonomías marcadas, normalizadas a minúsculas y sin espacios
+  function obtenerTaxonomiasSeleccionadas() {
+    return Array.from(
+      document.querySelectorAll('.dropdown-content input[type="checkbox"]:checked')
+    )
+    .map(cb => cb.value.trim().toLowerCase());
+  }
+
+  // 3) Función para vaciar la caché cuando cambie un filtro
+  function limpiarCacheEspecies() {
+    Object.keys(especiesCache).forEach(k => delete especiesCache[k]);
+  }
+
+  // 4) Asignamos el listener a cada checkbox
+  document.querySelectorAll('.dropdown-content input[type="checkbox"]')
+    .forEach(cb => cb.addEventListener('change', limpiarCacheEspecies));
+
+  // 5) Y también al botón “Aplicar filtros” (si lo usas para provincia u otros filtros)
+  document.getElementById('btn-aplicar-filtros')
+    .addEventListener('click', limpiarCacheEspecies);
+
+  // 6) La función principal de carga, ya sin cambios
+  async function cargarEspecies(ID_Ruta) {
+    if (especiesCache[ID_Ruta]) {
+      return especiesCache[ID_Ruta];
+    }
+    const payload = {
+      id_ruta:    ID_Ruta,
+      taxonomias: obtenerTaxonomiasSeleccionadas()
+    };
+    console.log('📤 /obtener_especies payload:', payload);
+    const res = await fetch('/obtener_especies', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    if (!res.ok) {
+      console.error('Error al obtener especies', await res.text());
+      return [];
+    }
+    const lista = await res.json();
+    console.log('📥 especies recibidas:', lista);
+    especiesCache[ID_Ruta] = lista;
+    return lista;
+  }
+
+  // 7) Mostrar la previsualización como antes
+  async function mostrarPrevisualizacion(tr) {
+    limpiarCacheEspecies();  // opcional: garantizamos siempre datos frescos
+    document.getElementById('mapa').style.display = 'none';
+    document.getElementById('previsualizacion').style.display = 'flex';
+
+    const idRuta   = tr.dataset.id;
+    const nombre   = tr.cells[0].textContent;
+    const duracion = tr.cells[1].textContent;
+    const longitud = tr.cells[2].textContent;
+
+    const especies = await cargarEspecies(idRuta);
+
+    const resp = await fetch('/generar_pdf', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id_ruta: idRuta, nombre, duracion, longitud, especies })
+    });
+    if (!resp.ok) { console.error(await resp.text()); return; }
+    const blob = await resp.blob();
+    document.getElementById('visor-pdf').src = URL.createObjectURL(blob);
+  }
+
+  // ... el resto de tu script (cargarRutas, DOMContentLoaded) ...
+</script>
+
     
-      // Función que pide especies y almacena en caché
-      async function cargarEspecies(ID_Ruta) {
-        if (especiesCache[ID_Ruta]) {
-          return especiesCache[ID_Ruta];
-        }
-        try {
-          const res = await fetch('/obtener_especies', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ id_ruta: ID_Ruta })
-          });
-          const lista = await res.json();
-          especiesCache[ID_Ruta] = lista;
-          console.log('Especies obtenidas:', lista);
-          return lista;
-        } catch (e) {
-          console.error('Error al obtener especies:', e);
-          return [];
-        }
-      }
-    
-      // Al invocar la previsualización, ocultamos el mapa y mostramos el PDF
-      async function mostrarPrevisualizacion(tr) {
-        document.getElementById('mapa').style.display = 'none';
-        document.getElementById('previsualizacion').style.display = 'flex';
-    
-        const idRuta   = tr.dataset.id;
-        const nombre   = tr.cells[0].textContent;
-        const duracion = tr.cells[1].textContent;
-        const longitud = tr.cells[2].textContent;
-    
-        // Obtenemos el array de especies (lista de objetos)
-        const especies = await cargarEspecies(idRuta);
-    
-        // Generamos el PDF en el servidor con payload correcto
-        const resp = await fetch('/generar_pdf', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ id_ruta: idRuta, nombre, duracion, longitud, especies })
-        });
-        const blob = await resp.blob();
-        const url  = URL.createObjectURL(blob);
-        document.getElementById('visor-pdf').src = url;
-      }
-    
-      // Ejemplo de uso: asignar handler a filas de la tabla
-      document.querySelectorAll('#tabla-rutas tbody tr').forEach(tr => {
-        tr.addEventListener('click', () => mostrarPrevisualizacion(tr));
-      });
-    </script>
-  
-    
-      
-    
-  </script>
    <script>
     async function cargarRutas(provincia = '') {
       // Construye la URL con query param

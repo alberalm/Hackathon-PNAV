@@ -65,23 +65,28 @@ import numpy as np
 @app.route('/obtener_especies', methods=['POST'])
 def obtener_especies():
     """
-    Devuelve todas las especies que aparecen en la ruta seleccionada,
-    buscando en las cuadrículas asociadas a esa ruta.
+    Devuelve hasta 5 especies por cada grupo taxonómico (o de los grupos seleccionados)
+    que aparecen en la ruta seleccionada, buscando en las cuadrículas asociadas a esa ruta.
     """
     data = request.get_json(force=True)
-    # Primero intentamos con el nombre que envía el front (id_ruta),
-    # si no llega, con la versión en mayúsculas (ID_Ruta), y si no, 1.
+
+    # ID de ruta (por defecto 1)
     raw_id = data.get('id_ruta', data.get('ID_Ruta', 1))
     try:
         id_ruta = int(raw_id)
     except (TypeError, ValueError):
         id_ruta = 1
 
+    # Lista de grupos taxonómicos seleccionados (p. ej. ["peces","mamiferos"])
+    tax_filters = [t.lower() for t in data.get('taxonomias', []) if isinstance(t, str)]
+
+    # Consulta SQL: traemos también el taxonomicgroup
     sql = """
         SELECT DISTINCT
             ce.idtaxon,
-            COALESCE(ne.nombre_comun, t.name) AS nombre,
-            de.Descripcion AS descripcion
+            COALESCE(ne.nombre_comun, t.name)   AS nombre,
+            de.Descripcion                      AS descripcion,
+            t.taxonomicgroup                    AS grupo
         FROM dbo.CuadriculasRutas cr
         JOIN dbo.CuadriculasEspecies ce
           ON cr.CUADRICULA = ce.cuadricula
@@ -92,13 +97,27 @@ def obtener_especies():
         LEFT JOIN dbo.Taxonomia t
           ON ce.idtaxon = t.taxonid
         WHERE cr.ID_Ruta = ? AND ne.espreferente = 1
-        ORDER BY nombre;
+        ORDER BY taxonomicgroup ;
     """
 
     try:
+        # Cargo a DataFrame
         df = pd.read_sql_query(sql, conn, params=[id_ruta])
+        # Reemplazo NaN por None
         df = df.replace({np.nan: None})
-        especies = df.to_dict(orient='records')
+
+        # Normalizo grupo a minúsculas y relleno nulos con cadena vacía
+        df['grupo'] = df['grupo'].str.lower().fillna('')
+
+        # Aplico filtro: si el usuario seleccionó taxonomías
+        if tax_filters:
+            df = df[df['grupo'].isin(tax_filters)]
+
+        # Por cada grupo, tomo únicamente las primeras 5 especies
+        df_limited = df.groupby('grupo', group_keys=False).head(5)
+
+        # Serializo a JSON
+        especies = df_limited.to_dict(orient='records')
         return jsonify(especies)
 
     except Exception as e:
@@ -106,25 +125,19 @@ def obtener_especies():
         return jsonify({'error': 'Error interno al cargar especies'}), 500
 
 
+
+
 @app.route('/generar_pdf', methods=['POST'])
 def generar_pdf():
     data = request.get_json(force=True)
 
-    # limpiamos los datos de la ruta
+    # Datos de la ruta
     nombre   = limpiar_texto(data.get('nombre', 'Sin nombre'))
     duracion = limpiar_texto(data.get('duracion', 'Sin duración'))
     longitud = limpiar_texto(data.get('longitud', 'Sin longitud'))
-    especies = data.get('especies')
+    especies = data.get('especies') or []
 
-    # si no vienen desde el front, las obtenemos de la caché o DB
-    if especies is None:
-        try:
-            id_ruta = int(data.get('id_ruta', 1))
-        except (TypeError, ValueError):
-            id_ruta = 1
-        especies = especies_cache.get(id_ruta) or ESPECIES_POR_RUTA.get(id_ruta, [])
-
-    # generación del PDF
+    # Generación del PDF
     pdf = FPDF()
     pdf.add_page()
     pdf.set_font('Arial', size=12)
@@ -134,23 +147,31 @@ def generar_pdf():
     pdf.cell(0, 10, f'Longitud: {longitud}', ln=True)
 
     if especies:
-        pdf.ln(4)
-        pdf.set_font('Arial', 'B', 12)
-        pdf.cell(0, 10, 'Especies encontradas:', ln=True)
-        pdf.set_font('Arial', size=12)
+        # Agrupamos las especies por el campo 'grupo'
+        from collections import defaultdict
+        grupos = defaultdict(list)
         for esp in especies:
-            # Nombre
-            nombre_esp = limpiar_texto(esp.get('nombre') or f"ID {esp.get('idtaxon')}")
-            pdf.cell(0, 8, f'- {nombre_esp}', ln=True)
-            # Descripción
-            desc_raw = esp.get('descripcion') or ''
-            descripcion = limpiar_texto(desc_raw)
-            # sangramos un poco la descripción
-            pdf.cell(5)  # margen izquierdo
-            pdf.multi_cell(0, 6, f'{descripcion}')
-            pdf.ln(1)   # pequeño espacio antes de la siguiente especie
+            grupo = (esp.get('grupo') or 'sin grupo').strip()
+            grupos[grupo].append(esp)
 
-    # envío del PDF
+        # Para cada grupo, mostramos primero el título y luego sus especies
+        for grupo, lista in grupos.items():
+            # Título de grupo (capitalizado)
+            pdf.ln(4)
+            pdf.set_font('Arial', 'B', 14)
+            pdf.cell(0, 10, grupo.capitalize(), ln=True)
+            pdf.set_font('Arial', size=12)
+
+            # Listado de hasta 5 especies (ya están limitadas)
+            for esp in lista:
+                nombre_esp = limpiar_texto(esp.get('nombre') or f"ID {esp.get('idtaxon')}")
+                descripcion = limpiar_texto(esp.get('descripcion') or '')
+                pdf.cell(0, 8, f'- {nombre_esp}', ln=True)
+                pdf.cell(5)  # sangría
+                pdf.multi_cell(0, 6, descripcion)
+                pdf.ln(1)
+
+    # Envío del PDF
     buffer = io.BytesIO(pdf.output(dest='S').encode('latin-1'))
     buffer.seek(0)
     return send_file(
@@ -160,7 +181,6 @@ def generar_pdf():
         mimetype='application/pdf'
     )
 
-# Otros endpoints (clima, calidad de aire, rutas) pueden quedar igual
 
 
 def obtener_clima():
