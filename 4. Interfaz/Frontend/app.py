@@ -77,27 +77,33 @@ def obtener_especies():
 
     # 1) Hago la consulta agrupada para contar ocurrencias
     sql = """
+               
         SELECT
             ce.idtaxon,
             COUNT(*) AS ocurrencias,
-            COALESCE(ne.nombre_comun, t.name) AS nombre,
-            de.Descripcion                  AS descripcion,
-            LOWER(t.taxonomicgroup)         AS grupo
+            ne.nombre_comun            AS nombre_comun,
+            t.name                     AS nombre_cientifico,
+            de.Descripcion             AS descripcion,
+            LOWER(t.taxonomicgroup)    AS grupo
         FROM dbo.CuadriculasRutas cr
         JOIN dbo.CuadriculasEspecies ce
           ON cr.CUADRICULA = ce.cuadricula
         LEFT JOIN dbo.NombresEspecies ne
           ON ce.idtaxon = ne.idtaxon
+         AND ne.idioma = 'Castellano'
+        JOIN dbo.Taxonomia t
+          ON ce.idtaxon = t.taxonid
+         AND t.nametype = 'Aceptado'      -- <-- Sólo nombres científicos aceptados
         LEFT JOIN dbo.DescripcionesEspecies de
           ON ce.idtaxon = de.idtaxon
-        LEFT JOIN dbo.Taxonomia t
-          ON ce.idtaxon = t.taxonid
         WHERE cr.ID_Ruta = ?
         GROUP BY
             ce.idtaxon,
-            COALESCE(ne.nombre_comun, t.name),
+            ne.nombre_comun,
+            t.name,
             de.Descripcion,
             LOWER(t.taxonomicgroup)
+
     """
     df = pd.read_sql_query(sql, conn, params=[id_ruta])
     df = df.replace({np.nan: None})
@@ -145,14 +151,12 @@ def obtener_especies():
 @app.route('/generar_pdf', methods=['POST'])
 def generar_pdf():
     data = request.get_json(force=True)
-
-    # Datos de la ruta
     nombre   = limpiar_texto(data.get('nombre', 'Sin nombre'))
     duracion = limpiar_texto(data.get('duracion', 'Sin duración'))
     longitud = limpiar_texto(data.get('longitud', 'Sin longitud'))
     especies = data.get('especies') or []
 
-    # Generación del PDF
+    # Inicio PDF
     pdf = FPDF()
     pdf.add_page()
     pdf.set_font('Arial', size=12)
@@ -161,30 +165,43 @@ def generar_pdf():
     pdf.cell(0, 10, f'Duración: {duracion}', ln=True)
     pdf.cell(0, 10, f'Longitud: {longitud}', ln=True)
 
+        # … dentro de tu función generar_pdf(), en lugar del bloque anterior:
     if especies:
-        # Agrupamos las especies por el campo 'grupo'
         from collections import defaultdict
-        grupos = defaultdict(list)
+        grupos_dict = defaultdict(list)
         for esp in especies:
-            grupo = (esp.get('grupo') or 'sin grupo').strip()
-            grupos[grupo].append(esp)
+            grupo_key = (esp.get('grupo') or 'sin grupo').strip()
+            grupos_dict[grupo_key].append(esp)
 
-        # Para cada grupo, mostramos primero el título y luego sus especies
-        for grupo, lista in grupos.items():
-            # Título de grupo (capitalizado)
+        for grupo_key, lista_especies in grupos_dict.items():
             pdf.ln(4)
             pdf.set_font('Arial', 'B', 14)
-            pdf.cell(0, 10, grupo.capitalize(), ln=True)
-            pdf.set_font('Arial', size=12)
+            pdf.cell(0, 10, grupo_key.replace('_', ' ').title(), ln=True)
 
-            # Listado de hasta 5 especies (ya están limitadas)
-            for esp in lista:
-                nombre_esp = limpiar_texto(esp.get('nombre') or f"ID {esp.get('idtaxon')}")
-                descripcion = limpiar_texto(esp.get('descripcion') or '')
-                pdf.cell(0, 8, f'- {nombre_esp}', ln=True)
+            for esp in lista_especies:
+                nc = limpiar_texto(esp.get('nombre_comun') or '')
+                sc = limpiar_texto(esp.get('nombre_cientifico') or '')
+                desc = limpiar_texto(esp.get('descripcion') or '')
+
+                # Nombre común en negrita
+                pdf.set_font('Arial', 'B', 12)
+                if nc:
+                    pdf.cell(0, 8, f"- {nc}", ln=True)
+                else:
+                    # Si no hay común, muestro directamente el científico en negrita
+                    pdf.cell(0, 8, f"- {sc}", ln=True)
+
+                # Nombre científico justo debajo, pequeño e itálico
+                pdf.set_font('Arial', 'I', 10)
                 pdf.cell(5)  # sangría
-                pdf.multi_cell(0, 6, descripcion)
+                pdf.cell(0, 6, sc, ln=True)
+
+                # Volvemos a fuente normal para la descripción
+                pdf.set_font('Arial', size=12)
+                pdf.cell(5)
+                pdf.multi_cell(0, 6, desc)
                 pdf.ln(1)
+
 
     # Envío del PDF
     buffer = io.BytesIO(pdf.output(dest='S').encode('latin-1'))
@@ -195,6 +212,7 @@ def generar_pdf():
         download_name='ruta_personalizada.pdf',
         mimetype='application/pdf'
     )
+
 
 
 
