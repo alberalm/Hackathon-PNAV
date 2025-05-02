@@ -13,7 +13,6 @@ import urllib
 import numpy as np
 
 
-
 especies_cache = {}
 app = Flask(__name__)
 conn_str = (
@@ -28,19 +27,6 @@ conn_str = (
 )
 conn = pyodbc.connect(conn_str)
 engine = create_engine(f"mssql+pyodbc:///?odbc_connect={conn_str}")
-
-# Definición de especies por ruta
-ESPECIES_POR_RUTA = {
-    1: [
-        {'idtaxon': i, 'nombre': f'Especie {i}'} for i in range(1, 54)
-    ],
-    2: [
-        {'idtaxon': i, 'nombre': f'Especie {i}'} for i in range(1, 54)
-    ],
-    3: [
-        {'idtaxon': i, 'nombre': f'Especie {i}'} for i in range(1, 54)
-    ],
-}
 
 
 def limpiar_texto(texto):
@@ -64,29 +50,39 @@ import numpy as np
 
 @app.route('/obtener_especies', methods=['POST'])
 def obtener_especies():
-    """
-    Devuelve hasta 5 especies por cada grupo taxonómico (o de los grupos seleccionados)
-    que aparecen en la ruta seleccionada, buscando en las cuadrículas asociadas a esa ruta.
-    """
-    data = request.get_json(force=True)
-
-    # ID de ruta (por defecto 1)
-    raw_id = data.get('id_ruta', data.get('ID_Ruta', 1))
+    data = request.get_json(force=True) or {}
     try:
-        id_ruta = int(raw_id)
+        id_ruta = int(data.get('id_ruta', 1))
     except (TypeError, ValueError):
         id_ruta = 1
 
-    # Lista de grupos taxonómicos seleccionados (p. ej. ["peces","mamiferos"])
-    tax_filters = [t.lower() for t in data.get('taxonomias', []) if isinstance(t, str)]
+    # Todos los grupos disponibles
+    ALL_GROUPS = [
+      "peces","mamiferos","hongos","plantas_vasculares",
+      "plantas_no_vasculares","aves","anfibios","invertebrados","reptiles"
+    ]
 
-    # Consulta SQL: traemos también el taxonomicgroup
+    # Cuotas según cuántos grupos tengas seleccionados
+    QUOTAS = {
+      0:(5,5), 1:(15,3), 2:(10,3), 3:(7,3),
+      4:(6,3), 5:(7,2), 6:(6,2), 7:(5,2),
+      8:(5,1), 9:(5,5)
+    }
+
+    # Grupos seleccionados por el usuario
+    raw_filters = data.get('taxonomias', [])
+    sel = [g for g in ALL_GROUPS if g in map(str.lower, raw_filters)]
+    k   = len(sel)
+    cuota_sel, cuota_rest = QUOTAS.get(k, QUOTAS[0])
+
+    # 1) Hago la consulta agrupada para contar ocurrencias
     sql = """
-        SELECT DISTINCT
+        SELECT
             ce.idtaxon,
-            COALESCE(ne.nombre_comun, t.name)   AS nombre,
-            de.Descripcion                      AS descripcion,
-            t.taxonomicgroup                    AS grupo
+            COUNT(*) AS ocurrencias,
+            COALESCE(ne.nombre_comun, t.name) AS nombre,
+            de.Descripcion                  AS descripcion,
+            LOWER(t.taxonomicgroup)         AS grupo
         FROM dbo.CuadriculasRutas cr
         JOIN dbo.CuadriculasEspecies ce
           ON cr.CUADRICULA = ce.cuadricula
@@ -96,33 +92,52 @@ def obtener_especies():
           ON ce.idtaxon = de.idtaxon
         LEFT JOIN dbo.Taxonomia t
           ON ce.idtaxon = t.taxonid
-        WHERE cr.ID_Ruta = ? AND ne.espreferente = 1
-        ORDER BY taxonomicgroup ;
+        WHERE cr.ID_Ruta = ?
+        GROUP BY
+            ce.idtaxon,
+            COALESCE(ne.nombre_comun, t.name),
+            de.Descripcion,
+            LOWER(t.taxonomicgroup)
     """
+    df = pd.read_sql_query(sql, conn, params=[id_ruta])
+    df = df.replace({np.nan: None})
 
-    try:
-        # Cargo a DataFrame
-        df = pd.read_sql_query(sql, conn, params=[id_ruta])
-        # Reemplazo NaN por None
-        df = df.replace({np.nan: None})
+    # 2) Parto en dos: seleccionados vs resto (si hay filtros)
+    if sel:
+        df_sel  = df[df['grupo'].isin(sel)]
+        df_rest = df[~df['grupo'].isin(sel)]
+    else:
+        # ninguno o todos -> tratamos todos como "seleccionados"
+        df_sel, df_rest = df.copy(), pd.DataFrame(columns=df.columns)
 
-        # Normalizo grupo a minúsculas y relleno nulos con cadena vacía
-        df['grupo'] = df['grupo'].str.lower().fillna('')
+    # 3) Para cada grupo seleccionado, cojo las top 'cuota_sel'
+    muestras = []
+    grupos_proc = sel if sel else ALL_GROUPS
+    for g in grupos_proc:
+        sub = df_sel[df_sel['grupo'] == g]
+        if not sub.empty:
+            top = sub.nlargest(cuota_sel, 'ocurrencias')
+            muestras.append(top)
 
-        # Aplico filtro: si el usuario seleccionó taxonomías
-        if tax_filters:
-            df = df[df['grupo'].isin(tax_filters)]
+    # 4) Para cada grupo “restante”, cojo top 'cuota_rest'
+    if sel:
+        rest_grupos = [g for g in ALL_GROUPS if g not in sel]
+        for g in rest_grupos:
+            sub = df_rest[df_rest['grupo'] == g]
+            if not sub.empty:
+                top = sub.nlargest(cuota_rest, 'ocurrencias')
+                muestras.append(top)
 
-        # Por cada grupo, tomo únicamente las primeras 5 especies
-        df_limited = df.groupby('grupo', group_keys=False).head(5)
+    # 5) Concateno y devuelvo
+    if muestras:
+        df_out = pd.concat(muestras, ignore_index=True)
+    else:
+        df_out = pd.DataFrame(columns=df.columns)
 
-        # Serializo a JSON
-        especies = df_limited.to_dict(orient='records')
-        return jsonify(especies)
+    especies = df_out.to_dict(orient='records')
+    return jsonify(especies)
 
-    except Exception as e:
-        app.logger.exception("Error al obtener especies de la ruta %s", id_ruta)
-        return jsonify({'error': 'Error interno al cargar especies'}), 500
+
 
 
 
