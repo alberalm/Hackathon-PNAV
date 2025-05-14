@@ -443,7 +443,6 @@ tr:hover {
       id_ruta:    ID_Ruta,
       taxonomias: obtenerTaxonomiasSeleccionadas()
     };
-    console.log('📤 /obtener_especies payload:', payload);
     const res = await fetch('/obtener_especies', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },

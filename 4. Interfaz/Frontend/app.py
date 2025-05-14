@@ -46,7 +46,6 @@ def personalizar_descripciones(id_ruta: int, lista_especies: list, prompt: str):
     return generar_pdf(1, lista_especies)
 
 
-import numpy as np
 
 @app.route('/obtener_especies', methods=['POST'])
 def obtener_especies():
@@ -56,92 +55,92 @@ def obtener_especies():
     except (TypeError, ValueError):
         id_ruta = 1
 
-    # Todos los grupos disponibles
     ALL_GROUPS = [
       "peces","mamiferos","hongos","plantas_vasculares",
       "plantas_no_vasculares","aves","anfibios","invertebrados","reptiles"
     ]
-
-    # Cuotas según cuántos grupos tengas seleccionados
     QUOTAS = {
-      0:(5,5), 1:(15,3), 2:(10,3), 3:(7,3),
-      4:(6,3), 5:(7,2), 6:(6,2), 7:(5,2),
-      8:(5,1), 9:(5,5)
+      0:(3,3), 1:(3,1), 2:(3,1), 3:(3,1),
+      4:(3,1), 5:(3,1), 6:(3,1), 7:(3,1),
+      8:(3,1), 9:(3,1)
     }
-
-    # Grupos seleccionados por el usuario
     raw_filters = data.get('taxonomias', [])
     sel = [g for g in ALL_GROUPS if g in map(str.lower, raw_filters)]
-    k   = len(sel)
+    k = len(sel)
     cuota_sel, cuota_rest = QUOTAS.get(k, QUOTAS[0])
 
-    # 1) Hago la consulta agrupada para contar ocurrencias
-    sql = """
-               
+    # Paso 1: sólo idtaxon, grupo y conteo
+    sql_counts = """
         SELECT
-            ce.idtaxon,
-            COUNT(*) AS ocurrencias,
-            ne.nombre_comun            AS nombre_comun,
-            t.name                     AS nombre_cientifico,
-            de.Descripcion             AS descripcion,
-            LOWER(t.taxonomicgroup)    AS grupo
+          ce.idtaxon,
+          LOWER(t.taxonomicgroup) AS grupo,
+          COUNT(*)               AS ocurrencias
         FROM dbo.CuadriculasRutas cr
         JOIN dbo.CuadriculasEspecies ce
           ON cr.CUADRICULA = ce.cuadricula
-        LEFT JOIN dbo.NombresEspecies ne
-          ON ce.idtaxon = ne.idtaxon
-         AND ne.idioma = 'Castellano'
         JOIN dbo.Taxonomia t
           ON ce.idtaxon = t.taxonid
-         AND t.nametype = 'Aceptado'      -- <-- Sólo nombres científicos aceptados
-        LEFT JOIN dbo.DescripcionesEspecies de
-          ON ce.idtaxon = de.idtaxon
+         AND t.nametype = 'Aceptado'
         WHERE cr.ID_Ruta = ?
-        GROUP BY
-            ce.idtaxon,
-            ne.nombre_comun,
-            t.name,
-            de.Descripcion,
-            LOWER(t.taxonomicgroup)
-
+        GROUP BY ce.idtaxon, LOWER(t.taxonomicgroup)
     """
-    df = pd.read_sql_query(sql, conn, params=[id_ruta])
-    df = df.replace({np.nan: None})
+    df_counts = pd.read_sql_query(sql_counts, conn, params=[id_ruta])
 
-    # 2) Parto en dos: seleccionados vs resto (si hay filtros)
+    # Paso 2: aplicaciones de cuotas en pandas
     if sel:
-        df_sel  = df[df['grupo'].isin(sel)]
-        df_rest = df[~df['grupo'].isin(sel)]
+        df_sel  = df_counts[df_counts['grupo'].isin(sel)]
+        df_rest = df_counts[~df_counts['grupo'].isin(sel)]
     else:
-        # ninguno o todos -> tratamos todos como "seleccionados"
-        df_sel, df_rest = df.copy(), pd.DataFrame(columns=df.columns)
+        df_sel, df_rest = df_counts.copy(), pd.DataFrame(columns=df_counts.columns)
 
-    # 3) Para cada grupo seleccionado, cojo las top 'cuota_sel'
-    muestras = []
+    selected_ids = []
     grupos_proc = sel if sel else ALL_GROUPS
+
     for g in grupos_proc:
         sub = df_sel[df_sel['grupo'] == g]
         if not sub.empty:
-            top = sub.nlargest(cuota_sel, 'ocurrencias')
-            muestras.append(top)
+            selected_ids += sub.nlargest(cuota_sel, 'ocurrencias')['idtaxon'].tolist()
 
-    # 4) Para cada grupo “restante”, cojo top 'cuota_rest'
     if sel:
-        rest_grupos = [g for g in ALL_GROUPS if g not in sel]
-        for g in rest_grupos:
+        for g in [g for g in ALL_GROUPS if g not in sel]:
             sub = df_rest[df_rest['grupo'] == g]
             if not sub.empty:
-                top = sub.nlargest(cuota_rest, 'ocurrencias')
-                muestras.append(top)
+                selected_ids += sub.nlargest(cuota_rest, 'ocurrencias')['idtaxon'].tolist()
 
-    # 5) Concateno y devuelvo
-    if muestras:
-        df_out = pd.concat(muestras, ignore_index=True)
+    # Paso 3: sólo detalles de los IDs elegidos, filtrando espreferente=1
+    if selected_ids:
+        placeholders = ",".join("?" for _ in selected_ids)
+        sql_details = f"""
+            SELECT
+              ce.idtaxon,
+              LOWER(t.taxonomicgroup)     AS grupo,
+              ne.nombre_comun              AS nombre_comun,
+              t.name                       AS nombre_cientifico,
+              de.Descripcion               AS descripcion,
+              COUNT(*) OVER (PARTITION BY ce.idtaxon) AS ocurrencias
+            FROM dbo.CuadriculasEspecies ce
+            JOIN dbo.Taxonomia t
+              ON ce.idtaxon = t.taxonid
+             AND t.nametype = 'Aceptado'
+            LEFT JOIN dbo.NombresEspecies ne
+              ON ce.idtaxon = ne.idtaxon
+             AND ne.idioma = 'Castellano'
+             AND ne.espreferente = 1           
+            LEFT JOIN dbo.DescripcionesEspecies de
+              ON ce.idtaxon = de.idtaxon
+            WHERE ce.idtaxon IN ({placeholders})
+        """
+        df_details = pd.read_sql_query(sql_details, conn, params=selected_ids)
+        df_details = (df_details
+                      .drop_duplicates(subset=['idtaxon'])
+                      .replace({np.nan: None}))
+        especies = df_details.to_dict(orient='records')
     else:
-        df_out = pd.DataFrame(columns=df.columns)
+        especies = []
 
-    especies = df_out.to_dict(orient='records')
     return jsonify(especies)
+
+
 
 
 
@@ -165,7 +164,7 @@ def generar_pdf():
     pdf.cell(0, 10, f'Duración: {duracion}', ln=True)
     pdf.cell(0, 10, f'Longitud: {longitud}', ln=True)
 
-        # … dentro de tu función generar_pdf(), en lugar del bloque anterior:
+        
     if especies:
         from collections import defaultdict
         grupos_dict = defaultdict(list)
