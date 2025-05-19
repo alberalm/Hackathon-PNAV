@@ -4,285 +4,264 @@
   <meta charset="UTF-8">
   <title>Explorador de Rutas Naturales</title>
   <style>
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* desactiva scroll de página */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f7f4;
+    color: #2d3e2f;
+  }
 
-      html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      overflow: hidden; /* desactiva scroll de página */
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f0f7f4;
-      color: #2d3e2f;
-    }
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f7f4;
-      color: #2d3e2f;
-    }
-    
+  header {
+    height: 80px;               /* altura fija para cálculo */
+    background-color: #3a7d44;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    box-sizing: border-box;
+  }
 
-    header {
-      background-color: #3a7d44;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      font-size: 1.8rem;
-      font-weight: bold;
-    }
+  .filtros {
+    height: 80px;               /* altura fija para cálculo */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    background-color: #d9f2e6;
+    border-bottom: 2px solid #a0d3b4;
+    justify-content: center;
+    box-sizing: border-box;
+  }
 
-    .filtros {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      padding: 20px;
-      background-color: #d9f2e6;
-      border-bottom: 2px solid #a0d3b4;
-      justify-content: center;
-    }
+  select, input[type="date"] {
+    padding: 8px;
+    border: 1px solid #a0d3b4;
+    border-radius: 6px;
+    background-color: #f5fff8;
+    font-size: 1rem;
+  }
 
-    select, input[type="date"] {
-      padding: 8px;
-      border: 1px solid #a0d3b4;
-      border-radius: 6px;
-      background-color: #f5fff8;
-      font-size: 1rem;
-    }
+  .taxones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
 
-    .taxones {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 10px;
-    }
+  .taxones label {
+    background-color: #e1f4ea;
+    border: 1px solid #a0d3b4;
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
 
-    .taxones label {
-      background-color: #e1f4ea;
-      border: 1px solid #a0d3b4;
-      border-radius: 6px;
-      padding: 5px 10px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 5px;
-    }
+  .contenido {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    height: calc(100vh - 80px - 80px); /* resta header + filtros */
+    box-sizing: border-box;
+    align-items: stretch;
+    min-height: 0; /* para permitir overflow interno en flex */
+  }
 
-    .contenido {
-      display: flex;
-      gap: 20px;
-      padding: 20px;
-     
-     height: 750px; /* Ajusta según el tamaño del header */
-      align-items: stretch;
-    }
-    /* Contenedor scrollable para la tabla */
-    
-   table {
-  display: block;            /* para que admita overflow */
-  width: 60%;
-  border-collapse: collapse;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-}
+  table {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    min-height: 0;
+  }
 
-/* Cabecera fija, ocupa todo el ancho disponible */
-thead {
-  display: table;
-  width: 100%;
-  table-layout: fixed;       /* columnas fijas según ancho de celda */
-}
+  thead {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
 
-.controls {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 10px;   /* o el espacio que quieras */
-}
+  tbody {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+    width: 100%;
+  }
 
-.controls .descripcion-input {
-  flex: 1;            /* ocupa todo el espacio restante */
-  margin-right: 12px; /* separa un poco del botón */
-  padding: 6px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
+  tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
 
-.controls .descripcion-btn {
-  flex: 0 0 auto;
-  padding: 6px 12px;
-  background-color: #3a7d44;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
+  th, td {
+    padding: 6px 10px;
+    text-align: left;
+    border-bottom: 1px solid #e0eee6;
+  }
 
-.controls .descripcion-btn:hover {
-  background-color: #2d5e33;
-}
+  th {
+    background-color: #a0d3b4;
+    color: #2d3e2f;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
 
+  tr:hover {
+    background-color: #e8f8e4;
+    cursor: pointer;
+  }
 
-/* Cuerpo scrollable */
-tbody {
-  display: block;            /* bloque scrollable */
-  max-height: 90%;         /* altura del scroll */
-  overflow-y: auto;          /* scroll vertical */
-  width: 100%;
-}
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+  }
 
-/* Filas alineadas con el thead */
-tbody tr {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
-}
+  .controls .descripcion-input {
+    flex: 1;
+    margin-right: 12px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
 
-th, td {
-  padding: 6px 10px;
-  text-align: left;
-  border-bottom: 1px solid #e0eee6;
-}
+  .controls .descripcion-btn {
+    flex: 0 0 auto;
+    padding: 6px 12px;
+    background-color: #3a7d44;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
 
-th {
-  background-color: #a0d3b4;
-  color: #2d3e2f;
-  font-weight: bold;
-  position: sticky;
-  top: 0;                    /* cabecera siempre visible */
-  z-index: 1;
-}
+  .controls .descripcion-btn:hover {
+    background-color: #2d5e33;
+  }
 
-tr:hover {
-  background-color: #e8f8e4;
-  cursor: pointer;
-}
+  .previsualizacion {
+    flex: 1 1 0;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #a0d3b4;
+    border-radius: 10px;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    min-height: 0;
+  }
 
-    .previsualizacion {
-      border: 1px solid #a0d3b4;
-      border-radius: 10px;
-      padding: 16px;
-      width: 40%;
-      background-color: white;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-      display: none;
-      flex-direction: column;
-      justify-content: space-between;
-    }
+  .espacio-pdf {
+    height: 700px;
+    background-color: #f0f7f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7aa893;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 2px dashed #a0d3b4;
+  }
 
-    .espacio-pdf {
-      height: 700px;
-      background-color: #f0f7f4;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #7aa893;
-      margin-bottom: 15px;
-      border-radius: 6px;
-      border: 2px dashed #a0d3b4;
-    }
-    .dropdown-taxones {
-  position: relative;
-  display: inline-block;
-}
+  .dropdown-taxones {
+    position: relative;
+    display: inline-block;
+  }
 
-.dropbtn {
-  padding: 8px;
-  border: 1px solid #a0d3b4;
-  border-radius: 6px;
-  background-color: #f5fff8;
-  font-size: 1rem;
-  cursor: pointer;
-}
+  .dropbtn {
+    padding: 8px;
+    border: 1px solid #a0d3b4;
+    border-radius: 6px;
+    background-color: #f5fff8;
+    font-size: 1rem;
+    color: #2d3e2f;
+    min-width: 180px;
+    font-family: inherit;
+    text-align: left;
+    cursor: pointer;
+  }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ffffff;
-  min-width: 200px;
-  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
-  border: 1px solid #a0d3b4;
-  border-radius: 8px;
-  padding: 10px;
-  z-index: 1;
-  flex-direction: column;
-  gap: 6px;
-}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 200px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    border: 1px solid #a0d3b4;
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1000;
+    flex-direction: column;
+    gap: 6px;
+  }
 
-.dropdown-content label {
-  display: flex;
-  align-items: center;
-  font-size: 0.95rem;
-  gap: 6px;
-  margin-bottom: 4px;
-  cursor: pointer;
-}
+  .dropdown-content label {
+    display: flex;
+    align-items: center;
+    font-size: 0.95rem;
+    gap: 6px;
+    margin-bottom: 4px;
+    cursor: pointer;
+  }
 
-.dropdown-taxones:hover .dropdown-content {
-  display: flex;
-  position: absolute;   /* asegúrate de esto */
-  z-index: 1000;
-}
+  .dropdown-taxones:hover .dropdown-content {
+    display: flex;
+  }
 
+  .botones {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .botones {
-      display: flex;
-      justify-content: space-between;
-    }
+  button {
+    padding: 10px 18px;
+    background-color: #3a7d44;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
 
-    button {
-      padding: 10px 18px;
-      background-color: #3a7d44;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
-    }
+  button:hover {
+    background-color: #2d5e33;
+  }
 
-    button:hover {
-      background-color: #2d5e33;
-    }
-    .thead {
-      background-color: #a0d3b4;
-      color: #2d3e2f;
-      font-weight: bold;
-      position: fixed;
-      top: 0;                    /* cabecera siempre visible */
-      z-index: 1;
+  .contenedor-mapa {
+    width: 35%;
+    text-align: center;
+  }
 
-    }
+  .mapa-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border: 2px solid #a0d3b4;
+  }
 
-    .dropbtn {
-  padding: 8px;
-  border: 1px solid #a0d3b4;
-  border-radius: 6px;
-  background-color: #f5fff8;
-  font-size: 1rem;
-  color: #2d3e2f;
-  min-width: 180px;
-  font-family: inherit;
-  text-align: left;
-}
+  
+  
+</style>
 
-
-
-
-    .contenedor-mapa {
-      width: 35%;
-      text-align: center;
-    }
-
-    .mapa-img {
-      width: 100%;
-      max-width: 400px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      border: 2px solid #a0d3b4;
-    }
-  </style>
 </head>
 
 <body>
@@ -401,12 +380,15 @@ tr:hover {
     
      
       <div class="controls">
-        <input type="text"
-               placeholder="indique como quiere sus descripciones"
-               class="descripcion-input">
-        <button class="descripcion-btn">Aplicar</button>
-      </div>
-    </div>
+  <textarea
+    class="descripcion-input"
+    placeholder="indique como quiere sus descripciones"
+    maxlength="300"
+    rows="1"
+  ></textarea>
+  <button class="descripcion-btn">Aplicar</button>
+</div>
+
     
 
     <script>
@@ -523,6 +505,17 @@ tr:hover {
         cargarRutas(sel);
       });
     });
+
+
+
+    const textarea = document.querySelector('.descripcion-input');
+      textarea.addEventListener('input', () => {
+        // recorta altura al contenido mínimo
+        textarea.style.height = 'auto';
+        // ajusta altura al scrollHeight para que quepa todo
+        textarea.style.height = textarea.scrollHeight + 'px';
+      });
+
     </script>
     
     

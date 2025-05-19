@@ -29,8 +29,19 @@ conn = pyodbc.connect(conn_str)
 engine = create_engine(f"mssql+pyodbc:///?odbc_connect={conn_str}")
 
 
-def limpiar_texto(texto):
-    return unicodedata.normalize('NFKD', texto).encode('latin-1', 'ignore').decode('latin-1')
+import re, html, unicodedata
+
+def limpiar_texto(texto: str) -> str:
+    if not texto:
+        return ''
+    # 1) NFC mantiene los caracteres compuestos (á, ñ, ü…)
+    texto = unicodedata.normalize('NFC', texto)
+    # 2) quita etiquetas HTML
+    texto = re.sub(r'<[^>]+>', '', texto)
+    # 3) convierte entidades (&aacute; → á)
+    texto = html.unescape(texto)
+    # 4) trim
+    return texto.strip()
 
 
 @app.route('/')
@@ -47,6 +58,9 @@ def personalizar_descripciones(id_ruta: int, lista_especies: list, prompt: str):
 
 
 
+import random
+from flask import request, jsonify
+
 @app.route('/obtener_especies', methods=['POST'])
 def obtener_especies():
     data = request.get_json(force=True) or {}
@@ -55,6 +69,7 @@ def obtener_especies():
     except (TypeError, ValueError):
         id_ruta = 1
 
+    # 1) Configuración de grupos y cuotas
     ALL_GROUPS = [
       "peces","mamiferos","hongos","plantas_vasculares",
       "plantas_no_vasculares","aves","anfibios","invertebrados","reptiles"
@@ -69,7 +84,7 @@ def obtener_especies():
     k = len(sel)
     cuota_sel, cuota_rest = QUOTAS.get(k, QUOTAS[0])
 
-    # Paso 1: sólo idtaxon, grupo y conteo
+    # 2) Paso 1: obtengo sólo idtaxon, grupo y conteo de ocurrencias
     sql_counts = """
         SELECT
           ce.idtaxon,
@@ -86,7 +101,7 @@ def obtener_especies():
     """
     df_counts = pd.read_sql_query(sql_counts, conn, params=[id_ruta])
 
-    # Paso 2: aplicaciones de cuotas en pandas
+    # 3) Paso 2: aplico filtros y cuotas en memoria
     if sel:
         df_sel  = df_counts[df_counts['grupo'].isin(sel)]
         df_rest = df_counts[~df_counts['grupo'].isin(sel)]
@@ -107,16 +122,18 @@ def obtener_especies():
             if not sub.empty:
                 selected_ids += sub.nlargest(cuota_rest, 'ocurrencias')['idtaxon'].tolist()
 
-    # Paso 3: sólo detalles de los IDs elegidos, filtrando espreferente=1
+    # 4) Paso 3: traigo sólo los detalles para esos idtaxon, incluidas las 3 geminis
     if selected_ids:
         placeholders = ",".join("?" for _ in selected_ids)
         sql_details = f"""
             SELECT
               ce.idtaxon,
-              LOWER(t.taxonomicgroup)     AS grupo,
-              ne.nombre_comun              AS nombre_comun,
-              t.name                       AS nombre_cientifico,
-              de.Descripcion               AS descripcion,
+              LOWER(t.taxonomicgroup)      AS grupo,
+              ne.nombre_comun               AS nombre_comun,
+              t.name                        AS nombre_cientifico,
+              de.Gemini1,
+              de.Gemini2,
+              de.Gemini3,
               COUNT(*) OVER (PARTITION BY ce.idtaxon) AS ocurrencias
             FROM dbo.CuadriculasEspecies ce
             JOIN dbo.Taxonomia t
@@ -125,15 +142,29 @@ def obtener_especies():
             LEFT JOIN dbo.NombresEspecies ne
               ON ce.idtaxon = ne.idtaxon
              AND ne.idioma = 'Castellano'
-             AND ne.espreferente = 1           
+             AND ne.espreferente = 1
             LEFT JOIN dbo.DescripcionesEspecies de
               ON ce.idtaxon = de.idtaxon
             WHERE ce.idtaxon IN ({placeholders})
         """
         df_details = pd.read_sql_query(sql_details, conn, params=selected_ids)
-        df_details = (df_details
-                      .drop_duplicates(subset=['idtaxon'])
-                      .replace({np.nan: None}))
+
+        # 5) Elijo una descripción al azar de Gemini1/2/3
+        def pick_random_desc(row):
+            opts = [row['Gemini1'], row['Gemini2'], row['Gemini3']]
+            valid = [o for o in opts if o]
+            return random.choice(valid) if valid else None
+
+        df_details['descripcion'] = df_details.apply(pick_random_desc, axis=1)
+
+        # 6) Limpio el DataFrame final
+        df_details = (
+            df_details
+            .drop(columns=['Gemini1','Gemini2','Gemini3'])
+            .drop_duplicates(subset=['idtaxon'])
+            .replace({np.nan: None})
+        )
+
         especies = df_details.to_dict(orient='records')
     else:
         especies = []
@@ -143,9 +174,11 @@ def obtener_especies():
 
 
 
-
-
-
+import os
+from flask import request, send_file
+from fpdf import FPDF
+import io
+from collections import defaultdict
 
 @app.route('/generar_pdf', methods=['POST'])
 def generar_pdf():
@@ -158,59 +191,59 @@ def generar_pdf():
     # Inicio PDF
     pdf = FPDF()
     pdf.add_page()
-    pdf.set_font('Arial', size=12)
+
+    # Usamos Arial (core font) que soporta Latin-1
+    pdf.set_font('Arial', '', 12)
     pdf.cell(0, 10, 'Ruta seleccionada', ln=True)
     pdf.cell(0, 10, f'Nombre: {nombre}', ln=True)
     pdf.cell(0, 10, f'Duración: {duracion}', ln=True)
     pdf.cell(0, 10, f'Longitud: {longitud}', ln=True)
 
-        
     if especies:
-        from collections import defaultdict
+        for grupo_key, lista in defaultdict(list, 
+                  { (esp['grupo'] or 'sin grupo').strip(): [] for esp in especies }
+               ).items():
+            pass  # esto era un ejemplo; abajo está el bucle real
+
+        # Agrupamos por grupo
         grupos_dict = defaultdict(list)
         for esp in especies:
-            grupo_key = (esp.get('grupo') or 'sin grupo').strip()
-            grupos_dict[grupo_key].append(esp)
+            key = (esp.get('grupo') or 'sin grupo').strip()
+            grupos_dict[key].append(esp)
 
+        # Recorremos cada grupo
         for grupo_key, lista_especies in grupos_dict.items():
             pdf.ln(4)
             pdf.set_font('Arial', 'B', 14)
             pdf.cell(0, 10, grupo_key.replace('_', ' ').title(), ln=True)
 
             for esp in lista_especies:
-                nc = limpiar_texto(esp.get('nombre_comun') or '')
-                sc = limpiar_texto(esp.get('nombre_cientifico') or '')
+                nc   = limpiar_texto(esp.get('nombre_comun') or '')
+                sc   = limpiar_texto(esp.get('nombre_cientifico') or '')
                 desc = limpiar_texto(esp.get('descripcion') or '')
 
                 # Nombre común en negrita
                 pdf.set_font('Arial', 'B', 12)
-                if nc:
-                    pdf.cell(0, 8, f"- {nc}", ln=True)
-                else:
-                    # Si no hay común, muestro directamente el científico en negrita
-                    pdf.cell(0, 8, f"- {sc}", ln=True)
+                titulo = nc or sc
+                pdf.cell(0, 8, f"- {titulo}", ln=True)
 
-                # Nombre científico justo debajo, pequeño e itálico
+                # Científico justo debajo en cursiva
                 pdf.set_font('Arial', 'I', 10)
-                pdf.cell(5)  # sangría
+                pdf.cell(5)
                 pdf.cell(0, 6, sc, ln=True)
 
-                # Volvemos a fuente normal para la descripción
-                pdf.set_font('Arial', size=12)
+                # Descripción normal
+                pdf.set_font('Arial', '', 12)
                 pdf.cell(5)
                 pdf.multi_cell(0, 6, desc)
                 pdf.ln(1)
 
+    # Salida inline con codificación Latin-1
+    raw = pdf.output(dest='S').encode('latin-1')
+    buf = io.BytesIO(raw)
+    buf.seek(0)
+    return send_file(buf, mimetype='application/pdf', as_attachment=False)
 
-    # Envío del PDF
-    buffer = io.BytesIO(pdf.output(dest='S').encode('latin-1'))
-    buffer.seek(0)
-    return send_file(
-        buffer,
-        as_attachment=True,
-        download_name='ruta_personalizada.pdf',
-        mimetype='application/pdf'
-    )
 
 
 
