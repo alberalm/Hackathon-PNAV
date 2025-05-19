@@ -392,10 +392,10 @@
     
 
     <script>
-  // 1) Caché simple para especies por ruta
+  // Caché simple para especies por ruta
   const especiesCache = {};
 
-  // 2) Leer taxonomías marcadas, normalizadas a minúsculas y sin espacios
+  
   function obtenerTaxonomiasSeleccionadas() {
     return Array.from(
       document.querySelectorAll('.dropdown-content input[type="checkbox"]:checked')
@@ -403,20 +403,20 @@
     .map(cb => cb.value.trim().toLowerCase());
   }
 
-  // 3) Función para vaciar la caché cuando cambie un filtro
+
   function limpiarCacheEspecies() {
     Object.keys(especiesCache).forEach(k => delete especiesCache[k]);
   }
 
-  // 4) Asignamos el listener a cada checkbox
+
   document.querySelectorAll('.dropdown-content input[type="checkbox"]')
     .forEach(cb => cb.addEventListener('change', limpiarCacheEspecies));
 
-  // 5) Y también al botón “Aplicar filtros” (si lo usas para provincia u otros filtros)
+  
   document.getElementById('btn-aplicar-filtros')
     .addEventListener('click', limpiarCacheEspecies);
 
-  // 6) La función principal de carga, ya sin cambios
+  
   async function cargarEspecies(ID_Ruta) {
     if (especiesCache[ID_Ruta]) {
       return especiesCache[ID_Ruta];
@@ -440,9 +440,9 @@
     return lista;
   }
 
-  // 7) Mostrar la previsualización como antes
+  // Mostrar la previsualización como antes
   async function mostrarPrevisualizacion(tr) {
-    limpiarCacheEspecies();  // opcional: garantizamos siempre datos frescos
+    limpiarCacheEspecies(); 
     document.getElementById('mapa').style.display = 'none';
     document.getElementById('previsualizacion').style.display = 'flex';
 
@@ -463,7 +463,7 @@
     document.getElementById('visor-pdf').src = URL.createObjectURL(blob);
   }
 
-  // ... el resto de tu script (cargarRutas, DOMContentLoaded) ...
+  
 </script>
 
     

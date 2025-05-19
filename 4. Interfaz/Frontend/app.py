@@ -11,6 +11,12 @@ import pandas as pd
 from sqlalchemy import create_engine
 import urllib
 import numpy as np
+import os
+from flask import request, send_file
+from fpdf import FPDF
+import io
+from collections import defaultdict
+
 
 
 especies_cache = {}
@@ -57,19 +63,18 @@ def personalizar_descripciones(id_ruta: int, lista_especies: list, prompt: str):
     return generar_pdf(1, lista_especies)
 
 
-
-import random
-from flask import request, jsonify
-
 @app.route('/obtener_especies', methods=['POST'])
 def obtener_especies():
+    """
+    Se encarga de obtener las especies en base a la ruta seleccionada, elegir las cuotas de animales y elegir las descripciones
+    """
     data = request.get_json(force=True) or {}
     try:
         id_ruta = int(data.get('id_ruta', 1))
     except (TypeError, ValueError):
         id_ruta = 1
 
-    # 1) Configuración de grupos y cuotas
+
     ALL_GROUPS = [
       "peces","mamiferos","hongos","plantas_vasculares",
       "plantas_no_vasculares","aves","anfibios","invertebrados","reptiles"
@@ -84,7 +89,7 @@ def obtener_especies():
     k = len(sel)
     cuota_sel, cuota_rest = QUOTAS.get(k, QUOTAS[0])
 
-    # 2) Paso 1: obtengo sólo idtaxon, grupo y conteo de ocurrencias
+
     sql_counts = """
         SELECT
           ce.idtaxon,
@@ -101,7 +106,7 @@ def obtener_especies():
     """
     df_counts = pd.read_sql_query(sql_counts, conn, params=[id_ruta])
 
-    # 3) Paso 2: aplico filtros y cuotas en memoria
+
     if sel:
         df_sel  = df_counts[df_counts['grupo'].isin(sel)]
         df_rest = df_counts[~df_counts['grupo'].isin(sel)]
@@ -122,7 +127,7 @@ def obtener_especies():
             if not sub.empty:
                 selected_ids += sub.nlargest(cuota_rest, 'ocurrencias')['idtaxon'].tolist()
 
-    # 4) Paso 3: traigo sólo los detalles para esos idtaxon, incluidas las 3 geminis
+  
     if selected_ids:
         placeholders = ",".join("?" for _ in selected_ids)
         sql_details = f"""
@@ -172,16 +177,11 @@ def obtener_especies():
     return jsonify(especies)
 
 
-
-
-import os
-from flask import request, send_file
-from fpdf import FPDF
-import io
-from collections import defaultdict
-
 @app.route('/generar_pdf', methods=['POST'])
 def generar_pdf():
+    """
+    Funcion que se encarga de generar el PDF a partir de la ruta seleccionada
+    """
     data = request.get_json(force=True)
     nombre   = limpiar_texto(data.get('nombre', 'Sin nombre'))
     duracion = limpiar_texto(data.get('duracion', 'Sin duración'))
@@ -243,9 +243,6 @@ def generar_pdf():
     buf = io.BytesIO(raw)
     buf.seek(0)
     return send_file(buf, mimetype='application/pdf', as_attachment=False)
-
-
-
 
 
 def obtener_clima():
@@ -332,6 +329,9 @@ def calidad_aire():
 
 @app.route('/obtener_rutas', methods=['GET'])
 def obtener_rutas():
+    """
+    Obtiene todas las rutas de la base de datos y filtra por provincia si se proporciona
+    """
     provincia = request.args.get('provincia', default='', type=str).strip()
 
     try:
@@ -359,11 +359,6 @@ def obtener_rutas():
     except Exception as e:
         app.logger.exception("Error en obtener_rutas:")
         return jsonify({'error': str(e)}), 500
-
-
-
-
-
 
 
 if __name__ == '__main__':
