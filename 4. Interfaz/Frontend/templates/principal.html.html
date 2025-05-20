@@ -127,20 +127,27 @@
   }
 
   .controls {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    flex-shrink: 0;
-  }
+  display: flex;
+  align-items: center;
+  /* ya no necesitamos space-between */
+  /* justify-content: space-between; */
+  margin-bottom: 10px;
+  flex-shrink: 0;
+}
 
-  .controls .descripcion-input {
-    flex: 1;
-    margin-right: 12px;
-    padding: 6px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-  }
+.controls .descripcion-input {
+  /* que ocupe todo el hueco sobrante */
+  flex: 1;
+  /* altura fija a 3 líneas */
+  height: 3.6em;
+  line-height: 1.2em;
+  overflow-y: auto;
+  resize: none;
+  box-sizing: border-box;
+  /* separa un poco del botón */
+  margin-right: 12px;
+}
+
 
   .controls .descripcion-btn {
     flex: 0 0 auto;
@@ -246,18 +253,45 @@
   }
 
   .contenedor-mapa {
-    width: 35%;
+    width: 45%;
     text-align: center;
   }
 
   .mapa-img {
     width: 100%;
-    max-width: 400px;
+    height: auto;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     border: 2px solid #a0d3b4;
   }
 
+  /* Spinner centrado dentro de .espacio-pdf */
+.espacio-pdf {
+  position: relative; /* necesario para posicionar el spinner */
+}
+
+.spinner {
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 40px; height: 40px;
+  margin: -20px 0 0 -20px;
+  border: 4px solid rgba(0,0,0,0.1);
+  border-top: 4px solid #3a7d44;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  z-index: 10;
+  display: none; /* hidden por defecto */
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Estado desactivado para toda la UI */
+.disabled {
+  pointer-events: none !important;
+  opacity: 0.5;
+}
   
   
 </style>
@@ -375,8 +409,10 @@
 
     <div class="previsualizacion" id="previsualizacion">
       <div class="espacio-pdf">
-        <iframe id="visor-pdf" width="100%" height="100%" frameborder="0"></iframe>
-      </div>
+      <!-- Spinner de carga -->
+      <div id="spinner" class="spinner"></div>
+     <iframe id="visor-pdf" width="100%" height="100%" frameborder="0"></iframe>
+    </div>
     
      
       <div class="controls">
@@ -384,7 +420,7 @@
     class="descripcion-input"
     placeholder="indique como quiere sus descripciones"
     maxlength="300"
-    rows="1"
+    rows="3"
   ></textarea>
   <button class="descripcion-btn">Aplicar</button>
 </div>
@@ -442,26 +478,45 @@
 
   // Mostrar la previsualización como antes
   async function mostrarPrevisualizacion(tr) {
-    limpiarCacheEspecies(); 
-    document.getElementById('mapa').style.display = 'none';
-    document.getElementById('previsualizacion').style.display = 'flex';
+  // 1) Desactivar UI
+  document.body.classList.add('disabled');
+  const spinner = document.getElementById('spinner');
+  spinner.style.display = 'block';
 
-    const idRuta   = tr.dataset.id;
-    const nombre   = tr.cells[0].textContent;
-    const duracion = tr.cells[1].textContent;
-    const longitud = tr.cells[2].textContent;
+  // Ocultamos mapa y mostramos previsualización
+  document.getElementById('mapa').style.display = 'none';
+  document.getElementById('previsualizacion').style.display = 'flex';
 
-    const especies = await cargarEspecies(idRuta);
+  // Recojo datos
+  const idRuta   = tr.dataset.id;
+  const nombre   = tr.cells[0].textContent;
+  const duracion = tr.cells[1].textContent;
+  const longitud = tr.cells[2].textContent;
+  const especies = await cargarEspecies(idRuta);
 
-    const resp = await fetch('/generar_pdf', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ id_ruta: idRuta, nombre, duracion, longitud, especies })
-    });
-    if (!resp.ok) { console.error(await resp.text()); return; }
-    const blob = await resp.blob();
-    document.getElementById('visor-pdf').src = URL.createObjectURL(blob);
+  // 2) Genero el PDF
+  const resp = await fetch('/generar_pdf', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id_ruta: idRuta, nombre, duracion, longitud, especies })
+  });
+  if (!resp.ok) {
+    console.error(await resp.text());
+    // Restaurar estado UI aunque falle
+    spinner.style.display = 'none';
+    document.body.classList.remove('disabled');
+    return;
   }
+  const blob = await resp.blob();
+
+  // 3) Cargo el PDF en el iframe
+  document.getElementById('visor-pdf').src = URL.createObjectURL(blob);
+
+  // 4) Reactivar UI
+  spinner.style.display = 'none';
+  document.body.classList.remove('disabled');
+}
+
 
   
 </script>
@@ -508,13 +563,7 @@
 
 
 
-    const textarea = document.querySelector('.descripcion-input');
-      textarea.addEventListener('input', () => {
-        // recorta altura al contenido mínimo
-        textarea.style.height = 'auto';
-        // ajusta altura al scrollHeight para que quepa todo
-        textarea.style.height = textarea.scrollHeight + 'px';
-      });
+    
 
     </script>
     

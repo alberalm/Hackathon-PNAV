@@ -65,16 +65,13 @@ def personalizar_descripciones(id_ruta: int, lista_especies: list, prompt: str):
 
 @app.route('/obtener_especies', methods=['POST'])
 def obtener_especies():
-    """
-    Se encarga de obtener las especies en base a la ruta seleccionada, elegir las cuotas de animales y elegir las descripciones
-    """
     data = request.get_json(force=True) or {}
     try:
         id_ruta = int(data.get('id_ruta', 1))
     except (TypeError, ValueError):
         id_ruta = 1
 
-
+    
     ALL_GROUPS = [
       "peces","mamiferos","hongos","plantas_vasculares",
       "plantas_no_vasculares","aves","anfibios","invertebrados","reptiles"
@@ -89,7 +86,7 @@ def obtener_especies():
     k = len(sel)
     cuota_sel, cuota_rest = QUOTAS.get(k, QUOTAS[0])
 
-
+    
     sql_counts = """
         SELECT
           ce.idtaxon,
@@ -106,7 +103,7 @@ def obtener_especies():
     """
     df_counts = pd.read_sql_query(sql_counts, conn, params=[id_ruta])
 
-
+    
     if sel:
         df_sel  = df_counts[df_counts['grupo'].isin(sel)]
         df_rest = df_counts[~df_counts['grupo'].isin(sel)]
@@ -116,18 +113,20 @@ def obtener_especies():
     selected_ids = []
     grupos_proc = sel if sel else ALL_GROUPS
 
+    
     for g in grupos_proc:
         sub = df_sel[df_sel['grupo'] == g]
         if not sub.empty:
             selected_ids += sub.nlargest(cuota_sel, 'ocurrencias')['idtaxon'].tolist()
 
+   
     if sel:
         for g in [g for g in ALL_GROUPS if g not in sel]:
             sub = df_rest[df_rest['grupo'] == g]
             if not sub.empty:
                 selected_ids += sub.nlargest(cuota_rest, 'ocurrencias')['idtaxon'].tolist()
 
-  
+    
     if selected_ids:
         placeholders = ",".join("?" for _ in selected_ids)
         sql_details = f"""
@@ -154,27 +153,38 @@ def obtener_especies():
         """
         df_details = pd.read_sql_query(sql_details, conn, params=selected_ids)
 
-        # 5) Elijo una descripción al azar de Gemini1/2/3
-        def pick_random_desc(row):
-            opts = [row['Gemini1'], row['Gemini2'], row['Gemini3']]
-            valid = [o for o in opts if o]
-            return random.choice(valid) if valid else None
+        #Selección determinística de la descripción
+        def pick_seeded_desc(row):
+            client_ip = request.remote_addr or '0.0.0.0'
+            seed = f"{client_ip}-{row['idtaxon']}"
+            rng = random.Random(seed)
+            idx = rng.randint(0, 2)  
+          
+            desc = row.get(f"Gemini{idx+1}")
+            if desc:
+                return desc
+         
+            for i in (1,2,3):
+                d = row.get(f"Gemini{i}")
+                if d:
+                    return d
+            return None
 
-        df_details['descripcion'] = df_details.apply(pick_random_desc, axis=1)
+        df_details['descripcion'] = df_details.apply(pick_seeded_desc, axis=1)
 
-        # 6) Limpio el DataFrame final
+       
         df_details = (
             df_details
             .drop(columns=['Gemini1','Gemini2','Gemini3'])
             .drop_duplicates(subset=['idtaxon'])
             .replace({np.nan: None})
         )
-
         especies = df_details.to_dict(orient='records')
     else:
         especies = []
 
     return jsonify(especies)
+
 
 
 @app.route('/generar_pdf', methods=['POST'])
