@@ -1,4 +1,4 @@
-Esta carpeta contiene el código necesario para descargar y procesar los datos de las diferentes fuentes que proporcionan descripciones de especies. Algunas de estas utilizan la librería ``selenium`` para realizar scraping de las páginas web.
+Esta carpeta contiene el código necesario para descargar y procesar los datos de las diferentes fuentes que proporcionan ubicaciones de especies. Algunas de estas utilizan la librería ``selenium`` para realizar scraping de las páginas web.
 
 En total, se han utilizado 3 fuentes de datos:
 
