@@ -18,10 +18,10 @@ class PDF(FPDF):
             "CR (En peligro crítico)": (239, 0, 41),
             "EN (En peligro)": (255, 165, 82),
             "VU (Vulnerable)": (255, 247, 0),
-            "NT (Casi amenazado)": (231, 231, 33),
+            "NT (Casi amenazado)": (151, 193, 21),
             "LC (Preocupación menor)": (123, 189, 82),
-            "DD (Datos insuficientes)": (231, 239, 231),
-            "NE (No evaluado)": (255, 255, 255),
+            "DD (Datos insuficientes)": (195, 195, 195),
+            "NE (No evaluado)": (229, 229, 229),
             # cualquier otro o None → blanco
         }
         # Descargar las imagenes lo primero, que es lo que mas tarda
@@ -78,16 +78,16 @@ class PDF(FPDF):
         x_icon = self.w - self.r_margin - icon_size - espacio - text_width - 2
         y_icon = self.get_y()
 
+        # Centrado vertical preciso del texto respecto al logo
+        y_text = y_icon + (icon_size - 2.8) / 3 + 0.5
+        self.set_xy(x_icon + icon_size + espacio, y_text)
+        self.cell(text_width, 5, text)
+        
         # Logo
         try:
             self.image("static/logo.png", x=x_icon, y=y_icon, w=icon_size, dims=(100,100))
         except Exception as e:
             print(f"Error cargando logo: {e}")
-
-        # Centrado vertical preciso del texto respecto al logo
-        y_text = y_icon + (icon_size - 2.8) / 3 + 0.5
-        self.set_xy(x_icon + icon_size + espacio, y_text)
-        self.cell(text_width, 5, text)
 
         # ---------- Número de página centrado ----------
         self.set_font("Helvetica", "", 10)
@@ -212,7 +212,7 @@ class PDF(FPDF):
         self.set_font("Helvetica", "B", 12)
         self.cell(self.get_string_width("Longitud: "), line_h, "Longitud: ", new_x=XPos.RIGHT, new_y=YPos.TOP)
         self.set_font("Helvetica", "", 12)
-        self.multi_cell(box_w - (pad + icon_size + 2), line_h, longitud)
+        self.multi_cell(box_w - (pad + icon_size + 2), line_h, f"{longitud} km")
 
 
     def add_grupo_header(self, grupo):
@@ -325,7 +325,7 @@ class PDF(FPDF):
         self.set_y(max(self.get_y(), y_img + img_size))
 
         # Créditos justo debajo de la imagen
-        self.set_xy(x_img, y_img + img_size + 1)  # 1 mm de separación
+        self.set_xy(x_img, y_img + img_size + 0.5)  # 0.5 mm de separación
         self.set_font("Helvetica", "I", 9)
         if fotografia is not None:
             self.cell(0, 6, f"Créditos: {autor}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
