@@ -1,3 +1,4 @@
 *.mdb
 **/gbif-observations-dwca.zip
 **/*_API_KEY.txt
+*.pyc

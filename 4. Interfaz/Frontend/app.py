@@ -1,22 +1,17 @@
 from flask import Flask, render_template, send_file
-from fpdf import FPDF
-import io
 import random
 import unicodedata
-import requests
 from flask import request, jsonify
-import pyodbc
-import json
 import pandas as pd
 from sqlalchemy import create_engine
-import urllib
 import numpy as np
-import os
 from flask import request, send_file
-from fpdf import FPDF
 import io
-from collections import defaultdict
-
+from scripts.pdf_maker import PDF
+import re
+import html
+import unicodedata
+import asyncio
 
 
 especies_cache = {}
@@ -31,11 +26,8 @@ conn_str = (
     "TrustServerCertificate=no;"
     "Connection Timeout=30;"
 )
-conn = pyodbc.connect(conn_str)
 engine = create_engine(f"mssql+pyodbc:///?odbc_connect={conn_str}")
 
-
-import re, html, unicodedata
 
 def limpiar_texto(texto: str) -> str:
     if not texto:
@@ -68,123 +60,142 @@ def obtener_especies():
     data = request.get_json(force=True) or {}
     try:
         id_ruta = int(data.get('id_ruta', 1))
-    except (TypeError, ValueError):
+    except:
         id_ruta = 1
-
     
+    client_ip = request.remote_addr or '0.0.0.0'
+
     ALL_GROUPS = [
-      "peces","mamiferos","hongos","plantas_vasculares",
-      "plantas_no_vasculares","aves","anfibios","invertebrados","reptiles"
+        "peces","mamiferos","hongos","plantas_vasculares",
+        "plantas_no_vasculares","aves","anfibios","invertebrados","reptiles"
     ]
     QUOTAS = {
-      0:(3,3), 1:(3,1), 2:(3,1), 3:(3,1),
-      4:(3,1), 5:(3,1), 6:(3,1), 7:(3,1),
-      8:(3,1), 9:(3,1)
+        0:(3,3), 1:(12,2), 2:(7,2), 3:(5,2),
+        4:(4,2), 5:(4,2), 6:(4,1), 7:(3,2),
+        8:(3,1), 9:(3,1)
     }
     raw_filters = data.get('taxonomias', [])
     sel = [g for g in ALL_GROUPS if g in map(str.lower, raw_filters)]
     k = len(sel)
     cuota_sel, cuota_rest = QUOTAS.get(k, QUOTAS[0])
 
-    
     sql_counts = """
         SELECT
-          ce.idtaxon,
-          LOWER(t.taxonomicgroup) AS grupo,
-          COUNT(*)               AS ocurrencias
+            ce.idtaxon,
+            LOWER(t.taxonomicgroup)         AS grupo,
+            COUNT(DISTINCT(ce.cuadricula))  AS ocurrencias,
+            COUNT(DISTINCT(i.photo_link))   AS imagenes
         FROM dbo.CuadriculasRutas cr
         JOIN dbo.CuadriculasEspecies ce
-          ON cr.CUADRICULA = ce.cuadricula
+            ON cr.CUADRICULA = ce.cuadricula
         JOIN dbo.Taxonomia t
-          ON ce.idtaxon = t.taxonid
-         AND t.nametype = 'Aceptado'
-        WHERE cr.ID_Ruta = ?
+            ON ce.idtaxon = t.taxonid
+            AND t.nametype = 'Aceptado'
+        LEFT JOIN dbo.Imagenes i
+            ON i.taxonid = ce.idtaxon
+        WHERE cr.ID_Ruta = {id_ruta}
         GROUP BY ce.idtaxon, LOWER(t.taxonomicgroup)
     """
-    df_counts = pd.read_sql_query(sql_counts, conn, params=[id_ruta])
+    print(f"Cogiendo contador de especies para la ruta con id {id_ruta}")
+    df_counts = pd.read_sql_query(sql_counts.format(id_ruta=id_ruta), engine)
 
-    
-    if sel:
-        df_sel  = df_counts[df_counts['grupo'].isin(sel)]
-        df_rest = df_counts[~df_counts['grupo'].isin(sel)]
-    else:
-        df_sel, df_rest = df_counts.copy(), pd.DataFrame(columns=df_counts.columns)
+    dfs = []
+    for group in set(df_counts['grupo']):
+        group_count = cuota_sel if group in sel else cuota_rest
+        group_df = df_counts[df_counts['grupo'] == group]
+        group_df_images = group_df[group_df['imagenes'] > 0]
+        if len(group_df_images) > 0:
+            n_images = min(len(group_df_images), group_count)
+            try:
+                seed = n_images + sum(int(octet) << (8 * i) for i, octet in enumerate(reversed(client_ip.split('.'))))
+            except:
+                seed = n_images
+            dfs.append(group_df_images.sample(
+                n=n_images,
+                random_state=seed,
+                weights=group_df_images['ocurrencias'].tolist()
+            ))
+            remaining = group_count - n_images
+            if remaining > 0:
+                group_df_no_images = group_df[group_df['imagenes'] == 0]
+                if len(group_df_no_images) > 0:
+                    try:
+                        seed = remaining + sum(int(octet) << (8 * i) for i, octet in enumerate(reversed(client_ip.split('.'))))
+                    except:
+                        seed = remaining
+                    dfs.append(group_df_no_images.sample(
+                        n=min(len(group_df_no_images), remaining),
+                        random_state=seed,
+                        weights=group_df_no_images['ocurrencias'].tolist()
+                    ))
 
-    selected_ids = []
-    grupos_proc = sel if sel else ALL_GROUPS
+    rng = random.Random(id_ruta + sum(int(octet) << (8 * i) for i, octet in enumerate(reversed(client_ip.split('.')))))
+    joined_df = pd.concat(dfs)
+    selected_ids = joined_df['idtaxon']
+    selected_images = joined_df['imagenes'].apply(lambda x: rng.randint(0, x-1) if x > 1 else 0)
+    desc_numbers = [rng.randint(1, 3) for _ in selected_ids]
 
-    
-    for g in grupos_proc:
-        sub = df_sel[df_sel['grupo'] == g]
-        if not sub.empty:
-            selected_ids += sub.nlargest(cuota_sel, 'ocurrencias')['idtaxon'].tolist()
+    # Construir el union_sql con los pares (idtaxon, descripcion)
+    union_sql = " UNION ALL ".join([
+        f"SELECT {idtaxon} AS idtaxon, {desc_num} AS num_desc, {image_num} as image"
+        for (idtaxon, desc_num, image_num) in zip(selected_ids, desc_numbers, selected_images)
+    ])
 
-   
-    if sel:
-        for g in [g for g in ALL_GROUPS if g not in sel]:
-            sub = df_rest[df_rest['grupo'] == g]
-            if not sub.empty:
-                selected_ids += sub.nlargest(cuota_rest, 'ocurrencias')['idtaxon'].tolist()
-
-    
-    if selected_ids:
-        placeholders = ",".join("?" for _ in selected_ids)
-        sql_details = f"""
-            SELECT
-              ce.idtaxon,
-              LOWER(t.taxonomicgroup)      AS grupo,
-              ne.nombre_comun               AS nombre_comun,
-              t.name                        AS nombre_cientifico,
-              de.Gemini1,
-              de.Gemini2,
-              de.Gemini3,
-              COUNT(*) OVER (PARTITION BY ce.idtaxon) AS ocurrencias
-            FROM dbo.CuadriculasEspecies ce
-            JOIN dbo.Taxonomia t
-              ON ce.idtaxon = t.taxonid
-             AND t.nametype = 'Aceptado'
-            LEFT JOIN dbo.NombresEspecies ne
-              ON ce.idtaxon = ne.idtaxon
-             AND ne.idioma = 'Castellano'
-             AND ne.espreferente = 1
-            LEFT JOIN dbo.DescripcionesEspecies de
-              ON ce.idtaxon = de.idtaxon
-            WHERE ce.idtaxon IN ({placeholders})
-        """
-        df_details = pd.read_sql_query(sql_details, conn, params=selected_ids)
-
-        #Selección determinística de la descripción
-        def pick_seeded_desc(row):
-            client_ip = request.remote_addr or '0.0.0.0'
-            seed = f"{client_ip}-{row['idtaxon']}"
-            rng = random.Random(seed)
-            idx = rng.randint(0, 2)  
-          
-            desc = row.get(f"Gemini{idx+1}")
-            if desc:
-                return desc
-         
-            for i in (1,2,3):
-                d = row.get(f"Gemini{i}")
-                if d:
-                    return d
-            return None
-
-        df_details['descripcion'] = df_details.apply(pick_seeded_desc, axis=1)
-
-       
-        df_details = (
-            df_details
-            .drop(columns=['Gemini1','Gemini2','Gemini3'])
-            .drop_duplicates(subset=['idtaxon'])
-            .replace({np.nan: None})
+    sql_details = f"""
+        WITH numbered_images AS (
+        SELECT
+            taxonid,
+            photo_link,
+            license_holder,
+            ROW_NUMBER() OVER (
+            PARTITION BY taxonid
+            ORDER BY photo_link
+            ) AS rn
+        FROM dbo.Imagenes
         )
-        especies = df_details.to_dict(orient='records')
-    else:
-        especies = []
+        SELECT
+            de.idtaxon,
+            t.taxonomicgroup    AS grupo,
+            ne.nombre_comun            AS nombre_comun,
+            t.name                     AS nombre_cientifico,
+            CASE w.num_desc
+                WHEN 1 THEN de.Gemini1
+                WHEN 2 THEN de.Gemini2
+                WHEN 3 THEN de.Gemini3
+            END                         AS descripcion,
+            t.isinvasive,
+            t.conservationstatus,
+            ni.photo_link,
+            ni.license_holder
+        FROM dbo.DescripcionesEspecies de
+        JOIN (
+            {union_sql}
+        ) AS w
+            ON de.idtaxon = w.idtaxon
+
+        JOIN dbo.Taxonomia t
+            ON de.idtaxon = t.taxonid
+            AND t.nametype = 'Aceptado'
+
+        LEFT JOIN dbo.NombresEspecies ne
+            ON de.idtaxon   = ne.idtaxon
+            AND ne.idioma    = 'Castellano'
+            AND ne.espreferente = 1
+
+        -- pick the Nth image (0-based image = 1-based rn)
+        LEFT JOIN numbered_images ni
+            ON ni.taxonid = w.idtaxon
+            AND ni.rn      = w.image + 1;
+    """
+
+    df_details = pd.read_sql_query(sql_details.format(union_sql=union_sql), engine)
+    
+    df_details = (
+        df_details.replace({np.nan: None})
+    )
+    especies = df_details.to_dict(orient='records')
 
     return jsonify(especies)
-
 
 
 @app.route('/generar_pdf', methods=['POST'])
@@ -193,148 +204,25 @@ def generar_pdf():
     Funcion que se encarga de generar el PDF a partir de la ruta seleccionada
     """
     data = request.get_json(force=True)
-    nombre   = limpiar_texto(data.get('nombre', 'Sin nombre'))
-    duracion = limpiar_texto(data.get('duracion', 'Sin duración'))
+    nombre = limpiar_texto(data.get('nombre', 'Sin nombre'))
+    etapa = limpiar_texto(data.get('provincia', '-'))
+    provincia = limpiar_texto(data.get('provincia', '-'))
+    ccaa = limpiar_texto(data.get('ccaa', '-'))
     longitud = limpiar_texto(data.get('longitud', 'Sin longitud'))
     especies = data.get('especies') or []
+    
+    pdf = PDF()
+    
+    # TODO: Cambiar para ajustar a lo que realmente se pide
+    pdf.initialise(
+        especies, nombre, etapa, longitud, provincia, ccaa, "static/mapa_espana.png" # Esto ultimo deberia ser la imagen de la ruta
+    )
 
-    # Inicio PDF
-    pdf = FPDF()
-    pdf.add_page()
-
-    # Usamos Arial (core font) que soporta Latin-1
-    pdf.set_font('Arial', '', 12)
-    pdf.cell(0, 10, 'Ruta seleccionada', ln=True)
-    pdf.cell(0, 10, f'Nombre: {nombre}', ln=True)
-    pdf.cell(0, 10, f'Duración: {duracion}', ln=True)
-    pdf.cell(0, 10, f'Longitud: {longitud}', ln=True)
-
-    if especies:
-        for grupo_key, lista in defaultdict(list, 
-                  { (esp['grupo'] or 'sin grupo').strip(): [] for esp in especies }
-               ).items():
-            pass  # esto era un ejemplo; abajo está el bucle real
-
-        # Agrupamos por grupo
-        grupos_dict = defaultdict(list)
-        for esp in especies:
-            key = (esp.get('grupo') or 'sin grupo').strip()
-            grupos_dict[key].append(esp)
-
-        # Recorremos cada grupo
-        for grupo_key, lista_especies in grupos_dict.items():
-            pdf.ln(4)
-            pdf.set_font('Arial', 'B', 14)
-            pdf.cell(0, 10, grupo_key.replace('_', ' ').title(), ln=True)
-
-            for esp in lista_especies:
-                nc   = limpiar_texto(esp.get('nombre_comun') or '')
-                sc   = limpiar_texto(esp.get('nombre_cientifico') or '')
-                desc = limpiar_texto(esp.get('descripcion') or '')
-
-                # Nombre común en negrita
-                pdf.set_font('Arial', 'B', 12)
-                titulo = nc or sc
-                pdf.cell(0, 8, f"- {titulo}", ln=True)
-
-                # Científico justo debajo en cursiva
-                pdf.set_font('Arial', 'I', 10)
-                pdf.cell(5)
-                pdf.cell(0, 6, sc, ln=True)
-
-                # Descripción normal
-                pdf.set_font('Arial', '', 12)
-                pdf.cell(5)
-                pdf.multi_cell(0, 6, desc)
-                pdf.ln(1)
-
-    # Salida inline con codificación Latin-1
-    raw = pdf.output(dest='S').encode('latin-1')
-    buf = io.BytesIO(raw)
+    asyncio.run(pdf.create_pdf())
+    pdf_bytes = bytes(pdf.output())
+    buf = io.BytesIO(pdf_bytes)
     buf.seek(0)
     return send_file(buf, mimetype='application/pdf', as_attachment=False)
-
-
-def obtener_clima():
-    data = request.get_json()
-    provincia = data.get('provincia')
-    fecha = data.get('fecha')
-
-    # Coordenadas por provincia
-    coordenadas = {
-        'leon': {'lat': 42.5987, 'lon': -5.5671},
-        'burgos': {'lat': 42.3439, 'lon': -3.6969}
-    }
-
-    if not provincia or provincia not in coordenadas:
-        return jsonify({'error': 'Provincia no válida'}), 400
-
-    lat = coordenadas[provincia]['lat']
-    lon = coordenadas[provincia]['lon']
-    api_key = "324e25600b1f59ffb8362340f8c8c052"  
-
-    try:
-        url = (
-            f'https://api.openweathermap.org/data/3.0/onecall'
-            f'?lat={lat}&lon={lon}&exclude=current,minutely,hourly,alerts'
-            f'&appid={api_key}&units=metric&lang=es'
-        )
-        response = requests.get(url)
-        datos = response.json()
-
-        print(">>> RESPUESTA API:", datos)  
-
-        if 'daily' not in datos:
-            return jsonify({'error': 'No se recibió la información esperada de la API'}), 500
-
-        from datetime import datetime
-        fecha_consulta = datetime.strptime(fecha, '%Y-%m-%d')
-        hoy = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-        diferencia = (fecha_consulta - hoy).days
-
-        if diferencia < 0 or diferencia >= len(datos['daily']):
-            return jsonify({'error': 'Fecha fuera de rango (0–7 días)'}), 400
-
-        dia = datos['daily'][diferencia]
-        descripcion = dia['weather'][0]['description']
-        tipo = dia['weather'][0]['main']
-        temp = round(dia['temp']['day'])
-
-        return jsonify({
-            'descripcion': descripcion,
-            'temperatura': temp,
-            'tipo': tipo
-        })
-
-    except Exception as e:
-        return jsonify({'error': f'Error al obtener el clima: {str(e)}'}), 500
-
-
-def calidad_aire():
-    """
-    Funcion que se encarga de obtener la calidad del aire en base a las coordenadas 
-    """
-    datos = request.get_json()
-    lat = datos['lat']
-    lon = datos['lon']
-    
-    api_key = "324e25600b1f59ffb8362340f8c8c052"
-    url = f"http://api.openweathermap.org/data/2.5/air_pollution?lat={lat}&lon={lon}&appid={api_key}"
-
-    response = requests.get(url)
-    data = response.json()
-    print(">>> CALIDAD AIRE:", data)
-
-    if 'list' in data:
-        info = data['list'][0]
-        return jsonify({
-            'aqi': info['main']['aqi'],
-            'pm2_5': info['components']['pm2_5'],
-            'pm10': info['components']['pm10'],
-            'co': info['components']['co']
-        })
-    else:
-        return jsonify({'error': 'No se pudo obtener calidad del aire'}), 500
 
 
 @app.route('/obtener_rutas', methods=['GET'])
@@ -348,7 +236,7 @@ def obtener_rutas():
         # 1) Lee TODAS las rutas
         df_rutas = pd.read_sql(
             "SELECT ID_Ruta, Nombre_Ruta, Nombre_Etapa, ROUND(Longitud, 2) AS Longitud, CCAA, Provincia FROM Rutas",
-            con=engine  # o conn si sigues con pyodbc
+            con=engine
         )
         # 2) Normaliza NaN a None para el JSON
         df_rutas = df_rutas.replace({np.nan: "-"})

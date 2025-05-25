@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Explorador de Rutas Naturales</title>
+  <title>BioSenda</title>
   <style>
   html, body {
     height: 100%;
@@ -299,9 +299,7 @@
 </head>
 
 <body>
-  <header>🌿 Explorador de Rutas Naturales</header>
-
-  
+  <header>🌿 BioSenda</header>
 
   <div class="filtros">
     
@@ -490,7 +488,6 @@
   // Recojo datos
   const idRuta   = tr.dataset.id;
   const nombre   = tr.cells[0].textContent;
-  const duracion = tr.cells[1].textContent;
   const longitud = tr.cells[2].textContent;
   const especies = await cargarEspecies(idRuta);
 
@@ -498,7 +495,7 @@
   const resp = await fetch('/generar_pdf', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ id_ruta: idRuta, nombre, duracion, longitud, especies })
+    body: JSON.stringify({ id_ruta: idRuta, nombre, longitud, especies })
   });
   if (!resp.ok) {
     console.error(await resp.text());
