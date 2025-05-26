@@ -1,6 +1,6 @@
 # Estado de Conservación de las Especies – README
 
-Esta carpeta contiene la información sobre el **estado de conservación de las especies** según la **UICN**, extraída de la página de **EIDOS** ([enlace pendiente]) a través de una API.
+Esta carpeta contiene la información sobre el **estado de conservación de las especies** según la **UICN**, extraída de la página de **IEPNB-EIDOS**  ([enlace](https://iepnb.gob.es/areas-tematicas/especies-silvestres/eidos)) a través de una API.
 
 El procesamiento se realiza mediante el cuaderno:
 
@@ -9,8 +9,6 @@ El procesamiento se realiza mediante el cuaderno:
 Los datos recopilados sobre el estado de conservación de **3.533 especies** están disponibles en el archivo:
 
 > `EIDOS_estado_conservacion.xlsx`
-
-El código empleado para su obtención se encuentra en el archivo correspondiente (pendiente de especificar: `X`).
 
 ---
 
