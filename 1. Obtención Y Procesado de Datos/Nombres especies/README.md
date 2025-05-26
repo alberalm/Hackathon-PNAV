@@ -1,4 +1,4 @@
-# Nombres de Especies – README
+# Nombres de Especies 
 
 Esta carpeta contiene la información relacionada con la **identificación de especies**, obtenida mediante la API de EIDOS.
 
