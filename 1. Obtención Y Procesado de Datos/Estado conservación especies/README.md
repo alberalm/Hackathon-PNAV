@@ -1,4 +1,4 @@
-# Estado de Conservación de las Especies – README
+# Estado de Conservación de las Especies 
 
 Esta carpeta contiene la información sobre el **estado de conservación de las especies** según la **UICN**, extraída de la página de **IEPNB-EIDOS**  ([enlace](https://iepnb.gob.es/areas-tematicas/especies-silvestres/eidos)) a través de una API.
 
