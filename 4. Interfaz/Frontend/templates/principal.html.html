@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>BioSenda</title>
+  <link rel="icon" href="{{ url_for('static', filename='logo.png') }}" type="image/png">
   <style>
   html, body {
     height: 100%;
@@ -299,8 +300,12 @@
 </head>
 
 <body>
-  <header>🌿 BioSenda</header>
-
+   <header>
+    <img src="{{ url_for('static', filename='logo.png') }}" 
+         alt="BioSenda logo" 
+         style="height:100%; max-height:40px; vertical-align:middle; margin-right:8px;">
+    <span style="vertical-align:middle;">BioSenda</span>
+  </header>
   <div class="filtros">
     
     <div class="dropdown-taxones">
@@ -377,7 +382,7 @@
 
     
 
-    <input type="date" name="fecha">
+   
 
     <button id="btn-aplicar-filtros">Aplicar filtros</button>
   </div>
@@ -475,44 +480,69 @@
   }
 
   // Mostrar la previsualización como antes
-  async function mostrarPrevisualizacion(tr) {
-  // 1) Desactivar UI
-  document.body.classList.add('disabled');
-  const spinner = document.getElementById('spinner');
-  spinner.style.display = 'block';
+ async function mostrarPrevisualizacion(tr) {
+    const spinner = document.getElementById('spinner');
 
-  // Ocultamos mapa y mostramos previsualización
-  document.getElementById('mapa').style.display = 'none';
-  document.getElementById('previsualizacion').style.display = 'flex';
+    // 0) Preparar: bloquear UI y mostrar spinner
+    document.body.classList.add('disabled');
+    spinner.style.display = 'block';
 
-  // Recojo datos
-  const idRuta   = tr.dataset.id;
-  const nombre   = tr.cells[0].textContent;
-  const longitud = tr.cells[2].textContent;
-  const especies = await cargarEspecies(idRuta);
+    // 1) Ocultar el mapa y mostrar la previsualización
+    document.getElementById('mapa').style.display = 'none';
+    document.getElementById('previsualizacion').style.display = 'flex';
 
-  // 2) Genero el PDF
-  const resp = await fetch('/generar_pdf', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ id_ruta: idRuta, nombre, longitud, especies })
-  });
-  if (!resp.ok) {
-    console.error(await resp.text());
-    // Restaurar estado UI aunque falle
+    // 2) Extraer todos los datos de la fila
+    const idRuta    = tr.dataset.id;
+    const nombre    = tr.cells[0].textContent.trim();
+    const etapa     = tr.cells[1].textContent.trim();
+    const longitud  = tr.cells[2].textContent.trim();
+    const provincia = tr.cells[3].textContent.trim();
+    const ccaa      = tr.cells[4].textContent.trim();
+
+    let especies = [];
+    try {
+      // 3) Pedimos las especies
+      especies = await cargarEspecies(idRuta);
+    } catch (e) {
+      console.error('Error al cargar especies:', e);
+    }
+
+    // 4) Llamamos al endpoint pasando TODO
+    let resp;
+    try {
+      resp = await fetch('/generar_pdf', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          id_ruta:   idRuta,
+          nombre:    nombre,
+          etapa:     etapa,
+          longitud:  longitud,
+          provincia: provincia,
+          ccaa:      ccaa,
+          especies:  especies
+        })
+      });
+      if (!resp.ok) {
+        throw new Error(await resp.text());
+      }
+    } catch (e) {
+      console.error('Error generando PDF:', e);
+      // 7) Restaurar UI antes de salir
+      spinner.style.display = 'none';
+      document.body.classList.remove('disabled');
+      return;
+    }
+
+    // 5) Convertir a blob y mostrar en el iframe
+    const blob = await resp.blob();
+    document.getElementById('visor-pdf').src = URL.createObjectURL(blob);
+
+    // 6) Restaurar UI
     spinner.style.display = 'none';
     document.body.classList.remove('disabled');
-    return;
   }
-  const blob = await resp.blob();
 
-  // 3) Cargo el PDF en el iframe
-  document.getElementById('visor-pdf').src = URL.createObjectURL(blob);
-
-  // 4) Reactivar UI
-  spinner.style.display = 'none';
-  document.body.classList.remove('disabled');
-}
 
 
   
