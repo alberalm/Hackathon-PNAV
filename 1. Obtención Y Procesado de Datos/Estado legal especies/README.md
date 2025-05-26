@@ -1,4 +1,4 @@
-# Estado Legal de las Especies – README
+# Estado Legal de las Especies 
 
 Esta carpeta contiene la información sobre las **especies invasoras silvestres en España** según el **Catálogo Español de Especies Exóticas Invasoras (CEEEI)**.
 
