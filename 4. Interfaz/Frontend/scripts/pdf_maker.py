@@ -50,6 +50,15 @@ class PDF(FPDF):
         return imagen.crop((izquierda, arriba, derecha, abajo))
     
 
+    def recortar_bordes(self, imagen, margen=20):
+        ancho, alto = imagen.size
+        izquierda = margen
+        arriba = 5*margen
+        derecha = ancho - margen
+        abajo = alto - margen
+        return imagen.crop((izquierda, arriba, derecha, abajo))
+    
+
     async def obtener_imagen(self, url_imagen):
         if url_imagen is None:
             return None
@@ -137,17 +146,17 @@ class PDF(FPDF):
         self.set_text_color(0)
 
         # Cálculo del centro del banner
-        center_x = x_ini + (ancho + dobladillo) / 2
+        center_x = (self.w - self.l_margin - self.r_margin) / 2 + self.l_margin
         center_y = y_ini + alto / 2
 
         # Título
-        self.set_font("Helvetica", "B", 26)
+        self.set_font("Helvetica", "B", 20)
         titulo_width = self.get_string_width(titulo)
         self.set_xy(center_x - titulo_width / 2, center_y - 10)
         self.cell(titulo_width, 10, titulo)
 
         # Subtítulo debajo
-        self.set_font("Helvetica", "", 18)
+        self.set_font("Helvetica", "", 14)
         subtitulo_width = self.get_string_width(subtitulo)
         self.set_xy(center_x - subtitulo_width / 2, center_y + 2)
         self.cell(subtitulo_width, 10, subtitulo)
@@ -155,6 +164,8 @@ class PDF(FPDF):
         # ----- Imagen principal
         imagen_y = y_ini + alto + 10
         alto_img = self.h * 0.5
+        imagen_ruta = Image.open(imagen_ruta)
+        imagen_ruta = self.recortar_bordes(imagen_ruta)
         try:
             self.image(imagen_ruta, x=10, y=imagen_y, w=self.w - 20, h=alto_img)
         except:
@@ -219,7 +230,7 @@ class PDF(FPDF):
         self.set_font("Helvetica", "B", 18)
         self.set_fill_color(160, 211, 180)
         self.cell(0, 10, f"{grupo}", new_x=XPos.LMARGIN, new_y=YPos.NEXT, fill=True)
-        self.ln(5)
+        self.ln(3)
 
 
     def add_especie(self, nombre_cientifico, nombre_comun, descripcion, fotografia, autor, isinvasive, conservationstatus):
@@ -333,9 +344,9 @@ class PDF(FPDF):
             self.cell(0, 6, "", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
 
         # Luego, ajustamos el cursor para continuar después de la zona de créditos
-        self.set_y(y_img + img_size + 5)  # 8 mm desde la base de la imagen para dejar espacio
+        self.set_y(y_img + img_size + 6)  # 6 mm desde la base de la imagen para dejar espacio
 
-        self.ln(10)
+        self.ln(5)
 
 
     async def create_pdf(self):
@@ -373,6 +384,13 @@ class PDF(FPDF):
             if grupo not in grupos_mostrados:
                 self.add_grupo_header(grupo)
                 grupos_mostrados.add(grupo)
+
+            # Comprobar si cabe la especie en la página actual
+            espacio_disponible = self.h - self.get_y() - self.b_margin
+            altura_estimada_ficha = 70  # puedes ajustar si tus fichas son más o menos altas
+
+            if espacio_disponible < altura_estimada_ficha:
+                self.add_page()
 
             # Añadir especie
             self.add_especie(
