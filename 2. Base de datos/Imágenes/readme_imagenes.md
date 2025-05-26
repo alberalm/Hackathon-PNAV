@@ -1,4 +1,4 @@
-# README - Base de Datos – Imágenes de Especies
+# Base de Datos – Imágenes de Especies- Readme
 
 Esta carpeta contiene el **código necesario para descargar y procesar imágenes** de especies (animales, hongos y plantas) desde diversas fuentes que proporcionan descripciones visuales.  
 Se han filtrado únicamente aquellas imágenes con **licencias comercializables**, y se ha registrado el **autor** de cada fotografía.
@@ -8,6 +8,12 @@ Se han filtrado únicamente aquellas imágenes con **licencias comercializables*
 ## Fuentes utilizadas
 
 Se han empleado las siguientes fuentes para la obtención de imágenes:
+-	iNaturalist: registro de observaciones e identificaciones de especies, descarga de las imágenes a traves de scraping. 
+-	Pl@ntNet: herramienta de identificación de plantas a través de fotografías, se recopilaron imágenes mediante scraping.
+-	Animalia.bio: enciclopedia específica de animales en línea, se recopilaron las imágenes mediante  búsqueda manual
+-	Wikimedia commons: repositorio general de archivos multimedia búsqueda manual
+
+
 
 | Fuente             | Enlace                                                         | Código empleado                   | Tipo de imágenes obtenidas       |
 |--------------------|----------------------------------------------------------------|------------------------------------|----------------------------------|
