@@ -108,12 +108,21 @@ class PDF(FPDF):
         self.cell(page_width, 10, page_text)
 
 
-    def add_info_ruta(self, longitud, provincia, ccaa):
-        self.set_font("Helvetica", "", 12)
-        self.cell(0, 10, f"Longitud: {longitud}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
-        self.cell(0, 10, f"Provincia: {provincia}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
-        self.cell(0, 10, f"Comunidad Autónoma: {ccaa}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
-        self.ln(10)
+    def fit_text(self, text, max_width, font_name="Helvetica", style="B", 
+             max_size=20, min_size=6, step=0.5):
+        """
+        Ajusta el tamaño de fuente para que `text` quepa en `max_width`.
+        - max_size: tamaño inicial (arranca grande)
+        - min_size: tamaño mínimo que queremos permitir
+        - step: decremento en cada iteración
+        """
+        size = max_size
+        self.set_font(font_name, style, size)
+        # Mientras no quepa y no hayamos llegado al mínimo
+        while size > min_size and self.get_string_width(text) > max_width:
+            size -= step
+            self.set_font(font_name, style, size)
+        return size
 
 
     def add_portada(self, imagen_ruta):
@@ -152,22 +161,61 @@ class PDF(FPDF):
         center_y = y_ini + alto / 2
 
         # Título
-        self.set_font("Helvetica", "B", 20)
+        # Cálculo del centro del banner
+        center_x = (self.w - self.l_margin - self.r_margin) / 2 + self.l_margin
+        center_y = y_ini + alto / 2
+
+        # Determinamos el ancho máximo para el título
+        max_title_width = ancho - 10  # el ancho del banner
+
+        # Encuentra el tamaño de fuente óptimo
+        opt_size = self.fit_text(self.nombre_ruta, max_title_width, 
+                                font_name="Helvetica", style="B", max_size=24, min_size=8)
+
+        # Recoloca y dibuja el título
         titulo_width = self.get_string_width(self.nombre_ruta)
         self.set_xy(center_x - titulo_width / 2, center_y - 10)
-        self.cell(titulo_width, 10, self.nombre_ruta)
+        self.cell(titulo_width, opt_size, self.nombre_ruta, align='C')
 
         # Subtítulo debajo
-        self.set_font("Helvetica", "", 14)
-        subtitulo_width = self.get_string_width(self.nombre_etapa)
-        self.set_xy(center_x - subtitulo_width / 2, center_y + 2)
-        self.cell(subtitulo_width, 10, self.nombre_etapa)
+        max_sub_width = ancho - 10
+
+        # Limitamos su tamaño máximo al tamaño ya elegido para el título
+        sub_size = self.fit_text(
+            self.nombre_etapa,
+            max_sub_width,
+            font_name="Helvetica",
+            style="",           # estilo normal
+            max_size=opt_size,  # nunca más grande que el título
+            min_size=6
+        )
+
+        # Dibuja subtítulo justo debajo, usando la altura de línea = sub_size
+        subt_width = self.get_string_width(self.nombre_etapa)
+        self.set_font("Helvetica", "", sub_size)
+        # Ajusta verticalmente: bajamos del centro del banner la mitad de título + un pequeño espacio + mitad de subtítulo
+        y_sub = center_y - opt_size/2 + opt_size + (sub_size * 0.2)
+        self.set_xy(center_x - max_sub_width / 2, center_y + 2)
+        self.cell(max_sub_width, 10, self.nombre_etapa, align='C')
 
         # ----- Imagen principal
         imagen_y = y_ini + alto + 10
         alto_img = self.h * 0.5
+        # Dimensiones máximas deseadas
+        max_w = self.w - 20
+        max_h = self.h * 0.5
+
         try:
-            self.image(imagen_ruta, x=10, y=imagen_y, w=self.w - 20, h=alto_img)
+            # 1) obtén tamaño original
+            orig_w, orig_h = imagen_ruta.size
+            # 2) factor de escala
+            factor = min(max_w / orig_w, max_h / orig_h)
+            # 3) nuevo tamaño
+            new_w = orig_w * factor
+            new_h = orig_h * factor
+            # 4) insertamos centrando horizontalmente
+            x_img = (self.w - new_w) / 2
+            self.image(imagen_ruta, x=x_img, y=imagen_y, w=new_w, h=new_h)
         except:
             self.set_xy(10, imagen_y)
             self.set_font("Helvetica", "I", 12)
