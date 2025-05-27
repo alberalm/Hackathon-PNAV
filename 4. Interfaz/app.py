@@ -45,7 +45,7 @@ def limpiar_texto(texto: str) -> str:
     return texto.strip()
 
 
-async def personalizar_especie(especie, descripcion_cientifica, query, prompt):
+def personalizar_especie(especie, descripcion_cientifica, query, prompt):
     null_str = """[\n  {\n    "": null\n  }\n]"""
     # Realizar la consulta
     try:
@@ -59,14 +59,14 @@ async def personalizar_especie(especie, descripcion_cientifica, query, prompt):
             sql = json.dumps(df_sql.to_dict(orient='records'), indent=2)
     except Exception:
         sql = null_str
-    especie["descripcion"] = await send_description_prompt(
+    especie["descripcion"] = asyncio.run(send_description_prompt(
         PERSONALIZE_DESCRIPTION_PROMPT.format(
             prompt=prompt,
             description_a_adaptar=especie["descripcion"],
             descripcion_cientifica=descripcion_cientifica,
             informacion_sql=sql
         )
-    )
+    ))
     return especie
 
 
@@ -106,10 +106,9 @@ def personalizar_descripciones():
     """
     sql_result = pd.read_sql_query(scientific_descriptions_query, engine)
     descriptions = dict(zip(sql_result['idtaxon'], sql_result['description']))
-    tasks = {
+    new_descs = {
         especie["idtaxon"]: personalizar_especie(especie["idtaxon"], descriptions[especie["idtaxon"]]) for especie in especies
     }
-    new_descs = asyncio.gather(*tasks)
     for i in range(len(especies)):
         especies[i]["descripcion"] = new_descs[especies[i]["idtaxon"]]
 
