@@ -31,4 +31,4 @@ Se incluyen las tablas de datos procesados y filtrados que se han utilizado para
 
 ---
 
-> *Este proyecto busca promover un turismo responsable, sostenible y enriquecedor, acercando a las personas a la biodiversidad a traves de información sobre las especies encontradas en la realización de sendas, rutas y caminos naturales*
+> *Este proyecto busca promover un turismo responsable, sostenible y enriquecedor, acercando a las personas a la biodiversidad a través de información sobre las especies encontradas en la realización de sendas, rutas y caminos naturales*
