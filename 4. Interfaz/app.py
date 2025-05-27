@@ -59,14 +59,14 @@ def personalizar_especie(especie, descripcion_cientifica, query, prompt):
             sql = json.dumps(df_sql.to_dict(orient='records'), indent=2)
     except Exception:
         sql = null_str
-    especie["descripcion"] = asyncio.run(send_description_prompt(
+    especie["descripcion"] = send_description_prompt(
         PERSONALIZE_DESCRIPTION_PROMPT.format(
             prompt=prompt,
             description_a_adaptar=especie["descripcion"],
             descripcion_cientifica=descripcion_cientifica,
             informacion_sql=sql
         )
-    ))
+    )
     return especie
 
 
@@ -82,9 +82,7 @@ def personalizar_descripciones():
     especies  = data.get('especies', [])
 
     # Obtener la consulta SQL que complementa el prompt del usuario
-    text2sql_query = asyncio.run(send_text2sql_prompt(
-        TEXT2SQL_PROMPT.format(prompt=prompt)
-    )).result()
+    text2sql_query = send_text2sql_prompt(TEXT2SQL_PROMPT.format(prompt=prompt))
     # Cambiar la consulta para que solamente coja 30 filas
     if 'SELECT DISTINCT' in text2sql_query:  # TOP debe ir despues de DISTINCT
         text2sql_query = text2sql_query.replace('SELECT DISTINCT', 'SELECT DISTINCT TOP 30')
