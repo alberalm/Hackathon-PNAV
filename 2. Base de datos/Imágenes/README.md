@@ -7,10 +7,10 @@ Esta carpeta contiene el **código necesario para descargar y procesar imágenes
 ## Fuentes utilizadas
 
 Se han empleado las siguientes fuentes para la obtención de imágenes:
-- **iNaturalist ([enlace](https://www.inaturalist.org/)):** registro de observaciones e identificaciones de especies, descarga de las imágenes a traves de scraping. 
--	**Pl@ntNet ([enlace](https://identify.plantnet.org/es)):** herramienta de identificación de plantas a través de fotografías, se recopilaron imágenes mediante scraping.
--	**Animalia.bio ([enlace](https://animalia.bio/)):** enciclopedia específica de animales en línea, se recopilaron las imágenes mediante  búsqueda manual
--	**Wikimedia commons ([enlace](https://commons.wikimedia.org/wiki/)):** repositorio general de archivos multimedia búsqueda manual
+- **iNaturalist ([enlace](https://www.inaturalist.org/)):** registro de observaciones e identificaciones de especies, descarga de las imágenes a traves de scraping. Estos datos se publican bajo diferentes licencias: CC-BY, CC-SA, CC0 y CC-BY-SA.
+-	**Pl@ntNet ([enlace](https://identify.plantnet.org/es)):** herramienta de identificación de plantas a través de fotografías, se recopilaron imágenes mediante scraping. Estos datos se publican bajo la licencia: CC-BY-SA.
+-	**Animalia.bio ([enlace](https://animalia.bio/)):** enciclopedia específica de animales en línea, se recopilaron las imágenes mediante  búsqueda manual. Estos datos se publican bajo diferentes licencias: CC-BY, CC-SA, CC0 y CC-BY-SA.
+-	**Wikimedia commons ([enlace](https://commons.wikimedia.org/wiki/)):** repositorio general de archivos multimedia búsqueda manual. Estos datos se publican bajo diferentes licencias: CC-BY, CC-SA, CC0 y CC-BY-SA.
 
 
 

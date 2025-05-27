@@ -1,6 +1,6 @@
 # Estado Legal de las Especies 
 
-Esta carpeta contiene la información sobre las **especies invasoras silvestres en España** según el **Catálogo Español de Especies Exóticas Invasoras (CEEEI)**, extraída de la página de **IEPNB-EIDOS**  ([enlace](https://iepnb.gob.es/areas-tematicas/especies-silvestres/eidos)).
+Esta carpeta contiene la información sobre las **especies invasoras silvestres en España** según el **Catálogo Español de Especies Exóticas Invasoras (CEEEI)**, extraída de la página de **IEPNB-EIDOS**  ([enlace](https://iepnb.gob.es/areas-tematicas/especies-silvestres/eidos)). Estos datos se publican bajo la licencia CC-BY.
 
 Se accede al estado legal proporcionado por **EIDOS** a través de la API para obtener esta información utilizando el siguiente cuaderno:
 
