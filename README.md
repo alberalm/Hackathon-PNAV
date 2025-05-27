@@ -1,5 +1,7 @@
 # Hackathon-PNAV
 
+![BioSenda][demo.gif]
+
 Esta carpeta contiene la información sobre los datos y códigos utilizados para el desarrollo de la solución presentada al **Hackathon_PNAV**, cuyo objetivo consiste en la creación de **itinerarios turísticos sostenibles con información sobre biodiversidad en la zona (“Biosen”)**.
 
 Este trabajo se puede dividir en 5 conjuntos principales:
