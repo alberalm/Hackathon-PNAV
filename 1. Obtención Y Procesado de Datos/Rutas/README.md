@@ -1,6 +1,6 @@
 Esta carpeta contiene el código necesario para descargar y procesar los datos de las diferentes fuentes que proporcionan rutas en España. 
 
-En total, se han utilizado 5 fuentes de datos:
+En total, se han utilizado 4 fuentes de datos:
 
 - **Caminos Naturales ([enlace](https://centrodedescargas.cnig.es/CentroDescargas/caminos-naturales)):** Conjuntos de caminos que discurren por infraestructuras de transporte, vías pecuarias, plataformas de ferrocarril, caminos de sirga o caminos tradicionales en desuso, que han sido reutilizados para el uso recreativo del campo. Los datos se descargan directamente desde la página del Instituo Geográfico Nacional (IGN) en formato ``.shp``.
 

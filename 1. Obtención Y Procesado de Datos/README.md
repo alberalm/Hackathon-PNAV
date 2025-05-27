@@ -4,7 +4,7 @@ Esta carpeta contiene el código para obtener y procesar los diferentes conjunto
 - **Descripciones**: recopilación de descripciones de las especies procedentes de diversas fuentes.
 - **Estado de conservación**: categorización del nivel de amenaza de las especies según la **UICN**.
 - **Estado legal de las especies**: información sobre las especies exóticas invasoras según el **CEEEI**.
-- **Ubicaciones e imágenes**: información sobre la localización geográfica de las especies y la obtención de imágenes.
+- **Ubicaciones y media**: información sobre la localización geográfica de las especies y la obtención de imágenes.
 - **Rutas**: conjunto de caminos naturales, rutas, senderos y vías verdes de España.
 
 ### Integración de conjuntos relacionados con especies

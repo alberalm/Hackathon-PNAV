@@ -1,26 +1,25 @@
 # Base de Datos – Imágenes de Especies- Readme
 
-Esta carpeta contiene el **código necesario para descargar y procesar imágenes** de especies (animales, hongos y plantas) desde diversas fuentes que proporcionan descripciones visuales.  
-Se han filtrado únicamente aquellas imágenes con **licencias comercializables**, y se ha registrado el **autor** de cada fotografía.
+Esta carpeta contiene el **código necesario para descargar y procesar imágenes** de especies (animales, hongos y plantas) desde diversas fuentes que proporcionan descripciones visuales. Se han filtrado únicamente aquellas imágenes con **licencias comercializables**, y se ha registrado el **autor** de cada fotografía.
 
 ---
 
 ## Fuentes utilizadas
 
 Se han empleado las siguientes fuentes para la obtención de imágenes:
--	iNaturalist: registro de observaciones e identificaciones de especies, descarga de las imágenes a traves de scraping. 
--	Pl@ntNet: herramienta de identificación de plantas a través de fotografías, se recopilaron imágenes mediante scraping.
--	Animalia.bio: enciclopedia específica de animales en línea, se recopilaron las imágenes mediante  búsqueda manual
--	Wikimedia commons: repositorio general de archivos multimedia búsqueda manual
+- **iNaturalist ([enlace](https://www.inaturalist.org/)):** registro de observaciones e identificaciones de especies, descarga de las imágenes a traves de scraping. 
+-	**Pl@ntNet ([enlace](https://identify.plantnet.org/es)):** herramienta de identificación de plantas a través de fotografías, se recopilaron imágenes mediante scraping.
+-	**Animalia.bio ([enlace](https://animalia.bio/)):** enciclopedia específica de animales en línea, se recopilaron las imágenes mediante  búsqueda manual
+-	**Wikimedia commons ([enlace](https://commons.wikimedia.org/wiki/)):** repositorio general de archivos multimedia búsqueda manual
 
 
 
-| Fuente             | Enlace                                                         | Código empleado                   | Tipo de imágenes obtenidas       |
-|--------------------|----------------------------------------------------------------|------------------------------------|----------------------------------|
-| iNaturalist        | [inaturalist.org](https://www.inaturalist.org/)               | `inaturalist_media_filter.ipynb`   | Animales, hongos, plantas        |
-| Pl@ntNet           | [plantnet.org](https://identify.plantnet.org/es)              | `plantnet_scraper.ipynb`           | Plantas                          |
-| Animalia.bio       | [animalia.bio](https://animalia.bio/)                         | Recopilación manual                | Animales                         |
-| Wikimedia Commons  | [commons.wikimedia.org](https://commons.wikimedia.org/wiki/) | Recopilación manual                | Animales, hongos, plantas        |
+| Fuente             | Código empleado                   | Tipo de imágenes obtenidas       |
+|--------------------|------------------------------------|----------------------------------|
+| iNaturalist        | `inaturalist_media_filter.ipynb`   | Animales, hongos, plantas        |
+| Pl@ntNet           | `plantnet_scraper.ipynb`           | Plantas                          |
+| Animalia.bio       | Recopilación manual                | Animales                         |
+| Wikimedia Commons  | Recopilación manual                | Animales, hongos, plantas        |
 
 ---
 

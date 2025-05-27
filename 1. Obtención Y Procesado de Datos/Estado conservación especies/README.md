@@ -1,10 +1,12 @@
 # Estado de Conservación de las Especies 
 
-Esta carpeta contiene la información sobre el **estado de conservación de las especies** según la **UICN**, extraída de la página de **IEPNB-EIDOS**  ([enlace](https://iepnb.gob.es/areas-tematicas/especies-silvestres/eidos)) a través de una API.
+Esta carpeta contiene la información sobre el registro más reciente del **estado de conservación de las especies** según la **UICN** en España, extraída de la página de **IEPNB-EIDOS**  ([enlace](https://iepnb.gob.es/areas-tematicas/especies-silvestres/eidos)).
 
-El procesamiento se realiza mediante el cuaderno:
+Se accede al estado de conservación proporcionado por **EIDOS** a través de la API para obtener esta información utilizando el siguiente cuaderno:
 
 > `api_estado_conservacion_eidos.ipynb`
+
+Los registros sobre el estado de conservación contenían información de diferentes autoridades y años, por lo que se filtraron para obtener únicamente las especies con su categoría de conservación más reciente según la IUCN en España.
 
 Los datos recopilados sobre el estado de conservación de **3.533 especies** están disponibles en el archivo:
 
