@@ -170,7 +170,7 @@ class PDF(FPDF):
 
         # Encuentra el tamaño de fuente óptimo
         opt_size = self.fit_text(self.nombre_ruta, max_title_width, 
-                                font_name="Helvetica", style="B", max_size=24, min_size=8)
+                                font_name="Helvetica", style="B", max_size=20, min_size=8)
 
         # Recoloca y dibuja el título
         titulo_width = self.get_string_width(self.nombre_ruta)
@@ -186,7 +186,7 @@ class PDF(FPDF):
             max_sub_width,
             font_name="Helvetica",
             style="",           # estilo normal
-            max_size=opt_size,  # nunca más grande que el título
+            max_size=min(opt_size, 14),  # nunca más grande que el título
             min_size=6
         )
 
