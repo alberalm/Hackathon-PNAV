@@ -84,7 +84,7 @@ def personalizar_descripciones():
     # Obtener la consulta SQL que complementa el prompt del usuario
     text2sql_query = asyncio.run(send_text2sql_prompt(
         TEXT2SQL_PROMPT.format(prompt=prompt)
-    ))
+    )).result()
     # Cambiar la consulta para que solamente coja 30 filas
     if 'SELECT DISTINCT' in text2sql_query:  # TOP debe ir despues de DISTINCT
         text2sql_query = text2sql_query.replace('SELECT DISTINCT', 'SELECT DISTINCT TOP 30')
