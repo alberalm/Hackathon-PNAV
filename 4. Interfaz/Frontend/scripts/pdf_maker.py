@@ -9,7 +9,7 @@ import asyncio
 
 class PDF(FPDF):
 
-    def initialise(self, especies, nombre_ruta, nombre_etapa, longitud, provincia, ccaa, imagen_ruta):
+    def initialise(self, especies, nombre_ruta, nombre_etapa, longitud, provincia, ccaa, id_ruta):
         # Mapa de colores
         self.color_map = {
             "EX (Extinto)": (0, 0, 0),
@@ -25,7 +25,11 @@ class PDF(FPDF):
             # cualquier otro o None → blanco
         }
         # Descargar las imagenes lo primero, que es lo que mas tarda
-        self.imagenes_tasks = [self.obtener_imagen(especie["photo_link"]) for especie in especies]
+        self.imagen_ruta_task = self.obtener_imagen(
+            f"https://huggingface.co/datasets/alberalm/hiking-trails-images-spain/resolve/main/{id_ruta}.png?download=true",
+            recortar=self.recortar_bordes
+        )
+        self.imagenes_tasks = [self.obtener_imagen(especie["photo_link"], self.recortar_a_cuadrado) for especie in especies]
         self.taxones = [e["idtaxon"] for e in especies]
         especies_por_grupo = defaultdict(list)
         for especie in especies:
@@ -37,8 +41,6 @@ class PDF(FPDF):
         self.longitud = longitud
         self.provincia = provincia
         self.ccaa = ccaa
-        self.imagen_ruta = imagen_ruta
-
 
     def recortar_a_cuadrado(self, imagen):
         ancho, alto = imagen.size
@@ -59,15 +61,15 @@ class PDF(FPDF):
         return imagen.crop((izquierda, arriba, derecha, abajo))
     
 
-    async def obtener_imagen(self, url_imagen):
+    async def obtener_imagen(self, url_imagen, recortar):
         if url_imagen is None:
             return None
         try:
-            async with httpx.AsyncClient() as client:
+            async with httpx.AsyncClient(follow_redirects=True) as client:
                 response = await client.get(url_imagen)
                 response.raise_for_status()
                 img = Image.open(BytesIO(response.content))
-                img = self.recortar_a_cuadrado(img)
+                img = recortar(img)
                 return img
         except Exception as e:
             return None
@@ -114,7 +116,7 @@ class PDF(FPDF):
         self.ln(10)
 
 
-    def add_portada(self, titulo, subtitulo, imagen_ruta, longitud, provincia, ccaa):
+    def add_portada(self, imagen_ruta):
         # ---- Medidas del bloque flotante
         x_ini = 0
         y_ini = 10
@@ -151,21 +153,19 @@ class PDF(FPDF):
 
         # Título
         self.set_font("Helvetica", "B", 20)
-        titulo_width = self.get_string_width(titulo)
+        titulo_width = self.get_string_width(self.nombre_ruta)
         self.set_xy(center_x - titulo_width / 2, center_y - 10)
-        self.cell(titulo_width, 10, titulo)
+        self.cell(titulo_width, 10, self.nombre_ruta)
 
         # Subtítulo debajo
         self.set_font("Helvetica", "", 14)
-        subtitulo_width = self.get_string_width(subtitulo)
+        subtitulo_width = self.get_string_width(self.nombre_etapa)
         self.set_xy(center_x - subtitulo_width / 2, center_y + 2)
-        self.cell(subtitulo_width, 10, subtitulo)
+        self.cell(subtitulo_width, 10, self.nombre_etapa)
 
         # ----- Imagen principal
         imagen_y = y_ini + alto + 10
         alto_img = self.h * 0.5
-        imagen_ruta = Image.open(imagen_ruta)
-        imagen_ruta = self.recortar_bordes(imagen_ruta)
         try:
             self.image(imagen_ruta, x=10, y=imagen_y, w=self.w - 20, h=alto_img)
         except:
@@ -201,7 +201,7 @@ class PDF(FPDF):
         self.cell( self.get_string_width("Provincia: "), line_h, "Provincia: ", new_x=XPos.RIGHT, new_y=YPos.TOP)
         self.set_font("Helvetica", "", 12)
         # wrap dentro de la caja
-        self.multi_cell(box_w - (pad + icon_size + 2), line_h, provincia)
+        self.multi_cell(box_w - (pad + icon_size + 2), line_h, self.provincia)
 
         # --- Comunidad Autónoma
         y_line = y0 + (box_h - line_h) / 4 + 2*line_h
@@ -211,7 +211,7 @@ class PDF(FPDF):
         self.multi_cell(box_w - (pad + icon_size + 2), line_h, "Comunidad Autónoma:")
         self.set_font("Helvetica", "", 12)
         self.set_x(x1 + pad + icon_size + 2)
-        self.multi_cell(box_w - (pad + icon_size + 2), line_h, ccaa)
+        self.multi_cell(box_w - (pad + icon_size + 2), line_h, self.ccaa)
 
         # ---- Caja 2: Longitud
         self.rect(x2, y0, box_w, box_h, style='F')
@@ -223,7 +223,7 @@ class PDF(FPDF):
         self.set_font("Helvetica", "B", 12)
         self.cell(self.get_string_width("Longitud: "), line_h, "Longitud: ", new_x=XPos.RIGHT, new_y=YPos.TOP)
         self.set_font("Helvetica", "", 12)
-        self.multi_cell(box_w - (pad + icon_size + 2), line_h, f"{longitud} km")
+        self.multi_cell(box_w - (pad + icon_size + 2), line_h, f"{self.longitud} km")
 
 
     def add_grupo_header(self, grupo):
@@ -358,7 +358,8 @@ class PDF(FPDF):
 
         # Página inicial
         self.add_page()
-        self.add_portada(self.nombre_ruta, self.nombre_etapa, self.imagen_ruta, self.longitud, self.provincia, self.ccaa)
+
+        self.add_portada(await self.imagen_ruta_task)
 
         # Para cada grupo taxonómico
         # Controlar qué grupos ya se han mostrado

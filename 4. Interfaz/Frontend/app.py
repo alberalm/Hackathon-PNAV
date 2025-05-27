@@ -204,11 +204,12 @@ def generar_pdf():
     Funcion que se encarga de generar el PDF a partir de la ruta seleccionada
     """
     data      = request.get_json(force=True)
-    nombre    = limpiar_texto(data.get('nombre', 'Sin nombre'))
-    etapa     = limpiar_texto(data.get('etapa',  'Sin etapa'))
-    longitud  = limpiar_texto(data.get('longitud', 'Sin longitud'))
-    provincia = limpiar_texto(data.get('provincia', 'Sin provincia'))
-    ccaa      = limpiar_texto(data.get('ccaa', 'Sin CCAA'))
+    id_ruta   = limpiar_texto(data.get('id_ruta', '0'))
+    nombre    = limpiar_texto(data.get('nombre', '-'))
+    etapa     = limpiar_texto(data.get('etapa',  '-'))
+    longitud  = limpiar_texto(data.get('longitud', '-'))
+    provincia = limpiar_texto(data.get('provincia', '-'))
+    ccaa      = limpiar_texto(data.get('ccaa', '-'))
     especies  = data.get('especies', [])
     
     pdf = PDF()
@@ -221,7 +222,7 @@ def generar_pdf():
         longitud      = longitud,
         provincia     = provincia,
         ccaa          = ccaa,
-        imagen_ruta   = "static/mapa_espana.png" # Esto ultimo deberia ser la imagen de la ruta
+        id_ruta       = id_ruta
     )
 
     asyncio.run(pdf.create_pdf())
