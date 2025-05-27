@@ -59,7 +59,7 @@ def personalizar_especie(especie, descripcion_cientifica, query, prompt):
             sql = json.dumps(df_sql.to_dict(orient='records'), indent=2)
     except Exception:
         sql = null_str
-    especie["descripcion"] = send_description_prompt(
+    return  send_description_prompt(
         PERSONALIZE_DESCRIPTION_PROMPT.format(
             prompt=prompt,
             description_a_adaptar=especie["descripcion"],
@@ -67,7 +67,7 @@ def personalizar_especie(especie, descripcion_cientifica, query, prompt):
             informacion_sql=sql
         )
     )
-    return especie
+    
 
 
 @app.route('/')
@@ -108,8 +108,8 @@ def personalizar_descripciones():
         especie["idtaxon"]: personalizar_especie(especie, descriptions[especie["idtaxon"]], text2sql_query, prompt ) for especie in especies
     }
     for i in range(len(especies)):
-        especies[i]["descripcion"] = new_descs[especies[i]["idtaxon"]]
-
+        especies[i]["descripcion"] = new_descs[especies[i]["idtaxon"]].strip()
+    
     return jsonify(especies)
 
 
