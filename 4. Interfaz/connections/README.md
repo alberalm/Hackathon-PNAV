@@ -27,10 +27,10 @@ def send_prompt_kobold(url, prompt, stop_sequence):
 
     return response.json().get("results", [{}])[0].get("text", "")
 
-async def send_description_prompt(prompt: str) -> str:
+def send_description_prompt(prompt: str) -> str:
     return send_prompt_kobold("http://localhost:5001/", prompt, '\n')
 
-async def send_text2sql_prompt(prompt: str) -> str:
+def send_text2sql_prompt(prompt: str) -> str:
     return send_prompt_kobold("http://localhost:5002/", prompt, ';')
 ```
 
