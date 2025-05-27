@@ -9,9 +9,12 @@ from flask import request, send_file
 import io
 from scripts.pdf_maker import PDF
 import re
+import json
 import html
 import unicodedata
 import asyncio
+from connections.llm_connection import send_description_prompt, send_text2sql_prompt
+from scripts.prompts import TEXT2SQL_PROMPT, PERSONALIZE_DESCRIPTION_PROMPT
 
 
 especies_cache = {}
@@ -42,17 +45,75 @@ def limpiar_texto(texto: str) -> str:
     return texto.strip()
 
 
+async def personalizar_especie(especie, descripcion_cientifica, query, prompt):
+    null_str = """[\n  {\n    "": null\n  }\n]"""
+    # Realizar la consulta
+    try:
+        if "SELECT NULL" in query.lower():
+            sql = null_str
+        elif "<idtaxon>" in query:
+            df_sql = pd.read_sql_query(query.replace("<idtaxon>", especie["idtaxon"]))
+            sql = json.dumps(df_sql.to_dict(orient='records'), indent=2)
+        else:
+            df_sql = pd.read_sql_query(query)
+            sql = json.dumps(df_sql.to_dict(orient='records'), indent=2)
+    except Exception:
+        sql = null_str
+    especie["descripcion"] = await send_description_prompt(
+        PERSONALIZE_DESCRIPTION_PROMPT.format(
+            prompt=prompt,
+            description_a_adaptar=especie["descripcion"],
+            descripcion_cientifica=descripcion_cientifica,
+            informacion_sql=sql
+        )
+    )
+    return especie
+
+
 @app.route('/')
 def index():
     return render_template('principal.html.html')
 
 
-@app.route('/personalizar_descripciones')
-def personalizar_descripciones(id_ruta: int, lista_especies: list, prompt: str):
+@app.route('/personalizar_descripciones', methods=['POST'])
+def personalizar_descripciones():
+    data = request.get_json(force=True) or {}
+    prompt = data.get('prompt', '')
+    especies  = data.get('especies', [])
+
+    # Obtener la consulta SQL que complementa el prompt del usuario
+    text2sql_query = asyncio.run(send_text2sql_prompt(
+        TEXT2SQL_PROMPT.format(prompt=prompt)
+    ))
+    # Cambiar la consulta para que solamente coja 30 filas
+    if 'SELECT DISTINCT' in text2sql_query:  # TOP debe ir despues de DISTINCT
+        text2sql_query = text2sql_query.replace('SELECT DISTINCT', 'SELECT DISTINCT TOP 30')
+    else:
+        text2sql_query = text2sql_query.replace('SELECT', 'SELECT TOP 30')
+    # Construir el union_sql con los idtaxones
+    union_sql = " UNION ALL ".join([f"SELECT {especie['idtaxon']} AS idtaxon" for especie in especies])
+    # Hacer queries a la base de datos
+    scientific_descriptions_query = f"""
+    SELECT
+        idtaxon,
+        Descripcion
+    FROM
+        Descripciones d
+    JOIN (
+        {union_sql}
+    ) AS w
+        ON de.idtaxon = w.idtaxon
     """
-    regenera el pdf personalizando las descripciones a traves del prompt
-    """
-    return generar_pdf(1, lista_especies)
+    sql_result = pd.read_sql_query(scientific_descriptions_query, engine)
+    descriptions = dict(zip(sql_result['idtaxon'], sql_result['description']))
+    tasks = {
+        especie["idtaxon"]: personalizar_especie(especie["idtaxon"], descriptions[especie["idtaxon"]]) for especie in especies
+    }
+    new_descs = asyncio.gather(*tasks)
+    for i in range(len(especies)):
+        especies[i]["descripcion"] = new_descs[especies[i]["idtaxon"]]
+
+    return jsonify(especies)
 
 
 @app.route('/obtener_especies', methods=['POST'])
@@ -214,7 +275,6 @@ def generar_pdf():
     
     pdf = PDF()
     
-    # TODO: Cambiar para ajustar a lo que realmente se pide
     pdf.initialise(
         especies,
         nombre_ruta   = nombre,
