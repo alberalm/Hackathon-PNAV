@@ -178,7 +178,7 @@
   }
 
   .espacio-pdf {
-    height: 700px;
+    height: 90%;
     background-color: #f0f7f4;
     display: flex;
     align-items: center;
@@ -301,7 +301,7 @@
 
 <body>
    <header>
-    <img src="{{ url_for('static', filename='logo.png') }}" 
+    <img src="{{ url_for('static', filename='logoblanco.png') }}" 
          alt="BioSenda logo" 
          style="height:100%; max-height:40px; vertical-align:middle; margin-right:8px;">
     <span style="vertical-align:middle;">BioSenda</span>
@@ -419,7 +419,9 @@
     
      
       <div class="controls">
+ 
   <textarea
+    id="prompt-input"
     class="descripcion-input"
     placeholder=" Personaliza las descripciones de las especies. Por ejemplo:
   - Haz las descripciones con un tono más científico.
@@ -427,7 +429,7 @@
     maxlength="300"
     rows="4"
   ></textarea>
-  <button class="descripcion-btn">Generar</button>
+  <button id="btn-generar" class="descripcion-btn">Generar</button>
 </div>
 
     
@@ -480,11 +482,10 @@
     especiesCache[ID_Ruta] = lista;
     return lista;
   }
-
-  // Mostrar la previsualización como antes
+    let especies = [];
+  
  async function mostrarPrevisualizacion(tr) {
     const spinner = document.getElementById('spinner');
-
     // 0) Preparar: bloquear UI y mostrar spinner
     document.body.classList.add('disabled');
     spinner.style.display = 'block';
@@ -501,7 +502,7 @@
     const provincia = tr.cells[3].textContent.trim();
     const ccaa      = tr.cells[4].textContent.trim();
 
-    let especies = [];
+    
     try {
       // 3) Pedimos las especies
       especies = await cargarEspecies(idRuta);
@@ -591,7 +592,31 @@
     });
 
 
+document.getElementById('btn-generar').addEventListener('click', async () => {
+  const prompt = document.getElementById('prompt-input').value.trim();
+  const spinner = document.getElementById('spinner');
+    // 0) Preparar: bloquear UI y mostrar spinner
+    document.body.classList.add('disabled');
+    spinner.style.display = 'block';
 
+    
+    const resp = await fetch('/personalizar_descripciones', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        especies: especies,
+        prompt: prompt
+      })
+    });
+    if (!resp.ok) {
+      console.error(await resp.text());
+      return alert('Error al regenerar descripciones');
+    }
+    const blob = await resp.blob();
+    document.getElementById('visor-pdf').src = URL.createObjectURL(blob);
+    document.body.classList.remove('disabled');
+    spinner.style.display = 'none';
+});
     
 
     </script>

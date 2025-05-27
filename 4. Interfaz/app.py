@@ -93,19 +93,19 @@ def personalizar_descripciones():
     # Hacer queries a la base de datos
     scientific_descriptions_query = f"""
     SELECT
-        idtaxon,
-        Descripcion
+        d.idtaxon,
+        Descripcion AS descripcion
     FROM
-        Descripciones d
+        DescripcionesEspecies d
     JOIN (
         {union_sql}
     ) AS w
-        ON de.idtaxon = w.idtaxon
+        ON d.idtaxon = w.idtaxon
     """
     sql_result = pd.read_sql_query(scientific_descriptions_query, engine)
-    descriptions = dict(zip(sql_result['idtaxon'], sql_result['description']))
+    descriptions = dict(zip(sql_result['idtaxon'], sql_result['descripcion']))
     new_descs = {
-        especie["idtaxon"]: personalizar_especie(especie["idtaxon"], descriptions[especie["idtaxon"]]) for especie in especies
+        especie["idtaxon"]: personalizar_especie(especie, descriptions[especie["idtaxon"]], text2sql_query, prompt ) for especie in especies
     }
     for i in range(len(especies)):
         especies[i]["descripcion"] = new_descs[especies[i]["idtaxon"]]
