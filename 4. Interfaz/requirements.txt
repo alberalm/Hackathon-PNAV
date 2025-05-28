@@ -4,6 +4,6 @@ openpyxl
 sqlalchemy 
 numpy 
 httpx
-PILLOW 
+pillow
 fpdf2 
 sentencepiece

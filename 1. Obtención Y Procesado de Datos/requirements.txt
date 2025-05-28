@@ -1,7 +1,6 @@
 pandas
 openpyxl
 selenium
-requests
 geopandas
 fiona
 matplotlib

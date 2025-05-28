@@ -3,7 +3,6 @@ openpyxl
 google-genai
 matplotlib
 numpy
-requests
 tqdm
 selenium
 xml
