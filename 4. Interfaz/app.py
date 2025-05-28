@@ -1,11 +1,9 @@
-from flask import Flask, render_template, send_file
+from flask import Flask, render_template, send_file, request, jsonify
 import random
 import unicodedata
-from flask import request, jsonify
 import pandas as pd
 from sqlalchemy import create_engine
 import numpy as np
-from flask import request, send_file
 import io
 from scripts.pdf_maker import PDF
 import re
@@ -13,7 +11,10 @@ import json
 import html
 import unicodedata
 import asyncio
-from connections.llm_connection import send_description_prompt, send_text2sql_prompt
+try:
+    from connections.llm_connection import send_description_prompt, send_text2sql_prompt
+except:
+    print("No models defined, personalising descriptions is not available and will not work.")
 from scripts.prompts import TEXT2SQL_PROMPT, PERSONALIZE_DESCRIPTION_PROMPT
 
 

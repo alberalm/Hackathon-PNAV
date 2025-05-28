@@ -41,3 +41,13 @@ Esta carpeta contiene los programas de backend y frontend necesarios para ejecut
   Carpeta con imágenes e iconos estáticos de la aplicación, de acceso directo para la interfaz.
 
 ---
+
+## Guía de uso
+
+Correr la aplicación de BioSenda en local requiere de múltiples prerrequisitos:
+
+- Instalación de las librerías necesarias (véase `requirements.txt`). Conviene desinstalar la librería `fpdf` antes de instalar `fpdf2`, ya que pueden dar errores si se instalan ambas.
+- Alojamiento de la base de datos que se encuentra en `2. Base de datos` en un servidor o equivalente. Actualmente, el código incluye conexión con nuestra base de datos alojada en Azure, pero esta será eliminada próximamente. De ser el caso, deberá cambiarse la conexión con `sqlalchemy` que se realiza al comienzo del archivo `app.py`.
+- (Opcional) creación de los scripts para realizar llamadas a LLM. Esto se utiliza exclusivamente para la personalización de las descripciones y no es necesario para un uso básico de la aplicación. Más detalles para la configuración de esta funcionaliadad están disponibles en `connections/README.md`.
+
+Una vez cumplido todo lo anterior, simplemente se debe ejecutar el archivo `app.py` y acceder al servidor en `localhost` correspondiente. Se anima a explorar la página y descubrir sus funcionalidades .
