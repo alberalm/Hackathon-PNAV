@@ -37,6 +37,6 @@ Los modelos de lenguaje adaptados parten de la familia de modelos Alia. En parti
 
 Además, se hizo uso de la API gratuita de Google Gemini para generar descripciones adaptadas de las cuales los modelos Salamandra tuvieron que aprender.
 
-### Modo de empleo
+## Modo de empleo
 
 La guía completa para utilizar el programa en un entorno local se encuentra dentro de la carpeta `4. Interfaz`. Para el ejemplo mostrado en la demo, se utiliza [KoboldCpp](https://github.com/LostRuins/koboldcpp) y los modelos adaptados cuantizados, disponibles en [Hugginface](https://huggingface.co/alberalm), así como una base de datos alojada en Microsoft Azure.
