@@ -29,7 +29,7 @@ Dado que no se tenía acceso a GPUs, se procedió al entrenamiento mediante CPUs
 
 Los resultados de estos entrenamientos pueden accederse en sendas carpetas dentro de `Finetuning scripts`. Su posterior evaluación manual reveló que el mejor modelo obtenido para Text2SQL es la versión de 7b tras 6 epoch, mientras que el mejor modelo para generar descripciones nuevas se obtiene tras 140 pasos. Tras esto, se combinaron los adaptadores de estas versiones con el modelo base mediante el script del cuaderno `model_merger.ipynb` en la carpeta `Modelos`. Finalmente, se cuantizaron estos modelos adaptados mediante la herramienta [GGUF my Repo](https://huggingface.co/spaces/ggml-org/gguf-my-repo), con cuantización Q8_0.
 
-Todos los modelos mencionados son accesibles a través de Huggingface como repositorios públicos:
+Todos los modelos mencionados son accesibles a través de Huggingface como repositorios públicos a través de una licencia Apache 2.0:
 
 | Modelo | Adaptadores | Modelo combinado | Versión cuantizada |
 |---|---|---|---|
