@@ -1,23 +1,9 @@
- flask 
- random
- unicodedata
- pandas 
- openpyxl
- sqlalchemy 
- numpy 
- io
- scripts.pdf_maker
- re
- requests
- json
- html
- asyncio
- connections.llm_connection 
- scripts.prompts 
- fpdf 
- httpx
- PIL 
- io 
- collections 
- fpdf.enums 
- sentencepiece
+flask 
+pandas 
+openpyxl
+sqlalchemy 
+numpy 
+httpx
+PILLOW 
+fpdf2 
+sentencepiece

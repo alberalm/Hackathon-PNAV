@@ -1,13 +1,10 @@
- json
  tqdm 
- pandas 
+ pandas
+ openpyxl 
  transformers 
- matplotlib.pyplot 
+ matplotlib
  pyodbc
- warnings
- google.generativeai 
- time
- random
- os
+ google-genai
  peft 
  torch
+ sentencepiece
