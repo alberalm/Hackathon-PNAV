@@ -14,11 +14,9 @@ Dentro de cada una se incluyen los archivos .csv correspondientes que reflejan l
 
 El archivo `CODE_CARBON_ALL.xlsx` contiene el cálculo total de las emisiones generadas en el conjunto del proyecto.
 
----
 
-> Este registro permite llevar un seguimiento del impacto ambiental asociado al desarrollo del proyecto
+## Emisiones totales
 
-## Resumen emisiones
 | Emissions (kgCO₂) | Emissions Rate (kgCO₂/s) | CPU Power (W) | CPU Energy (Wh) | Energy Consumed (Wh) |
 |-------------------|---------------------------|----------------|------------------|------------------------|
 | 1,5188            | 0,0001062                 | 1626,6432      | 7,81946          | 11,5938                |
